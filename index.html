@@ -1046,6 +1046,30 @@
     @media(max-width:1120px){.command-deck{grid-template-columns:1fr!important;grid-template-areas:"brand" "status" "controls"!important}.status-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.control-console.toolbar{grid-template-columns:1fr 140px minmax(180px,1fr) 120px!important}}
     @media(max-width:760px){.status-grid,.control-console.toolbar,.nav-dock{grid-template-columns:1fr!important}.brand-core h1{font-size:42px!important}.wrap{padding-top:42px!important}}
 
+
+    /* Doll-pet logo lift — keep character bright even in softened theme */
+    .a64-mascot{
+      right:28px!important;
+      bottom:18px!important;
+      transform:scale(.84)!important;
+      transform-origin:bottom right!important;
+      opacity:1!important;
+      filter:saturate(1.55) contrast(1.08) drop-shadow(0 0 22px rgba(242,168,216,.34)) drop-shadow(0 0 18px rgba(169,215,255,.24))!important;
+    }
+    .mascot-stage{
+      border-color:#ffb7e6!important;
+      background:linear-gradient(180deg,rgba(27,8,46,.98),rgba(8,3,18,.99))!important;
+      box-shadow:0 0 0 2px #05010b,0 0 28px rgba(255,183,230,.42),0 0 46px rgba(125,220,255,.22),inset 0 0 26px rgba(255,183,230,.16)!important;
+    }
+    .mascot-stage:before{color:#fff2c7!important;border-bottom-color:#ffb7e6!important;background:#15051f!important;}
+    .mascot-px.e{background:#7ddcff!important;box-shadow:0 0 12px #7ddcff!important;}
+    .mascot-px.m{background:#ff5fbd!important;box-shadow:0 0 10px rgba(255,95,189,.65)!important;}
+    .mascot-px.y{background:#fff2c7!important;box-shadow:0 0 10px rgba(255,242,199,.5)!important;}
+    .mascot-px.g{background:#9cffd2!important;box-shadow:0 0 10px rgba(156,255,210,.6)!important;}
+    .mascot-px.f{background:#2b1658!important;}
+    .mascot-shadow{background:rgba(255,183,230,.18)!important;border-color:rgba(125,220,255,.35)!important;}
+    .mascot-bubble{border-color:#ffb7e6!important;box-shadow:5px 6px 0 rgba(0,0,0,.45),0 0 22px rgba(255,183,230,.25)!important;}
+
   </style>
 </head>
 <body>
