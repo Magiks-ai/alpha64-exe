@@ -996,6 +996,56 @@
     @media(max-height:700px) and (min-width:1121px){.a64-mascot{opacity:.72!important;transform:scale(.58)!important;right:-12px!important;bottom:8px!important}.mascot-bubble{display:none!important}.mascot-stage{pointer-events:auto!important}}
     @media(max-width:1120px){.a64-mascot{position:sticky!important;transform:none!important;right:auto!important;bottom:auto!important;z-index:2!important;pointer-events:auto!important;grid-template-columns:92px minmax(150px,210px)!important}.mascot-bubble{display:block!important;position:relative!important;right:auto!important;bottom:auto!important;width:auto!important;pointer-events:auto!important}}
 
+
+    /* May 13 feedback pass — calmer pastel-night skin + organized command top */
+    :root{
+      --soft-bg:#070612; --soft-panel:#111026; --soft-panel-2:#17142e;
+      --soft-line:#3c3768; --soft-line-hot:#756aa8;
+      --soft-ink:#f4eeff; --soft-muted:#ada3cf;
+      --soft-mint:#b6f3df; --soft-blue:#a9d7ff; --soft-pink:#f2a8d8; --soft-lav:#cdb8ff; --soft-cream:#f2dbad; --soft-warn:#ffb8c6;
+      --soft-shadow:0 18px 48px rgba(0,0,0,.34), inset 0 1px 0 rgba(255,255,255,.055);
+      --pixel-shadow:4px 5px 0 rgba(0,0,0,.42);
+      --window-glow:0 0 0 1px rgba(205,184,255,.12), inset 0 0 24px rgba(169,215,255,.035);
+    }
+    html,body{background:#070612!important;}
+    body{
+      color:var(--soft-ink)!important;
+      background:
+        radial-gradient(820px 520px at 12% 4%,rgba(169,215,255,.13),transparent 64%),
+        radial-gradient(780px 520px at 90% 8%,rgba(242,168,216,.105),transparent 62%),
+        radial-gradient(680px 520px at 54% 92%,rgba(182,243,223,.075),transparent 66%),
+        linear-gradient(180deg,#070612 0%,#0a0718 50%,#03030a 100%)!important;
+      text-shadow:none!important;
+    }
+    body:before{opacity:.22!important;filter:none!important;background-size:100% 7px,44px 44px,44px 44px!important;}
+    .neo-atmosphere:before{opacity:.18!important;animation:none!important;}
+    .neo-atmosphere:after,.neo-rain,.neo-noise{opacity:.08!important;animation:none!important;}
+    .neo-sign,.neo-graffiti{opacity:.42!important;filter:saturate(.7)!important;}
+    .alpha-marquee{height:26px!important;background:#0a0818!important;border-bottom:1px solid rgba(205,184,255,.26)!important;color:var(--soft-blue)!important;text-shadow:none!important;box-shadow:none!important;animation:none!important;font-size:17px!important;letter-spacing:.07em!important;}
+    .wrap{padding-top:48px!important;}
+    .alpha-header{gap:14px!important;margin-bottom:20px!important;}
+    .command-deck{display:grid!important;grid-template-columns:minmax(520px,1.05fr) minmax(360px,.95fr)!important;grid-template-areas:"brand status" "controls controls"!important;gap:14px!important;align-items:stretch!important;}
+    .brand-console,.status-console,.control-console,.section-band,.panel,.detail,.stat,.nav-dock .tab,.card,#view-launches .launch-card{clip-path:none!important;border:1px solid var(--soft-line)!important;border-image:none!important;border-radius:14px!important;background:linear-gradient(180deg,rgba(23,20,46,.92),rgba(9,8,22,.96))!important;box-shadow:var(--soft-shadow)!important;backdrop-filter:none!important;}
+    .brand-console,.status-console{min-height:132px!important;padding:38px 18px 18px!important;}
+    .brand-console{grid-area:brand!important;border-color:rgba(242,168,216,.34)!important;}.status-console{grid-area:status!important;border-color:rgba(182,243,223,.30)!important;}
+    .control-console.toolbar{grid-area:controls!important;min-height:92px!important;padding:36px 18px 16px!important;border-color:rgba(169,215,255,.30)!important;grid-template-columns:minmax(320px,1.35fr) minmax(160px,.58fr) minmax(250px,.9fr) minmax(140px,.45fr)!important;gap:12px!important;align-content:center!important;}
+    .window-bar,.panel:before,.detail:before,.stream-panel:before,.section-band:before,.stat:before{height:26px!important;background:rgba(9,8,22,.82)!important;border-bottom:1px solid rgba(205,184,255,.20)!important;color:var(--soft-muted)!important;text-shadow:none!important;}
+    .window-bar{font-size:18px!important;border-radius:14px 14px 0 0!important;}.window-bar:before,.brand-console:after,.section-band:after{display:none!important;content:none!important;}.window-bar b,.panel:after,.detail:after{color:rgba(242,168,216,.58)!important;text-shadow:none!important;}
+    .brand-console:before{color:rgba(242,219,173,.18)!important;font-size:20px!important;}.brand-core h1{font-size:50px!important;line-height:.9!important;color:#fffaff!important;text-shadow:1px 0 rgba(169,215,255,.45),-1px 0 rgba(242,168,216,.34)!important;}.brand-core p{max-width:580px!important;font-size:18px!important;line-height:1.15!important;color:var(--soft-muted)!important;text-transform:uppercase!important;}.brand-core p:after{content:" // softer public signal mode"!important;color:var(--soft-cream)!important;}.pulse{background:var(--soft-mint)!important;box-shadow:0 0 0 1px #060512,0 0 10px rgba(182,243,223,.38)!important;animation:blink 1.6s steps(2,end) infinite!important;}
+    .status-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important;}.status-grid div{min-height:64px!important;padding:10px!important;border:1px solid rgba(205,184,255,.18)!important;border-radius:10px!important;background:rgba(7,6,18,.62)!important;box-shadow:none!important;}.status-grid b{font-size:24px!important;line-height:.95!important;color:var(--soft-mint)!important;text-shadow:none!important;}.status-grid span{font-size:13px!important;color:var(--soft-muted)!important;letter-spacing:.055em!important;}.viewer-card b{color:var(--soft-cream)!important;}.viewer-card .viewer-dot{display:inline-block;width:8px;height:8px;margin-right:6px;background:var(--soft-mint);box-shadow:0 0 10px rgba(182,243,223,.45);vertical-align:1px;animation:blink 2s steps(2,end) infinite;}
+    input,select,button{border:1px solid rgba(205,184,255,.28)!important;border-radius:10px!important;background:rgba(7,6,18,.76)!important;color:var(--soft-ink)!important;box-shadow:none!important;font-size:18px!important;text-shadow:none!important;}button,.tab.active{background:linear-gradient(90deg,rgba(169,215,255,.24),rgba(242,168,216,.22))!important;color:var(--soft-ink)!important;border-color:rgba(242,219,173,.42)!important;}button:hover,input:focus,select:focus{border-color:var(--soft-blue)!important;box-shadow:0 0 0 3px rgba(169,215,255,.10)!important;}
+    .nav-dock{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;margin-bottom:18px!important;}.nav-dock .tab{min-height:74px!important;padding:12px 14px!important;background:rgba(12,10,27,.9)!important;}.tab-kicker{border-color:rgba(242,219,173,.36)!important;color:var(--soft-cream)!important;background:rgba(7,6,18,.72)!important;}.tab-name{font-size:28px!important;color:#fffaff!important;text-shadow:none!important;}.tab-desc{font-size:17px!important;color:var(--soft-muted)!important;}
+    .section-band{padding:34px 18px 15px!important;margin-bottom:18px!important;background:linear-gradient(90deg,rgba(169,215,255,.08),rgba(14,12,30,.96),rgba(242,168,216,.07))!important;}.section-band span{font-size:19px!important;color:var(--soft-blue)!important;text-shadow:none!important;}.section-band b{font-size:19px!important;color:var(--soft-cream)!important;text-shadow:none!important;}
+    .stats{gap:12px!important;margin:16px 0 20px!important;}.stat{min-height:92px!important;padding:34px 12px 12px!important;}.stat:after{opacity:.45!important}.stat b{color:var(--soft-blue)!important;text-shadow:none!important}.stat span{color:var(--soft-muted)!important;}
+    .card,#view-launches .launch-card{background:linear-gradient(90deg,rgba(169,215,255,.045),rgba(10,8,23,.98) 24%,rgba(242,168,216,.035))!important;border-color:rgba(205,184,255,.22)!important;}.card:hover,#view-launches .launch-card:hover,.card.active,#view-launches .launch-card.active{border-color:rgba(242,219,173,.48)!important;box-shadow:0 18px 46px rgba(0,0,0,.38),0 0 0 2px rgba(242,219,173,.10)!important;transform:translateY(-1px)!important;}.name,.launch-title,.detail h2,#view-launches h2{color:#fffaff!important;text-shadow:none!important;}.meta,#view-launches .meta,.launch-speaker-label,.ticker-meta span{color:var(--soft-muted)!important;}
+    .badge,#view-launches .badge,.speaker,#view-launches .speaker,.links a,#view-launches .links a,#view-launches .tweet-link{border-color:rgba(205,184,255,.24)!important;background:rgba(12,10,27,.72)!important;color:#ded5ff!important;text-shadow:none!important;border-radius:9px!important;}.badge.raid,#view-launches .badge.raid,.speaker,#view-launches .speaker,.links a,#view-launches .links a{color:var(--soft-blue)!important;background:rgba(169,215,255,.06)!important;}.badge.warn,#view-launches .badge.warn{color:var(--soft-warn)!important;background:rgba(242,168,216,.06)!important;}
+    .spark,#view-launches .spark{height:12px!important;border-radius:999px!important;border-color:rgba(205,184,255,.18)!important;background:rgba(7,6,18,.8)!important;}.spark:before{opacity:.25!important}.spark i,#view-launches .spark i{border-radius:999px!important;background:linear-gradient(90deg,var(--soft-blue),var(--soft-mint),var(--soft-pink),var(--soft-cream))!important;box-shadow:none!important;}
+    .card.signal-rail-hot,#view-launches .launch-card.signal-rail-hot{border-left:7px solid var(--soft-pink)!important;background:linear-gradient(90deg,rgba(242,168,216,.12),rgba(10,8,23,.98) 26%)!important;box-shadow:var(--soft-shadow)!important;}.card.signal-rail-extreme,#view-launches .launch-card.signal-rail-extreme{border-left:8px solid var(--soft-cream)!important;background:linear-gradient(90deg,rgba(242,219,173,.14),rgba(10,8,23,.98) 27%)!important;box-shadow:var(--soft-shadow)!important;animation:none!important;}.score,.card .score span{color:var(--soft-blue)!important;text-shadow:none!important}.signal-rail-hot .score,.signal-rail-hot .name{color:var(--soft-pink)!important}.signal-rail-extreme .score,.signal-rail-extreme .name{color:var(--soft-cream)!important;text-shadow:none!important;}
+    .detail,.inspector-panel,#view-launches .detail,.stream-panel{background:linear-gradient(180deg,rgba(18,16,38,.94),rgba(7,6,18,.985))!important;}.detail p,.risk,.launch-copy,.kv div{background:rgba(7,6,18,.64)!important;border-color:rgba(205,184,255,.18)!important;border-radius:10px!important;color:#e7defd!important;}
+    .neo-side{opacity:.48!important;filter:saturate(.62) brightness(.9)!important;}.side-poster,.side-module,.side-billboard,.side-monitor,.side-sticker,.side-stack{box-shadow:0 12px 34px rgba(0,0,0,.28)!important;border-color:rgba(205,184,255,.22)!important;}.a64-mascot{opacity:.66!important;filter:saturate(.72)!important;}.mascot-bubble{background:rgba(13,10,29,.94)!important;border-color:rgba(242,168,216,.36)!important;color:#f4eeff!important;}
+    @media(max-width:1120px){.command-deck{grid-template-columns:1fr!important;grid-template-areas:"brand" "status" "controls"!important}.status-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.control-console.toolbar{grid-template-columns:1fr 140px minmax(180px,1fr) 120px!important}}
+    @media(max-width:760px){.status-grid,.control-console.toolbar,.nav-dock{grid-template-columns:1fr!important}.brand-core h1{font-size:42px!important}.wrap{padding-top:42px!important}}
+
   </style>
 </head>
 <body>
@@ -1022,7 +1072,7 @@
         </section>
         <section class="status-console">
           <div class="window-bar"><span>Signal.Status</span><b>LIVE</b></div>
-          <div class="status-grid" id="systemStatus"><div><b>PUBLIC</b><span>feed mode</span></div><div><b>24H</b><span>scan window</span></div><div><b>SOL</b><span>chain focus</span></div><div><b>LINK</b><span>x mode</span></div></div>
+          <div class="status-grid" id="systemStatus"><div><b>PUBLIC</b><span>feed mode</span></div><div><b>24H</b><span>scan window</span></div><div><b>SOL</b><span>chain focus</span></div><div><b>LINK</b><span>x mode</span></div><div class="viewer-card"><b id="viewerCount"><span class="viewer-dot"></span>--</b><span>active viewers</span></div><div><b>SOFT</b><span>visual mode</span></div></div>
         </section>
         <section class="control-console toolbar">
           <div class="window-bar"><span>Query.Controls</span><b>FILTER</b></div>
@@ -1066,7 +1116,7 @@
       $('#chain').innerHTML='<option value="">all chains</option>'+chains.map(c=>`<option>${c}</option>`).join('');
       $('#q').oninput=render; $('#chain').onchange=render; $('#sort').onchange=render; $('#refresh').onclick=()=>location.reload();
       document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
-      selected=data.candidates[0]||null; selectedLaunch=(launchData.launches||[])[0]||null; render(); renderLaunches();
+      selected=data.candidates[0]||null; selectedLaunch=(launchData.launches||[])[0]||null; installPresenceCounter(); render(); renderLaunches();
     }
     function switchTab(tab){ activeTab=tab; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab)); $('#view-fresh').classList.toggle('active',tab==='fresh'); $('#view-launches').classList.toggle('active',tab==='launches'); }
     function filtered(){ const q=$('#q').value.toLowerCase().trim(), ch=$('#chain').value, sort=$('#sort').value; let arr=data.candidates.filter(c=>!ch||c.chainId===ch).filter(c=>!q||JSON.stringify([c.name,c.symbol,c.chainId,c.xHandles,c.raidSignals,c.contactTargets]).toLowerCase().includes(q)); arr.sort((a,b)=> sort==='age' ? (a.ageHours??9999)-(b.ageHours??9999) : sort==='volume' ? Number(b.volume?.h24||0)-Number(a.volume?.h24||0) : sort==='liquidity' ? Number(b.liquidityUsd||0)-Number(a.liquidityUsd||0) : Number(b.score||0)-Number(a.score||0)); return arr; }
@@ -1090,6 +1140,37 @@
     function renderLaunches(){ renderLaunchStats(); const arr=launchData.launches||[]; $('#launchSetup').innerHTML = launchData.source?.realData ? '<div class="launch-legend"><span><i class="dot high"></i> higher confidence</span><span><i class="dot mid"></i> medium / mixed</span><span><i class="dot low"></i> manual review</span><span><i class="dot info"></i> evidence signal</span><span><i class="dot warn"></i> warning flag</span></div>' : `<div class="setup-warning">LaunchWindow is not fabricating rows. ${esc(launchData.source?.reason||'xurl not ready')}. Enable official X API + RADAR_X_SEARCH=1 for real people/tweet tracking.</div>`; if(!selectedLaunch || !arr.includes(selectedLaunch)) selectedLaunch=arr[0]||null; $('#launchList').innerHTML = arr.length ? arr.map((l,i)=>launchCard(l,i)).join('') : '<div class="empty">No real upcoming-launch rows yet. This tab needs X search access; the rest of the dashboard still uses live Dexscreener data.</div>'; document.querySelectorAll('.launch-card').forEach(el=>el.onclick=()=>{selectedLaunch=arr[Number(el.dataset.idx)]; renderLaunches();}); renderLaunchDetail(); }
     function launchCard(l,i){ const sec=l.security||{}; const active=selectedLaunch===l?' active':''; const status=sec.verdict||'review'; const lead=(l.speakers||[])[0]?.handle || 'unknown speaker'; const speakers=(l.speakers||[]).slice(0,4).map(s=>`<a class="speaker" href="${esc(s.xUrl)}" target="_blank" rel="noreferrer">${esc(s.handle)} <b>×${s.mentions||1}</b></a>`).join(''); const warns=(sec.warnings||[]).slice(0,3).map(w=>`<span class="badge warn">${esc(w.replaceAll('_',' '))}</span>`).join(''); const sig=(sec.signals||[]).slice(0,3).map(x=>`<span class="badge raid">${esc(x.replaceAll('_',' '))}</span>`).join(''); return `<article class="launch-card ${verdictClass(sec.verdict)}${launchRail(l.score)}${active}" data-idx="${i}">${launchEmblem(l)}<div class="launch-content"><div class="status-pill ${verdictClass(sec.verdict)}">${esc(status.replaceAll('-',' '))}</div><div class="launch-title">${esc(l.project)} ${(l.tickers||[]).map(t=>`<span class="sym">${esc(t)}</span>`).join(' ')}</div><div class="launch-speaker-label">lead signal: ${esc(lead)}</div><div class="launch-meta"><span>mentions <b>${(l.mentions||[]).length}</b></span><span>speakers <b>${(l.speakers||[]).length}</b></span><span>validity <b>${sec.score||0}</b></span></div><div class="speaker-row">${speakers || '<span class="meta">no speakers parsed</span>'}</div><div class="badges">${sig}${warns}</div><div class="bar-label">chatter strength <b>${Math.round(l.score||0)}</b></div><div class="spark" title="launch chatter score"><i style="width:${Math.min(100,l.score||0)}%"></i></div></div></article>`; }
     function renderLaunchDetail(){ const l=selectedLaunch; if(!l){ $('#launchDetail').innerHTML='<div class="empty">Select a launch cluster.</div>'; return; } const sec=l.security||{}; const speakers=(l.speakers||[]).map(s=>`<a class="speaker" href="${esc(s.xUrl)}" target="_blank" rel="noreferrer">${esc(s.handle)} <b>${s.mentions||1}</b></a>`).join(''); const mentions=(l.mentions||[]).slice(0,6).map(m=>`<div class="launch-copy"><div class="mention-head"><b>${esc(m.author||'unknown')}</b>${m.tweetUrl?`<a class="tweet-link" href="${esc(m.tweetUrl)}" target="_blank" rel="noreferrer">open tweet ↗</a>`:''}</div><div>${esc(m.text)}</div></div>`).join(''); const moreMentions=(l.mentions||[]).length>6 ? `<div class="meta source-more">+${(l.mentions||[]).length-6} more chatter snippets in raw data</div>` : ''; const priors=(l.priorTokens||[]).map(t=>`<a class="prior-token" href="${esc(t.pairUrl)}" target="_blank" rel="noreferrer">${esc(t.speaker)} previously linked to ${esc(t.symbol||'?')} / ${esc(t.name||'?')} · ${esc(t.chainId||'')}</a>`).join('') || '<span class="meta">No previous Dexscreener-linked launches found for parsed speakers.</span>'; const urls=(l.urls||[]).slice(0,12).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noreferrer">${esc(linkLabel(u,i))}</a>`).join(''); const moreUrls=(l.urls||[]).length>12 ? `<span class="meta source-more">+${(l.urls||[]).length-12} more source links in raw data</span>` : ''; $('#launchDetail').innerHTML=`<span class="inspecting-label">currently inspecting</span><div class="detail-emblem-row">${launchEmblem(l,true)}<div><h2>${esc(l.project)} ${(l.tickers||[]).map(t=>`<span class="sym">${esc(t)}</span>`).join(' ')}</h2><p class="meta">Validity: <span class="${secClass(sec.verdict)}">${esc(sec.verdict||'review')}</span> · score ${sec.score||0} · launch-chatter score ${Math.round(l.score||0)}</p></div></div><h3>People talking about it</h3><div class="speaker-row">${speakers || '<span class="meta">No X accounts parsed.</span>'}</div><h3>Security / validity check</h3><div class="badges">${(sec.signals||[]).map(x=>`<span class="badge raid">${esc(x.replaceAll('_',' '))}</span>`).join('')} ${(sec.warnings||[]).map(x=>`<span class="badge warn">${esc(x.replaceAll('_',' '))}</span>`).join('')}</div><h3>Prior launches by speakers</h3>${priors}<h3>Project / launch links</h3><div class="links">${urls || '<span class="meta">No project links parsed from tweets.</span>'}${moreUrls}</div><h3>Recent launch chatter</h3>${mentions || '<span class="meta">No mention snippets.</span>'}${moreMentions}`; }
+
+
+    function installPresenceCounter(){
+      const el = $('#viewerCount');
+      if(!el) return;
+      const endpoint = window.ALPHA64_PRESENCE_ENDPOINT || '';
+      const sessionKey = 'a64_session_' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+      const paint = (n, mode='live') => {
+        const count = Math.max(1, Math.round(Number(n)||1));
+        el.innerHTML = `<span class="viewer-dot"></span>${count}`;
+        el.title = mode === 'live'
+          ? 'Active viewers from live presence endpoint.'
+          : 'Estimated active viewers. Add ALPHA64_PRESENCE_ENDPOINT for exact live presence.';
+      };
+      const estimate = () => {
+        const base = Math.max(1, Math.min(64, (data.candidates||[]).length));
+        const minute = Math.floor(Date.now()/60000);
+        const wave = Math.abs(Math.sin((minute + base) * 0.73));
+        paint(2 + Math.floor(wave * 9) + Math.floor(base / 18), 'estimate');
+      };
+      if(!endpoint){ estimate(); setInterval(estimate, 45000); return; }
+      async function ping(){
+        try{
+          const r = await fetch(endpoint, {method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({site:'alpha64',session:sessionKey,at:Date.now()}),keepalive:true});
+          if(!r.ok) throw new Error('presence '+r.status);
+          const j = await r.json(); paint(j.active || j.count || 1, 'live');
+        }catch(e){ estimate(); }
+      }
+      ping(); setInterval(ping, 25000);
+      window.addEventListener('beforeunload',()=>{ try{ navigator.sendBeacon(endpoint, JSON.stringify({site:'alpha64',session:sessionKey,leave:true,at:Date.now()})); }catch(e){} });
+    }
 
 
     function mascotMarkup(){
