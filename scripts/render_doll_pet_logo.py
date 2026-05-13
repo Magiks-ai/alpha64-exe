@@ -3,7 +3,6 @@
 Stdlib-only so the deploy machine does not need Pillow.
 """
 from pathlib import Path
-import math
 import struct
 import zlib
 
@@ -34,7 +33,6 @@ COLORS = {
 }
 SCALE = 88
 PAD = 160
-GRID = 8
 W = H = 1024
 
 
@@ -60,8 +58,10 @@ def make_canvas(bg=(0, 0, 0, 0)):
 
 
 def rect(pixels, x0, y0, x1, y1, color):
-    x0 = max(0, min(W, int(x0))); x1 = max(0, min(W, int(x1)))
-    y0 = max(0, min(H, int(y0))); y1 = max(0, min(H, int(y1)))
+    x0 = max(0, min(W, int(x0)))
+    x1 = max(0, min(W, int(x1)))
+    y0 = max(0, min(H, int(y0)))
+    y1 = max(0, min(H, int(y1)))
     for y in range(y0, y1):
         row = y * W * 4
         for x in range(x0, x1):
@@ -70,51 +70,66 @@ def rect(pixels, x0, y0, x1, y1, color):
 
 
 def circle(pixels, cx, cy, r, color):
-    r2 = r*r
+    r2 = r * r
     for y in range(max(0, cy-r), min(H, cy+r+1)):
         dy = y - cy
         row = y * W * 4
         for x in range(max(0, cx-r), min(W, cx+r+1)):
-            if (x-cx)*(x-cx) + dy*dy <= r2:
-                i = row + x*4
+            if (x-cx) * (x-cx) + dy * dy <= r2:
+                i = row + x * 4
                 pixels[i:i+4] = bytes(blend(tuple(pixels[i:i+4]), color))
 
 
 def sprite_rect(x, y, inset=0):
-    return (PAD + x*SCALE + inset, PAD + y*SCALE + inset,
-            PAD + (x+1)*SCALE - inset, PAD + (y+1)*SCALE - inset)
+    return (
+        PAD + x * SCALE + inset,
+        PAD + y * SCALE + inset,
+        PAD + (x + 1) * SCALE - inset,
+        PAD + (y + 1) * SCALE - inset,
+    )
 
 
 def draw_sprite(pixels):
     filled = {(x, y) for y, row in enumerate(SPRITE) for x, ch in enumerate(row) if ch != "."}
-    # crisp dark outline in neighboring cells
+    # Crisp dark outline in neighboring cells.
     outline = set()
     for x, y in filled:
-        for dx, dy in [(-1,0),(1,0),(0,-1),(0,1),(-1,-1),(1,-1),(-1,1),(1,1)]:
-            p = (x+dx, y+dy)
+        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (1, -1), (-1, 1), (1, 1)]:
+            p = (x + dx, y + dy)
             if p not in filled:
                 outline.add(p)
     for x, y in outline:
-        rect(pixels, *sprite_rect(x, y, SCALE//5), (13, 6, 31, 245))
-    # small pastel backlight, still pixel-shaped and transparent
+        rect(pixels, *sprite_rect(x, y, SCALE // 5), (13, 6, 31, 245))
+
+    # Small pastel backlight, still pixel-shaped and transparent.
     for x, y in filled:
-        rect(pixels, *sprite_rect(x, y, -SCALE//10), (255, 183, 230, 34))
-    # main sprite blocks
+        rect(pixels, *sprite_rect(x, y, -SCALE // 10), (255, 183, 230, 34))
+
+    # Main sprite blocks.
     for y, row in enumerate(SPRITE):
         for x, ch in enumerate(row):
             color = COLORS[ch]
             if color[3] == 0:
                 continue
             rect(pixels, *sprite_rect(x, y), color)
-    # pixel highlights
+
+    # Pixel highlights.
     for x, y in [(3, 2), (4, 2), (2, 3), (5, 3)]:
         inset = SCALE // 5
-        rect(pixels, PAD+x*SCALE+inset, PAD+y*SCALE+inset, PAD+x*SCALE+inset+SCALE//4, PAD+y*SCALE+inset+SCALE//4, (255,255,255,170))
+        rect(
+            pixels,
+            PAD + x * SCALE + inset,
+            PAD + y * SCALE + inset,
+            PAD + x * SCALE + inset + SCALE // 4,
+            PAD + y * SCALE + inset + SCALE // 4,
+            (255, 255, 255, 170),
+        )
 
 
 def save_png(path, pixels):
     def chunk(kind, data):
         return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data) & 0xffffffff)
+
     raw = bytearray()
     for y in range(H):
         raw.append(0)
@@ -125,20 +140,30 @@ def save_png(path, pixels):
     png += chunk(b"IEND", b"")
     path.write_bytes(png)
 
+
 # Transparent logo.
 pix = make_canvas()
 draw_sprite(pix)
 save_png(OUT_TRANSPARENT, pix)
 
-# X avatar version with dark circular backing so it reads well after circular crop.
-pix = make_canvas()
-circle(pix, 512, 512, 468, (7, 6, 18, 255))
-circle(pix, 512, 512, 440, (24, 14, 42, 255))
-# blocky pastel halo
-for r, color in [(440, (255,183,230,70)), (400, (125,220,255,38)), (360, (156,255,210,26))]:
+# X avatar version with the bright neon-pink backing the mascot originally had.
+# Keep this as a full square field: X will apply the circular crop itself.
+pix = make_canvas((255, 22, 184, 255))
+# Loud hot-pink field, plus a soft cyan/mint aura so the crop still pops.
+for r, color in [
+    (560, (255, 82, 211, 82)),
+    (420, (125, 220, 255, 48)),
+    (335, (156, 255, 210, 28)),
+]:
     circle(pix, 512, 512, r, color)
-# center subtle void so sprite remains sharp
-circle(pix, 512, 512, 315, (10, 7, 25, 210))
+# Subtle chunky pixel glints in the background, kept behind the pet.
+for x0, y0, s, color in [
+    (94, 116, 62, (255, 190, 239, 54)),
+    (820, 128, 46, (255, 238, 199, 42)),
+    (94, 810, 52, (125, 220, 255, 36)),
+    (842, 790, 72, (255, 190, 239, 46)),
+]:
+    rect(pix, x0, y0, x0 + s, y0 + s, color)
 draw_sprite(pix)
 save_png(OUT_AVATAR, pix)
 
