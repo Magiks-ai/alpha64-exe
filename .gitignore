@@ -1,0 +1,19 @@
+# local secrets
+.env
+
+# runtime / logs
+*.log
+logs/
+.update.lock
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
