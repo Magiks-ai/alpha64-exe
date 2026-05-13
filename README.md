@@ -13,7 +13,22 @@ ALPHA64 is a static dashboard backed by locally generated JSON/JS datasets. It d
 
 ## Static hosting
 
-This repo is ready for GitHub Pages.
+This repo is ready for GitHub Pages or Cloudflare Pages.
+
+### Cloudflare Pages
+
+Use these settings in Cloudflare Pages:
+
+- Git repository: `Magiks-ai/alpha64-exe`
+- Production branch: `main`
+- Framework preset: `None`
+- Build command: leave empty
+- Build output directory: `/`
+- Root directory: `/`
+
+Then add the custom domain `alpha64.xyz` in Cloudflare Pages → Custom domains. If the domain was purchased on Wix, add the domain to Cloudflare DNS first and change the Wix nameservers to the two Cloudflare nameservers Cloudflare assigns.
+
+### GitHub Pages
 
 The included workflow at `.github/workflows/pages.yml` deploys the repository root as a static site whenever `main` is pushed.
 
