@@ -1,0 +1,48 @@
+{
+  "canonical": "https://www.alpha64.xyz/",
+  "files": {
+    ".well-known/security.txt": {
+      "bytes": 184,
+      "sha256": "60c68b06d02a6fbe77cad828c5bbf510e78ce1096ea1a03d5a430a090449b9e7"
+    },
+    "assets/alpha64-doll-pet-logo.png": {
+      "bytes": 15430,
+      "sha256": "c5feb18368025330e59835e36bfe1a29935f36c0c1e0623df4b1968043ca224a"
+    },
+    "assets/alpha64-doll-pet-x-avatar.png": {
+      "bytes": 21755,
+      "sha256": "a7394598697a4b51f480d6e7f4875b75960caee2acf2b154a36cdd375683fe71"
+    },
+    "assets/app.css": {
+      "bytes": 158306,
+      "sha256": "a08363c02e6d3628e803b274d1ee5a9d3d36c4d50730e2c2b94c882b7aca851d"
+    },
+    "assets/app.js": {
+      "bytes": 25860,
+      "sha256": "23bd680fefb06c12b6948773dc93de59c97136a9654a43479d64f994f6f6b5e3"
+    },
+    "data/latest.js": {
+      "bytes": 172087,
+      "sha256": "19dd5ce72878cf9e584b9beda6648b29651b333e675ffb4399db087367c9c25f"
+    },
+    "data/latest.json": {
+      "bytes": 248068,
+      "sha256": "59ac9b282d6f53e3069158b3614e7303c27ed1c906043545ddbab80c3bb0d409"
+    },
+    "data/upcoming_launches.js": {
+      "bytes": 36394,
+      "sha256": "b116078d61ef8718c7503edf32ad604a879e6b462e70d00de5fce6d56de9ac64"
+    },
+    "data/upcoming_launches.json": {
+      "bytes": 46660,
+      "sha256": "5137166c31a0d7613bfb9660a5aee22ecf7df0e619705cbeb644eb44fa1384fe"
+    },
+    "index.html": {
+      "bytes": 6022,
+      "sha256": "45195d9cc619b98e81bc28aa6ac0d13862d3552f9a714dcccc994bd622389fb1"
+    }
+  },
+  "generatedAt": "2026-05-14T00:15:23Z",
+  "git": "d99349b6fa58",
+  "securityPolicyVersion": "A64-SECURITY-1"
+}

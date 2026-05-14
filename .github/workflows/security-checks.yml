@@ -1,0 +1,55 @@
+name: ALPHA64 security checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify security manifest is current
+        run: |
+          python3 scripts/generate_security_manifest.py --check
+      - name: Static security scan
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re, sys
+          root = Path('.')
+          failures = []
+          text_files = [p for p in root.rglob('*') if p.is_file() and p.suffix in {'.html','.js','.css','.json','.txt','.yml','.yaml'} and '.git' not in p.parts]
+          banned = [
+              ('eval(', 'eval execution'),
+              ('new Function(', 'dynamic Function execution'),
+              ('document.write', 'document.write'),
+              ('javascript:', 'javascript URL'),
+          ]
+          for p in text_files:
+              s = p.read_text(errors='ignore')
+              if p.name != 'security-checks.yml':
+                  for needle, label in banned:
+                      if needle in s:
+                          failures.append(f'{p}: banned {label}')
+              if p.suffix == '.html' and '<script>' in s:
+                  failures.append(f'{p}: inline script tag present')
+              if p.suffix == '.html' and '<style>' in s:
+                  failures.append(f'{p}: inline style tag present')
+          csp = Path('index.html').read_text()
+          if "script-src 'self'" not in csp:
+              failures.append('index.html: CSP must restrict script-src to self')
+          if 'securityConsole' not in csp:
+              failures.append('index.html: security console missing')
+          if not Path('.well-known/security.txt').exists():
+              failures.append('security.txt missing')
+          if failures:
+              print('\n'.join(failures))
+              sys.exit(1)
+          print('ALPHA64 static security checks passed')
+          PY

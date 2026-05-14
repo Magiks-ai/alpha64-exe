@@ -1,0 +1,9 @@
+{
+  "canonical": "https://www.alpha64.xyz/",
+  "generatedAt": "2026-05-14T00:15:23Z",
+  "git": "d99349b6fa58",
+  "manifest": "data/manifest.json",
+  "ok": true,
+  "securityPolicyVersion": "A64-SECURITY-1",
+  "service": "ALPHA64.EXE"
+}

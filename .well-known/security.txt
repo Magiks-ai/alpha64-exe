@@ -1,0 +1,5 @@
+Contact: mailto:security@alpha64.xyz
+Preferred-Languages: en
+Canonical: https://www.alpha64.xyz/.well-known/security.txt
+Policy: https://www.alpha64.xyz/
+Expires: 2027-05-13T23:59:59Z

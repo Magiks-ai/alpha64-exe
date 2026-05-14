@@ -15,5 +15,6 @@ fi
   echo "==== $(date -Is) memecoin-radar update start ====" >> "$LOG"
   python3 "$ROOT/scripts/collect.py" >> "$LOG" 2>&1
   python3 "$ROOT/scripts/collect_launches.py" >> "$LOG" 2>&1
+  python3 "$ROOT/scripts/generate_security_manifest.py" >> "$LOG" 2>&1
   echo "==== $(date -Is) memecoin-radar update end ====" >> "$LOG"
 ) 9>"$LOCK"
