@@ -151,7 +151,7 @@ const data = window.MEMECOIN_RADAR_DATA || {candidates:[], counts:{}, source:{}}
         const checks = await Promise.all(required.map(f=>verifyManifestFile(f, files[f]?.sha256 || '')));
         const failed = checks.filter(x=>!x.ok);
         securitySet('secData', failed.length?'danger':'ok', failed.length?'TAMPER':'VERIFIED', failed.length?failed.map(x=>x.file).join(', '):`${checks.length} feed hashes match`);
-        securitySet('secBuild','ok','SEALED', `${(manifest.git || 'local').slice(0,7)} / ${manifest.generatedAt || 'unknown'}`);
+        securitySet('secBuild','ok','SEALED', `${manifest.securityPolicyVersion || 'A64'} / ${manifest.generatedAt || 'unknown'}`);
         securityLog([`SECURITY POLICY ${manifest.securityPolicyVersion||'A64'}`, `DATA ${failed.length?'MISMATCH':'VERIFIED'}`, `LINKS ${inv.total} SCANNED`]);
       }catch(e){
         securitySet('secManifest','danger','MISSING', String(e.message||e).slice(0,52));
