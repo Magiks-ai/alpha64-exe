@@ -7,6 +7,14 @@ const data = window.MEMECOIN_RADAR_DATA || {candidates:[], counts:{}, source:{}}
     function tx(pair, w){ const t=pair.txns?.[w]||{}; return Number(t.buys||0)+Number(t.sells||0); }
     function esc(s){ return String(s??'').replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m])); }
     function safeUrl(s){ try{ const raw=String(s??'').trim(); if(!raw) return ''; const u=new URL(raw, location.href); return ['http:','https:'].includes(u.protocol) ? esc(u.href) : '#'; }catch(e){ return '#'; } }
+    function tokenCa(c){ return String(c?.tokenAddress || c?.baseToken?.address || c?.pairAddress || '').trim(); }
+    function shortCa(ca){ ca=String(ca||''); return ca.length>14 ? ca.slice(0,6)+'…'+ca.slice(-6) : ca; }
+    function caMarkup(c, compact=false){ const ca=tokenCa(c); if(!ca) return ''; return `<button class="ca-copy${compact?' compact':''}" type="button" data-ca="${esc(ca)}" title="Copy contract address"><span>CA</span><code>${esc(compact?shortCa(ca):ca)}</code><b>copy</b></button>`; }
+    async function copyText(text){
+      try{ await navigator.clipboard.writeText(text); return true; }
+      catch(e){ const ta=document.createElement('textarea'); ta.value=text; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.left='-9999px'; document.body.appendChild(ta); ta.select(); let ok=false; try{ ok=document.execCommand('copy'); }catch(err){} ta.remove(); return ok; }
+    }
+    async function copyCaFromButton(btn){ const ca=btn?.dataset?.ca||''; if(!ca) return; const ok=await copyText(ca); const old=btn.querySelector('b')?.textContent || 'copy'; if(btn.querySelector('b')) btn.querySelector('b').textContent=ok?'copied':'failed'; mascotSay?.(ok?`CA copied: ${shortCa(ca)}`:'Clipboard blocked. CA is visible for manual copy.', ok?'scan':'warn'); setTimeout(()=>{ if(btn.querySelector('b')) btn.querySelector('b').textContent=old; },1200); }
     function init(){
       const chains=[...new Set(data.candidates.map(c=>c.chainId).filter(Boolean))].sort();
       $('#chain').innerHTML='<option value="">all chains</option>'+chains.map(c=>`<option>${c}</option>`).join('');
@@ -17,13 +25,96 @@ const data = window.MEMECOIN_RADAR_DATA || {candidates:[], counts:{}, source:{}}
     function switchTab(tab){ activeTab=tab; document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab)); $('#view-fresh').classList.toggle('active',tab==='fresh'); $('#view-launches').classList.toggle('active',tab==='launches'); $('#view-arcade')?.classList.toggle('active',tab==='arcade'); if(tab==='arcade') window.alpha64Game?.wake(); }
     function filtered(){ const q=$('#q').value.toLowerCase().trim(), ch=$('#chain').value, sort=$('#sort').value; let arr=data.candidates.filter(c=>!ch||c.chainId===ch).filter(c=>!q||JSON.stringify([c.name,c.symbol,c.chainId,c.xHandles,c.raidSignals,c.contactTargets]).toLowerCase().includes(q)); arr.sort((a,b)=> sort==='age' ? (a.ageHours??9999)-(b.ageHours??9999) : sort==='volume' ? Number(b.volume?.h24||0)-Number(a.volume?.h24||0) : sort==='liquidity' ? Number(b.liquidityUsd||0)-Number(a.liquidityUsd||0) : Number(b.score||0)-Number(a.score||0)); return arr; }
     function renderStats(arr){ const xReady=data.source?.xSearchEnabled?'enabled':'link-only'; $('#stats').innerHTML=[['Pairs',arr.length],['Seed Set',data.counts?.seeds||0],['Scan',data.windowDays+'d'],['Updated',new Date(data.generatedAt).toLocaleString()],['X Feed',xReady]].map(([k,v])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(k)}</span></div>`).join(''); }
-    function render(){ const arr=filtered(); renderStats(arr); if(!selected || !arr.find(c=>c.pairAddress===selected.pairAddress)) selected=arr[0]||null; $('#list').innerHTML=arr.length?arr.map((c,i)=>card(c,i)).join(''):'<div class="empty">No candidates. Run scripts/run_update.sh or check data/latest.json.</div>'; document.querySelectorAll('.card').forEach(el=>{ const pick=()=>{selected=data.candidates.find(c=>c.pairAddress===el.dataset.id); render();}; el.onclick=pick; el.tabIndex=0; el.setAttribute('role','button'); el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault(); pick();}}; }); renderDetail(); }
+    function render(){ const arr=filtered(); renderStats(arr); if(!selected || !arr.find(c=>c.pairAddress===selected.pairAddress)) selected=arr[0]||null; $('#list').innerHTML=arr.length?arr.map((c,i)=>card(c,i)).join(''):'<div class="empty">No candidates. Run scripts/run_update.sh or check data/latest.json.</div>'; document.querySelectorAll('.card').forEach(el=>{ const pick=()=>{selected=data.candidates.find(c=>c.pairAddress===el.dataset.id); render();}; el.onclick=e=>{ if(e.target.closest('button,a')) return; pick();}; el.tabIndex=0; el.setAttribute('role','button'); el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault(); pick();}}; }); renderDetail(); }
     function pressureRail(score){ score=Number(score||0); return score>=220?' signal-rail-extreme':(score>=170?' signal-rail-hot':(score>=120?' signal-rail-watch':'')); }
     function pressurePct(score){ score=Number(score||0); return Math.max(3, Math.min(100, (score/250)*100)); }
     function launchRail(score){ score=Number(score||0); return score>=85?' signal-rail-extreme':(score>=65?' signal-rail-hot':''); }
-    function card(c,i){ const vol=money(c.volume?.h24), liq=money(c.liquidityUsd), active=selected&&selected.pairAddress===c.pairAddress?' active':'', raids=(c.raidSignals||[]).map(r=>`<span class="badge raid">${esc(r.replaceAll('_',' '))}</span>`).join(''), warns=(c.warnings||[]).map(w=>`<span class="badge warn">${esc(w.replaceAll('_',' '))}</span>`).join(''); return `<article class="card${pressureRail(c.score)}${active}" data-id="${esc(c.pairAddress)}" aria-label="Inspect ${esc(c.name||'token')} ${Math.round(c.score||0)} pressure"><div class="rank">#${String((i||0)+1).padStart(2,'0')}</div><img class="icon" src="${safeUrl(c.image)}" onerror="this.style.visibility='hidden'"><div><div class="name">${esc(c.name||'Unknown')} <span class="sym">$${esc(c.symbol||'?')}</span></div><div class="meta ticker-meta"><span>${esc(c.chainId)}</span><span>${esc(c.dexId||'dex')}</span><span>age ${age(c.ageHours)}</span><span>vol ${vol}</span><span>liq ${liq}</span><span>h1 tx ${tx(c,'h1')}</span></div><div class="badges"><span class="badge">${(c.contactTargets||[]).length} contacts</span>${raids}${warns}</div><div class="bar-label pressure-scale">pressure scale <b>${Math.round(c.score||0)} / 250</b></div><div class="spark" title="pressure score scaled against 250 cap"><i style="width:${pressurePct(c.score)}%"></i></div></div><div class="score"><span>${Math.round(c.score||0)}</span></div></article>`; }
+    function card(c,i){ const vol=money(c.volume?.h24), liq=money(c.liquidityUsd), active=selected&&selected.pairAddress===c.pairAddress?' active':'', raids=(c.raidSignals||[]).map(r=>`<span class="badge raid">${esc(r.replaceAll('_',' '))}</span>`).join(''), warns=(c.warnings||[]).map(w=>`<span class="badge warn">${esc(w.replaceAll('_',' '))}</span>`).join(''); return `<article class="card${pressureRail(c.score)}${active}" data-id="${esc(c.pairAddress)}" aria-label="Inspect ${esc(c.name||'token')} ${Math.round(c.score||0)} pressure"><div class="rank">#${String((i||0)+1).padStart(2,'0')}</div><img class="icon" src="${safeUrl(c.image)}" onerror="this.style.visibility='hidden'"><div><div class="name">${esc(c.name||'Unknown')} <span class="sym">$${esc(c.symbol||'?')}</span></div><div class="meta ticker-meta"><span>${esc(c.chainId)}</span><span>${esc(c.dexId||'dex')}</span><span>age ${age(c.ageHours)}</span><span>vol ${vol}</span><span>liq ${liq}</span><span>h1 tx ${tx(c,'h1')}</span></div><div class="ca-row">${caMarkup(c,true)}<button class="dex-open" type="button" data-pair="${esc(c.pairAddress)}">arcade dex</button></div><div class="badges"><span class="badge">${(c.contactTargets||[]).length} contacts</span>${raids}${warns}</div><div class="bar-label pressure-scale">pressure scale <b>${Math.round(c.score||0)} / 250</b></div><div class="spark" title="pressure score scaled against 250 cap"><i style="width:${pressurePct(c.score)}%"></i></div></div><div class="score"><span>${Math.round(c.score||0)}</span></div></article>`; }
     function labelForLink(l){ try{ const u=new URL(l.url); if(l.kind==='x_account'){ const h=u.pathname.split('/').filter(Boolean)[0]; return h ? `X: @${h}` : 'X account'; } if(l.kind==='x_community'){ const id=u.pathname.split('/').filter(Boolean).pop(); return id ? `X community: ${id}` : 'X community'; } if(l.kind==='telegram') return `Telegram: ${u.pathname.replace('/','@') || u.hostname}`; if(l.kind==='discord') return 'Discord invite'; if(l.kind==='website') return u.hostname.replace(/^www\./,''); return `${l.kind}: ${u.hostname}`; }catch(e){ return `${l.kind}: ${l.label||l.url}`; } }
-    function renderDetail(){ const c=selected; if(!c){ $('#detail').innerHTML='<div class="empty">Select a pressure row.</div>'; return; } const links=(c.contactTargets||[]).map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener noreferrer" title="${esc(l.url)}">${esc(labelForLink(l))}</a>`).join('')||'<span class="meta">No public contact links found.</span>'; const xlinks=(c.contactTargets||[]).filter(l=>l.kind==='x_account'||l.kind==='x_community').map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener noreferrer" title="${esc(l.url)}">${esc(labelForLink(l))}</a>`).join(''); $('#detail').innerHTML=`<div class="inspector-object"><img class="inspector-icon" src="${safeUrl(c.image)}" onerror="this.style.display='none'"><div><span class="inspecting-label">currently inspecting</span><h2>${esc(c.name)} <span class="sym">$${esc(c.symbol)}</span></h2><p class="meta">${esc(c.chainId)} · ${esc(c.dexId||'')} · spawned ${c.createdAt?new Date(c.createdAt).toLocaleString():'unknown'} · pressure score ${c.score}</p></div></div><div class="kv"><div><b>${money(c.marketCap)}</b><span class="meta">market cap/fdv</span></div><div><b>${money(c.liquidityUsd)}</b><span class="meta">liquidity</span></div><div><b>${money(c.volume?.h24)}</b><span class="meta">24h volume</span></div><div><b>${tx(c,'m5')}</b><span class="meta">5m transactions</span></div></div><h3 data-sec="01">Point of contact surfaces</h3><div class="links">${links}</div><h3 data-sec="02">Raid / coordination signals</h3><p>${(c.raidSignals||[]).length?c.raidSignals.map(x=>`<span class="badge raid">${esc(x.replaceAll('_',' '))}</span>`).join(' '):'<span class="meta">No explicit raid/community coordination link detected.</span>'}</p><h3 data-sec="03">X / community links</h3><div class="links">${xlinks || '<span class="meta">No X account/community in token profile. Enable xurl search for deeper account extraction.</span>'}</div><h3 data-sec="04">Description</h3><p class="risk">${esc((c.description||'No description.').slice(0,500))}</p><p><a class="links" href="${safeUrl(c.pairUrl)}" target="_blank" rel="noopener noreferrer">Open Dexscreener pair</a></p>`; }
+    function renderDetail(){ const c=selected; if(!c){ $('#detail').innerHTML='<div class="empty">Select a pressure row.</div>'; return; } const links=(c.contactTargets||[]).map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener noreferrer" title="${esc(l.url)}">${esc(labelForLink(l))}</a>`).join('')||'<span class="meta">No public contact links found.</span>'; const xlinks=(c.contactTargets||[]).filter(l=>l.kind==='x_account'||l.kind==='x_community').map(l=>`<a href="${safeUrl(l.url)}" target="_blank" rel="noopener noreferrer" title="${esc(l.url)}">${esc(labelForLink(l))}</a>`).join(''); $('#detail').innerHTML=`<div class="inspector-object"><img class="inspector-icon" src="${safeUrl(c.image)}" onerror="this.style.display='none'"><div><span class="inspecting-label">currently inspecting</span><h2>${esc(c.name)} <span class="sym">$${esc(c.symbol)}</span></h2><p class="meta">${esc(c.chainId)} · ${esc(c.dexId||'')} · spawned ${c.createdAt?new Date(c.createdAt).toLocaleString():'unknown'} · pressure score ${c.score}</p></div></div><div class="ca-detail"><label>contract address</label>${caMarkup(c)}<button class="dex-open detail-dex" type="button" data-pair="${esc(c.pairAddress)}">open arcade dex viewer</button></div><div class="kv"><div><b>${money(c.marketCap)}</b><span class="meta">market cap/fdv</span></div><div><b>${money(c.liquidityUsd)}</b><span class="meta">liquidity</span></div><div><b>${money(c.volume?.h24)}</b><span class="meta">24h volume</span></div><div><b>${tx(c,'m5')}</b><span class="meta">5m transactions</span></div></div><h3 data-sec="01">Point of contact surfaces</h3><div class="links">${links}</div><h3 data-sec="02">Raid / coordination signals</h3><p>${(c.raidSignals||[]).length?c.raidSignals.map(x=>`<span class="badge raid">${esc(x.replaceAll('_',' '))}</span>`).join(' '):'<span class="meta">No explicit raid/community coordination link detected.</span>'}</p><h3 data-sec="03">X / community links</h3><div class="links">${xlinks || '<span class="meta">No X account/community in token profile. Enable xurl search for deeper account extraction.</span>'}</div><h3 data-sec="04">Description</h3><p class="risk">${esc((c.description||'No description in pair metadata.').slice(0,900))}</p>${c.pairUrl?`<a class="open" href="${safeUrl(c.pairUrl)}" target="_blank" rel="noopener noreferrer">open dexscreener ↗</a>`:''}`; }
+
+    function ensureDexViewer(){
+      let modal=$('#dexViewer');
+      if(modal) return modal;
+      modal=document.createElement('div');
+      modal.id='dexViewer';
+      modal.className='dex-viewer';
+      modal.innerHTML=`<div class="dex-card"><div class="window-bar"><span>Arcade.DexViewer</span><button id="dexClose" type="button" aria-label="Close DEX viewer">×</button></div><div class="dex-head"><div><span class="inspecting-label">mini arcade dex</span><h2 id="dexTitle">TOKEN</h2><p id="dexMeta" class="meta">loading market tape…</p></div><button id="dexCopyCa" class="ca-copy" type="button"><span>CA</span><code>loading</code><b>copy</b></button></div><canvas id="dexCanvas" width="720" height="330" aria-label="Animated mini DEX chart"></canvas><div class="dex-tape" id="dexTape"></div><div class="dex-foot"><button id="dexRefresh" type="button">refresh tape</button><a id="dexExternal" class="open" target="_blank" rel="noopener noreferrer">open source ↗</a></div></div>`;
+      document.body.appendChild(modal);
+      $('#dexClose').onclick=()=>modal.classList.remove('active');
+      modal.addEventListener('click',e=>{ if(e.target===modal) modal.classList.remove('active'); });
+      return modal;
+    }
+    function pairSnapshot(c){
+      const changes=c.priceChange||{};
+      return {
+        source:'feed snapshot',
+        price:Number(c.priceUsd||0),
+        liquidity:Number(c.liquidityUsd||0),
+        volume24:Number(c.volume?.h24||0),
+        tx5:tx(c,'m5'), tx1h:tx(c,'h1'),
+        change5:Number(changes.m5||0), change1h:Number(changes.h1||0), change24:Number(changes.h24||0),
+        points:null
+      };
+    }
+    async function fetchDexSnapshot(c){
+      const proxy=String(window.ALPHA64_BITQUERY_PROXY||'').trim();
+      if(proxy){
+        const u=new URL(proxy, location.href);
+        u.searchParams.set('chain', c.chainId||''); u.searchParams.set('tokenAddress', tokenCa(c)); u.searchParams.set('pairAddress', c.pairAddress||'');
+        const r=await fetch(u, {cache:'no-store'}); if(!r.ok) throw new Error('bitquery proxy '+r.status);
+        const j=await r.json(); return Object.assign(pairSnapshot(c), j, {source:j.source||'bitquery proxy'});
+      }
+      if(c.chainId && c.pairAddress){
+        try{
+          const r=await fetch(`https://api.dexscreener.com/latest/dex/pairs/${encodeURIComponent(c.chainId)}/${encodeURIComponent(c.pairAddress)}`, {cache:'no-store'});
+          if(r.ok){ const j=await r.json(); const p=(j.pairs||[])[0]; if(p){ return {source:'dexscreener live', price:Number(p.priceUsd||c.priceUsd||0), liquidity:Number(p.liquidity?.usd||c.liquidityUsd||0), volume24:Number(p.volume?.h24||c.volume?.h24||0), tx5:Number(p.txns?.m5?.buys||0)+Number(p.txns?.m5?.sells||0), tx1h:Number(p.txns?.h1?.buys||0)+Number(p.txns?.h1?.sells||0), change5:Number(p.priceChange?.m5||0), change1h:Number(p.priceChange?.h1||0), change24:Number(p.priceChange?.h24||0), points:null}; } }
+        }catch(e){}
+      }
+      return pairSnapshot(c);
+    }
+    function syntheticTape(c,snap){
+      const seed=hashCode((c.pairAddress||'')+(c.symbol||''));
+      const pts=[]; let y=100+((seed%40)-20); const trend=Math.max(-35,Math.min(35,Number(snap.change1h||snap.change24||0)))/100;
+      for(let i=0;i<64;i++){ const wave=Math.sin((i+seed%17)*.42)*7+Math.cos((i+seed%11)*.19)*5; y += trend*3 + Math.sin(i*.7+seed)*1.8; pts.push(Math.max(18,Math.min(182,y+wave))); }
+      return pts;
+    }
+    function drawDexChart(c,snap){
+      const canvas=$('#dexCanvas'); if(!canvas) return; const ctx=canvas.getContext('2d'); const W=canvas.width,H=canvas.height; const pts=(snap.points&&snap.points.length?snap.points:syntheticTape(c,snap)); const min=Math.min(...pts), max=Math.max(...pts), spread=Math.max(1,max-min); const up=Number(snap.change1h||snap.change24||0)>=0;
+      let t=0; if(canvas._raf) cancelAnimationFrame(canvas._raf);
+      function frame(){ t+=.018; ctx.clearRect(0,0,W,H); const g=ctx.createLinearGradient(0,0,W,H); g.addColorStop(0,'#10041d'); g.addColorStop(.55,'#081421'); g.addColorStop(1,'#06030a'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+        for(let x=0;x<W;x+=32){ ctx.strokeStyle='rgba(112,247,255,.08)'; ctx.beginPath(); ctx.moveTo(x+Math.sin(t+x)*4,0); ctx.lineTo(x-90,H); ctx.stroke(); }
+        for(let y=38;y<H;y+=34){ ctx.fillStyle='rgba(255,79,216,.07)'; ctx.fillRect(0,y,W,1); }
+        ctx.font='12px monospace'; ctx.fillStyle='rgba(168,255,106,.85)'; ctx.fillText('BITQUERY-READY MARKET TAPE // '+(snap.source||'feed').toUpperCase(),18,24);
+        ctx.fillStyle='rgba(255,255,255,.08)'; for(let i=0;i<28;i++){ const x=(i*57 + (t*90)%57)%W; ctx.fillRect(x, H-18-(i%5)*18, 8, 8); }
+        const coords=pts.map((v,i)=>[34+i*((W-68)/(pts.length-1)), H-42-((v-min)/spread)*(H-92)]);
+        ctx.lineWidth=4; ctx.strokeStyle=up?'rgba(168,255,106,.95)':'rgba(255,111,138,.95)'; ctx.shadowColor=ctx.strokeStyle; ctx.shadowBlur=16; ctx.beginPath(); coords.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y)); ctx.stroke(); ctx.shadowBlur=0;
+        ctx.lineWidth=1; ctx.strokeStyle='rgba(255,255,255,.55)'; ctx.beginPath(); coords.forEach(([x,y],i)=>{ const yy=y+Math.sin(t*5+i*.8)*3; i?ctx.lineTo(x,yy):ctx.moveTo(x,yy); }); ctx.stroke();
+        const last=coords[coords.length-1]; ctx.fillStyle=up?'#a8ff6a':'#ff6f8a'; ctx.fillRect(last[0]-5+Math.sin(t*6)*3,last[1]-5,10,10); ctx.fillStyle='#ff4fd8'; ctx.fillRect(24,H-62,Math.min(W-48, Math.max(10, Number(snap.volume24||0)/25000)),8); ctx.fillStyle='#70f7ff'; ctx.fillRect(24,H-46,Math.min(W-48, Math.max(10, Number(snap.liquidity||0)/12000)),8);
+        canvas._raf=requestAnimationFrame(frame);
+      }
+      frame();
+    }
+    async function openDexViewer(c){
+      const modal=ensureDexViewer(); modal.classList.add('active');
+      $('#dexTitle').textContent=`${c.name||'Token'} $${c.symbol||'?'} `; $('#dexMeta').textContent='opening market tape…';
+      const ca=tokenCa(c); const copy=$('#dexCopyCa'); copy.dataset.ca=ca; copy.querySelector('code').textContent=shortCa(ca); copy.querySelector('b').textContent='copy';
+      $('#dexExternal').href=safeUrl(c.pairUrl||'#'); $('#dexExternal').textContent=c.pairUrl?'open dexscreener ↗':'source unavailable';
+      $('#dexRefresh').onclick=()=>openDexViewer(c);
+      drawDexChart(c,pairSnapshot(c));
+      try{ const snap=await fetchDexSnapshot(c); $('#dexMeta').textContent=`${snap.source} · price ${snap.price?('$'+snap.price.toPrecision(5)):'n/a'} · liq ${money(snap.liquidity)} · vol24 ${money(snap.volume24)} · 1h ${Number(snap.change1h||0).toFixed(2)}% · tx5 ${snap.tx5||0}`; $('#dexTape').innerHTML=[['price',snap.price?('$'+Number(snap.price).toPrecision(5)):'n/a'],['liquidity',money(snap.liquidity)],['24h volume',money(snap.volume24)],['5m tx',snap.tx5||0],['1h change',Number(snap.change1h||0).toFixed(2)+'%'],['24h change',Number(snap.change24||0).toFixed(2)+'%']].map(([k,v])=>`<span><b>${esc(v)}</b>${esc(k)}</span>`).join(''); drawDexChart(c,snap); }
+      catch(e){ $('#dexMeta').textContent='market tape degraded · '+String(e.message||e).slice(0,80); $('#dexTape').innerHTML='<span><b>fallback</b>using feed snapshot</span>'; }
+    }
+
+
+    function installTokenActions(){
+      document.addEventListener('click', e=>{
+        const ca=e.target.closest('.ca-copy');
+        if(ca){ e.preventDefault(); e.stopPropagation(); copyCaFromButton(ca); return; }
+        const dex=e.target.closest('.dex-open');
+        if(dex){ e.preventDefault(); e.stopPropagation(); const pair=dex.dataset.pair; const c=data.candidates.find(x=>x.pairAddress===pair) || selected; if(c) openDexViewer(c); return; }
+      }, true);
+    }
 
     function secClass(v){ return v==='higher-confidence'?'sec-high':(v==='medium'?'sec-mid':'sec-low'); }
     function verdictClass(v){ return v==='higher-confidence'?'verdict-high':(v==='medium'?'verdict-mid':'verdict-low'); }
@@ -271,6 +362,7 @@ const data = window.MEMECOIN_RADAR_DATA || {candidates:[], counts:{}, source:{}}
     }
 
     installMascot();
+    installTokenActions();
     init();
     installArcadeGame();
     installOutboundGate();
