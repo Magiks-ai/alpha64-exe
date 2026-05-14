@@ -1092,3 +1092,22 @@
 .firewall-actions button:first-child{background:#08000d;color:#f9e9ff;border-color:#7e8492}
 @media(max-width:1120px){.security-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.security-grid{grid-template-columns:1fr}.firewall-actions{flex-direction:column}.firewall-actions button{width:100%}}
+
+
+/* MEMERAID.EXE crypto arcade tab */
+.arcade-band{border-color:rgba(255,79,216,.42);box-shadow:0 0 32px rgba(255,79,216,.12)}
+.arcade-shell{padding:16px;margin-top:16px;overflow:hidden;position:relative;background:
+  radial-gradient(circle at 78% 22%,rgba(112,247,255,.13),transparent 34%),
+  radial-gradient(circle at 18% 72%,rgba(255,79,216,.17),transparent 34%),
+  linear-gradient(180deg,rgba(9,18,30,.97),rgba(7,8,15,.98));}
+.arcade-shell:before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 4px),repeating-linear-gradient(90deg,rgba(112,247,255,.035) 0 1px,transparent 1px 28px);mix-blend-mode:screen;opacity:.72}
+.arcade-hud{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:10px 0 14px}
+.arcade-hud span{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:10px 12px;background:#050911;border:1px solid #294b5b;border-radius:8px;box-shadow:3px 3px 0 #000;color:#9fb3c5;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.arcade-hud b{color:#a8ff6a;text-shadow:0 0 12px rgba(168,255,106,.28)}
+.game-wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:16px;align-items:stretch}
+#memeRaid{width:100%;height:auto;min-height:320px;background:#08000d;border:2px solid #345b69;border-radius:10px;box-shadow:0 0 0 2px #020509,8px 8px 0 #000,0 0 40px rgba(112,247,255,.12);image-rendering:pixelated;touch-action:none;cursor:crosshair}
+.game-instructions{border:1px solid #2c4d59;border-radius:10px;background:rgba(5,9,17,.88);box-shadow:5px 5px 0 #000;padding:16px;color:#d9eff7;min-height:100%}
+.game-instructions h3{margin:0 0 10px;color:#ff9fe8;text-shadow:2px 2px 0 #000,0 0 18px rgba(255,79,216,.24);letter-spacing:.08em}.game-instructions p{margin:0 0 12px;color:#dbeaf0;text-transform:none}.game-instructions ul{margin:0 0 14px;padding-left:18px;color:#b9c9ce}.game-instructions li{margin:5px 0}.game-instructions b{color:#a8ff6a}.game-actions{display:flex;gap:10px;flex-wrap:wrap}.game-actions button{flex:1;min-width:120px;border-color:#70f7ff;background:linear-gradient(135deg,#173d4e,#6b29d8)}
+#view-arcade .panel-header b{color:#a8ff6a}#view-arcade .section-band b{color:#ffd36a}
+@media(max-width:980px){.game-wrap{grid-template-columns:1fr}.arcade-hud{grid-template-columns:repeat(2,1fr)}#memeRaid{min-height:260px}}
+@media(max-width:620px){.arcade-hud{grid-template-columns:1fr}.game-instructions{font-size:13px}}

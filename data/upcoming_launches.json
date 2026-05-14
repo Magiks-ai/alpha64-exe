@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T22:23:10.480956+00:00",
+  "generatedAt": "2026-05-14T01:24:55.101655+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -690,59 +690,6 @@
       "score": 40
     },
     {
-      "project": "$STOIC",
-      "tickers": [
-        "$STOIC"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@stoictokens",
-          "xUrl": "https://x.com/stoictokens",
-          "mentions": 2,
-          "tweetUrls": [
-            "https://x.com/stoictokens/status/2054607905287004523",
-            "https://x.com/stoictokens/status/2054607905287004523"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@stoictokens",
-          "tweetUrl": "https://x.com/stoictokens/status/2054607905287004523",
-          "text": "the officer didn't flinch when the most expensive plane on earth passed 3 feet away.\n\nneither will the holders.\n\n$STOIC launching on solana tonight.\nfair launch via pump-fun. no presale, no team alloc.\n\nif you can't move, you can hold. https://t.co/sfVZ9hcES4",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@stoictokens",
-          "tweetUrl": "https://x.com/stoictokens/status/2054607905287004523",
-          "text": "the officer didn't flinch when the most expensive plane on earth passed 3 feet away.\n\nneither will the holders.\n\n$STOIC launching on solana tonight.\nfair launch via pump-fun. no presale, no team alloc.\n\nif you can't move, you can hold. https://t.co/sfVZ9hcES4",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/sfVZ9hcES4"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 40
-    },
-    {
       "project": "$VINE",
       "tickers": [
         "$VINE"
@@ -1111,6 +1058,96 @@
       "score": 37
     },
     {
+      "project": "$STOIC",
+      "tickers": [
+        "$STOIC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@stoictokens",
+          "xUrl": "https://x.com/stoictokens",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/stoictokens/status/2054607905287004523"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@stoictokens",
+          "tweetUrl": "https://x.com/stoictokens/status/2054607905287004523",
+          "text": "the officer didn't flinch when the most expensive plane on earth passed 3 feet away.\n\nneither will the holders.\n\n$STOIC launching on solana tonight.\nfair launch via pump-fun. no presale, no team alloc.\n\nif you can't move, you can hold. https://t.co/sfVZ9hcES4",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/sfVZ9hcES4"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$MCPM",
+      "tickers": [
+        "$MCPM"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@mcpm_base_eth",
+          "xUrl": "https://x.com/mcpm_base_eth",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/mcpm_base_eth/status/2054699719545299061"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@mcpm_base_eth",
+          "tweetUrl": "https://x.com/mcpm_base_eth/status/2054699719545299061",
+          "text": "@BaseCaptainHB @base $MCPM 🏆⚡🐸\n\nRecurring live competition for memecoin communities feels extremely native to Base.\n\nPredictions for the inaugural Memecoin World Cup open tomorrow.\nBracket goes live Monday night. https://t.co/LyKg83JNuH",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/LyKg83JNuH"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$SYNC",
       "tickers": [
         "$SYNC"
@@ -1157,7 +1194,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 194,
-    "launches": 15
+    "rawMentions": 195,
+    "launches": 16
   }
 }
