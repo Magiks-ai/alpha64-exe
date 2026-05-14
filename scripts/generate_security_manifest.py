@@ -17,6 +17,7 @@ TRACKED = [
     "assets/app.js",
     "assets/alpha64-doll-pet-x-avatar.png",
     "assets/alpha64-doll-pet-logo.png",
+    "assets/alpha64-doll-pet-vibrant-bg.png",
     "data/latest.json",
     "data/latest.js",
     "data/upcoming_launches.json",

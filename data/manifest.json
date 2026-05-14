@@ -9,6 +9,10 @@
       "bytes": 15430,
       "sha256": "c5feb18368025330e59835e36bfe1a29935f36c0c1e0623df4b1968043ca224a"
     },
+    "assets/alpha64-doll-pet-vibrant-bg.png": {
+      "bytes": 22688,
+      "sha256": "b66d00ea3c09c9fc0f5d7e7203d28223f68212f3ee99a6fdbc687af9004425c2"
+    },
     "assets/alpha64-doll-pet-x-avatar.png": {
       "bytes": 21755,
       "sha256": "a7394598697a4b51f480d6e7f4875b75960caee2acf2b154a36cdd375683fe71"
@@ -42,7 +46,7 @@
       "sha256": "421947ad15dd2d8eee3f10af0ee99a141e4cd0e9b6d04bb66965b27f6652d805"
     }
   },
-  "generatedAt": "2026-05-14T00:21:16Z",
-  "git": "510cf3c22873",
+  "generatedAt": "2026-05-14T00:59:19Z",
+  "git": "ea71a438c985",
   "securityPolicyVersion": "A64-SECURITY-1"
 }
