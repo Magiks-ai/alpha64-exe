@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T06:05:16.923024+00:00",
+  "generatedAt": "2026-05-15T06:09:46.420335+00:00",
   "windowDays": 14,
   "source": {
     "dexscreener": true,
@@ -12,9 +12,9 @@
     "minLiquidityUsd": 2500.0,
     "duplicateIdentityPolicy": "one canonical token row per copied name/symbol identity, selected by liquidity-weighted 24h volume",
     "dropped": {
-      "low_liquidity": 99,
-      "duplicate_identity": 82,
-      "total": 106
+      "low_liquidity": 98,
+      "duplicate_identity": 81,
+      "total": 105
     },
     "droppedSample": [
       {
@@ -24,14 +24,14 @@
         "tokenAddress": "3CQ1JwUEcMsxWMev8pw2KxpfujE2CRe4FEVMsBm5pump",
         "liquidityUsd": 0.0,
         "volumeH24": 7873.19,
-        "score": 212.07,
+        "score": 212.06,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "GmXZddiTEsLvahnBrqBh1831aZQkELt5UpHK9CJxuUsu",
-        "canonicalLiquidityUsd": 23518.74,
-        "canonicalVolumeH24": 2680224.56
+        "canonicalLiquidityUsd": 23672.12,
+        "canonicalVolumeH24": 2681783.17
       },
       {
         "name": "Andes Virus",
@@ -40,14 +40,14 @@
         "tokenAddress": "jvKtLFLnNGPM7edS9KEpYqPxuY8HPGTZohLFM4Spump",
         "liquidityUsd": 67.02,
         "volumeH24": 10.86,
-        "score": 183.06,
+        "score": 182.33,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "jHmCrrLMPtE1qvYpwe1yjtjzM2k44EorPDUcJ6j8pWC",
-        "canonicalLiquidityUsd": 77315.96,
-        "canonicalVolumeH24": 361475.44
+        "canonicalLiquidityUsd": 76823.51,
+        "canonicalVolumeH24": 361498.6
       },
       {
         "name": "Andes Virus",
@@ -55,15 +55,15 @@
         "pairAddress": "5fubAFJUpqASTuMtmDdfRq5SYVZZvMqyMF4Ey8FaR3Eq",
         "tokenAddress": "jvKtLFLnNGPM7edS9KEpYqPxuY8HPGTZohLFM4Spump",
         "liquidityUsd": 2098.12,
-        "volumeH24": 26686.17,
-        "score": 181.48,
+        "volumeH24": 26608.2,
+        "score": 181.47,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "jHmCrrLMPtE1qvYpwe1yjtjzM2k44EorPDUcJ6j8pWC",
-        "canonicalLiquidityUsd": 77315.96,
-        "canonicalVolumeH24": 361475.44
+        "canonicalLiquidityUsd": 76823.51,
+        "canonicalVolumeH24": 361498.6
       },
       {
         "name": "Andes Virus",
@@ -72,14 +72,14 @@
         "tokenAddress": "jvKtLFLnNGPM7edS9KEpYqPxuY8HPGTZohLFM4Spump",
         "liquidityUsd": 361.58,
         "volumeH24": 449.44,
-        "score": 180.35,
+        "score": 179.84,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "jHmCrrLMPtE1qvYpwe1yjtjzM2k44EorPDUcJ6j8pWC",
-        "canonicalLiquidityUsd": 77315.96,
-        "canonicalVolumeH24": 361475.44
+        "canonicalLiquidityUsd": 76823.51,
+        "canonicalVolumeH24": 361498.6
       },
       {
         "name": "World Cup 2026 Official Song",
@@ -88,30 +88,14 @@
         "tokenAddress": "CzDdjj21JDkYJ7ESyFYMXNjnpvy7qJrxpzAVEqNepump",
         "liquidityUsd": 0.0,
         "volumeH24": 0.82,
-        "score": 168.59,
+        "score": 168.58,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "3LpZX8PUhTKZ6dNEabSouKTy51nevAErf1HBBR2h9Vbv",
         "canonicalLiquidityUsd": 11777.07,
-        "canonicalVolumeH24": 9844413.69
-      },
-      {
-        "name": "CRINGELORD",
-        "symbol": "CRINGE",
-        "pairAddress": "2qSLFkv8D4zc7pzLfJdjfjBgv9szct9ZxxUE4W2JDNWs",
-        "tokenAddress": "AL3BA6FpBheUzsHhWcV8BRL23KWWe2QB8aEXmB6epump",
-        "liquidityUsd": 1.98,
-        "volumeH24": 102.21,
-        "score": 164.12,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "HdGa76himnNwXdyYGnSKTmYvsUshjZ49AxKMdqKXd9xM",
-        "canonicalLiquidityUsd": 4196.1,
-        "canonicalVolumeH24": 631725.49
+        "canonicalVolumeH24": 9808296.54
       },
       {
         "name": "World Cup 2026 Official Song",
@@ -120,45 +104,45 @@
         "tokenAddress": "CzDdjj21JDkYJ7ESyFYMXNjnpvy7qJrxpzAVEqNepump",
         "liquidityUsd": 37.65,
         "volumeH24": 34.93,
-        "score": 162.44,
+        "score": 162.43,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "3LpZX8PUhTKZ6dNEabSouKTy51nevAErf1HBBR2h9Vbv",
         "canonicalLiquidityUsd": 11777.07,
-        "canonicalVolumeH24": 9844413.69
+        "canonicalVolumeH24": 9808296.54
       },
       {
         "name": "World Cup Coin",
         "symbol": "WORLDCUP",
         "pairAddress": "ETMhxtENfkMK85TAcveEbZdBv9htziWzDSddmShRP2wB",
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
-        "liquidityUsd": 156160.26,
-        "volumeH24": 1364884.76,
-        "score": 142.82,
+        "liquidityUsd": 155307.75,
+        "volumeH24": 1359131.16,
+        "score": 142.81,
         "reasons": [
           "same_identity_weaker_pool"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
         "symbol": "WORLDCUP",
         "pairAddress": "8pKt3mAE3KVYCLCGWBMKScxoZ4EfzKEReGudVbJZG45N",
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
-        "liquidityUsd": 2356.71,
-        "volumeH24": 216159.5,
-        "score": 132.1,
+        "liquidityUsd": 2335.59,
+        "volumeH24": 213784.13,
+        "score": 132.09,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -166,15 +150,15 @@
         "pairAddress": "B38SV68KyedsyqK3EuavzL7TJLcHo5mzZsJoTrg3CfPu",
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 668.77,
-        "volumeH24": 3664.74,
-        "score": 129.56,
+        "volumeH24": 3656.61,
+        "score": 129.35,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -183,14 +167,14 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 23.66,
         "volumeH24": 9063.09,
-        "score": 128.56,
+        "score": 128.55,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -199,14 +183,14 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 837.49,
         "volumeH24": 4463.05,
-        "score": 123.25,
+        "score": 123.24,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -215,14 +199,14 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 3.24,
         "volumeH24": 968.54,
-        "score": 121.3,
+        "score": 121.29,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "Royal Troll",
@@ -231,14 +215,14 @@
         "tokenAddress": "2bhYLi8NHos7CdVmNu2DxiUsEFaqoEGD9cQWvbjwpump",
         "liquidityUsd": 0.0,
         "volumeH24": 49087.62,
-        "score": 115.99,
+        "score": 115.98,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "2kjzpNDYovkzfHQtVe1FXgJ4UMU8FAmpRvAjFJgXzp6V",
-        "canonicalLiquidityUsd": 4793.5,
-        "canonicalVolumeH24": 87386.57
+        "canonicalLiquidityUsd": 5359.36,
+        "canonicalVolumeH24": 87830.5
       },
       {
         "name": "World Cup Coin",
@@ -247,30 +231,30 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 65.55,
         "volumeH24": 77.29,
-        "score": 111.24,
+        "score": 110.73,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "PHANNY",
         "symbol": "PHANNY",
         "pairAddress": "3tqsfxaUysDLSLDX4kpyKB8Z3AHKb4AaiePnsm5pjJKY",
         "tokenAddress": "HvXkRNQQiXC3xDXU1Wzbo2EB2ku5sRpTHpo33p8Spump",
-        "liquidityUsd": 21.2,
-        "volumeH24": 14.96,
-        "score": 109.6,
+        "liquidityUsd": 21.01,
+        "volumeH24": 15.15,
+        "score": 109.59,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "BEUBLGSsHtQj7pS8y4Jh9dRq1HjZ1PKF3oiVkjw3qNJ4",
-        "canonicalLiquidityUsd": 31426.57,
-        "canonicalVolumeH24": 802825.73
+        "canonicalLiquidityUsd": 31024.47,
+        "canonicalVolumeH24": 797422.88
       },
       {
         "name": "Baby Troll",
@@ -278,14 +262,30 @@
         "pairAddress": "4fAQF2roWPBwWg5Z2pLaBkkxkbmtM94EKeBGNynLcAAW",
         "tokenAddress": "6qdzMx4c9rL2X3Ns3SwZ8uEo4zReDPjdXpAEmpo7pump",
         "liquidityUsd": 22864.49,
-        "volumeH24": 143056.55,
-        "score": 108.45,
+        "volumeH24": 142957.91,
+        "score": 108.44,
         "reasons": [
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "34UtPx3zyYfC5GVqDXWJqLf77BU5Ebb6o3C2XynpKtzL",
-        "canonicalLiquidityUsd": 89393.35,
-        "canonicalVolumeH24": 1064389.24
+        "canonicalLiquidityUsd": 89949.53,
+        "canonicalVolumeH24": 1064286.08
+      },
+      {
+        "name": "World Cup Coin",
+        "symbol": "WORLDCUP",
+        "pairAddress": "G2bixeNqjxFFfPd2fmqxP3uevVYSBAWwrZ9FJoKE4G1E",
+        "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
+        "liquidityUsd": 15.16,
+        "volumeH24": 13.17,
+        "score": 106.9,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -294,30 +294,14 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 5.34,
         "volumeH24": 8.2,
-        "score": 107.33,
+        "score": 106.82,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
-      },
-      {
-        "name": "World Cup Coin",
-        "symbol": "WORLDCUP",
-        "pairAddress": "G2bixeNqjxFFfPd2fmqxP3uevVYSBAWwrZ9FJoKE4G1E",
-        "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
-        "liquidityUsd": 15.15,
-        "volumeH24": 13.16,
-        "score": 106.31,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "World Cup Coin",
@@ -326,30 +310,30 @@
         "tokenAddress": "33eum82LaAhtv5YkUq1BdwEviSErH5CnFxqVNLT5pump",
         "liquidityUsd": 62.86,
         "volumeH24": 18.93,
-        "score": 105.67,
+        "score": 105.66,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "8UYCgRrxZc3XKY8PBJDSKubAUP4mpbxoj1EZJ7A5G9wy",
-        "canonicalLiquidityUsd": 164516.88,
-        "canonicalVolumeH24": 820950.32
+        "canonicalLiquidityUsd": 165038.25,
+        "canonicalVolumeH24": 820238.37
       },
       {
         "name": "DADCOIN",
         "symbol": "DAD",
         "pairAddress": "ET2tAc1zs1Fak44oYpTUBw1Gx6UmGqmxJDKE5sZh8C9j",
         "tokenAddress": "CowyrEtbMX5oT211m3u9ayaBcTknsP2wh2zMWghbpump",
-        "liquidityUsd": 848.55,
-        "volumeH24": 97860.43,
-        "score": 102.28,
+        "liquidityUsd": 824.8,
+        "volumeH24": 97649.51,
+        "score": 102.27,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "4kvhgLcrigN6mBAxApcRd8tRqGrSYLSdQuyw2VhEWxP9",
-        "canonicalLiquidityUsd": 39742.28,
-        "canonicalVolumeH24": 992889.05
+        "canonicalLiquidityUsd": 39185.15,
+        "canonicalVolumeH24": 991053.48
       },
       {
         "name": "Bullina",
@@ -357,23 +341,8 @@
         "pairAddress": "342uqHeJh3wygGdyam5mcsCM1vetHJG9yXtTxXwjdfsG",
         "tokenAddress": "9HppMioWtxbYB7qbZi4xFvDxJ6XuYk8JsFFB2qQSpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 90914.48,
-        "score": 101.24,
-        "reasons": [
-          "low_liquidity_vamp_risk"
-        ],
-        "canonicalPairAddress": null,
-        "canonicalLiquidityUsd": null,
-        "canonicalVolumeH24": null
-      },
-      {
-        "name": "BOTty",
-        "symbol": "BOTty",
-        "pairAddress": "DGGmEByL7xciCFKCqVBurwNBFrMCN3opsGhdfy7gJ4pX",
-        "tokenAddress": "G4tyc9w5sBkX6XNc7ajC2tZUsvPzxJTfinmtruGNpump",
-        "liquidityUsd": 195.5,
-        "volumeH24": 24066.83,
-        "score": 99.27,
+        "volumeH24": 90949.39,
+        "score": 101.23,
         "reasons": [
           "low_liquidity_vamp_risk"
         ],
@@ -386,25 +355,56 @@
         "symbol": "COPIUM",
         "pairAddress": "JDJmReX3p3ZuWKfE8Gv2ZspNsvuCb2DCHCE8pXmtg55c",
         "tokenAddress": "82ZmPRVn89XSmbK4dsqFwgTmr9xDBS7be7sjdBn6pump",
-        "liquidityUsd": 2773.07,
-        "volumeH24": 8000.55,
-        "score": 97.6,
+        "liquidityUsd": 2889.74,
+        "volumeH24": 8002.45,
+        "score": 99.47,
         "reasons": [
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "BdfjnwEh2NDbaXCWwVTDnJTFyFtPSL1R93RU8Adyo6wA",
-        "canonicalLiquidityUsd": 87488.22,
-        "canonicalVolumeH24": 1178606.65
+        "canonicalLiquidityUsd": 88628.51,
+        "canonicalVolumeH24": 1177515.57
+      },
+      {
+        "name": "BOTty",
+        "symbol": "BOTty",
+        "pairAddress": "DGGmEByL7xciCFKCqVBurwNBFrMCN3opsGhdfy7gJ4pX",
+        "tokenAddress": "G4tyc9w5sBkX6XNc7ajC2tZUsvPzxJTfinmtruGNpump",
+        "liquidityUsd": 195.5,
+        "volumeH24": 24066.83,
+        "score": 99.26,
+        "reasons": [
+          "low_liquidity_vamp_risk"
+        ],
+        "canonicalPairAddress": null,
+        "canonicalLiquidityUsd": null,
+        "canonicalVolumeH24": null
+      },
+      {
+        "name": "Bull Troll",
+        "symbol": "BROLL",
+        "pairAddress": "GJC66eeDnTRBBdrCBAzkcAPgjAo7tkkLcCXjgHhEvLMd",
+        "tokenAddress": "3tuQXnrMKyyLJuiuWrYmYmJYzCc2AaUUcBXUHaaQpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 51262.59,
+        "score": 96.77,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "FFczKAeHxCAtmNk2bY5ttB5b6A4qp5TmeU8ffBGVBZnV",
+        "canonicalLiquidityUsd": 4606.2,
+        "canonicalVolumeH24": 155501.75
       }
     ]
   },
   "counts": {
-    "seeds": 75,
-    "rawCandidates": 143,
-    "candidates": 37,
-    "vampFiltered": 106,
-    "lowLiquidityFiltered": 99,
-    "duplicateIdentityFiltered": 82
+    "seeds": 74,
+    "rawCandidates": 141,
+    "candidates": 36,
+    "vampFiltered": 105,
+    "lowLiquidityFiltered": 98,
+    "duplicateIdentityFiltered": 81
   },
   "candidates": [
     {
@@ -418,13 +418,13 @@
       "description": "Purple BTC: The Bitcoin of Solana With a capped supply of 21 million and a built-in burn mechanism to enhance value.",
       "image": "3b535c9ffc582a1571ea53e75b2ffeb23e043d3318a6af80c79a40e7e4198905",
       "createdAt": "2026-05-11T14:17:27+00:00",
-      "ageHours": 87.8,
+      "ageHours": 87.87,
       "priceUsd": "0.001352",
       "marketCap": 1352700.0,
       "liquidityUsd": 10117.79,
       "volume": {
         "h24": 1361.81,
-        "h6": 215.14,
+        "h6": 148.6,
         "h1": 43.94,
         "m5": 0
       },
@@ -439,7 +439,7 @@
         },
         "h6": {
           "buys": 11,
-          "sells": 21
+          "sells": 15
         },
         "h24": {
           "buys": 102,
@@ -448,7 +448,7 @@
       },
       "priceChange": {
         "h1": -1.56,
-        "h6": -2.84,
+        "h6": -2.54,
         "h24": -1.78
       },
       "links": [
@@ -569,7 +569,7 @@
       "sources": [
         "top"
       ],
-      "score": 224.19,
+      "score": 224.18,
       "warnings": []
     },
     {
@@ -583,39 +583,39 @@
       "description": "Every pump is a winning goal.",
       "image": "https://cdn.dexscreener.com/cms/images/-gAUVD3JHWiryc_k?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T20:25:34+00:00",
-      "ageHours": 9.66,
-      "priceUsd": "0.00007198",
-      "marketCap": 71985.0,
-      "liquidityUsd": 23518.74,
+      "ageHours": 9.74,
+      "priceUsd": "0.00007293",
+      "marketCap": 72940.0,
+      "liquidityUsd": 23672.12,
       "volume": {
-        "h24": 2680224.56,
-        "h6": 1174653.69,
-        "h1": 22608.56,
-        "m5": 1136.19
+        "h24": 2681783.17,
+        "h6": 1158085.47,
+        "h1": 22266.43,
+        "m5": 1558.6
       },
       "txns": {
         "m5": {
-          "buys": 175,
-          "sells": 6
+          "buys": 204,
+          "sells": 10
         },
         "h1": {
-          "buys": 2526,
-          "sells": 144
+          "buys": 2562,
+          "sells": 141
         },
         "h6": {
-          "buys": 20678,
-          "sells": 3812
+          "buys": 20340,
+          "sells": 3783
         },
         "h24": {
-          "buys": 35777,
-          "sells": 6280
+          "buys": 35981,
+          "sells": 6290
         }
       },
       "priceChange": {
-        "m5": -1.08,
-        "h1": 15.25,
-        "h6": -92.07,
-        "h24": -47.67
+        "m5": 1.33,
+        "h1": 17.97,
+        "h6": -93.17,
+        "h24": -46.97
       },
       "links": [
         {
@@ -686,7 +686,7 @@
       "sources": [
         "top"
       ],
-      "score": 219.79,
+      "score": 219.78,
       "warnings": []
     },
     {
@@ -700,13 +700,13 @@
       "description": "From Maracaná Stadium, here is \"Dai Dai,\" the @FIFAWorldCup Official Song 2026.",
       "image": "https://cdn.dexscreener.com/cms/images/G8uwYjhTdVRlS0Ha?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T05:08:57+00:00",
-      "ageHours": 24.94,
+      "ageHours": 25.01,
       "priceUsd": "0.00001607",
       "marketCap": 16074.0,
       "liquidityUsd": 11777.07,
       "volume": {
-        "h24": 9844413.69,
-        "h6": 3405.23,
+        "h24": 9808296.54,
+        "h6": 3287.44,
         "h1": 1028.94,
         "m5": 0
       },
@@ -720,18 +720,18 @@
           "sells": 11
         },
         "h6": {
-          "buys": 112,
-          "sells": 72
+          "buys": 110,
+          "sells": 70
         },
         "h24": {
-          "buys": 67454,
-          "sells": 25257
+          "buys": 67200,
+          "sells": 25219
         }
       },
       "priceChange": {
         "h1": 32.57,
-        "h6": 4.62,
-        "h24": -99.14
+        "h6": 8.76,
+        "h24": -99.17
       },
       "links": [
         {
@@ -788,7 +788,7 @@
       "sources": [
         "top"
       ],
-      "score": 199.88,
+      "score": 199.87,
       "warnings": []
     },
     {
@@ -802,39 +802,39 @@
       "description": "Andes virus is the only type of hantavirus known to spread from human to human. First deployed. Confirmed by the World Health Organization.",
       "image": "https://cdn.dexscreener.com/cms/images/l9_kCTGxMR3jBKym?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-06T10:36:08+00:00",
-      "ageHours": 211.49,
-      "priceUsd": "0.0005960",
-      "marketCap": 595979.0,
-      "liquidityUsd": 77315.96,
+      "ageHours": 211.56,
+      "priceUsd": "0.0005895",
+      "marketCap": 589518.0,
+      "liquidityUsd": 76823.51,
       "volume": {
-        "h24": 361475.44,
-        "h6": 94701.98,
-        "h1": 7739.48,
-        "m5": 330.56
+        "h24": 361498.6,
+        "h6": 94721.47,
+        "h1": 7986.9,
+        "m5": 338.27
       },
       "txns": {
         "m5": {
-          "buys": 3,
-          "sells": 3
+          "buys": 0,
+          "sells": 1
         },
         "h1": {
-          "buys": 82,
-          "sells": 42
+          "buys": 80,
+          "sells": 43
         },
         "h6": {
-          "buys": 442,
-          "sells": 438
+          "buys": 441,
+          "sells": 429
         },
         "h24": {
-          "buys": 1850,
-          "sells": 1549
+          "buys": 1847,
+          "sells": 1548
         }
       },
       "priceChange": {
-        "m5": 0.3,
-        "h1": -9.02,
-        "h6": 14.41,
-        "h24": 40.74
+        "m5": -1.08,
+        "h1": -11.26,
+        "h6": 14.21,
+        "h24": 41.25
       },
       "links": [
         {
@@ -905,7 +905,7 @@
       "sources": [
         "top"
       ],
-      "score": 194.56,
+      "score": 194.55,
       "warnings": []
     },
     {
@@ -919,14 +919,14 @@
       "description": "Red Claw Cartel is a ruthless gang of rogue felines clawing their way across Solana. Built for chaos, fueled by memes, and powered by community energy. No fake promises. No forced utility. Just claws, culture, and pure meme domination.",
       "image": "https://cdn.dexscreener.com/cms/images/8_EgAllm6Q-MShuf?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T04:45:27+00:00",
-      "ageHours": 25.33,
+      "ageHours": 25.41,
       "priceUsd": "0.000002667",
       "marketCap": 2667.0,
       "liquidityUsd": 4510.69,
       "volume": {
-        "h24": 1465402.42,
-        "h6": 1141.36,
-        "h1": 121.48,
+        "h24": 1455166.42,
+        "h6": 1141.07,
+        "h1": 72.37,
         "m5": 0
       },
       "txns": {
@@ -935,22 +935,22 @@
           "sells": 0
         },
         "h1": {
-          "buys": 3,
-          "sells": 8
+          "buys": 2,
+          "sells": 6
         },
         "h6": {
           "buys": 19,
-          "sells": 22
+          "sells": 21
         },
         "h24": {
-          "buys": 31630,
-          "sells": 11519
+          "buys": 31334,
+          "sells": 11430
         }
       },
       "priceChange": {
-        "h1": -4.2,
-        "h6": -5.76,
-        "h24": -98.25
+        "h1": -1.02,
+        "h6": -4.8,
+        "h24": -98.19
       },
       "links": [
         {
@@ -1019,112 +1019,7 @@
       "sources": [
         "top"
       ],
-      "score": 184.83,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/hdga76himnnwxdyygnsktmyvsushjz49axkmdqkxd9xm",
-      "pairAddress": "HdGa76himnNwXdyYGnSKTmYvsUshjZ49AxKMdqKXd9xM",
-      "tokenAddress": "AL3BA6FpBheUzsHhWcV8BRL23KWWe2QB8aEXmB6epump",
-      "name": "CRINGELORD",
-      "symbol": "CRINGE",
-      "description": "Welcome to the Kingdom of Cringe.\n\nThe basement-born icon who turned failed rizz, sigma delusion, and public embarrassment into unstoppable meme aura",
-      "image": "https://cdn.dexscreener.com/cms/images/SojQP07FzUu_TDyY?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-05-14T04:35:30+00:00",
-      "ageHours": 25.5,
-      "priceUsd": "0.000002438",
-      "marketCap": 2439.0,
-      "liquidityUsd": 4196.1,
-      "volume": {
-        "h24": 631725.49,
-        "h6": 65.31,
-        "h1": 42.66,
-        "m5": 0
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 0,
-          "sells": 2
-        },
-        "h6": {
-          "buys": 0,
-          "sells": 8
-        },
-        "h24": {
-          "buys": 4785,
-          "sells": 3237
-        }
-      },
-      "priceChange": {
-        "h1": -3.34,
-        "h6": -5.84,
-        "h24": -98.8
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/al3ba6fpbheuzshhwcv8brl23kwwe2qb8aexmb6epump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://cringelord.lol/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/cringelord_lol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/hdga76himnnwxdyygnsktmyvsushjz49axkmdqkxd9xm",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@cringelord_lol"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://cringelord.lol/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/cringelord_lol",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "top"
-      ],
-      "score": 184.81,
+      "score": 184.82,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -1141,39 +1036,39 @@
       "description": "World Cup Coin is a new way of betting on the World Cup, 50% of the creator fees of all the countries are getting burnt in WORLDCUP, the other 50% go towards marketing.",
       "image": "https://cdn.dexscreener.com/cms/images/F3H3l8fxpmRPX-yq?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-12T11:30:26+00:00",
-      "ageHours": 66.58,
-      "priceUsd": "0.002427",
-      "marketCap": 2426834.0,
-      "liquidityUsd": 164516.88,
+      "ageHours": 66.66,
+      "priceUsd": "0.002473",
+      "marketCap": 2473305.0,
+      "liquidityUsd": 165038.25,
       "volume": {
-        "h24": 820950.32,
-        "h6": 140368.87,
-        "h1": 10984.05,
-        "m5": 182.99
+        "h24": 820238.37,
+        "h6": 139643.77,
+        "h1": 10916.87,
+        "m5": 480.01
       },
       "txns": {
         "m5": {
-          "buys": 0,
-          "sells": 3
+          "buys": 2,
+          "sells": 1
         },
         "h1": {
           "buys": 16,
-          "sells": 53
+          "sells": 50
         },
         "h6": {
-          "buys": 309,
-          "sells": 403
+          "buys": 305,
+          "sells": 404
         },
         "h24": {
-          "buys": 1972,
-          "sells": 1927
+          "buys": 1968,
+          "sells": 1928
         }
       },
       "priceChange": {
-        "m5": 0.21,
-        "h1": -6.41,
-        "h6": 16.59,
-        "h24": 8.7
+        "m5": 1.91,
+        "h1": -5.51,
+        "h6": 17.63,
+        "h24": 13.98
       },
       "links": [
         {
@@ -1230,7 +1125,7 @@
       "sources": [
         "top"
       ],
-      "score": 144.68,
+      "score": 144.67,
       "warnings": []
     },
     {
@@ -1244,39 +1139,39 @@
       "description": "“The Official Phantom Mascot” is a small Solana meme coin themed around the ghost mascot associated with Phantom Wallet. It trades mainly on Raydium and shows up on Dexscreener as “The Official Phantom Mascot.”\n",
       "image": "https://cdn.dexscreener.com/cms/images/IFfMH5qqY_7amN2R?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T00:05:31+00:00",
-      "ageHours": 30.0,
-      "priceUsd": "0.0001314",
-      "marketCap": 131466.0,
-      "liquidityUsd": 31426.57,
+      "ageHours": 30.07,
+      "priceUsd": "0.0001282",
+      "marketCap": 128213.0,
+      "liquidityUsd": 31024.47,
       "volume": {
-        "h24": 802825.73,
-        "h6": 151195.47,
-        "h1": 17822.46,
-        "m5": 1027.82
+        "h24": 797422.88,
+        "h6": 150865.32,
+        "h1": 18242.26,
+        "m5": 1523.19
       },
       "txns": {
         "m5": {
           "buys": 25,
-          "sells": 8
+          "sells": 14
         },
         "h1": {
           "buys": 376,
-          "sells": 170
+          "sells": 173
         },
         "h6": {
-          "buys": 2528,
-          "sells": 1468
+          "buys": 2529,
+          "sells": 1465
         },
         "h24": {
-          "buys": 26457,
-          "sells": 8090
+          "buys": 26423,
+          "sells": 8052
         }
       },
       "priceChange": {
-        "m5": 3.48,
-        "h1": 16.65,
-        "h6": 46.89,
-        "h24": -29.79
+        "m5": -2.47,
+        "h1": 16.51,
+        "h6": 49.27,
+        "h24": -38.98
       },
       "links": [
         {
@@ -1347,7 +1242,113 @@
       "sources": [
         "top"
       ],
-      "score": 142.25,
+      "score": 142.24,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/2kjzpndyovkzfhqtve1fxgj4umu8famprvajfjgxzp6v",
+      "pairAddress": "2kjzpNDYovkzfHQtVe1FXgJ4UMU8FAmpRvAjFJgXzp6V",
+      "tokenAddress": "2bhYLi8NHos7CdVmNu2DxiUsEFaqoEGD9cQWvbjwpump",
+      "name": "Royal Troll",
+      "symbol": "RoyalTroll",
+      "description": "Royally Trolled",
+      "image": "https://cdn.dexscreener.com/cms/images/VI7lfOV1N8PLhqKP?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-05-15T03:32:36+00:00",
+      "ageHours": 2.62,
+      "priceUsd": "0.000004484",
+      "marketCap": 4472.0,
+      "liquidityUsd": 5359.36,
+      "volume": {
+        "h24": 87830.5,
+        "h6": 87830.5,
+        "h1": 1758.4,
+        "m5": 443.92
+      },
+      "txns": {
+        "m5": {
+          "buys": 10,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 60,
+          "sells": 71
+        },
+        "h6": {
+          "buys": 2598,
+          "sells": 1472
+        },
+        "h24": {
+          "buys": 2598,
+          "sells": 1472
+        }
+      },
+      "priceChange": {
+        "m5": 25.37,
+        "h1": -13.73,
+        "h6": -87.98,
+        "h24": -87.98
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/2bhyli8nhos7cdvmnu2dxiusefaqoegd9cqwvbjwpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2006545041955684428",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/royaltrolll",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/2kjzpndyovkzfhqtve1fxgj4umu8famprvajfjgxzp6v",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "telegram_coordination_link",
+        "x_community_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2006545041955684428",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/royaltrolll",
+          "source": "profile.links",
+          "kind": "telegram"
+        }
+      ],
+      "sources": [
+        "latest",
+        "latest",
+        "top"
+      ],
+      "score": 118.17,
       "warnings": []
     },
     {
@@ -1361,39 +1362,39 @@
       "description": "COPIUM \n\nThe drug every crypto holder can’t quit.\n\ninhale. cope. repeat.",
       "image": "https://cdn.dexscreener.com/cms/images/MtcoDrCJYuciioA5?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-13T18:19:03+00:00",
-      "ageHours": 35.77,
-      "priceUsd": "0.001084",
-      "marketCap": 1084889.0,
-      "liquidityUsd": 87488.22,
+      "ageHours": 35.85,
+      "priceUsd": "0.001112",
+      "marketCap": 1112891.0,
+      "liquidityUsd": 88628.51,
       "volume": {
-        "h24": 1178606.65,
-        "h6": 174688.39,
-        "h1": 19791.26,
-        "m5": 1557.55
+        "h24": 1177515.57,
+        "h6": 176179.84,
+        "h1": 20283.88,
+        "m5": 2047.75
       },
       "txns": {
         "m5": {
-          "buys": 16,
+          "buys": 14,
           "sells": 13
         },
         "h1": {
-          "buys": 165,
-          "sells": 163
+          "buys": 162,
+          "sells": 164
         },
         "h6": {
-          "buys": 1299,
-          "sells": 1749
+          "buys": 1307,
+          "sells": 1757
         },
         "h24": {
-          "buys": 15952,
-          "sells": 9501
+          "buys": 15937,
+          "sells": 9486
         }
       },
       "priceChange": {
-        "m5": 0.22,
-        "h1": -3.63,
-        "h6": 5.55,
-        "h24": -10.06
+        "m5": 2.5,
+        "h1": -0.1,
+        "h6": 8.12,
+        "h24": -7.75
       },
       "links": [
         {
@@ -1464,7 +1465,7 @@
       "sources": [
         "top"
       ],
-      "score": 116.53,
+      "score": 116.52,
       "warnings": []
     },
     {
@@ -1478,39 +1479,39 @@
       "description": "Bitcoin for Dads. Mow the lawn. Grill the brisket. Crack a cold one. Finally, an adult coin for adults who were born to hold.",
       "image": "https://cdn.dexscreener.com/cms/images/Hn887Jc-wa4ie3UK?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-13T03:39:06+00:00",
-      "ageHours": 50.44,
-      "priceUsd": "0.0001927",
-      "marketCap": 192787.0,
-      "liquidityUsd": 39742.28,
+      "ageHours": 50.51,
+      "priceUsd": "0.0001874",
+      "marketCap": 187492.0,
+      "liquidityUsd": 39185.15,
       "volume": {
-        "h24": 992889.05,
-        "h6": 69955.72,
-        "h1": 18841.8,
-        "m5": 1204.14
+        "h24": 991053.48,
+        "h6": 69990.12,
+        "h1": 18959.61,
+        "m5": 237.08
       },
       "txns": {
         "m5": {
-          "buys": 12,
-          "sells": 8
+          "buys": 7,
+          "sells": 4
         },
         "h1": {
-          "buys": 165,
-          "sells": 112
+          "buys": 170,
+          "sells": 115
         },
         "h6": {
-          "buys": 760,
-          "sells": 630
+          "buys": 766,
+          "sells": 624
         },
         "h24": {
-          "buys": 23029,
-          "sells": 10014
+          "buys": 23016,
+          "sells": 10010
         }
       },
       "priceChange": {
-        "m5": -8.12,
-        "h1": 41.61,
+        "m5": -2.75,
+        "h1": 36.46,
         "h6": 139,
-        "h24": -82.69
+        "h24": -83.26
       },
       "links": [
         {
@@ -1581,7 +1582,7 @@
       "sources": [
         "top"
       ],
-      "score": 114.7,
+      "score": 114.69,
       "warnings": []
     },
     {
@@ -1595,39 +1596,39 @@
       "description": "OG Pump.Fun $YUNO\n\nRage Comic Icon \n\nY U NO join us",
       "image": "https://cdn.dexscreener.com/cms/images/47f974bb9395aba8180134d493fa109597c769a11c019eabc6e56d0393423735?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T02:20:46+00:00",
-      "ageHours": 3.74,
-      "priceUsd": "0.00003417",
-      "marketCap": 33683.0,
-      "liquidityUsd": 14893.42,
+      "ageHours": 3.82,
+      "priceUsd": "0.00003444",
+      "marketCap": 33943.0,
+      "liquidityUsd": 14927.29,
       "volume": {
-        "h24": 87205.98,
-        "h6": 87205.98,
-        "h1": 2067.56,
-        "m5": 386.27
+        "h24": 87453.82,
+        "h6": 87453.82,
+        "h1": 2213.99,
+        "m5": 247.84
       },
       "txns": {
         "m5": {
-          "buys": 8,
-          "sells": 0
+          "buys": 5,
+          "sells": 3
         },
         "h1": {
-          "buys": 33,
+          "buys": 34,
           "sells": 20
         },
         "h6": {
-          "buys": 1842,
-          "sells": 946
+          "buys": 1847,
+          "sells": 949
         },
         "h24": {
-          "buys": 1842,
-          "sells": 946
+          "buys": 1847,
+          "sells": 949
         }
       },
       "priceChange": {
-        "m5": 9.51,
-        "h1": 2.67,
-        "h6": -9.61,
-        "h24": -9.61
+        "m5": 0.77,
+        "h1": 4.64,
+        "h6": -8.91,
+        "h24": -8.91
       },
       "links": [
         {
@@ -1697,7 +1698,7 @@
       "sources": [
         "latest"
       ],
-      "score": 108.03,
+      "score": 108.02,
       "warnings": []
     },
     {
@@ -1711,39 +1712,39 @@
       "description": "Baby Troll",
       "image": "https://cdn.dexscreener.com/cms/images/f2RfNFyWKgKBvyot?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-10T19:34:49+00:00",
-      "ageHours": 106.51,
-      "priceUsd": "0.0007928",
-      "marketCap": 777829.0,
-      "liquidityUsd": 89393.35,
+      "ageHours": 106.58,
+      "priceUsd": "0.0008034",
+      "marketCap": 788210.0,
+      "liquidityUsd": 89949.53,
       "volume": {
-        "h24": 1064389.24,
-        "h6": 169300.14,
-        "h1": 31088.87,
-        "m5": 613.24
+        "h24": 1064286.08,
+        "h6": 168869.12,
+        "h1": 30172.85,
+        "m5": 625.8
       },
       "txns": {
         "m5": {
-          "buys": 4,
-          "sells": 9
+          "buys": 5,
+          "sells": 6
         },
         "h1": {
-          "buys": 283,
-          "sells": 173
+          "buys": 276,
+          "sells": 163
         },
         "h6": {
-          "buys": 1390,
-          "sells": 1064
+          "buys": 1386,
+          "sells": 1057
         },
         "h24": {
-          "buys": 13105,
-          "sells": 6491
+          "buys": 13103,
+          "sells": 6492
         }
       },
       "priceChange": {
-        "m5": -1.41,
-        "h1": -4.03,
-        "h6": -0.14,
-        "h24": 18.59
+        "m5": 1.33,
+        "h1": -4.4,
+        "h6": 4.31,
+        "h24": 18.28
       },
       "links": [
         {
@@ -1814,7 +1815,7 @@
       "sources": [
         "top"
       ],
-      "score": 107.69,
+      "score": 107.68,
       "warnings": []
     },
     {
@@ -1828,39 +1829,39 @@
       "description": "$GIGGATROLL is being built with long-term conviction and purpose. This is a community in control, organised, transparent, and moving forward with intent.",
       "image": "https://cdn.dexscreener.com/cms/images/OX99vO-Ycx3zxgwI?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T05:36:23+00:00",
-      "ageHours": 0.48,
-      "priceUsd": "0.00003042",
-      "marketCap": 30424.0,
-      "liquidityUsd": 13956.8,
+      "ageHours": 0.56,
+      "priceUsd": "0.00002988",
+      "marketCap": 29885.0,
+      "liquidityUsd": 13816.0,
       "volume": {
-        "h24": 6601.19,
-        "h6": 6601.19,
-        "h1": 6601.19,
-        "m5": 976.81
+        "h24": 7009.19,
+        "h6": 7009.19,
+        "h1": 7009.19,
+        "m5": 407.99
       },
       "txns": {
         "m5": {
-          "buys": 6,
-          "sells": 13
+          "buys": 14,
+          "sells": 11
         },
         "h1": {
-          "buys": 149,
-          "sells": 104
+          "buys": 163,
+          "sells": 115
         },
         "h6": {
-          "buys": 149,
-          "sells": 104
+          "buys": 163,
+          "sells": 115
         },
         "h24": {
-          "buys": 149,
-          "sells": 104
+          "buys": 163,
+          "sells": 115
         }
       },
       "priceChange": {
-        "m5": -16.25,
-        "h1": -19.22,
-        "h6": -19.22,
-        "h24": -19.22
+        "m5": -1.77,
+        "h1": -20.65,
+        "h6": -20.65,
+        "h24": -20.65
       },
       "links": [
         {
@@ -1925,115 +1926,6 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/2kjzpndyovkzfhqtve1fxgj4umu8famprvajfjgxzp6v",
-      "pairAddress": "2kjzpNDYovkzfHQtVe1FXgJ4UMU8FAmpRvAjFJgXzp6V",
-      "tokenAddress": "2bhYLi8NHos7CdVmNu2DxiUsEFaqoEGD9cQWvbjwpump",
-      "name": "Royal Troll",
-      "symbol": "RoyalTroll",
-      "description": "Royally Trolled",
-      "image": "https://cdn.dexscreener.com/cms/images/VI7lfOV1N8PLhqKP?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-05-15T03:32:36+00:00",
-      "ageHours": 2.54,
-      "priceUsd": "0.000003577",
-      "marketCap": 3567.0,
-      "liquidityUsd": 4793.5,
-      "volume": {
-        "h24": 87386.57,
-        "h6": 87386.57,
-        "h1": 1583.53,
-        "m5": 327.1
-      },
-      "txns": {
-        "m5": {
-          "buys": 4,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 108,
-          "sells": 90
-        },
-        "h6": {
-          "buys": 2588,
-          "sells": 1471
-        },
-        "h24": {
-          "buys": 2588,
-          "sells": 1471
-        }
-      },
-      "priceChange": {
-        "m5": 32.86,
-        "h1": -28.59,
-        "h6": -90.41,
-        "h24": -90.41
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2bhyli8nhos7cdvmnu2dxiusefaqoegd9cqwvbjwpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2006545041955684428",
-          "source": "profile.links",
-          "kind": "x_community"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/royaltrolll",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2kjzpndyovkzfhqtve1fxgj4umu8famprvajfjgxzp6v",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link",
-        "x_community_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2006545041955684428",
-          "source": "profile.links",
-          "kind": "x_community"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/royaltrolll",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest",
-        "latest",
-        "top"
-      ],
-      "score": 103.18,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
       "pairUrl": "https://dexscreener.com/solana/suqte9ocksk7gcjdmtbmmufmq7nwsf2g8dw8zeemy9h",
       "pairAddress": "sUqte9ocKSK7gCJdmtbMmUFMQ7NWsf2g8dW8zeEmy9H",
       "tokenAddress": "7LXhqS7Q36Vku43BP5D6cnnbmru9GzQLdVXXGcdVpump",
@@ -2042,39 +1934,39 @@
       "description": "It’s 2009. You wake up one morning and see a new cryptocurrency called Bitcoin.\n\nAt the time, it looks like just another internet experiment.\n\nLittle do you know, you’re staring at the greatest investment opportunitie of your lifetime.",
       "image": "https://cdn.dexscreener.com/cms/images/6dYpxBSvo0teKvXv?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-11T04:17:12+00:00",
-      "ageHours": 97.8,
-      "priceUsd": "0.0001940",
-      "marketCap": 194067.0,
-      "liquidityUsd": 36219.84,
+      "ageHours": 97.88,
+      "priceUsd": "0.0001947",
+      "marketCap": 194746.0,
+      "liquidityUsd": 36283.21,
       "volume": {
-        "h24": 155228.24,
-        "h6": 70188.24,
-        "h1": 47048.88,
-        "m5": 703.75
+        "h24": 150353.68,
+        "h6": 70250.35,
+        "h1": 42523.24,
+        "m5": 62.1
       },
       "txns": {
         "m5": {
-          "buys": 5,
-          "sells": 6
+          "buys": 3,
+          "sells": 3
         },
         "h1": {
-          "buys": 765,
-          "sells": 730
+          "buys": 691,
+          "sells": 665
         },
         "h6": {
-          "buys": 1039,
-          "sells": 953
+          "buys": 1042,
+          "sells": 956
         },
         "h24": {
-          "buys": 2165,
-          "sells": 1831
+          "buys": 2101,
+          "sells": 1775
         }
       },
       "priceChange": {
-        "m5": -5.54,
-        "h1": -2.43,
-        "h6": 13.58,
-        "h24": -10
+        "m5": 0.35,
+        "h1": -3.93,
+        "h6": 13.97,
+        "h24": -10.6
       },
       "links": [
         {
@@ -2158,39 +2050,39 @@
       "description": "For those of you who dont know me I was the guy who took over the CTO for $Fwog about 2 years ago and led it to almost 1 Billion marketcap!\n\nToday I decided to branch away from Fwog due to the team not wanting to put in the effort they used to put in.\n\nTime and effort builds something strong over time and now my future till will be with $Halo 😇",
       "image": "https://cdn.dexscreener.com/cms/images/1fuvtauM4lDlcurw?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T05:20:20+00:00",
-      "ageHours": 0.75,
-      "priceUsd": "0.00007516",
-      "marketCap": 75166.0,
-      "liquidityUsd": 21986.11,
+      "ageHours": 0.82,
+      "priceUsd": "0.00007098",
+      "marketCap": 70982.0,
+      "liquidityUsd": 21361.02,
       "volume": {
-        "h24": 38737.31,
-        "h6": 38737.31,
-        "h1": 38737.31,
-        "m5": 1786.64
+        "h24": 39956.88,
+        "h6": 39956.88,
+        "h1": 39956.88,
+        "m5": 1215.66
       },
       "txns": {
         "m5": {
-          "buys": 47,
-          "sells": 24
+          "buys": 17,
+          "sells": 22
         },
         "h1": {
-          "buys": 654,
-          "sells": 416
+          "buys": 671,
+          "sells": 439
         },
         "h6": {
-          "buys": 654,
-          "sells": 416
+          "buys": 671,
+          "sells": 439
         },
         "h24": {
-          "buys": 654,
-          "sells": 416
+          "buys": 671,
+          "sells": 439
         }
       },
       "priceChange": {
-        "m5": 8.46,
-        "h1": 99.48,
-        "h6": 99.48,
-        "h24": 99.48
+        "m5": -4.36,
+        "h1": 88.38,
+        "h6": 88.38,
+        "h24": 88.38
       },
       "links": [
         {
@@ -2252,39 +2144,39 @@
       "description": "Never Sell Your Dust",
       "image": "https://cdn.dexscreener.com/cms/images/wX8Vof9lY5yLw8LU?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T04:24:24+00:00",
-      "ageHours": 1.68,
-      "priceUsd": "0.00008448",
-      "marketCap": 84481.0,
-      "liquidityUsd": 24477.7,
+      "ageHours": 1.76,
+      "priceUsd": "0.00009259",
+      "marketCap": 92591.0,
+      "liquidityUsd": 25617.86,
       "volume": {
-        "h24": 542963.71,
-        "h6": 542963.71,
-        "h1": 185040.27,
-        "m5": 24547.26
+        "h24": 556094.15,
+        "h6": 556094.15,
+        "h1": 174840.99,
+        "m5": 12379.41
       },
       "txns": {
         "m5": {
-          "buys": 301,
-          "sells": 189
+          "buys": 158,
+          "sells": 124
         },
         "h1": {
-          "buys": 2511,
-          "sells": 1591
+          "buys": 2364,
+          "sells": 1513
         },
         "h6": {
-          "buys": 7446,
-          "sells": 5532
+          "buys": 7614,
+          "sells": 5665
         },
         "h24": {
-          "buys": 7446,
-          "sells": 5532
+          "buys": 7614,
+          "sells": 5665
         }
       },
       "priceChange": {
-        "m5": 7.32,
-        "h1": 6.2,
-        "h6": 121,
-        "h24": 121
+        "m5": 1.56,
+        "h1": 73.71,
+        "h6": 142,
+        "h24": 142
       },
       "links": [
         {
@@ -2330,9 +2222,10 @@
         "latest",
         "latest",
         "latest",
-        "latest"
+        "latest",
+        "top"
       ],
-      "score": 90.29,
+      "score": 90.28,
       "warnings": []
     },
     {
@@ -2346,39 +2239,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/a80n83bQtW-VC6Wb?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T00:05:25+00:00",
-      "ageHours": 6.0,
-      "priceUsd": "0.000005453",
-      "marketCap": 5453.0,
-      "liquidityUsd": 6121.13,
+      "ageHours": 6.07,
+      "priceUsd": "0.000005434",
+      "marketCap": 5434.0,
+      "liquidityUsd": 6106.48,
       "volume": {
-        "h24": 467409.41,
-        "h6": 461489.19,
-        "h1": 872.55,
-        "m5": 1.2
+        "h24": 467418.26,
+        "h6": 431627.17,
+        "h1": 851.94,
+        "m5": 8.84
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 0
+          "buys": 2,
+          "sells": 1
         },
         "h1": {
-          "buys": 30,
-          "sells": 20
+          "buys": 32,
+          "sells": 18
         },
         "h6": {
-          "buys": 5707,
-          "sells": 4178
+          "buys": 5318,
+          "sells": 3819
         },
         "h24": {
-          "buys": 5768,
-          "sells": 4242
+          "buys": 5770,
+          "sells": 4243
         }
       },
       "priceChange": {
-        "m5": 0.41,
-        "h1": -6.13,
-        "h6": -83.25,
-        "h24": -85.68
+        "m5": -0.36,
+        "h1": -3.68,
+        "h6": -64.06,
+        "h24": -85.73
       },
       "links": [
         {
@@ -2435,7 +2328,7 @@
       "sources": [
         "top"
       ],
-      "score": 89.75,
+      "score": 89.74,
       "warnings": []
     },
     {
@@ -2449,38 +2342,39 @@
       "description": "Toly has a new profile picture so we made solana final boss in his honour - the ticker is $TOLY",
       "image": "https://cdn.dexscreener.com/cms/images/2ef7hFrCPuredSXb?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T19:27:40+00:00",
-      "ageHours": 10.63,
-      "priceUsd": "0.00002261",
-      "marketCap": 22616.0,
-      "liquidityUsd": 12786.15,
+      "ageHours": 10.7,
+      "priceUsd": "0.00002438",
+      "marketCap": 24385.0,
+      "liquidityUsd": 13279.62,
       "volume": {
-        "h24": 886343.42,
-        "h6": 78388.35,
-        "h1": 4998.7,
-        "m5": 26.83
+        "h24": 886762.03,
+        "h6": 76016.41,
+        "h1": 5121.94,
+        "m5": 418.61
       },
       "txns": {
         "m5": {
-          "buys": 2,
-          "sells": 1
+          "buys": 8,
+          "sells": 3
         },
         "h1": {
-          "buys": 71,
-          "sells": 67
+          "buys": 68,
+          "sells": 66
         },
         "h6": {
-          "buys": 976,
-          "sells": 807
+          "buys": 958,
+          "sells": 781
         },
         "h24": {
-          "buys": 10066,
-          "sells": 7988
+          "buys": 10074,
+          "sells": 7991
         }
       },
       "priceChange": {
-        "h1": -1.38,
-        "h6": -51.84,
-        "h24": -40.88
+        "m5": 7.82,
+        "h1": 2.74,
+        "h6": -51.5,
+        "h24": -36.26
       },
       "links": [
         {
@@ -2526,7 +2420,7 @@
         "latest",
         "top"
       ],
-      "score": 89.17,
+      "score": 89.16,
       "warnings": []
     },
     {
@@ -2540,39 +2434,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/fZ3tHdG462wveWOq?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T05:13:01+00:00",
-      "ageHours": 0.87,
-      "priceUsd": "0.00002536",
-      "marketCap": 25360.0,
-      "liquidityUsd": 12866.23,
+      "ageHours": 0.95,
+      "priceUsd": "0.00002063",
+      "marketCap": 20639.0,
+      "liquidityUsd": 11604.04,
       "volume": {
-        "h24": 195307.84,
-        "h6": 195307.84,
-        "h1": 195307.84,
-        "m5": 2143.52
+        "h24": 196732.91,
+        "h6": 196732.91,
+        "h1": 196732.91,
+        "m5": 1425.06
       },
       "txns": {
         "m5": {
-          "buys": 25,
-          "sells": 32
+          "buys": 17,
+          "sells": 22
         },
         "h1": {
-          "buys": 3381,
-          "sells": 2110
+          "buys": 3398,
+          "sells": 2132
         },
         "h6": {
-          "buys": 3381,
-          "sells": 2110
+          "buys": 3398,
+          "sells": 2132
         },
         "h24": {
-          "buys": 3381,
-          "sells": 2110
+          "buys": 3398,
+          "sells": 2132
         }
       },
       "priceChange": {
-        "m5": 4.07,
-        "h1": -31.03,
-        "h6": -31.03,
-        "h24": -31.03
+        "m5": -18.62,
+        "h1": -43.87,
+        "h6": -43.87,
+        "h24": -43.87
       },
       "links": [
         {
@@ -2631,39 +2525,39 @@
       "description": "Max pain for the bears.",
       "image": "https://cdn.dexscreener.com/cms/images/TMC16Y3ZzXvVVXnL?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-11T16:02:31+00:00",
-      "ageHours": 86.05,
-      "priceUsd": "0.0003805",
-      "marketCap": 380541.0,
-      "liquidityUsd": 61201.78,
+      "ageHours": 86.12,
+      "priceUsd": "0.0003662",
+      "marketCap": 366282.0,
+      "liquidityUsd": 60028.03,
       "volume": {
-        "h24": 1203788.89,
-        "h6": 115788.31,
-        "h1": 49137.01,
-        "m5": 2463.99
+        "h24": 1180283.51,
+        "h6": 116174.49,
+        "h1": 47157.38,
+        "m5": 1857.02
       },
       "txns": {
         "m5": {
-          "buys": 18,
-          "sells": 28
+          "buys": 15,
+          "sells": 12
         },
         "h1": {
-          "buys": 231,
-          "sells": 307
+          "buys": 230,
+          "sells": 306
         },
         "h6": {
-          "buys": 862,
-          "sells": 756
+          "buys": 865,
+          "sells": 757
         },
         "h24": {
-          "buys": 8264,
-          "sells": 7417
+          "buys": 8141,
+          "sells": 7330
         }
       },
       "priceChange": {
-        "m5": 2.83,
-        "h1": 50.54,
-        "h6": 16,
-        "h24": 30.92
+        "m5": -3.75,
+        "h1": 51.18,
+        "h6": 16.05,
+        "h24": 6.62
       },
       "links": [
         {
@@ -2734,7 +2628,7 @@
       "sources": [
         "latest"
       ],
-      "score": 87.74,
+      "score": 87.73,
       "warnings": []
     },
     {
@@ -2748,39 +2642,39 @@
       "description": "Rage comics legend who shows reluctant acceptance with a tired 'OKAY' 😒",
       "image": "https://cdn.dexscreener.com/cms/images/Kdg2mnVyH0f6V7LA?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T21:40:39+00:00",
-      "ageHours": 8.41,
-      "priceUsd": "0.000002384",
-      "marketCap": 2384.0,
-      "liquidityUsd": 4277.83,
+      "ageHours": 8.49,
+      "priceUsd": "0.000002452",
+      "marketCap": 2453.0,
+      "liquidityUsd": 4336.82,
       "volume": {
-        "h24": 3003196.49,
-        "h6": 1828929.58,
-        "h1": 2016.98,
-        "m5": 89.2
+        "h24": 3003196.6,
+        "h6": 1791439.17,
+        "h1": 1866.39,
+        "m5": 0.11
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 0
+          "buys": 0,
+          "sells": 1
         },
         "h1": {
-          "buys": 19,
-          "sells": 11056
+          "buys": 9,
+          "sells": 10581
         },
         "h6": {
-          "buys": 30020,
-          "sells": 22268
+          "buys": 29741,
+          "sells": 22156
         },
         "h24": {
           "buys": 39308,
-          "sells": 24431
+          "sells": 24432
         }
       },
       "priceChange": {
-        "m5": 4.81,
-        "h1": -61.97,
-        "h6": -99.75,
-        "h24": -98.06
+        "m5": 2.87,
+        "h1": -62.91,
+        "h6": -99.72,
+        "h24": -98.01
       },
       "links": [
         {
@@ -2837,7 +2731,7 @@
       "sources": [
         "top"
       ],
-      "score": 86.95,
+      "score": 86.94,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -2854,15 +2748,15 @@
       "description": "You just have to bullieve! Are you mad bro?",
       "image": "https://cdn.dexscreener.com/cms/images/r7cFJJ5Qm1Dcf_0g?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T12:44:52+00:00",
-      "ageHours": 17.34,
-      "priceUsd": "0.000003303",
-      "marketCap": 3304.0,
-      "liquidityUsd": 4610.58,
+      "ageHours": 17.42,
+      "priceUsd": "0.000003306",
+      "marketCap": 3307.0,
+      "liquidityUsd": 4606.2,
       "volume": {
-        "h24": 155495.66,
-        "h6": 408.41,
-        "h1": 52.92,
-        "m5": 2.22
+        "h24": 155501.75,
+        "h6": 414.49,
+        "h1": 59,
+        "m5": 6.08
       },
       "txns": {
         "m5": {
@@ -2870,22 +2764,22 @@
           "sells": 0
         },
         "h1": {
-          "buys": 1,
+          "buys": 2,
           "sells": 5
         },
         "h6": {
-          "buys": 9,
+          "buys": 10,
           "sells": 18
         },
         "h24": {
-          "buys": 2349,
+          "buys": 2350,
           "sells": 2775
         }
       },
       "priceChange": {
-        "m5": 1.61,
-        "h1": -4.03,
-        "h6": -19.41,
+        "m5": 0.09,
+        "h1": -3.95,
+        "h6": -19.34,
         "h24": -90.42
       },
       "links": [
@@ -2943,7 +2837,7 @@
       "sources": [
         "top"
       ],
-      "score": 85.83,
+      "score": 85.82,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -2960,39 +2854,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/5MeXnObW2aKA0Npr?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:04:07+00:00",
-      "ageHours": 3.02,
-      "priceUsd": "0.001056",
-      "marketCap": 1056531.0,
-      "liquidityUsd": 83486.81,
+      "ageHours": 3.09,
+      "priceUsd": "0.001046",
+      "marketCap": 1046082.0,
+      "liquidityUsd": 83102.71,
       "volume": {
-        "h24": 544655.58,
-        "h6": 544655.58,
-        "h1": 133167.04,
-        "m5": 5746.25
+        "h24": 552534.38,
+        "h6": 552534.38,
+        "h1": 128724.96,
+        "m5": 8295.88
       },
       "txns": {
         "m5": {
-          "buys": 67,
-          "sells": 47
+          "buys": 71,
+          "sells": 73
         },
         "h1": {
-          "buys": 1034,
+          "buys": 1027,
           "sells": 804
         },
         "h6": {
-          "buys": 5008,
-          "sells": 4503
+          "buys": 5075,
+          "sells": 4567
         },
         "h24": {
-          "buys": 5008,
-          "sells": 4503
+          "buys": 5075,
+          "sells": 4567
         }
       },
       "priceChange": {
-        "m5": 4.36,
-        "h1": 39.38,
-        "h6": 1801,
-        "h24": 1801
+        "m5": -2,
+        "h1": 39.15,
+        "h6": 1783,
+        "h24": 1783
       },
       "links": [
         {
@@ -3050,7 +2944,7 @@
       "sources": [
         "latest"
       ],
-      "score": 85.62,
+      "score": 85.61,
       "warnings": []
     },
     {
@@ -3064,13 +2958,13 @@
       "description": "Just A Memepe Chill Want Hit X1000 before 2027",
       "image": "https://cdn.dexscreener.com/cms/images/o64eM1kwYEeG9sCk?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T18:09:38+00:00",
-      "ageHours": 11.93,
+      "ageHours": 12.0,
       "priceUsd": "0.007147",
       "marketCap": 7147350.0,
       "liquidityUsd": 7360.31,
       "volume": {
         "h24": 17861.67,
-        "h6": 129.93,
+        "h6": 128.09,
         "h1": 92.44,
         "m5": 0
       },
@@ -3084,7 +2978,7 @@
           "sells": 2
         },
         "h6": {
-          "buys": 5,
+          "buys": 4,
           "sells": 5
         },
         "h24": {
@@ -3094,7 +2988,7 @@
       },
       "priceChange": {
         "h1": -6.25,
-        "h6": -6.31,
+        "h6": -6.4,
         "h24": 5985
       },
       "links": [
@@ -3138,7 +3032,7 @@
       "sources": [
         "top"
       ],
-      "score": 81.01,
+      "score": 81.0,
       "warnings": []
     },
     {
@@ -3152,7 +3046,7 @@
       "description": "$TROLLY is for the people who buy first, read later, and call every red candle “a character-building moment.”",
       "image": "https://cdn.dexscreener.com/cms/images/QEld3A8yaxS8qgio?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:51:53+00:00",
-      "ageHours": 2.22,
+      "ageHours": 2.3,
       "priceUsd": "0.000002571",
       "marketCap": 2571.0,
       "liquidityUsd": 4107.33,
@@ -3160,12 +3054,12 @@
         "h24": 155305,
         "h6": 155305,
         "h1": 462.18,
-        "m5": 89.7
+        "m5": 0
       },
       "txns": {
         "m5": {
           "buys": 0,
-          "sells": 2
+          "sells": 0
         },
         "h1": {
           "buys": 8,
@@ -3181,7 +3075,6 @@
         }
       },
       "priceChange": {
-        "m5": -7.25,
         "h1": 8.91,
         "h6": -93.91,
         "h24": -93.91
@@ -3255,7 +3148,7 @@
       "sources": [
         "latest"
       ],
-      "score": 80.72,
+      "score": 80.71,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -3272,39 +3165,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/__Kyu5pm-_exQr0W?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:24:55+00:00",
-      "ageHours": 2.67,
-      "priceUsd": "0.00008476",
-      "marketCap": 84725.0,
-      "liquidityUsd": 24374.32,
+      "ageHours": 2.75,
+      "priceUsd": "0.00006617",
+      "marketCap": 66145.0,
+      "liquidityUsd": 21538.13,
       "volume": {
-        "h24": 526489.77,
-        "h6": 526489.77,
-        "h1": 65265.31,
-        "m5": 2673.63
+        "h24": 531523.36,
+        "h6": 531523.36,
+        "h1": 63801.56,
+        "m5": 5018.52
       },
       "txns": {
         "m5": {
-          "buys": 22,
-          "sells": 22
+          "buys": 72,
+          "sells": 59
         },
         "h1": {
-          "buys": 832,
-          "sells": 590
+          "buys": 834,
+          "sells": 607
         },
         "h6": {
-          "buys": 7811,
-          "sells": 4832
+          "buys": 7884,
+          "sells": 4891
         },
         "h24": {
-          "buys": 7811,
-          "sells": 4832
+          "buys": 7884,
+          "sells": 4891
         }
       },
       "priceChange": {
-        "m5": 2.67,
-        "h1": 23.22,
-        "h6": 134,
-        "h24": 134
+        "m5": -22.46,
+        "h1": -26.26,
+        "h6": 82.38,
+        "h24": 82.38
       },
       "links": [
         {
@@ -3350,7 +3243,7 @@
         "latest",
         "latest"
       ],
-      "score": 80.17,
+      "score": 80.16,
       "warnings": []
     },
     {
@@ -3362,41 +3255,41 @@
       "name": "POV: Summer",
       "symbol": "Summer",
       "description": "POV: Summer",
-      "image": "https://cdn.dexscreener.com/cms/images/w1xDyLRZjJWc4wnF?width=64&height=64&fit=crop&quality=95&format=auto",
+      "image": "https://cdn.dexscreener.com/cms/images/w1xDyLRZjJWc4wnF?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T06:00:59+00:00",
-      "ageHours": 0.07,
-      "priceUsd": "0.00003914",
-      "marketCap": 39144.0,
-      "liquidityUsd": 15870.3,
+      "ageHours": 0.15,
+      "priceUsd": "0.00002344",
+      "marketCap": 23446.0,
+      "liquidityUsd": 12274.23,
       "volume": {
-        "h24": 46314.03,
-        "h6": 46314.03,
-        "h1": 46314.03,
-        "m5": 46314.03
+        "h24": 64745.31,
+        "h6": 64745.31,
+        "h1": 64745.31,
+        "m5": 17786.43
       },
       "txns": {
         "m5": {
-          "buys": 675,
-          "sells": 681
+          "buys": 415,
+          "sells": 217
         },
         "h1": {
-          "buys": 675,
-          "sells": 681
+          "buys": 1103,
+          "sells": 910
         },
         "h6": {
-          "buys": 675,
-          "sells": 681
+          "buys": 1103,
+          "sells": 910
         },
         "h24": {
-          "buys": 675,
-          "sells": 681
+          "buys": 1103,
+          "sells": 910
         }
       },
       "priceChange": {
-        "m5": 3.75,
-        "h1": 3.75,
-        "h6": 3.75,
-        "h24": 3.75
+        "m5": -38.66,
+        "h1": -37.86,
+        "h6": -37.86,
+        "h24": -37.86
       },
       "links": [
         {
@@ -3467,39 +3360,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/_qYILAlgmvuPBV5n?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:13:30+00:00",
-      "ageHours": 2.86,
-      "priceUsd": "0.00006133",
-      "marketCap": 61333.0,
-      "liquidityUsd": 21003.42,
+      "ageHours": 2.94,
+      "priceUsd": "0.00003096",
+      "marketCap": 30961.0,
+      "liquidityUsd": 14940.58,
       "volume": {
-        "h24": 829048.52,
-        "h6": 829048.52,
-        "h1": 80732.13,
-        "m5": 1734.68
+        "h24": 850076.25,
+        "h6": 850076.25,
+        "h1": 97370.74,
+        "m5": 21027.72
       },
       "txns": {
         "m5": {
-          "buys": 27,
-          "sells": 15
+          "buys": 214,
+          "sells": 147
         },
         "h1": {
-          "buys": 870,
-          "sells": 653
+          "buys": 979,
+          "sells": 736
         },
         "h6": {
-          "buys": 11514,
-          "sells": 7502
+          "buys": 11728,
+          "sells": 7649
         },
         "h24": {
-          "buys": 11514,
-          "sells": 7502
+          "buys": 11728,
+          "sells": 7649
         }
       },
       "priceChange": {
-        "m5": 4.41,
-        "h1": -20.47,
-        "h6": 66.11,
-        "h24": 66.11
+        "m5": -49.52,
+        "h1": -56.75,
+        "h6": -16.15,
+        "h24": -16.15
       },
       "links": [
         {
@@ -3544,7 +3437,7 @@
       "sources": [
         "latest"
       ],
-      "score": 77.64,
+      "score": 77.63,
       "warnings": []
     },
     {
@@ -3558,39 +3451,39 @@
       "description": "A Tribute to Cristiano Ronaldo’s Final World Cup - \"Siuuu\"",
       "image": "https://cdn.dexscreener.com/cms/images/CE8Q1DYtdAeLScHk?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T01:06:28+00:00",
-      "ageHours": 4.98,
-      "priceUsd": "0.002197",
-      "marketCap": 2197583.0,
-      "liquidityUsd": 125268.62,
+      "ageHours": 5.06,
+      "priceUsd": "0.002164",
+      "marketCap": 2164158.0,
+      "liquidityUsd": 124289.48,
       "volume": {
-        "h24": 2171430.9,
-        "h6": 2171430.9,
-        "h1": 68947.16,
-        "m5": 5830.13
+        "h24": 2176689.66,
+        "h6": 2176689.66,
+        "h1": 70500.77,
+        "m5": 5329.41
       },
       "txns": {
         "m5": {
-          "buys": 84,
-          "sells": 88
+          "buys": 93,
+          "sells": 79
         },
         "h1": {
-          "buys": 1237,
-          "sells": 953
+          "buys": 1247,
+          "sells": 977
         },
         "h6": {
-          "buys": 11512,
-          "sells": 10333
+          "buys": 11603,
+          "sells": 10412
         },
         "h24": {
-          "buys": 11512,
-          "sells": 10333
+          "buys": 11603,
+          "sells": 10412
         }
       },
       "priceChange": {
-        "m5": -2.33,
-        "h1": 7.57,
-        "h6": 3847,
-        "h24": 3847
+        "m5": -1.28,
+        "h1": 3.26,
+        "h6": 3787,
+        "h24": 3787
       },
       "links": [
         {
@@ -3635,7 +3528,7 @@
       "sources": [
         "latest"
       ],
-      "score": 77.38,
+      "score": 77.37,
       "warnings": []
     },
     {
@@ -3649,39 +3542,39 @@
       "description": "Apple was rescued by Kimberly, founder of an animal shelter, because Apple has hydrocephalus.\n\nMost baby foxes with this condition are usually euthanized when they arrive, because there has been almost no hope for treatment.\n\nBut Kimberly never felt right about giving up on them, so she started trying to give these babies a real chance at life.\n\nNow Apple may need an expensive surgery to help save her life.\n\nThat’s why all fees are being donated to her animal shelter, Arctic Fox Daily Rescue, and the donations have already reached over $30,000.\n\nApple is not just a cute fox going viral. Her story is much bigger. She has a rare and serious medical condition, and she could help create a new chance for baby foxes with hydrocephalus instead of giving up on them.\n\nThat’s why the PumpFun charity feature was launched.\n\nThis is the kind of charity coin that actually makes sense and truly deserves support.",
       "image": "https://cdn.dexscreener.com/cms/images/7X7kzG5NUwC0MKY7?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-04T16:43:08+00:00",
-      "ageHours": 253.37,
-      "priceUsd": "0.001037",
-      "marketCap": 1037116.0,
-      "liquidityUsd": 125720.1,
+      "ageHours": 253.44,
+      "priceUsd": "0.001053",
+      "marketCap": 1053664.0,
+      "liquidityUsd": 126698.48,
       "volume": {
-        "h24": 2755133.26,
-        "h6": 256299.99,
-        "h1": 27022.1,
-        "m5": 1068.67
+        "h24": 2748410.52,
+        "h6": 255244.35,
+        "h1": 26492.79,
+        "m5": 1029.3
       },
       "txns": {
         "m5": {
           "buys": 6,
-          "sells": 19
+          "sells": 12
         },
         "h1": {
-          "buys": 197,
+          "buys": 192,
           "sells": 186
         },
         "h6": {
-          "buys": 1475,
-          "sells": 1331
+          "buys": 1476,
+          "sells": 1334
         },
         "h24": {
-          "buys": 13367,
-          "sells": 12389
+          "buys": 13324,
+          "sells": 12363
         }
       },
       "priceChange": {
-        "m5": -1.28,
-        "h1": -4.77,
-        "h6": -12.97,
-        "h24": 99.66
+        "m5": 1.06,
+        "h1": -2.48,
+        "h6": -13.14,
+        "h24": 123
       },
       "links": [
         {
@@ -3764,7 +3657,7 @@
       "sources": [
         "top"
       ],
-      "score": 76.83,
+      "score": 76.82,
       "warnings": []
     },
     {
@@ -3778,7 +3671,7 @@
       "description": "CUPCOIN",
       "image": "https://cdn.dexscreener.com/cms/images/IvN62GG5n7Xkeo3o?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-14T19:50:18+00:00",
-      "ageHours": 10.25,
+      "ageHours": 10.32,
       "priceUsd": "0.000002708",
       "marketCap": 2708.0,
       "liquidityUsd": 4661.14,
@@ -3853,7 +3746,7 @@
       "sources": [
         "top"
       ],
-      "score": 74.22,
+      "score": 74.21,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -3870,39 +3763,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/6vSiaip3ch2QDclr?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T05:02:58+00:00",
-      "ageHours": 1.04,
-      "priceUsd": "0.000003439",
-      "marketCap": 3439.0,
-      "liquidityUsd": 4698.6,
+      "ageHours": 1.11,
+      "priceUsd": "0.000003383",
+      "marketCap": 3384.0,
+      "liquidityUsd": 4654.61,
       "volume": {
-        "h24": 86994.83,
-        "h6": 86994.83,
-        "h1": 72254.65,
-        "m5": 564.92
+        "h24": 87180.84,
+        "h6": 87180.84,
+        "h1": 51235.98,
+        "m5": 170.95
       },
       "txns": {
         "m5": {
-          "buys": 2,
-          "sells": 25
+          "buys": 3,
+          "sells": 6
         },
         "h1": {
-          "buys": 1636,
-          "sells": 1062
+          "buys": 1041,
+          "sells": 757
         },
         "h6": {
-          "buys": 1954,
-          "sells": 1191
+          "buys": 1958,
+          "sells": 1199
         },
         "h24": {
-          "buys": 1954,
-          "sells": 1191
+          "buys": 1958,
+          "sells": 1199
         }
       },
       "priceChange": {
-        "m5": -33.86,
-        "h1": -88.85,
-        "h6": -90.98,
-        "h24": -90.98
+        "m5": -1.39,
+        "h1": -87.49,
+        "h6": -91.13,
+        "h24": -91.13
       },
       "links": [
         {
@@ -3960,7 +3853,7 @@
         "latest",
         "latest"
       ],
-      "score": 65.37,
+      "score": 65.36,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -3977,39 +3870,39 @@
       "description": "$UNCH is built differently. We are all about that perfect, snug fit that turns the lights on. No friction, just flow. Plug into a community that knows exactly what it wants.",
       "image": "https://cdn.dexscreener.com/cms/images/DjgFLcLwNiHoxikF?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:50:03+00:00",
-      "ageHours": 2.25,
-      "priceUsd": "0.000002396",
-      "marketCap": 2396.0,
-      "liquidityUsd": 4142.39,
+      "ageHours": 2.33,
+      "priceUsd": "0.000002416",
+      "marketCap": 2417.0,
+      "liquidityUsd": 4159.58,
       "volume": {
-        "h24": 987803.73,
-        "h6": 987803.73,
-        "h1": 759.23,
-        "m5": 3.36
+        "h24": 987846.19,
+        "h6": 987846.19,
+        "h1": 729.38,
+        "m5": 42.46
       },
       "txns": {
         "m5": {
           "buys": 1,
-          "sells": 0
+          "sells": 2
         },
         "h1": {
-          "buys": 28,
-          "sells": 58
+          "buys": 27,
+          "sells": 57
         },
         "h6": {
-          "buys": 11520,
-          "sells": 7759
+          "buys": 11521,
+          "sells": 7761
         },
         "h24": {
-          "buys": 11520,
-          "sells": 7759
+          "buys": 11521,
+          "sells": 7761
         }
       },
       "priceChange": {
-        "m5": 0.41,
-        "h1": -29.89,
-        "h6": -93.67,
-        "h24": -93.67
+        "m5": 0.86,
+        "h1": -32.27,
+        "h6": -93.62,
+        "h24": -93.62
       },
       "links": [
         {
@@ -4067,7 +3960,7 @@
         "latest",
         "latest"
       ],
-      "score": 65.22,
+      "score": 65.21,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -4084,38 +3977,38 @@
       "description": "Never talk about Goblon unless it is absolutely and unambiguously relevant to Elon",
       "image": "https://cdn.dexscreener.com/cms/images/Gdq0Zc1JhXa6zm2s?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-02T11:51:56+00:00",
-      "ageHours": 306.22,
-      "priceUsd": "0.00004370",
-      "marketCap": 43539.0,
-      "liquidityUsd": 16794.13,
+      "ageHours": 306.3,
+      "priceUsd": "0.00004372",
+      "marketCap": 43554.0,
+      "liquidityUsd": 16799.67,
       "volume": {
-        "h24": 10807.24,
-        "h6": 4163.64,
-        "h1": 186.51,
-        "m5": 4.19
+        "h24": 10809.01,
+        "h6": 4165.41,
+        "h1": 188.28,
+        "m5": 2.12
       },
       "txns": {
         "m5": {
-          "buys": 18,
-          "sells": 18
+          "buys": 15,
+          "sells": 15
         },
         "h1": {
-          "buys": 181,
-          "sells": 86
+          "buys": 194,
+          "sells": 99
         },
         "h6": {
-          "buys": 770,
-          "sells": 326
+          "buys": 783,
+          "sells": 339
         },
         "h24": {
-          "buys": 1278,
-          "sells": 657
+          "buys": 1291,
+          "sells": 670
         }
       },
       "priceChange": {
-        "m5": 0.04,
-        "h1": -1.84,
-        "h6": 47.19,
+        "m5": -0.01,
+        "h1": -1.81,
+        "h6": 47.24,
         "h24": 145
       },
       "links": [
@@ -4201,15 +4094,15 @@
       "description": "VAR was once a normal referee. After years of being screamed at by millions of fans, he finally snapped and transformed into a chaotic meme entity. Now he’s back to take revenge on the entire football world during the World Cup 2026.",
       "image": "https://cdn.dexscreener.com/cms/images/OI-gB0ktnW3_RRqp?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:49:41+00:00",
-      "ageHours": 2.26,
-      "priceUsd": "0.000002120",
-      "marketCap": 2120.0,
-      "liquidityUsd": 3810.57,
+      "ageHours": 2.33,
+      "priceUsd": "0.000002118",
+      "marketCap": 2119.0,
+      "liquidityUsd": 3810.55,
       "volume": {
-        "h24": 384908.41,
-        "h6": 384908.41,
-        "h1": 37.23,
-        "m5": 1.37
+        "h24": 384909.55,
+        "h6": 384909.55,
+        "h1": 38.38,
+        "m5": 1.14
       },
       "txns": {
         "m5": {
@@ -4218,20 +4111,20 @@
         },
         "h1": {
           "buys": 1,
-          "sells": 6
+          "sells": 7
         },
         "h6": {
           "buys": 10502,
-          "sells": 7247
+          "sells": 7248
         },
         "h24": {
           "buys": 10502,
-          "sells": 7247
+          "sells": 7248
         }
       },
       "priceChange": {
-        "m5": -0.11,
-        "h1": -6.38,
+        "m5": -0.07,
+        "h1": -6.45,
         "h6": -94.52,
         "h24": -94.52
       },
@@ -4290,7 +4183,7 @@
       "sources": [
         "latest"
       ],
-      "score": 62.72,
+      "score": 62.71,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -4307,15 +4200,15 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/qXFMNfwKA22H_3u9?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-05-15T03:44:49+00:00",
-      "ageHours": 2.34,
-      "priceUsd": "0.000002214",
-      "marketCap": 2214.0,
-      "liquidityUsd": 3961.61,
+      "ageHours": 2.42,
+      "priceUsd": "0.000002205",
+      "marketCap": 2206.0,
+      "liquidityUsd": 3952.67,
       "volume": {
-        "h24": 615726.25,
-        "h6": 615726.25,
-        "h1": 214.49,
-        "m5": 8.01
+        "h24": 615736.8,
+        "h6": 615736.8,
+        "h1": 211.1,
+        "m5": 10.55
       },
       "txns": {
         "m5": {
@@ -4323,23 +4216,23 @@
           "sells": 2
         },
         "h1": {
-          "buys": 12,
-          "sells": 16
+          "buys": 13,
+          "sells": 15
         },
         "h6": {
-          "buys": 4437,
-          "sells": 3911
+          "buys": 4438,
+          "sells": 3913
         },
         "h24": {
-          "buys": 4437,
-          "sells": 3911
+          "buys": 4438,
+          "sells": 3913
         }
       },
       "priceChange": {
-        "m5": -0.35,
-        "h1": -3.15,
-        "h6": -94.31,
-        "h24": -94.31
+        "m5": -0.37,
+        "h1": -2.43,
+        "h6": -94.33,
+        "h24": -94.33
       },
       "links": [
         {
@@ -4370,7 +4263,7 @@
         "latest",
         "latest"
       ],
-      "score": 62.21,
+      "score": 62.2,
       "warnings": [
         "low_liquidity",
         "no_public_contact_link",

@@ -47,6 +47,9 @@ URL_RE = re.compile(r'https?://[^\s)\]}>"\']+')
 CA_RE = re.compile(r'\b[1-9A-HJ-NP-Za-km-z]{32,44}\b')
 TICKER_RE = re.compile(r'(?<![\w])\$([A-Za-z][A-Za-z0-9_]{1,12})\b')
 EXCLUDED_PAUSED_TERMS = re.compile(r'\b(?:k' + 'ol' + 's?|leader' + 'board)\b', re.I)
+GENERIC_PROJECT_KEYS = {
+    'a','an','and','are','at','best','coin','contract','crypto','digital','dev','excuse','fair','for','from','goes','it','launch','launching','live','meme','memecoin','new','official','on','presale','project','soon','stealth','the','this','token','today','tomorrow','with','world'
+}
 
 
 def write_payload(payload):
@@ -189,21 +192,48 @@ def get_url(obj):
     return None
 
 
+def clean_project_key(key):
+    if not key:
+        return None
+    key=str(key).strip().strip('.,:;!?)(')
+    if not key:
+        return None
+    bare=key[1:] if key.startswith('$') else key
+    if bare.lower() in GENERIC_PROJECT_KEYS:
+        return None
+    if len(bare) < 2:
+        return None
+    return ('$'+bare.upper()) if key.startswith('$') else bare[:32]
+
+
 def extract_project_key(text):
     tickers=TICKER_RE.findall(text)
-    if tickers:
-        return '$'+tickers[0].upper()
-    # Common launch-name patterns
+    for ticker in tickers:
+        key=clean_project_key('$'+ticker)
+        if key:
+            return key
+    contracts=CA_RE.findall(text)
+    if contracts:
+        return contracts[0]
+    # Common launch-name patterns. Keep this conservative: generic words like
+    # "launch an excuse today" previously collapsed unrelated tweets into one
+    # fake UNKNOWN-LAUNCH cluster, which made LaunchWindow look broken.
     m=re.search(r'(?:launch(?:ing)?|fair launch|stealth launch)\s+(?:of\s+)?([A-Z][A-Za-z0-9_]{2,24})', text)
-    if m: return m.group(1)
+    if m:
+        key=clean_project_key(m.group(1))
+        if key:
+            return key
     urls=URL_RE.findall(text)
     for u in urls:
         if 'x.com' not in u and 'twitter.com' not in u and 't.co' not in u:
             try:
                 host=urllib.parse.urlparse(u).netloc.lower().replace('www.','')
-                if host and host not in {'t.co'}: return host.split('.')[0][:24]
+                if host and host not in {'t.co'}:
+                    key=clean_project_key(host.split('.')[0][:24])
+                    if key:
+                        return key
             except Exception: pass
-    return 'unknown-launch'
+    return None
 
 
 def security_check(text, speakers, urls, prior_tokens):
@@ -329,6 +359,8 @@ def main():
         if not TIME_WORDS.search(text):
             continue
         key=extract_project_key(text)
+        if not key:
+            continue
         g=grouped.setdefault(key, {'project':key, 'mentions':[], 'speakers':{}, 'urls':set(), 'tickers':set(), 'contracts':set(), 'queries':set(), 'combinedText':''})
         author=get_author(r['item'], text)
         tweet_url=get_url(r['item'])
