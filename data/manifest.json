@@ -26,8 +26,8 @@
       "sha256": "d741c647dfc25043112980f31c811e78847d5c8a90ad1acfb4a7110599103b5b"
     },
     "assets/app.js": {
-      "bytes": 46504,
-      "sha256": "abb0ae30f9c84eb7f5f78177817da0931644c5387b7ce2ec2c1a1f46313a36cc"
+      "bytes": 50001,
+      "sha256": "e59662c2cda9b17ed9625b267287b452ff33e6c1e8454646d1a9aebade4b60b9"
     },
     "data/latest.js": {
       "bytes": 86014,
@@ -46,11 +46,11 @@
       "sha256": "3d351bacfd039cf707c7c3563078452bc96384119143531ba3733ab2a5513d1d"
     },
     "index.html": {
-      "bytes": 7767,
-      "sha256": "8a64ae8de54586424f20162bef825cdcb650e3cee01a91dffaaf036d7dd58a61"
+      "bytes": 7764,
+      "sha256": "14ec54f6bb29884422b014c1781d2118f90ee9c31059e244d916a832555361a8"
     }
   },
-  "generatedAt": "2026-05-15T06:12:19Z",
-  "git": "2e5be432d62d",
+  "generatedAt": "2026-05-15T06:21:18Z",
+  "git": "a0d3daf3b2fa",
   "securityPolicyVersion": "A64-SECURITY-1"
 }
