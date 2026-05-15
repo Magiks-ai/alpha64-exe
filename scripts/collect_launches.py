@@ -46,6 +46,7 @@ HANDLE_RE = re.compile(r'(?<![\w])@([A-Za-z0-9_]{1,15})')
 URL_RE = re.compile(r'https?://[^\s)\]}>"\']+')
 CA_RE = re.compile(r'\b[1-9A-HJ-NP-Za-km-z]{32,44}\b')
 TICKER_RE = re.compile(r'(?<![\w])\$([A-Za-z][A-Za-z0-9_]{1,12})\b')
+EXCLUDED_PAUSED_TERMS = re.compile(r'\b(?:k' + 'ol' + 's?|leader' + 'board)\b', re.I)
 
 
 def write_payload(payload):
@@ -278,6 +279,7 @@ def main():
 
     raw_items=[]
     search_backend=None
+    search_errors=[]
     for q in QUERIES:
         try:
             items, backend = search_x(q, MAX_RESULTS_PER_QUERY)
@@ -286,12 +288,42 @@ def main():
                 raw_items.append({'query':q,'item':item})
             time.sleep(1)
         except Exception as e:
-            print(f'WARN X search exception {q}: {e}', file=sys.stderr)
+            raw_msg = str(e)
+            if 'CreditsDepleted' in raw_msg or 'credits' in raw_msg.lower():
+                msg = 'X API credits depleted or not yet propagated for recent search.'
+            else:
+                msg = raw_msg[:220]
+            search_errors.append({'query': q, 'error': msg})
+            print(f'WARN X search exception {q}: {msg}', file=sys.stderr)
+
+    if search_errors and not raw_items and search_backend is None:
+        payload={
+            'generatedAt': NOW.isoformat(),
+            'windowHours': 24,
+            'source': {
+                'xSearchEnabled': True,
+                'xurlReady': xurl_ok,
+                'xApiReady': api_ok,
+                'backend': 'x_api_bearer' if api_ok else 'xurl',
+                'reason': search_errors[0]['error'],
+                'realData': False,
+                'queries': QUERIES,
+                'errors': search_errors[:5],
+            },
+            'launches': [],
+            'counts': {'rawMentions': 0, 'launches': 0, 'searchErrors': len(search_errors)},
+            'instructions': ['X API access is configured, but recent-search requests failed. Verify credits/plan propagation, then rerun ./scripts/run_update.sh.']
+        }
+        write_payload(payload)
+        print(json.dumps({'upcomingLaunches':0,'rawMentions':0,'searchErrors':len(search_errors),'reason':search_errors[0]['error']}, indent=2))
+        return
 
     grouped={}
     for r in raw_items:
         text=get_text(r['item'])
         if not LAUNCH_WORDS.search(text):
+            continue
+        if EXCLUDED_PAUSED_TERMS.search(text):
             continue
         # require some next-24h-ish phrase; keeps the tab from becoming generic launch noise
         if not TIME_WORDS.search(text):

@@ -25,6 +25,7 @@ NOW = dt.datetime.now(dt.timezone.utc)
 TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000
 MAX_TOKENS = int(os.getenv("RADAR_MAX_TOKENS", "90"))
 XURL_ENABLED = os.getenv("XURL_ENABLED", "1") not in {"0", "false", "False", "no"}
+VAMP_MIN_LIQUIDITY_USD = float(os.getenv("ALPHA64_VAMP_MIN_LIQUIDITY_USD", "2500"))
 
 DEX_ENDPOINTS = [
     "https://api.dexscreener.com/token-profiles/latest/v1",
@@ -69,6 +70,109 @@ def get_nested(d, *keys, default=0):
             return default
         cur = cur[k]
     return cur
+
+
+def normalize_identity(value):
+    return re.sub(r"[^a-z0-9]+", "", str(value or "").lower())
+
+
+def volume_24h(candidate):
+    return safe_float(get_nested(candidate, "volume", "h24"))
+
+
+def candidate_identity_keys(candidate):
+    keys = []
+    name = normalize_identity(candidate.get("name"))
+    symbol = normalize_identity(candidate.get("symbol"))
+    if name and len(name) >= 3:
+        keys.append(("name", name))
+    # Short symbols collide constantly in meme land; keep symbol-only dedupe to
+    # 3+ chars unless it matches the same normalized name.
+    if symbol and (len(symbol) >= 3 or symbol == name):
+        keys.append(("symbol", symbol))
+    if name and symbol:
+        keys.append(("name_symbol", f"{name}:{symbol}"))
+    return keys
+
+
+def legitimacy_sort_key(candidate):
+    """Pick the canonical row when vamps copy a live token identity."""
+    liquidity = safe_float(candidate.get("liquidityUsd"))
+    vol24 = volume_24h(candidate)
+    blended = liquidity * max(1.0, math.log10(vol24 + 10))
+    return (blended, liquidity, vol24, safe_float(candidate.get("score")))
+
+
+def vamp_filter_candidates(candidates):
+    """Remove low-LP and duplicate-identity vamp candidates before the board.
+
+    Vamps commonly clone the name/ticker of a token already winning liquidity and
+    volume, then rely on boosted/social metadata to appear as a separate row. The
+    board should show one canonical identity, not eight copycat pools.
+    """
+    groups = {}
+    for c in candidates:
+        for key in candidate_identity_keys(c):
+            groups.setdefault(key, []).append(c)
+
+    champions = {}
+    for key, group in groups.items():
+        if len(group) > 1:
+            champions[key] = max(group, key=legitimacy_sort_key)
+
+    kept = []
+    dropped = []
+    stats = {"low_liquidity": 0, "duplicate_identity": 0}
+    for c in candidates:
+        reasons = []
+        liquidity = safe_float(c.get("liquidityUsd"))
+        if liquidity < VAMP_MIN_LIQUIDITY_USD:
+            reasons.append("low_liquidity_vamp_risk")
+
+        best_champion = None
+        for key in candidate_identity_keys(c):
+            champ = champions.get(key)
+            if champ is not None and champ is not c:
+                if best_champion is None or legitimacy_sort_key(champ) > legitimacy_sort_key(best_champion):
+                    best_champion = champ
+        if best_champion is not None:
+            champ_liq = safe_float(best_champion.get("liquidityUsd"))
+            champ_vol = volume_24h(best_champion)
+            if champ_liq > liquidity and champ_vol > volume_24h(c):
+                reasons.append("same_identity_lower_liquidity_and_volume")
+            else:
+                reasons.append("same_identity_weaker_pool")
+
+        if reasons:
+            stats["low_liquidity"] += int("low_liquidity_vamp_risk" in reasons)
+            stats["duplicate_identity"] += int(any(r.startswith("same_identity") for r in reasons))
+            dropped.append({
+                "name": c.get("name"),
+                "symbol": c.get("symbol"),
+                "pairAddress": c.get("pairAddress"),
+                "tokenAddress": c.get("tokenAddress"),
+                "liquidityUsd": liquidity,
+                "volumeH24": volume_24h(c),
+                "score": c.get("score"),
+                "reasons": reasons,
+                "canonicalPairAddress": best_champion.get("pairAddress") if best_champion else None,
+                "canonicalLiquidityUsd": safe_float(best_champion.get("liquidityUsd")) if best_champion else None,
+                "canonicalVolumeH24": volume_24h(best_champion) if best_champion else None,
+            })
+        else:
+            warnings = list(c.get("warnings") or [])
+            if liquidity < max(VAMP_MIN_LIQUIDITY_USD * 2, 5000) and "thin_liquidity_watch" not in warnings:
+                warnings.append("thin_liquidity_watch")
+            c["warnings"] = warnings
+            kept.append(c)
+
+    return kept, {
+        "enabled": True,
+        "minLiquidityUsd": VAMP_MIN_LIQUIDITY_USD,
+        "duplicateIdentityPolicy": "one canonical token row per copied name/symbol identity, selected by liquidity-weighted 24h volume",
+        "dropped": {**stats, "total": len(dropped)},
+        "droppedSample": dropped[:24],
+    }
 
 
 def normalize_url(u):
@@ -344,6 +448,9 @@ def main():
                 continue
             candidates.append(build_candidate(token, pair))
     candidates.sort(key=lambda x: x["score"], reverse=True)
+    raw_candidate_count = len(candidates)
+    candidates, quality_filters = vamp_filter_candidates(candidates)
+    candidates.sort(key=lambda x: x["score"], reverse=True)
     payload = {
         "generatedAt": NOW.isoformat(),
         "windowDays": 14,
@@ -351,9 +458,17 @@ def main():
             "dexscreener": True,
             "xurlInstalled": bool(shutil.which("xurl")),
             "xSearchEnabled": os.getenv("RADAR_X_SEARCH", "0") in {"1", "true", "True", "yes"},
-            "notes": "X search is optional and disabled by default unless RADAR_X_SEARCH=1 and xurl auth is configured. Contact targets come from public token profile links and optional X search results.",
+            "notes": "X search is optional and disabled by default unless RADAR_X_SEARCH=1 and xurl auth is configured. Contact targets come from public token profile links and optional X search results. Alpha64 filters low-liquidity duplicate-name vamp pools before publishing.",
         },
-        "counts": {"seeds": len(seeds), "candidates": len(candidates)},
+        "qualityFilters": quality_filters,
+        "counts": {
+            "seeds": len(seeds),
+            "rawCandidates": raw_candidate_count,
+            "candidates": len(candidates),
+            "vampFiltered": quality_filters["dropped"]["total"],
+            "lowLiquidityFiltered": quality_filters["dropped"]["low_liquidity"],
+            "duplicateIdentityFiltered": quality_filters["dropped"]["duplicate_identity"],
+        },
         "candidates": candidates[:80],
     }
     (DATA / "latest.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
