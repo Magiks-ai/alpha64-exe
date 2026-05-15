@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T06:10:08.846347+00:00",
+  "generatedAt": "2026-05-15T11:50:53.379810+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -163,6 +163,83 @@
       "score": 54
     },
     {
+      "project": "$SVPN",
+      "tickers": [
+        "$SVPN"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Kevchenko_",
+          "xUrl": "https://x.com/Kevchenko_",
+          "mentions": 5,
+          "tweetUrls": [
+            "https://x.com/Kevchenko_/status/2055222046104207502",
+            "https://x.com/Kevchenko_/status/2055220600507896136",
+            "https://x.com/Kevchenko_/status/2055220162916188483",
+            "https://x.com/Kevchenko_/status/2055200685126246817",
+            "https://x.com/Kevchenko_/status/2055153030530576643"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055222046104207502",
+          "text": "@CryptoTony__ Because we're up +119% today and  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off. You will like $SVPN @CryptoTony__  👀 https://t.co/9U7I6aKP8w",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055220600507896136",
+          "text": "@koop0x I trust $SVPN blindly 🤝\n\n+119% today 👀  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈 https://t.co/zhvQNUy2JR",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055220162916188483",
+          "text": "@JR5_Crypto I trust $SVPN more than 200%🤝\n\n+119% today 👀  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#eth #base #privacy #gem https://t.co/ctUTtrnHOF",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055200685126246817",
+          "text": "@MartiniGuyYT So f*cking ready with $SVPN 💪🏻\n\n+119% today 👀  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#eth #base #privacy #gem https://t.co/DjXu3GjZR6",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055153030530576643",
+          "text": "@medonchain @base $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem.\n\n+119% today 👀  @shadownodeVPN \n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#basegem #base #basecoin #altgem #gem https://t.co/nFNauAXMcs",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/9U7I6aKP8w",
+        "https://t.co/DjXu3GjZR6",
+        "https://t.co/ctUTtrnHOF",
+        "https://t.co/nFNauAXMcs",
+        "https://t.co/zhvQNUy2JR"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 49
+    },
+    {
       "project": "$WORLDCUP",
       "tickers": [
         "$SOL",
@@ -175,9 +252,8 @@
         {
           "handle": "@WORLDCUPSolDex",
           "xUrl": "https://x.com/WORLDCUPSolDex",
-          "mentions": 2,
+          "mentions": 1,
           "tweetUrls": [
-            "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
             "https://x.com/WORLDCUPSolDex/status/2055000583380091006"
           ],
           "priorTokens": []
@@ -189,19 +265,60 @@
           "tweetUrl": "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
           "text": "⏳ Tick-tock... $WORLDCUP is loaded! 🏆\n\nLiquidity is officially locked in the Meteora DLMM Launch Pool. 🔒 100% Fair Launch 🚀 $1.8M Initial FDV\n\nTrading goes LIVE in 19 hours! Get your $SOL ready. ⚽️📈\n\n📜 CA: 3aHRcYC6M6kD2cMFinpSCmDmqxYVuP731p1hiBbYr9K3 \n\n#Solana #WORLDCUP https://t.co/iZFfqk4HWX",
           "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@WORLDCUPSolDex",
-          "tweetUrl": "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
-          "text": "⏳ Tick-tock... $WORLDCUP is loaded! 🏆\n\nLiquidity is officially locked in the Meteora DLMM Launch Pool. 🔒 100% Fair Launch 🚀 $1.8M Initial FDV\n\nTrading goes LIVE in 19 hours! Get your $SOL ready. ⚽️📈\n\n📜 CA: 3aHRcYC6M6kD2cMFinpSCmDmqxYVuP731p1hiBbYr9K3 \n\n#Solana #WORLDCUP https://t.co/iZFfqk4HWX",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
         }
       ],
       "urls": [
         "https://t.co/iZFfqk4HWX"
       ],
       "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 47
+    },
+    {
+      "project": "$DOCHI",
+      "tickers": [
+        "$DOCHI"
+      ],
+      "contracts": [
+        "55Sdv7GBq2zLBucK6UhiLYNgbeAoGwoSHZ5WDjMNYL7c"
+      ],
+      "speakers": [
+        {
+          "handle": "@dochiinu",
+          "xUrl": "https://x.com/dochiinu",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/dochiinu/status/2055231463985963495"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@dochiinu",
+          "tweetUrl": "https://x.com/dochiinu/status/2055231463985963495",
+          "text": "🚨 FIRST 10 BUYERS EVENT 🚨\n\nTo celebrate the official launch of $DOCHI on Raydium, the FIRST 10 eligible buyers will each receive 🎁 10 SOL reward!\n\n📰 CA: 55Sdv7GBq2zLBucK6UhiLYNgbeAoGwoSHZ5WDjMNYL7c\n\n📅 Launch Date: May 15th\n⏰ Time: 3:00 PM UTC\n🌊 Launching on Raydium (Solana https://t.co/7elks2JGEU",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/7elks2JGEU"
+      ],
+      "queries": [
         "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
       ],
       "security": {
@@ -217,7 +334,53 @@
         ]
       },
       "priorTokens": [],
-      "score": 50
+      "score": 47
+    },
+    {
+      "project": "55Sdv7GBq2zLBucK6UhiLYNgbeAoGwoSHZ5WDjMNYL7c",
+      "tickers": [],
+      "contracts": [
+        "55Sdv7GBq2zLBucK6UhiLYNgbeAoGwoSHZ5WDjMNYL7c"
+      ],
+      "speakers": [
+        {
+          "handle": "@dochiinu",
+          "xUrl": "https://x.com/dochiinu",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/dochiinu/status/2055211203820188046"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@dochiinu",
+          "tweetUrl": "https://x.com/dochiinu/status/2055211203820188046",
+          "text": "🚨 DOCHI INU IS LAUNCHING ON RAYDIUM TODAY 🚨\n\nThe king of memes is ready to take over 👑🐶\n\nOfficial CA: 55Sdv7GBq2zLBucK6UhiLYNgbeAoGwoSHZ5WDjMNYL7c\n\nTrading Time: 3:00PM UTC on 15th May.\n\n✅ 100% Liquidity Burned After Launch\n✅ Dev Holds 0 Tokens\n✅ Ownership Renounced\n✅ DEX https://t.co/D437MlMUtJ",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/D437MlMUtJ"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 47
     },
     {
       "project": "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump",
@@ -649,6 +812,51 @@
       "score": 37
     },
     {
+      "project": "$VNEX",
+      "tickers": [
+        "$VNEX"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@vaultnex",
+          "xUrl": "https://x.com/vaultnex",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/vaultnex/status/2055207573285122232"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@vaultnex",
+          "tweetUrl": "https://x.com/vaultnex/status/2055207573285122232",
+          "text": "1/ $VNEX is launching on @Pumpfun today.\n\nLaunch time: 15:00 UTC.\n\nHere's the mechanic so you know what to expect.\n\n2/ Distribution:\n→ Dev wallet captures 5% at launch\n→ That 5% → 100% airdropped to VaultNex users\n→ Remaining 95% → public bonding curve (fair launch)\n\n3/ https://t.co/DjyzLEbqWv",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/DjyzLEbqWv"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$SAMU",
       "tickers": [
         "$SAMU"
@@ -695,77 +903,32 @@
       "score": 37
     },
     {
-      "project": "$SVPN",
+      "project": "$HVIRUS",
       "tickers": [
-        "$SVPN"
+        "$HVIRUS"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@Kevchenko_",
-          "xUrl": "https://x.com/Kevchenko_",
+          "handle": "@0Ndaman62150",
+          "xUrl": "https://x.com/0Ndaman62150",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/Kevchenko_/status/2055153030530576643"
+            "https://x.com/0Ndaman62150/status/2055214172791529742"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@Kevchenko_",
-          "tweetUrl": "https://x.com/Kevchenko_/status/2055153030530576643",
-          "text": "@medonchain @base $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem.\n\n+119% today 👀  @shadownodeVPN \n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#basegem #base #basecoin #altgem #gem https://t.co/nFNauAXMcs",
+          "author": "@0Ndaman62150",
+          "tweetUrl": "https://x.com/0Ndaman62150/status/2055214172791529742",
+          "text": "@DonWedge $HVIRUS goes live today at 6PM UTC / 1PM EST \nThe branding, narrative, and energy around this launch already feel different.\n“Solana gets infected” might actually take over timelines today 👀\nEarly eyes win first. #HVIRUS #Solana\n@HVirusCoin https://t.co/FXK8LmkY70",
           "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/nFNauAXMcs"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$COBOT",
-      "tickers": [
-        "$COBOT"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Sir_Kyosuke",
-          "xUrl": "https://x.com/Sir_Kyosuke",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Sir_Kyosuke/status/2054938495681196540"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Sir_Kyosuke",
-          "tweetUrl": "https://x.com/Sir_Kyosuke/status/2054938495681196540",
-          "text": "Excited to announce $COBOT is launching on @base on May 14th at 3PM UTC.\n\nFair launch with no VC allocations, TGE will take place on Base.\n\n$COBOT is your gateway to autonomous trading agents for prediction markets, perps, DeFi, memecoins, yield strategies, and more. https://t.co/ScQxfrqroo",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/ScQxfrqroo"
+        "https://t.co/FXK8LmkY70"
       ],
       "queries": [
         "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
@@ -786,7 +949,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 197,
-    "launches": 15
+    "rawMentions": 198,
+    "launches": 18
   }
 }
