@@ -1,50 +1,1297 @@
 {
-  "generatedAt": "2026-05-15T05:47:58.780326+00:00",
+  "generatedAt": "2026-05-15T06:05:39.806077+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
     "xurlReady": false,
     "xApiReady": true,
     "backend": "x_api_bearer",
-    "reason": "X API credits depleted or not yet propagated for recent search.",
-    "realData": false,
+    "reason": "official X API search",
+    "realData": true,
     "queries": [
       "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en",
       "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
       "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
       "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en",
       "(\"CA soon\" OR \"contract soon\" OR \"token launch\") (meme OR memecoin) -is:retweet lang:en"
-    ],
-    "errors": [
-      {
-        "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en",
-        "error": "X API credits depleted or not yet propagated for recent search."
-      },
-      {
-        "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
-        "error": "X API credits depleted or not yet propagated for recent search."
-      },
-      {
-        "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
-        "error": "X API credits depleted or not yet propagated for recent search."
-      },
-      {
-        "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en",
-        "error": "X API credits depleted or not yet propagated for recent search."
-      },
-      {
-        "query": "(\"CA soon\" OR \"contract soon\" OR \"token launch\") (meme OR memecoin) -is:retweet lang:en",
-        "error": "X API credits depleted or not yet propagated for recent search."
-      }
     ]
   },
-  "launches": [],
+  "launches": [
+    {
+      "project": "unknown-launch",
+      "tickers": [],
+      "contracts": [
+        "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump"
+      ],
+      "speakers": [
+        {
+          "handle": "@mcpm_base_eth",
+          "xUrl": "https://x.com/mcpm_base_eth",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/mcpm_base_eth/status/2054665236267868252",
+            "https://x.com/mcpm_base_eth/status/2054569463651954977"
+          ]
+        },
+        {
+          "handle": "@brightinweb3",
+          "xUrl": "https://x.com/brightinweb3",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/brightinweb3/status/2055165207568118242"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@pumpihl",
+          "xUrl": "https://x.com/pumpihl",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/pumpihl/status/2055076340018106504"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@lviv_tigr",
+          "xUrl": "https://x.com/lviv_tigr",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/lviv_tigr/status/2055020960340693345"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@flamelaunchxyz",
+          "xUrl": "https://x.com/flamelaunchxyz",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/flamelaunchxyz/status/2054959728800010445"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@BadDuckOfficial",
+          "xUrl": "https://x.com/BadDuckOfficial",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/BadDuckOfficial/status/2054955946258870311"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@TheETHNomad",
+          "xUrl": "https://x.com/TheETHNomad",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/TheETHNomad/status/2054905878667481489"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@fluffycrypt",
+          "xUrl": "https://x.com/fluffycrypt",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/fluffycrypt/status/2054869328802263078"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@sarkeyur",
+          "xUrl": "https://x.com/sarkeyur",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/sarkeyur/status/2054830612176089471"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@cooker282828",
+          "xUrl": "https://x.com/cooker282828",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/cooker282828/status/2054671523235922021"
+          ]
+        },
+        {
+          "handle": "@dueforawin_",
+          "xUrl": "https://x.com/dueforawin_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/dueforawin_/status/2054545264149492004"
+          ]
+        },
+        {
+          "handle": "@zandyor",
+          "xUrl": "https://x.com/zandyor",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/zandyor/status/2054525994233373107"
+          ]
+        },
+        {
+          "handle": "@TopuWeb3",
+          "xUrl": "https://x.com/TopuWeb3",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/TopuWeb3/status/2054481322014552135"
+          ]
+        },
+        {
+          "handle": "@bid_bits",
+          "xUrl": "https://x.com/bid_bits",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/bid_bits/status/2054431909489557756"
+          ]
+        },
+        {
+          "handle": "@Mockingmemes",
+          "xUrl": "https://x.com/Mockingmemes",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Mockingmemes/status/2054257046359355468"
+          ]
+        },
+        {
+          "handle": "@PlayGainzGym",
+          "xUrl": "https://x.com/PlayGainzGym",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/PlayGainzGym/status/2054238048712614077"
+          ]
+        },
+        {
+          "handle": "@SerafimPirs",
+          "xUrl": "https://x.com/SerafimPirs",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/SerafimPirs/status/2054232272228753880"
+          ]
+        },
+        {
+          "handle": "@yrickey01",
+          "xUrl": "https://x.com/yrickey01",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/yrickey01/status/2054176018991079620"
+          ]
+        },
+        {
+          "handle": "@Larktrades",
+          "xUrl": "https://x.com/Larktrades",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Larktrades/status/2054122571998920820"
+          ]
+        },
+        {
+          "handle": "@Dextoolspumps",
+          "xUrl": "https://x.com/Dextoolspumps",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Dextoolspumps/status/2054093079276118231"
+          ]
+        },
+        {
+          "handle": "@Trevayame",
+          "xUrl": "https://x.com/Trevayame",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Trevayame/status/2054030201387123097"
+          ]
+        },
+        {
+          "handle": "@BaconDogeERC",
+          "xUrl": "https://x.com/BaconDogeERC",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/BaconDogeERC/status/2053947151647219989"
+          ]
+        },
+        {
+          "handle": "@daddyriskbets",
+          "xUrl": "https://x.com/daddyriskbets",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/daddyriskbets/status/2053875960701739057"
+          ]
+        },
+        {
+          "handle": "@EmblemAgent",
+          "xUrl": "https://x.com/EmblemAgent",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/EmblemAgent/status/2053842380646674608"
+          ]
+        },
+        {
+          "handle": "@Cryptodiane",
+          "xUrl": "https://x.com/Cryptodiane",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Cryptodiane/status/2053782467828466016"
+          ]
+        },
+        {
+          "handle": "@tussin_t",
+          "xUrl": "https://x.com/tussin_t",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/tussin_t/status/2055146325747138958"
+          ]
+        },
+        {
+          "handle": "@follykims11",
+          "xUrl": "https://x.com/follykims11",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/follykims11/status/2054944425357275286"
+          ]
+        },
+        {
+          "handle": "@Majestye20",
+          "xUrl": "https://x.com/Majestye20",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Majestye20/status/2054880891722150239"
+          ]
+        },
+        {
+          "handle": "@hailey_cryptoo",
+          "xUrl": "https://x.com/hailey_cryptoo",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/hailey_cryptoo/status/2054838926662135854"
+          ]
+        },
+        {
+          "handle": "@Clawil_fun",
+          "xUrl": "https://x.com/Clawil_fun",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Clawil_fun/status/2054240641950044412"
+          ]
+        },
+        {
+          "handle": "@Iamwilliam_0",
+          "xUrl": "https://x.com/Iamwilliam_0",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Iamwilliam_0/status/2053973635426341020"
+          ]
+        },
+        {
+          "handle": "@saveibeks",
+          "xUrl": "https://x.com/saveibeks",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/saveibeks/status/2053553485488980250"
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@brightinweb3",
+          "tweetUrl": "https://x.com/brightinweb3/status/2055165207568118242",
+          "text": "It’s Friday, one of the best days of the week\n\nGave my last $2 to a memecoin, don’t ruin it dev \n\nStill on my bed thinking If I should go for IT or launch an excuse today huhuhuhu https://t.co/fP6Zg5cULH",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@pumpihl",
+          "tweetUrl": "https://x.com/pumpihl/status/2055076340018106504",
+          "text": "stumbled on @altdotfun today\nhttps://t.co/SyetbA6nWL tokens move when traded  https://t.co/C7qBfzCNMG tokens move 24/7 \nreserve is a leveraged hl perp. launch a coin long hype or short nvidia. pick direction, pick leverage. \ngenuinely new design\n\nhyperliquid prediction meme https://t.co/7FcChtdPs5",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@lviv_tigr",
+          "tweetUrl": "https://x.com/lviv_tigr/status/2055020960340693345",
+          "text": "Sometimes it feels like launching a successful memecoin today requires a whole team of 10 people 👀\n\nDesigner.  \nNarrative guy.  \nTrader.  \nMarketer.  \nCommunity manager.  \nAI tools specialist.  \nInfluencer network.  \nRaiders.  \nEditors.  \nDevelopers 😭\n\nThe space keeps getting",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@flamelaunchxyz",
+          "tweetUrl": "https://x.com/flamelaunchxyz/status/2054959728800010445",
+          "text": "Flamelaunch - a memecoin launchpad built on one idea:\n\ngetting in should be a gamble - and it should be able to change your life.\n\n—\n\nTHE PROBLEM\n\nevery memecoin launch today is the same race. bots snipe the first block. insiders get in cheap. by the time a normal person buys,",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@BadDuckOfficial",
+          "tweetUrl": "https://x.com/BadDuckOfficial/status/2054955946258870311",
+          "text": "🦆You have to know when to hold. \n\nLast launch went to 80K market cap in less than 24 hours.\nNext one is May 28.\n\nTelegram is getting ready and that’s where all the early info, updates and CA will drop first.\n\nhttps://t.co/AiEtUYcH58\n\n#memecoin #solana #crypto #BadDuck https://t.co/UAcDSNkk6u",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@TheETHNomad",
+          "tweetUrl": "https://x.com/TheETHNomad/status/2054905878667481489",
+          "text": "GM Shitheads 💩 ☕💸 \n\nHave a great day 💨💚 📈 \n\nStudy @thelastbitcoin_ \n\nLaunching tomorrow AM ⏰ 🌞 🐦 \n\n#memecoin #shitcoin #crypto #bitcoin https://t.co/EH1Tl83jn8",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@fluffycrypt",
+          "tweetUrl": "https://x.com/fluffycrypt/status/2054869328802263078",
+          "text": "I'm launching the biggest memecoin of 2026 today\n\n (67% supply airdrop to community members)\n$200 worth of token to every buying wallets \n\nRequirement:-\n\n-Must be following 👉\n@fluffyalpha\n\n-Must join 👉 https://t.co/W1ikbyu3xu \n\n-Must at least buy in with 0.5 SOL \n\n7PM UTC TODAY",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@sarkeyur",
+          "tweetUrl": "https://x.com/sarkeyur/status/2054830612176089471",
+          "text": "@DadCoinX 13 years ago they laughed at 'SatoshiDad' for saying Bitcoin was too complicated for regular dads. Today we launch a Solana memecoin to solve it. Peak financial innovation: from 'peer-to-peer electronic cash' to 'dad arc store of value' in one bull run.",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@cooker282828",
+          "tweetUrl": "https://x.com/cooker282828/status/2054671523235922021",
+          "text": "New memecoin launch tomorrow 🔥\nJoin us for early access in discord\n\nhttps://t.co/decswhTAi4 https://t.co/nVOxBwIvxu",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@mcpm_base_eth",
+          "tweetUrl": "https://x.com/mcpm_base_eth/status/2054665236267868252",
+          "text": "@XenBH Feels like the strongest ecosystems increasingly become places where culture, markets, apps and liquidity all reinforce each other.  \n\nWe're adding our part with the launch of the inaugural Memecoin World Cup bracket on Base Monday night. 🏆⚡🐸  \n\nPredictions open tomorrow. https://t.co/HTTZ0KxzVi",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@mcpm_base_eth",
+          "tweetUrl": "https://x.com/mcpm_base_eth/status/2054569463651954977",
+          "text": "@techy0x @base Feels like Base is slowly becoming the home of recurring onchain culture rather than just another chain.\n\nVery excited to launch the inaugural Memecoin World Cup bracket here Monday night. 🏆⚡🐸\n\nPredictions open tomorrow. https://t.co/PGSn5jODho",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@dueforawin_",
+          "tweetUrl": "https://x.com/dueforawin_/status/2054545264149492004",
+          "text": "@Clive_99 becasue is a meme not a movement or something that could flip pepe, plus is on solana and tomorrow we can have any type of news like dad fucks he's son and launch a coin and the money would go somewhere else, ahhh nothing wrong with memes but yall fuck it up, like nfts gg",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@zandyor",
+          "tweetUrl": "https://x.com/zandyor/status/2054525994233373107",
+          "text": "Running an experiment.\n\nLaunching a memecoin on Solana, airdropping to the first 1,000 wallets that comment in the next 24 hours.\n\nCurious what price action and holder behavior look like when the top of the distribution isn't dominated by people who farm every launch.\n\nDrop your",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@TopuWeb3",
+          "tweetUrl": "https://x.com/TopuWeb3/status/2054481322014552135",
+          "text": "@junkfi09 @BadDuckOfficial Strong launch momentum signals growing Solana memecoin community interest today",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@bid_bits",
+          "tweetUrl": "https://x.com/bid_bits/status/2054431909489557756",
+          "text": "DEX Screener Clone Script with real-time DeFi analytics, secure APIs, and scalable architecture for fast crypto monitoring. Launch your crypto analytics platform today.\n\nVisit: https://t.co/VsIDUstGlZ\n\n #Solana #cryptocurrency #Solana #Crypto #Memecoin #Dexscreener #DeFi https://t.co/RxxMy5NTqR",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@Mockingmemes",
+          "tweetUrl": "https://x.com/Mockingmemes/status/2054257046359355468",
+          "text": "Today is May 12th, 2026.  Today something odd will happen in society.  Today someone will launch a meme coin because of that event.  Not a meme.  An event.  People will buy it.  3 hours later, it will rug.  People will wonder why it rugged.  Welcome to meme coin mindsets.",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@PlayGainzGym",
+          "tweetUrl": "https://x.com/PlayGainzGym/status/2054238048712614077",
+          "text": "@FezWeb3 It's not a memecoin, but Gainz token for Gainz Gym has seen strong buy pressure the first two weeks of the game's launch.  Used by players as the main utility token in game, there's never enough Gainz to chase the top spots on the leaderboard.  Season 1 starts today! 💪",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@SerafimPirs",
+          "tweetUrl": "https://x.com/SerafimPirs/status/2054232272228753880",
+          "text": "@SolanaFloor Pre-launch markets pricing at $1.4T, then wiping $638B in 24h, is exactly why early price discovery without structure breaks. Same problem as with memecoin launches, just at a different scale.",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@yrickey01",
+          "tweetUrl": "https://x.com/yrickey01/status/2054176018991079620",
+          "text": "Just thinking about how far the meme coin space has come.\nA year ago it was pure chaos rugs everywhere, zero trust.\n\nToday we’re building tools like @ProofLaunch that actually fix the foundation: real demand before launch, escrow security, and fair mechanics for everyone.\nFeels https://t.co/CASab5LZgT https://t.co/UsqiqyKWm6",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@Larktrades",
+          "tweetUrl": "https://x.com/Larktrades/status/2054122571998920820",
+          "text": "@fuelkek TROLL on Solana going to a $138M market cap with 18,000 buys against 14,000 sells in 24 hours shows the meme coin market is still very much alive. The on chain data here is actually surprisingly healthy for a new launch.",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/7FcChtdPs5",
+        "https://t.co/7hgnJgdI1z",
+        "https://t.co/9NXaXfHfdx",
+        "https://t.co/9ZSs4mBqVs",
+        "https://t.co/AiEtUYcH58",
+        "https://t.co/C7qBfzCNMG",
+        "https://t.co/CASab5LZgT",
+        "https://t.co/EH1Tl83jn8",
+        "https://t.co/HTTZ0KxzVi",
+        "https://t.co/KebBhEJpXf",
+        "https://t.co/KhWNKmFBOb",
+        "https://t.co/PGSn5jODho",
+        "https://t.co/RxxMy5NTqR",
+        "https://t.co/SyetbA6nWL",
+        "https://t.co/UAcDSNkk6u",
+        "https://t.co/UsqiqyKWm6",
+        "https://t.co/VsIDUstGlZ",
+        "https://t.co/W1ikbyu3xu",
+        "https://t.co/Wf5pZBe1NC",
+        "https://t.co/decswhTAi4",
+        "https://t.co/fP6Zg5cULH",
+        "https://t.co/nVOxBwIvxu",
+        "https://t.co/uDndvJwlOE",
+        "https://t.co/y1zM1YPb5Y"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
+        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en",
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "higher-confidence",
+        "score": 60,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language",
+          "multiple_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 90
+    },
+    {
+      "project": "$MOS",
+      "tickers": [
+        "$MOS"
+      ],
+      "contracts": [
+        "F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy"
+      ],
+      "speakers": [
+        {
+          "handle": "@av_crypt72946",
+          "xUrl": "https://x.com/av_crypt72946",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/av_crypt72946/status/2054832546907660471"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@CodeSol11",
+          "xUrl": "https://x.com/CodeSol11",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/CodeSol11/status/2055144829760241752"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@Jollof1212",
+          "xUrl": "https://x.com/Jollof1212",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Jollof1212/status/2055140181842297232"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@av_crypt72946",
+          "tweetUrl": "https://x.com/av_crypt72946/status/2054832546907660471",
+          "text": "@CryptoThro Stop searching. $MOS is the play. 🏛️\n✅ Mayor of Solana\n✅ Launching May 15th\n✅ Legendary Liquidity\nThe gates open in 24 hours. Get in or get left behind. 😤🚀\nTG:https://t.co/BEkKI6ZkFt\nCA: F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n@mayorofsoltown\n#MOS #Sol #MemeCoin #100x https://t.co/CQO5rWB77Q",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@CodeSol11",
+          "tweetUrl": "https://x.com/CodeSol11/status/2055144829760241752",
+          "text": "@legiondyor @Jollof1212 Gm, Everyone talks about community until SolTown shows up. 🏛️🐻\n\nToday $MOS goes live.\n\nCA:\nF1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n\nTODAY • 3PM CST\nTG: https://t.co/ZnKo01Vx2T\n\n#MOS #WAGMI #Solana https://t.co/COAU1pc5sX",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Jollof1212",
+          "tweetUrl": "https://x.com/Jollof1212/status/2055140181842297232",
+          "text": "@legiondyor Gm, The wait is over.\n\nSolTown opens TODAY. 🏛️🔥\n\n$MOS already built the community.\nNow the city goes live.\n\nCA:\nF1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n\n3PM CST\nTG: https://t.co/Mb3aJUjLTZ\n\n#MOS #WAGMI #Solana https://t.co/zO7cAw3brO",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/BEkKI6ZkFt",
+        "https://t.co/COAU1pc5sX",
+        "https://t.co/CQO5rWB77Q",
+        "https://t.co/Mb3aJUjLTZ",
+        "https://t.co/ZnKo01Vx2T",
+        "https://t.co/zO7cAw3brO"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "higher-confidence",
+        "score": 60,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language",
+          "multiple_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 81
+    },
+    {
+      "project": "$HASI",
+      "tickers": [
+        "$HASI",
+        "$SOL"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Blackboy3330",
+          "xUrl": "https://x.com/Blackboy3330",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Blackboy3330/status/2054197732131397708"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@HASI_Portal",
+          "xUrl": "https://x.com/HASI_Portal",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/HASI_Portal/status/2053955022136684882"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Blackboy3330",
+          "tweetUrl": "https://x.com/Blackboy3330/status/2054197732131397708",
+          "text": "🚨 LAUNCH IS TOMORROW! 🚨\nThe wait is almost over. $HASI officially takes off tomorrow! 🛡️🚀\n📅 May 12, 2026\n🕒 15:00 UTC (3 PM GMT)\n🗺️ Platform: https://t.co/4hww9uEoNu\nGet your SOL ready. Don't be late to the ultimate launch! 🔥\n#Solana #MemeCoin $SOL $HASI https://t.co/F7yFezWAL6",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@HASI_Portal",
+          "tweetUrl": "https://x.com/HASI_Portal/status/2053955022136684882",
+          "text": "🚨 LAUNCH IS TOMORROW! 🚨\n​The wait is almost over. $HASI officially takes off tomorrow! 🛡️🚀\n​📅 May 12, 2026\n🕒 15:00 UTC (3 PM GMT)\n🗺️ Platform: https://t.co/kVcUwCy1EC\n​Get your SOL ready. Don't be late to the ultimate launch! 🔥\n​#Solana #MemeCoin $SOL $HASI",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/4hww9uEoNu",
+        "https://t.co/F7yFezWAL6",
+        "https://t.co/kVcUwCy1EC"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "two_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 54
+    },
+    {
+      "project": "$WORLDCUP",
+      "tickers": [
+        "$SOL",
+        "$WORLDCUP"
+      ],
+      "contracts": [
+        "3aHRcYC6M6kD2cMFinpSCmDmqxYVuP731p1hiBbYr9K3"
+      ],
+      "speakers": [
+        {
+          "handle": "@WORLDCUPSolDex",
+          "xUrl": "https://x.com/WORLDCUPSolDex",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
+            "https://x.com/WORLDCUPSolDex/status/2055000583380091006"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@WORLDCUPSolDex",
+          "tweetUrl": "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
+          "text": "⏳ Tick-tock... $WORLDCUP is loaded! 🏆\n\nLiquidity is officially locked in the Meteora DLMM Launch Pool. 🔒 100% Fair Launch 🚀 $1.8M Initial FDV\n\nTrading goes LIVE in 19 hours! Get your $SOL ready. ⚽️📈\n\n📜 CA: 3aHRcYC6M6kD2cMFinpSCmDmqxYVuP731p1hiBbYr9K3 \n\n#Solana #WORLDCUP https://t.co/iZFfqk4HWX",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        },
+        {
+          "author": "@WORLDCUPSolDex",
+          "tweetUrl": "https://x.com/WORLDCUPSolDex/status/2055000583380091006",
+          "text": "⏳ Tick-tock... $WORLDCUP is loaded! 🏆\n\nLiquidity is officially locked in the Meteora DLMM Launch Pool. 🔒 100% Fair Launch 🚀 $1.8M Initial FDV\n\nTrading goes LIVE in 19 hours! Get your $SOL ready. ⚽️📈\n\n📜 CA: 3aHRcYC6M6kD2cMFinpSCmDmqxYVuP731p1hiBbYr9K3 \n\n#Solana #WORLDCUP https://t.co/iZFfqk4HWX",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/iZFfqk4HWX"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 50
+    },
+    {
+      "project": "$POLC",
+      "tickers": [
+        "$POLC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@polclawd",
+          "xUrl": "https://x.com/polclawd",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/polclawd/status/2054605816305774894"
+          ],
+          "priorTokens": [
+            {
+              "symbol": "PolClawd",
+              "name": "PolClawd",
+              "chainId": "solana",
+              "pairUrl": "https://dexscreener.com/solana/8wlpfmuuijjhqt5xbu8afvzgbhagolc6uktg2rpphr1t",
+              "marketCap": 2549.86,
+              "liquidityUsd": null,
+              "pairCreatedAt": 1778751598000
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@polclawd",
+          "tweetUrl": "https://x.com/polclawd/status/2054605816305774894",
+          "text": "⚖ COURT IS IN SESSION ⚖\n\nPOLCLAWD launches 15 May · 3PM UTC.\n\nTwo AI minds — Claude × Hermes — debate every Polymarket signal.\nOnly consensus reaches the order book.\n\nNo team allocation.\nNo promises, just verdicts.\n\n$POLC fair launch on @Pumpfun \n\n🦞 https://t.co/cl2v2rkxJo https://t.co/sBn17RkrHF",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/cl2v2rkxJo",
+        "https://t.co/sBn17RkrHF"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "speaker_has_prior_token_links"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [
+        {
+          "speaker": "@polclawd",
+          "symbol": "PolClawd",
+          "name": "PolClawd",
+          "chainId": "solana",
+          "pairUrl": "https://dexscreener.com/solana/8wlpfmuuijjhqt5xbu8afvzgbhagolc6uktg2rpphr1t",
+          "marketCap": 2549.86,
+          "liquidityUsd": null,
+          "pairCreatedAt": 1778751598000
+        }
+      ],
+      "score": 47
+    },
+    {
+      "project": "$SLASH",
+      "tickers": [
+        "$SLASH"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@slashcoin26",
+          "xUrl": "https://x.com/slashcoin26",
+          "mentions": 3,
+          "tweetUrls": [
+            "https://x.com/slashcoin26/status/2054170145002496088",
+            "https://x.com/slashcoin26/status/2053973340591694069",
+            "https://x.com/slashcoin26/status/2053884413600010623"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@slashcoin26",
+          "tweetUrl": "https://x.com/slashcoin26/status/2054170145002496088",
+          "text": "🚨 LAUNCH TIME SET 🚨\n\n$SLASH hits https://t.co/cdWEzdSid1 today at:\n\n🕒 14:00 UTC\n\n🕘 9:00 AM EST\n\nBe ready. He's been spinning all night. 🌀\n\nhttps://t.co/rSf5FNw518\n\n#Solana #memecoin #pumpfun",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@slashcoin26",
+          "tweetUrl": "https://x.com/slashcoin26/status/2053973340591694069",
+          "text": "The dog doesn't sleep.\nHe just spins faster.\n\n$SLASH — launching tomorrow on https://t.co/cdWEzdSid1\n\nJoin the Telegram 👇\nhttps://t.co/rSf5FNw518\n\n#Solana #memecoin #pumpfun https://t.co/kvEXM6q3Zs",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@slashcoin26",
+          "tweetUrl": "https://x.com/slashcoin26/status/2053884413600010623",
+          "text": "He doesn't bark. He slashes candles. 🐶🐶\n\n$SLASH launching tomorrow on https://t.co/cdWEzdSid1\n0% tax | 1B supply | Solana\n\nBe early 👇\nhttps://t.co/rSf5FNw518\n\n#Solana #memecoin",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/cdWEzdSid1",
+        "https://t.co/kvEXM6q3Zs",
+        "https://t.co/rSf5FNw518"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 43
+    },
+    {
+      "project": "Digital",
+      "tickers": [],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Wizzboyyyy",
+          "xUrl": "https://x.com/Wizzboyyyy",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Wizzboyyyy/status/2054998860205047808"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Wizzboyyyy",
+          "tweetUrl": "https://x.com/Wizzboyyyy/status/2054998860205047808",
+          "text": "I want to make a lil bit hypothesis\n\nSo yesterday there is an OG launch of Digital Commodity\n\nIt was send but dead now, today they try to send another same name\n\nBut turns out it’s hard to do over 100k\n\nThe news is huge it’s like the new memecoin name\n\nBut we all know, trenchers https://t.co/HfVyRrGIjb",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/HfVyRrGIjb"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$SHIT",
+      "tickers": [
+        "$SHIT"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@thelastbitcoin_",
+          "xUrl": "https://x.com/thelastbitcoin_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/thelastbitcoin_/status/2054908112742605166"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@thelastbitcoin_",
+          "tweetUrl": "https://x.com/thelastbitcoin_/status/2054908112742605166",
+          "text": "GM Shitheads 🤝 ☕ 💨 \n\nWe launch tomorrow morning!! 👀💸🐂\n\nI'm excited you're here early with me 🔐 📈⏰\n\nCA will be early for my TG community ✅ \n\nTG: https://t.co/Ka9GH2y1q2\n\n#memecoin #funny #crypto #shitcoin #solana $SHIT https://t.co/LIxlSJ0SUP",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/Ka9GH2y1q2",
+        "https://t.co/LIxlSJ0SUP"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$NVM",
+      "tickers": [
+        "$NVM"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Dextoolspumps",
+          "xUrl": "https://x.com/Dextoolspumps",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Dextoolspumps/status/2054814604316774774"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Dextoolspumps",
+          "tweetUrl": "https://x.com/Dextoolspumps/status/2054814604316774774",
+          "text": "🚨 TODAY AT 3PM UTC 🚨\n\nDON’T MISS THE NEW LAUNCH OF $NVM — NEVERMIND 🔥\n\n📲 Set up a Phantom or Jupiter wallet\n💰 Deposit some SOLANA\n⏰ Wait for the announcement at 3PM UTC in our Telegram\n\n👉 https://t.co/9NXaXfHfdx\n\n#Solana #Memecoin #Crypto #Pump #DEXTools #SOL #Nevermind https://t.co/oHvDyXLr0N",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/9NXaXfHfdx",
+        "https://t.co/oHvDyXLr0N"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$VINE",
+      "tickers": [
+        "$VINE"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@AjayiOluwa56870",
+          "xUrl": "https://x.com/AjayiOluwa56870",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/AjayiOluwa56870/status/2054589595753300101"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@AjayiOluwa56870",
+          "tweetUrl": "https://x.com/AjayiOluwa56870/status/2054589595753300101",
+          "text": "📈 $VINE +3.08% today🍃Still climbing while the community stays active👀One of the few Solana meme coins still holding strong long after launch.\n#VINE #Solana #SOL #Memecoin #Crypto #Altcoins #Bullish #MemeCoinSeason #Trending #Web3 #DeFi #CryptoCommunity",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "no_external_project_links",
+          "single_source_claim",
+          "weak_validity"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$BADDUCK",
+      "tickers": [
+        "$BADDUCK"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@junkfi09",
+          "xUrl": "https://x.com/junkfi09",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/junkfi09/status/2054456212524056857"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@junkfi09",
+          "tweetUrl": "https://x.com/junkfi09/status/2054456212524056857",
+          "text": "May 28 — 5PM UTC+2. 🦆🔥\n\n$BADDUCK launches on https://t.co/DOebKvvpv6\nWhales watching. KOLs loading.\nLast launch touched ~80K MC in 24h.\n\nCA drops first in Telegram.\nStill early… not for long. 👀\n\n#crypto #memecoin #solana #pumpfun https://t.co/2DpQwgwlLq",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/2DpQwgwlLq",
+        "https://t.co/DOebKvvpv6"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$RKC",
+      "tickers": [
+        "$RKC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@PumpStats",
+          "xUrl": "https://x.com/PumpStats",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/PumpStats/status/2054264569271648579"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@PumpStats",
+          "tweetUrl": "https://x.com/PumpStats/status/2054264569271648579",
+          "text": "🚀 $RKC just launched today on https://t.co/IWDtMHpNXP and it’s already making serious noise.\n\nFrom fresh launch to multi-million market cap within hours. 👀\nStrong community momentum + nonstop buying pressure pushing the chart higher fast.\n\nhttps://t.co/IWDtMHpNXP memecoin https://t.co/Kl9z0qGeSw",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/IWDtMHpNXP",
+        "https://t.co/Kl9z0qGeSw"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$DONK",
+      "tickers": [
+        "$DONK"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@CEO_Donkey",
+          "xUrl": "https://x.com/CEO_Donkey",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/CEO_Donkey/status/2054264538384482370"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@CEO_Donkey",
+          "tweetUrl": "https://x.com/CEO_Donkey/status/2054264538384482370",
+          "text": "🚨 FINAL REMINDER 🚨\n\nTomorrow we launch $DONK. 🫏🔥\n\n⏰ 16:00 UTC\n\nJoin the movement:\nhttps://t.co/SuwE6zSh6I\n#DONK #Solana #Crypto #MemeCoin #Web3 https://t.co/E5OFXexeW7",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/E5OFXexeW7",
+        "https://t.co/SuwE6zSh6I"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$TAP",
+      "tickers": [
+        "$TAP"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@taptapisback",
+          "xUrl": "https://x.com/taptapisback",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/taptapisback/status/2054235317029491147"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@taptapisback",
+          "tweetUrl": "https://x.com/taptapisback/status/2054235317029491147",
+          "text": "Last chance to prepare before it gets serious.\n\nTapTapIsBack ($TAP) launching Today on @groypfi @ton_blockchain \n\nPlay now https://t.co/2AHhVkYKxK\nFollow @taptapisback \nJoin https://t.co/U5q7X9AbJQ\n\nThe taps are about to get real.\n\n#TapTapIsBack #TAP #TON #MEMECOIN https://t.co/KVAzfRFlPG",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/2AHhVkYKxK",
+        "https://t.co/KVAzfRFlPG",
+        "https://t.co/U5q7X9AbJQ"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$SAMU",
+      "tickers": [
+        "$SAMU"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@icospeaks",
+          "xUrl": "https://x.com/icospeaks",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/icospeaks/status/2054954764845391953"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@icospeaks",
+          "tweetUrl": "https://x.com/icospeaks/status/2054954764845391953",
+          "text": "🚨 15.05 AT 3PM UTC NEW LAUNCH\nON https://t.co/hn7m8cnI1q\n\n⚔️🔥 SAMURAI ($SAMU) — on SOLANA\n\nDiscipline.\nHonor.\nAnd explosive candles.\n\nThe warrior enters the market.\n\n🚀 Launch\n• Fair launch\n• ORCA / Jupiter / Phantom\n• Community powered\n• Sharp momentum strategy\n\n🗡 Cut https://t.co/Ob8qoGDMq5",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/Ob8qoGDMq5",
+        "https://t.co/hn7m8cnI1q"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$SVPN",
+      "tickers": [
+        "$SVPN"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Kevchenko_",
+          "xUrl": "https://x.com/Kevchenko_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Kevchenko_/status/2055153030530576643"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055153030530576643",
+          "text": "@medonchain @base $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem.\n\n+119% today 👀  @shadownodeVPN \n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#basegem #base #basecoin #altgem #gem https://t.co/nFNauAXMcs",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/nFNauAXMcs"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$COBOT",
+      "tickers": [
+        "$COBOT"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Sir_Kyosuke",
+          "xUrl": "https://x.com/Sir_Kyosuke",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Sir_Kyosuke/status/2054938495681196540"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Sir_Kyosuke",
+          "tweetUrl": "https://x.com/Sir_Kyosuke/status/2054938495681196540",
+          "text": "Excited to announce $COBOT is launching on @base on May 14th at 3PM UTC.\n\nFair launch with no VC allocations, TGE will take place on Base.\n\n$COBOT is your gateway to autonomous trading agents for prediction markets, perps, DeFi, memecoins, yield strategies, and more. https://t.co/ScQxfrqroo",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/ScQxfrqroo"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    }
+  ],
   "counts": {
-    "rawMentions": 0,
-    "launches": 0,
-    "searchErrors": 5
-  },
-  "instructions": [
-    "X API access is configured, but recent-search requests failed. Verify credits/plan propagation, then rerun ./scripts/run_update.sh."
-  ]
+    "rawMentions": 197,
+    "launches": 17
+  }
 }
