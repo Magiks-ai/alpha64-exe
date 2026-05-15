@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T11:50:53.379810+00:00",
+  "generatedAt": "2026-05-15T17:54:09.447726+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,89 +17,6 @@
     ]
   },
   "launches": [
-    {
-      "project": "$MOS",
-      "tickers": [
-        "$MOS"
-      ],
-      "contracts": [
-        "F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy"
-      ],
-      "speakers": [
-        {
-          "handle": "@av_crypt72946",
-          "xUrl": "https://x.com/av_crypt72946",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/av_crypt72946/status/2054832546907660471"
-          ],
-          "priorTokens": []
-        },
-        {
-          "handle": "@CodeSol11",
-          "xUrl": "https://x.com/CodeSol11",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/CodeSol11/status/2055144829760241752"
-          ],
-          "priorTokens": []
-        },
-        {
-          "handle": "@Jollof1212",
-          "xUrl": "https://x.com/Jollof1212",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Jollof1212/status/2055140181842297232"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@av_crypt72946",
-          "tweetUrl": "https://x.com/av_crypt72946/status/2054832546907660471",
-          "text": "@CryptoThro Stop searching. $MOS is the play. 🏛️\n✅ Mayor of Solana\n✅ Launching May 15th\n✅ Legendary Liquidity\nThe gates open in 24 hours. Get in or get left behind. 😤🚀\nTG:https://t.co/BEkKI6ZkFt\nCA: F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n@mayorofsoltown\n#MOS #Sol #MemeCoin #100x https://t.co/CQO5rWB77Q",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@CodeSol11",
-          "tweetUrl": "https://x.com/CodeSol11/status/2055144829760241752",
-          "text": "@legiondyor @Jollof1212 Gm, Everyone talks about community until SolTown shows up. 🏛️🐻\n\nToday $MOS goes live.\n\nCA:\nF1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n\nTODAY • 3PM CST\nTG: https://t.co/ZnKo01Vx2T\n\n#MOS #WAGMI #Solana https://t.co/COAU1pc5sX",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        },
-        {
-          "author": "@Jollof1212",
-          "tweetUrl": "https://x.com/Jollof1212/status/2055140181842297232",
-          "text": "@legiondyor Gm, The wait is over.\n\nSolTown opens TODAY. 🏛️🔥\n\n$MOS already built the community.\nNow the city goes live.\n\nCA:\nF1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n\n3PM CST\nTG: https://t.co/Mb3aJUjLTZ\n\n#MOS #WAGMI #Solana https://t.co/zO7cAw3brO",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/BEkKI6ZkFt",
-        "https://t.co/COAU1pc5sX",
-        "https://t.co/CQO5rWB77Q",
-        "https://t.co/Mb3aJUjLTZ",
-        "https://t.co/ZnKo01Vx2T",
-        "https://t.co/zO7cAw3brO"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "higher-confidence",
-        "score": 60,
-        "signals": [
-          "24h_time_language",
-          "contract_address_present",
-          "launch_language",
-          "multiple_people_discussing"
-        ],
-        "warnings": []
-      },
-      "priorTokens": [],
-      "score": 81
-    },
     {
       "project": "$HASI",
       "tickers": [
@@ -163,6 +80,64 @@
       "score": 54
     },
     {
+      "project": "$MOS",
+      "tickers": [
+        "$MOS"
+      ],
+      "contracts": [
+        "F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy"
+      ],
+      "speakers": [
+        {
+          "handle": "@av_crypt72946",
+          "xUrl": "https://x.com/av_crypt72946",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/av_crypt72946/status/2055326664532353130",
+            "https://x.com/av_crypt72946/status/2054832546907660471"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@av_crypt72946",
+          "tweetUrl": "https://x.com/av_crypt72946/status/2055326664532353130",
+          "text": "@yourcryptodj The search is over @yourcryptodj. 🕵️‍♂️ It’s $MOS.\n🐻 Mafia Bear on a rocket\n🚀 Launching TODAY @ 3PM CST\n🌕 Next stop: The Moon.\n@mayorofsoltown\n\nTG:https://t.co/NX06fFJAXQ\n\nCA:F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n\n#MOS #Solana #100xGem #MemeCoin https://t.co/mNQdJZFWlB",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@av_crypt72946",
+          "tweetUrl": "https://x.com/av_crypt72946/status/2054832546907660471",
+          "text": "@CryptoThro Stop searching. $MOS is the play. 🏛️\n✅ Mayor of Solana\n✅ Launching May 15th\n✅ Legendary Liquidity\nThe gates open in 24 hours. Get in or get left behind. 😤🚀\nTG:https://t.co/BEkKI6ZkFt\nCA: F1WMgG6c3QG71BWy4JQmhCxSmZonjQ9TutXP21fiiLJy\n@mayorofsoltown\n#MOS #Sol #MemeCoin #100x https://t.co/CQO5rWB77Q",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/BEkKI6ZkFt",
+        "https://t.co/CQO5rWB77Q",
+        "https://t.co/NX06fFJAXQ",
+        "https://t.co/mNQdJZFWlB"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 50
+    },
+    {
       "project": "$SVPN",
       "tickers": [
         "$SVPN"
@@ -174,16 +149,22 @@
           "xUrl": "https://x.com/Kevchenko_",
           "mentions": 5,
           "tweetUrls": [
+            "https://x.com/Kevchenko_/status/2055274642252734949",
             "https://x.com/Kevchenko_/status/2055222046104207502",
             "https://x.com/Kevchenko_/status/2055220600507896136",
             "https://x.com/Kevchenko_/status/2055220162916188483",
-            "https://x.com/Kevchenko_/status/2055200685126246817",
-            "https://x.com/Kevchenko_/status/2055153030530576643"
+            "https://x.com/Kevchenko_/status/2055200685126246817"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
+        {
+          "author": "@Kevchenko_",
+          "tweetUrl": "https://x.com/Kevchenko_/status/2055274642252734949",
+          "text": "@PraxMedia $SVPN 💪🏻\n\n+119% today 👀  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈 https://t.co/qaa00BsZ7j",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
         {
           "author": "@Kevchenko_",
           "tweetUrl": "https://x.com/Kevchenko_/status/2055222046104207502",
@@ -207,19 +188,13 @@
           "tweetUrl": "https://x.com/Kevchenko_/status/2055200685126246817",
           "text": "@MartiniGuyYT So f*cking ready with $SVPN 💪🏻\n\n+119% today 👀  $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem\n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#eth #base #privacy #gem https://t.co/DjXu3GjZR6",
           "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        },
-        {
-          "author": "@Kevchenko_",
-          "tweetUrl": "https://x.com/Kevchenko_/status/2055153030530576643",
-          "text": "@medonchain @base $SVPN is coming to #BASE and goes live on May 20 as the next step toward a multichain privacy ecosystem.\n\n+119% today 👀  @shadownodeVPN \n\nThis isn’t a hype project, it’s years of consistent building during bearmarket starting to pay off 📈\n\n#basegem #base #basecoin #altgem #gem https://t.co/nFNauAXMcs",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
         }
       ],
       "urls": [
         "https://t.co/9U7I6aKP8w",
         "https://t.co/DjXu3GjZR6",
         "https://t.co/ctUTtrnHOF",
-        "https://t.co/nFNauAXMcs",
+        "https://t.co/qaa00BsZ7j",
         "https://t.co/zhvQNUy2JR"
       ],
       "queries": [
@@ -272,6 +247,52 @@
       ],
       "queries": [
         "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "contract_address_present",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 47
+    },
+    {
+      "project": "7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk",
+      "tickers": [],
+      "contracts": [
+        "7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk"
+      ],
+      "speakers": [
+        {
+          "handle": "@RCONraccoon",
+          "xUrl": "https://x.com/RCONraccoon",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/RCONraccoon/status/2055322997595238417"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@RCONraccoon",
+          "tweetUrl": "https://x.com/RCONraccoon/status/2055322997595238417",
+          "text": "Thank you to our friends at @GroveXchange 🤝\n\nsolana:7nZuYZYZnof9gF3zr9QhdnxpQ1mTM8LN3VaJuhrGbonk officially goes live on GroveX on 18th May at 7:00 PM AEST / 09:00 AM UTC 📅\n\nGetting listed on GroveX opens the project up to the Australian market 🇦🇺 and puts it in front of a much https://t.co/clRWr6fzwf",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/clRWr6fzwf"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
       ],
       "security": {
         "verdict": "medium",
@@ -383,52 +404,6 @@
       "score": 47
     },
     {
-      "project": "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump",
-      "tickers": [],
-      "contracts": [
-        "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump"
-      ],
-      "speakers": [
-        {
-          "handle": "@tussin_t",
-          "xUrl": "https://x.com/tussin_t",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/tussin_t/status/2055146325747138958"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@tussin_t",
-          "tweetUrl": "https://x.com/tussin_t/status/2055146325747138958",
-          "text": "If @ChudTheBuilder get released tomorrow on bond and goes live on @Pumpfun . What do you think solana:21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump will pump to ?  @Pumpfun",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "contract_address_present",
-          "launch_language"
-        ],
-        "warnings": [
-          "no_external_project_links",
-          "single_source_claim",
-          "weak_validity"
-        ]
-      },
-      "priorTokens": [],
-      "score": 47
-    },
-    {
       "project": "$SLASH",
       "tickers": [
         "$SLASH"
@@ -438,11 +413,10 @@
         {
           "handle": "@slashcoin26",
           "xUrl": "https://x.com/slashcoin26",
-          "mentions": 3,
+          "mentions": 2,
           "tweetUrls": [
             "https://x.com/slashcoin26/status/2054170145002496088",
-            "https://x.com/slashcoin26/status/2053973340591694069",
-            "https://x.com/slashcoin26/status/2053884413600010623"
+            "https://x.com/slashcoin26/status/2053973340591694069"
           ],
           "priorTokens": []
         }
@@ -458,12 +432,6 @@
           "author": "@slashcoin26",
           "tweetUrl": "https://x.com/slashcoin26/status/2053973340591694069",
           "text": "The dog doesn't sleep.\nHe just spins faster.\n\n$SLASH — launching tomorrow on https://t.co/cdWEzdSid1\n\nJoin the Telegram 👇\nhttps://t.co/rSf5FNw518\n\n#Solana #memecoin #pumpfun https://t.co/kvEXM6q3Zs",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@slashcoin26",
-          "tweetUrl": "https://x.com/slashcoin26/status/2053884413600010623",
-          "text": "He doesn't bark. He slashes candles. 🐶🐶\n\n$SLASH launching tomorrow on https://t.co/cdWEzdSid1\n0% tax | 1B supply | Solana\n\nBe early 👇\nhttps://t.co/rSf5FNw518\n\n#Solana #memecoin",
           "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
         }
       ],
@@ -487,7 +455,7 @@
         ]
       },
       "priorTokens": [],
-      "score": 43
+      "score": 40
     },
     {
       "project": "$SHIT",
@@ -903,6 +871,51 @@
       "score": 37
     },
     {
+      "project": "$AZM",
+      "tickers": [
+        "$AZM"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@yo1nx8929",
+          "xUrl": "https://x.com/yo1nx8929",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/yo1nx8929/status/2055298171358584927"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@yo1nx8929",
+          "tweetUrl": "https://x.com/yo1nx8929/status/2055298171358584927",
+          "text": "$AZM pre-sale goes live today\nGot some buyers set and ready to ape\n\nDev blocked me over a Minor misunderstanding\nBut believe he's gonna come through\n\nJust get your fucking sol or Azm pair ready\n@azmorit @solana https://t.co/r9g2mPQ5Vu",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/r9g2mPQ5Vu"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$HVIRUS",
       "tickers": [
         "$HVIRUS"
@@ -949,7 +962,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 198,
-    "launches": 18
+    "rawMentions": 196,
+    "launches": 19
   }
 }
