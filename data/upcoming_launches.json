@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T16:23:14.751414+00:00",
+  "generatedAt": "2026-05-16T22:25:55.651431+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -100,68 +100,6 @@
       "score": 70
     },
     {
-      "project": "$DZM",
-      "tickers": [
-        "$DZM"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Ojboy2001",
-          "xUrl": "https://x.com/Ojboy2001",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Ojboy2001/status/2055628107604791415"
-          ],
-          "priorTokens": []
-        },
-        {
-          "handle": "@Alzaeem_VIP1",
-          "xUrl": "https://x.com/Alzaeem_VIP1",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Alzaeem_VIP1/status/2055607919236849764"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Ojboy2001",
-          "tweetUrl": "https://x.com/Ojboy2001/status/2055628107604791415",
-          "text": "@Alzaeem_VIP1 Hello team,\n\nI’m interested in joining and helping grow the $DZM community ahead of the Solana launch TONIGHT\n\n⏳ 11:00 PM Mecca (8 PM UTC)\n🛡️ Fair Launch on https://t.co/scWPx11Dhd\n\nI can support the project as a Community Manager, Growth Strategist, Meme Creator, and Moderator",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@Alzaeem_VIP1",
-          "tweetUrl": "https://x.com/Alzaeem_VIP1/status/2055607919236849764",
-          "text": "$DZM launch on Solana TONIGHT! 🚀👑\n​⏳ 11:00 PM Mecca (8 PM UTC)\n🛡️ Fair Launch on https://t.co/bGzN9Q46Ls\n​Watch details &amp; get ready 👇🔥\n\nhttps://t.co/GmnWhokkPx\n\n​#SolanaGems #MemeCoin #PumpFun https://t.co/vUriXA7GFs",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/GmnWhokkPx",
-        "https://t.co/bGzN9Q46Ls",
-        "https://t.co/scWPx11Dhd",
-        "https://t.co/vUriXA7GFs"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "launch_language",
-          "two_people_discussing"
-        ],
-        "warnings": []
-      },
-      "priorTokens": [],
-      "score": 54
-    },
-    {
       "project": "91T5yaDV1tF8ocHd9fTUHBQ1Vwev12jH2G7wvUE6pump",
       "tickers": [],
       "contracts": [
@@ -214,6 +152,72 @@
       },
       "priorTokens": [],
       "score": 50
+    },
+    {
+      "project": "$NEMOCLAW",
+      "tickers": [
+        "$NEMOCLAW"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@LuxxyArt",
+          "xUrl": "https://x.com/LuxxyArt",
+          "mentions": 4,
+          "tweetUrls": [
+            "https://x.com/LuxxyArt/status/2055711495665709409",
+            "https://x.com/LuxxyArt/status/2055711390195740834",
+            "https://x.com/LuxxyArt/status/2055711282062352790",
+            "https://x.com/LuxxyArt/status/2055697500711862776"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@LuxxyArt",
+          "tweetUrl": "https://x.com/LuxxyArt/status/2055711495665709409",
+          "text": "@cloudz @solana @luminaries @SolanaEvents Join the first independent crypto social network https://t.co/FFn48aOgkz, choose your talent at Talent Hub, and enter the giveaway for 100,000 $NemoClaw tokens. Nemo is waiting for you!\n\nToday will be announced date if First Safe Launch at Nemo! Join @nemofunsolana and Stay Tuned",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@LuxxyArt",
+          "tweetUrl": "https://x.com/LuxxyArt/status/2055711390195740834",
+          "text": "@solana @SolanaEvents @luminaries Join the first independent crypto social network https://t.co/FFn48aOgkz, choose your talent at Talent Hub, and enter the giveaway for 100,000 $NemoClaw tokens. Nemo is waiting for you!\n\nToday will be announced date if First Safe Launch at Nemo! Join @nemofunsolana and Stay Tuned",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@LuxxyArt",
+          "tweetUrl": "https://x.com/LuxxyArt/status/2055711282062352790",
+          "text": "@solana @lagunacarta @SolanaEvents @luminaries Join the first independent crypto social network https://t.co/FFn48aOgkz, choose your talent at Talent Hub, and enter the giveaway for 100,000 $NemoClaw tokens. Nemo is waiting for you!\n\nToday will be announced date if First Safe Launch at Nemo! Join @nemofunsolana and Stay Tuned",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@LuxxyArt",
+          "tweetUrl": "https://x.com/LuxxyArt/status/2055697500711862776",
+          "text": "@Raydium Join the first independent crypto social network https://t.co/FFn48aOgkz, choose your talent at Talent Hub, and enter the giveaway for 100,000 $NemoClaw tokens. Nemo is waiting for you!\n\nToday will be announced date if First Safe Launch at Nemo! Join @nemofunsolana and Stay Tuned",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/FFn48aOgkz"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 46
     },
     {
       "project": "$SOL",
@@ -676,6 +680,52 @@
       "score": 37
     },
     {
+      "project": "$CRYPTOCRAT",
+      "tickers": [
+        "$CRYPTOCRAT"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@FluxFl0wZ",
+          "xUrl": "https://x.com/FluxFl0wZ",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/FluxFl0wZ/status/2055691465313943790"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@FluxFl0wZ",
+          "tweetUrl": "https://x.com/FluxFl0wZ/status/2055691465313943790",
+          "text": "Why $CRYPTOCRAT is a must-have today:\n\n• 85x since launch\n• Token drop for holders is live ⬇️⬇️⬇️\n🧠 https://t.co/4VWQoHNtwm\n• Fair launch, no premine\n• Ultra-relevant political narrative\n• Solana  speed and low fees\n• Community driven, no rug risks\nMCAP is still under https://t.co/Kd1VHQLWKO",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/4VWQoHNtwm",
+        "https://t.co/Kd1VHQLWKO"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$TEG",
       "tickers": [
         "$TEG"
@@ -719,100 +769,10 @@
       },
       "priorTokens": [],
       "score": 37
-    },
-    {
-      "project": "$LATTICE",
-      "tickers": [
-        "$LATTICE"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Lattice_finance",
-          "xUrl": "https://x.com/Lattice_finance",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Lattice_finance/status/2055613173206843483"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Lattice_finance",
-          "tweetUrl": "https://x.com/Lattice_finance/status/2055613173206843483",
-          "text": "Big night ahead for $Lattice.\n\nLattice goes live on @bankrbot tonight.\n\nBuilt for privacy, made to move differently.\n\nSee you tonight on bankr.\n\nBuild on @base https://t.co/q2rV3VCkV4",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/q2rV3VCkV4"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$LBRON",
-      "tickers": [
-        "$LBRON"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@presidentkuti1",
-          "xUrl": "https://x.com/presidentkuti1",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/presidentkuti1/status/2055602428943245606"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@presidentkuti1",
-          "tweetUrl": "https://x.com/presidentkuti1/status/2055602428943245606",
-          "text": "🚨 LAUNCH ALERT — $LBRON DROPPING MAY 20 🍬🚀\n\nLeBonBon started as a TikTok legend.\nNow he’s launching on Solana.\n\n🗓️ Launch Date: May 20\n⏰ Time: TBA (official time drops 24h before launch)\n\n━━━━━━━━━━━━━━━\n\n📊 $LBRON TOKENOMICS\n\n💰 Total Supply:\n1,000,000,000",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "no_external_project_links",
-          "single_source_claim",
-          "weak_validity"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
     }
   ],
   "counts": {
-    "rawMentions": 196,
-    "launches": 16
+    "rawMentions": 197,
+    "launches": 15
   }
 }
