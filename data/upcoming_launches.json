@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T18:29:29.778609+00:00",
+  "generatedAt": "2026-05-21T00:32:19.430929+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,76 +17,6 @@
     ]
   },
   "launches": [
-    {
-      "project": "$SVPN",
-      "tickers": [
-        "$SVPN"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Crypt0_Iq",
-          "xUrl": "https://x.com/Crypt0_Iq",
-          "mentions": 2,
-          "tweetUrls": [
-            "https://x.com/Crypt0_Iq/status/2056916258646323484",
-            "https://x.com/Crypt0_Iq/status/2057034668688421290"
-          ],
-          "priorTokens": []
-        },
-        {
-          "handle": "@tonnyman_1",
-          "xUrl": "https://x.com/tonnyman_1",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/tonnyman_1/status/2057083804259692597"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Crypt0_Iq",
-          "tweetUrl": "https://x.com/Crypt0_Iq/status/2056916258646323484",
-          "text": "@JR5_Crypto $SVPN sitting at 700K MC while the B🅰️SE launch is happening today and ShadowTalk drops right after that risk/reward ratio looks kinda crazy\n\nOnline + offline chats video calls offline BTC transfers this way beyond a normal meme coin narrative\n\nCould surprise many @shadownodeVPN https://t.co/cYSYYJIE5t",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@tonnyman_1",
-          "tweetUrl": "https://x.com/tonnyman_1/status/2057083804259692597",
-          "text": "$SVPN || @shadownodeVPN \n\nOne of the Og project I'd say it was the first few projects that I have made nice bags when I was new. \n\nSo it's time for a little pay back and $SVPN comeback. \n\n@shadownodeVPN launching on base today 7 PM GST. \n\nReally hoping to see this one boom again. https://t.co/qUaCQVouMR",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        },
-        {
-          "author": "@Crypt0_Iq",
-          "tweetUrl": "https://x.com/Crypt0_Iq/status/2057034668688421290",
-          "text": "@PraxMedia $SVPN || @shadownodeVPN \n\nBase launch in 5 hours from here. We not relaunching just adding one more chain https://t.co/Epe7T1yWaN",
-          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/Epe7T1yWaN",
-        "https://t.co/cYSYYJIE5t",
-        "https://t.co/qUaCQVouMR"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en",
-        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en",
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "launch_language",
-          "two_people_discussing"
-        ],
-        "warnings": []
-      },
-      "priorTokens": [],
-      "score": 57
-    },
     {
       "project": "$BARS",
       "tickers": [
@@ -149,6 +79,67 @@
       "score": 54
     },
     {
+      "project": "$BROKE",
+      "tickers": [
+        "$BROKE"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@byezeng",
+          "xUrl": "https://x.com/byezeng",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/byezeng/status/2057244776509178220"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@web3Mysterious1",
+          "xUrl": "https://x.com/web3Mysterious1",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/web3Mysterious1/status/2056388144837063085"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@byezeng",
+          "tweetUrl": "https://x.com/byezeng/status/2057244776509178220",
+          "text": "🚨 $BROKE NON OFFICIAL COUNTDOWN WEBSITE \n\nTrack the launch in real-time :\n🔗 https://t.co/GL9QQR3FD6\n\n📅 Launch    : 22.05.2026 - 08:00 AM UTC\n🔗 Platform : Phantom\n\nSet your alarms &amp; bookmark this! ⏰\n\n#BROKE #Solana https://t.co/pcbQRYyKtf",
+          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@web3Mysterious1",
+          "tweetUrl": "https://x.com/web3Mysterious1/status/2056388144837063085",
+          "text": "@SolanaHub_ @solana Locked in. 🔥\n@SmokeIsBroke reporting for duty. $BROKE culture loaded.\n\nReal app. Real community. Real anti-broke movement.\nLaunch in ~3 days 17 hours (22 May 2026, 8:00 AM UTC). https://t.co/Fhs3JJNv3f",
+          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/Fhs3JJNv3f",
+        "https://t.co/GL9QQR3FD6",
+        "https://t.co/pcbQRYyKtf"
+      ],
+      "queries": [
+        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "two_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 54
+    },
+    {
       "project": "$PIXCLOF",
       "tickers": [
         "$PIXCLOF"
@@ -169,18 +160,9 @@
               "name": "Pixclof",
               "chainId": "solana",
               "pairUrl": "https://dexscreener.com/solana/6vbyetncrm7uojcrpxkxnor2w1q524eftxj2godtu6x9",
-              "marketCap": 2418.69,
+              "marketCap": 2414.26,
               "liquidityUsd": null,
               "pairCreatedAt": 1779296417000
-            },
-            {
-              "symbol": "pixclof",
-              "name": "pixelclaw office",
-              "chainId": "solana",
-              "pairUrl": "https://dexscreener.com/solana/7dcjtyxnrdbdx7t7gtwmsdpdkngjc2fxxoeqfsbasarm",
-              "marketCap": 2352.75,
-              "liquidityUsd": null,
-              "pairCreatedAt": 1779229743000
             }
           ]
         }
@@ -224,19 +206,9 @@
           "name": "Pixclof",
           "chainId": "solana",
           "pairUrl": "https://dexscreener.com/solana/6vbyetncrm7uojcrpxkxnor2w1q524eftxj2godtu6x9",
-          "marketCap": 2418.69,
+          "marketCap": 2414.26,
           "liquidityUsd": null,
           "pairCreatedAt": 1779296417000
-        },
-        {
-          "speaker": "@Pixclof",
-          "symbol": "pixclof",
-          "name": "pixelclaw office",
-          "chainId": "solana",
-          "pairUrl": "https://dexscreener.com/solana/7dcjtyxnrdbdx7t7gtwmsdpdkngjc2fxxoeqfsbasarm",
-          "marketCap": 2352.75,
-          "liquidityUsd": null,
-          "pairCreatedAt": 1779229743000
         }
       ],
       "score": 50
@@ -363,59 +335,6 @@
       "score": 47
     },
     {
-      "project": "$SLOWZY",
-      "tickers": [
-        "$SLOWZY"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@SlowzySOL",
-          "xUrl": "https://x.com/SlowzySOL",
-          "mentions": 2,
-          "tweetUrls": [
-            "https://x.com/SlowzySOL/status/2057124672576381274",
-            "https://x.com/SlowzySOL/status/2057123194700460035"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@SlowzySOL",
-          "tweetUrl": "https://x.com/SlowzySOL/status/2057124672576381274",
-          "text": "$SLOWZY is still not live…\n\nHe almost pressed START, but got sleepy and passed out right before the launch. 🦥💤\n\nThe button is waiting. The chain is ready.\nNow we just need Slowzy to wake up.\nLaunching today… very, very slowly. 💨\n\n#SLOWZY #Solana #meme #memecoin #pumpfun https://t.co/LHl2NUHnij",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@SlowzySOL",
-          "tweetUrl": "https://x.com/SlowzySOL/status/2057123194700460035",
-          "text": "$SLOWZY is still not live…\n\nHe almost pressed START, but got sleepy and passed out right before the launch. 🦥💤\n\nThe button is waiting. The chain is ready.\nNow we just need Slowzy to wake up.\nLaunching today… very, very slowly. 💨\n\n#SLOWZY #Solana #SolanaMeme #meme #memecoin https://t.co/0rjiMzHNTd",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/0rjiMzHNTd",
-        "https://t.co/LHl2NUHnij"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 40
-    },
-    {
       "project": "$TITILLATING",
       "tickers": [
         "$TITILLATING"
@@ -452,6 +371,60 @@
         "https://t.co/Kg02L3hQxG"
       ],
       "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 40
+    },
+    {
+      "project": "$SVPN",
+      "tickers": [
+        "$SVPN"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Crypt0_Iq",
+          "xUrl": "https://x.com/Crypt0_Iq",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/Crypt0_Iq/status/2056916258646323484",
+            "https://x.com/Crypt0_Iq/status/2057034668688421290"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Crypt0_Iq",
+          "tweetUrl": "https://x.com/Crypt0_Iq/status/2056916258646323484",
+          "text": "@JR5_Crypto $SVPN sitting at 700K MC while the B🅰️SE launch is happening today and ShadowTalk drops right after that risk/reward ratio looks kinda crazy\n\nOnline + offline chats video calls offline BTC transfers this way beyond a normal meme coin narrative\n\nCould surprise many @shadownodeVPN https://t.co/cYSYYJIE5t",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@Crypt0_Iq",
+          "tweetUrl": "https://x.com/Crypt0_Iq/status/2057034668688421290",
+          "text": "@PraxMedia $SVPN || @shadownodeVPN \n\nBase launch in 5 hours from here. We not relaunching just adding one more chain https://t.co/Epe7T1yWaN",
+          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/Epe7T1yWaN",
+        "https://t.co/cYSYYJIE5t"
+      ],
+      "queries": [
+        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en",
         "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
       ],
       "security": {
@@ -574,6 +547,52 @@
       },
       "priorTokens": [],
       "score": 40
+    },
+    {
+      "project": "$FOMO",
+      "tickers": [
+        "$FOMO"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Gaymate6",
+          "xUrl": "https://x.com/Gaymate6",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Gaymate6/status/2057217716516233313"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Gaymate6",
+          "tweetUrl": "https://x.com/Gaymate6/status/2057217716516233313",
+          "text": "@jhuntermav Ohh you haven’t heard \n\nThat’s $FOMO right there \n\nYou can tell a factory 🏭 apart from just  random memecoin \n\n$FOMO is actively building every 24 hours \n\nLaunch is coming soon 🔜 \n\nhttps://t.co/2vz3jrmJ73\n\n@FactoryFomoSol https://t.co/47c3mxrL6G",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/2vz3jrmJ73",
+        "https://t.co/47c3mxrL6G"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
     },
     {
       "project": "$TRUMP",
@@ -985,9 +1004,9 @@
       "score": 37
     },
     {
-      "project": "$ATRUMP",
+      "project": "$MAX",
       "tickers": [
-        "$ATRUMP"
+        "$MAX"
       ],
       "contracts": [],
       "speakers": [
@@ -996,7 +1015,7 @@
           "xUrl": "https://x.com/icospeaks",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/icospeaks/status/2056768868769521846"
+            "https://x.com/icospeaks/status/2057171018653839440"
           ],
           "priorTokens": []
         }
@@ -1004,62 +1023,17 @@
       "mentions": [
         {
           "author": "@icospeaks",
-          "tweetUrl": "https://x.com/icospeaks/status/2056768868769521846",
-          "text": "🚨 20.05 AT 3PM UTC NEW LAUNCH  \nON https://t.co/hn7m8cnabS\n\n👽🇺🇸 ALIENTRUMP ($ATRUMP) — on SOLANA\n\nNot from Earth.  \nStill pumping harder than humans.\n\nThe galaxy chose its president.\n\n🚀 Launch\n• Fair launch  \n• ORCA / Jupiter / Phantom  \n• Meme invasion activated  \n• https://t.co/ooDSJzIp56",
+          "tweetUrl": "https://x.com/icospeaks/status/2057171018653839440",
+          "text": "🚨 21.05 AT 3PM UTC NEW LAUNCH  \nON https://t.co/hn7m8cnabS\n\n💥📈 MAXPUMP ($MAX) — on SOLANA\n\nNo limits.  \nNo weak candles.  \nONLY MAX PUMP.\n\nThe chart is about to explode.\n\n🚀 Launch\n• Fair launch  \n• ORCA / Jupiter / Phantom  \n• Maximum meme momentum  \n• Community powered https://t.co/xESJH473X2",
           "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
         }
       ],
       "urls": [
         "https://t.co/hn7m8cnabS",
-        "https://t.co/ooDSJzIp56"
+        "https://t.co/xESJH473X2"
       ],
       "queries": [
         "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$BROKE",
-      "tickers": [
-        "$BROKE"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@web3Mysterious1",
-          "xUrl": "https://x.com/web3Mysterious1",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/web3Mysterious1/status/2056388144837063085"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@web3Mysterious1",
-          "tweetUrl": "https://x.com/web3Mysterious1/status/2056388144837063085",
-          "text": "@SolanaHub_ @solana Locked in. 🔥\n@SmokeIsBroke reporting for duty. $BROKE culture loaded.\n\nReal app. Real community. Real anti-broke movement.\nLaunch in ~3 days 17 hours (22 May 2026, 8:00 AM UTC). https://t.co/Fhs3JJNv3f",
-          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/Fhs3JJNv3f"
-      ],
-      "queries": [
-        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
       ],
       "security": {
         "verdict": "needs-manual-review",
@@ -1122,7 +1096,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 197,
+    "rawMentions": 198,
     "launches": 21
   }
 }
