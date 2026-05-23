@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T08:04:18.251316+00:00",
+  "generatedAt": "2026-05-23T14:05:40.589086+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,6 +17,69 @@
     ]
   },
   "launches": [
+    {
+      "project": "$CIA",
+      "tickers": [
+        "$CIA"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Dextoolspumps",
+          "xUrl": "https://x.com/Dextoolspumps",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Dextoolspumps/status/2058097992368836633"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@icospeaks",
+          "xUrl": "https://x.com/icospeaks",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/icospeaks/status/2057854805767242019"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Dextoolspumps",
+          "tweetUrl": "https://x.com/Dextoolspumps/status/2058097992368836633",
+          "text": "🚨 TODAY 23.05 AT 3PM UTC NEW LAUNCH\nON https://t.co/M3tpWJTLcM\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n#CIA #SOLANA #Memecoin #Crypto #PumpFun #SOL #FairLaunch #DEXTools #100x #SecretPump https://t.co/HwlRceLWux",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@icospeaks",
+          "tweetUrl": "https://x.com/icospeaks/status/2057854805767242019",
+          "text": "🚨 23.05 AT 3PM UTC NEW LAUNCH  \nON https://t.co/hn7m8cnabS\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n🚀 Launch\n• Fair launch  \n• ORCA / Jupiter / Phantom  \n• Secret meme strategy  \n• Community agents https://t.co/o56E5MDdfq",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/HwlRceLWux",
+        "https://t.co/M3tpWJTLcM",
+        "https://t.co/hn7m8cnabS",
+        "https://t.co/o56E5MDdfq"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "two_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 54
+    },
     {
       "project": "BiywH8Eq2CbGhwMHKwCnfTiccWJwN7r1Q4Qn9hsypump",
       "tickers": [],
@@ -666,97 +729,6 @@
       "score": 37
     },
     {
-      "project": "$CULTCOIN",
-      "tickers": [
-        "$CULTCOIN"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@cultcoin_",
-          "xUrl": "https://x.com/cultcoin_",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/cultcoin_/status/2056989931562803360"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@cultcoin_",
-          "tweetUrl": "https://x.com/cultcoin_/status/2056989931562803360",
-          "text": "The signal has been sent 👁️\nTomorrow, the gates open ⚖️\n\nNot just another memecoin.\nA movement for the ones who never fit the system.\n\nWelcome to the cult.\n⚫ Website launching tomorrow\n⚫ Community-driven\n⚫ Built for the believers\n$CULTCOIN https://t.co/uBTI6LZ8LQ",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/uBTI6LZ8LQ"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$CIA",
-      "tickers": [
-        "$CIA"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@icospeaks",
-          "xUrl": "https://x.com/icospeaks",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/icospeaks/status/2057854805767242019"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@icospeaks",
-          "tweetUrl": "https://x.com/icospeaks/status/2057854805767242019",
-          "text": "🚨 23.05 AT 3PM UTC NEW LAUNCH  \nON https://t.co/hn7m8cnabS\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n🚀 Launch\n• Fair launch  \n• ORCA / Jupiter / Phantom  \n• Secret meme strategy  \n• Community agents https://t.co/o56E5MDdfq",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/hn7m8cnabS",
-        "https://t.co/o56E5MDdfq"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$CCC",
       "tickers": [
         "$CCC"
@@ -798,6 +770,51 @@
         ],
         "warnings": [
           "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$GIGAHAM",
+      "tickers": [
+        "$GIGAHAM"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@GigaHam_",
+          "xUrl": "https://x.com/GigaHam_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/GigaHam_/status/2058185795828433119"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@GigaHam_",
+          "tweetUrl": "https://x.com/GigaHam_/status/2058185795828433119",
+          "text": "**$GIGAHAM** in **1 HOUR**! 🐹  \nLaunch at 11 AM NY time.  \nPump fun loading… Let’s gooo! 🔥\n#GIGAHAM #Solana #Memecoin",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "no_external_project_links",
+          "single_source_claim",
+          "weak_validity"
         ]
       },
       "priorTokens": [],
@@ -850,7 +867,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 164,
+    "rawMentions": 180,
     "launches": 17
   }
 }
