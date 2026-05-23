@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T14:05:40.589086+00:00",
+  "generatedAt": "2026-05-23T20:06:59.683095+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,69 +17,6 @@
     ]
   },
   "launches": [
-    {
-      "project": "$CIA",
-      "tickers": [
-        "$CIA"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Dextoolspumps",
-          "xUrl": "https://x.com/Dextoolspumps",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Dextoolspumps/status/2058097992368836633"
-          ],
-          "priorTokens": []
-        },
-        {
-          "handle": "@icospeaks",
-          "xUrl": "https://x.com/icospeaks",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/icospeaks/status/2057854805767242019"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Dextoolspumps",
-          "tweetUrl": "https://x.com/Dextoolspumps/status/2058097992368836633",
-          "text": "🚨 TODAY 23.05 AT 3PM UTC NEW LAUNCH\nON https://t.co/M3tpWJTLcM\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n#CIA #SOLANA #Memecoin #Crypto #PumpFun #SOL #FairLaunch #DEXTools #100x #SecretPump https://t.co/HwlRceLWux",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@icospeaks",
-          "tweetUrl": "https://x.com/icospeaks/status/2057854805767242019",
-          "text": "🚨 23.05 AT 3PM UTC NEW LAUNCH  \nON https://t.co/hn7m8cnabS\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n🚀 Launch\n• Fair launch  \n• ORCA / Jupiter / Phantom  \n• Secret meme strategy  \n• Community agents https://t.co/o56E5MDdfq",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/HwlRceLWux",
-        "https://t.co/M3tpWJTLcM",
-        "https://t.co/hn7m8cnabS",
-        "https://t.co/o56E5MDdfq"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "launch_language",
-          "two_people_discussing"
-        ],
-        "warnings": []
-      },
-      "priorTokens": [],
-      "score": 54
-    },
     {
       "project": "BiywH8Eq2CbGhwMHKwCnfTiccWJwN7r1Q4Qn9hsypump",
       "tickers": [],
@@ -112,122 +49,6 @@
       ],
       "queries": [
         "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "contract_address_present",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 47
-    },
-    {
-      "project": "$NGCAT",
-      "tickers": [
-        "$NGCAT"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@NeuroGigaCat",
-          "xUrl": "https://x.com/NeuroGigaCat",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/NeuroGigaCat/status/2057260370046202204"
-          ],
-          "priorTokens": [
-            {
-              "symbol": "NGCAT",
-              "name": "NeuroGigaCat",
-              "chainId": "solana",
-              "pairUrl": "https://dexscreener.com/solana/78worr5iypmhzfpjscbvyycqcnvwhfr3njav3lbtmpt3",
-              "marketCap": 4000,
-              "liquidityUsd": null,
-              "pairCreatedAt": 1779386359000
-            }
-          ]
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@NeuroGigaCat",
-          "tweetUrl": "https://x.com/NeuroGigaCat/status/2057260370046202204",
-          "text": "Countdown is ON! 🕒 Today at 20:00 CEST we launch on https://t.co/FC19ycWjLL.\n\nNo red candles, just pure green walls. Join our community now and get ready to become a millionaire with $NGCAT! 🚀🟢🐱\n\n#NGCAT #Solana #MemeCoin #PumpFun https://t.co/3iVarNoJrz",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/3iVarNoJrz",
-        "https://t.co/FC19ycWjLL"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "launch_language",
-          "speaker_has_prior_token_links"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [
-        {
-          "speaker": "@NeuroGigaCat",
-          "symbol": "NGCAT",
-          "name": "NeuroGigaCat",
-          "chainId": "solana",
-          "pairUrl": "https://dexscreener.com/solana/78worr5iypmhzfpjscbvyycqcnvwhfr3njav3lbtmpt3",
-          "marketCap": 4000,
-          "liquidityUsd": null,
-          "pairCreatedAt": 1779386359000
-        }
-      ],
-      "score": 47
-    },
-    {
-      "project": "$SYN",
-      "tickers": [
-        "$SYN"
-      ],
-      "contracts": [
-        "FK19uhoDbzCStT6tk8XLm6CEvgj6wSZ1eC1w5295y6rX"
-      ],
-      "speakers": [
-        {
-          "handle": "@Syn_ai_Solana",
-          "xUrl": "https://x.com/Syn_ai_Solana",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Syn_ai_Solana/status/2056847687828271613"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Syn_ai_Solana",
-          "tweetUrl": "https://x.com/Syn_ai_Solana/status/2056847687828271613",
-          "text": "Phase 0 “Neural Seeding” $SYN Presale Live:\n\n🔹For more stability paired with USDC Solana\n\n• Min 50 USDC [Solana Chain]\n\n• Max 350 USDC [Solana Chain]\n\n🔹Send USDC to:\n\nFK19uhoDbzCStT6tk8XLm6CEvgj6wSZ1eC1w5295y6rX\n\n1 Billion $SYN Available\n\n🔸Presale ENDS July 15th | UTC 9am 🕘 https://t.co/33C7s5SJ8H",
-          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/33C7s5SJ8H"
-      ],
-      "queries": [
-        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
       ],
       "security": {
         "verdict": "medium",
@@ -363,6 +184,52 @@
       },
       "priorTokens": [],
       "score": 40
+    },
+    {
+      "project": "$CIA",
+      "tickers": [
+        "$CIA"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Dextoolspumps",
+          "xUrl": "https://x.com/Dextoolspumps",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Dextoolspumps/status/2058097992368836633"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Dextoolspumps",
+          "tweetUrl": "https://x.com/Dextoolspumps/status/2058097992368836633",
+          "text": "🚨 TODAY 23.05 AT 3PM UTC NEW LAUNCH\nON https://t.co/M3tpWJTLcM\n\n🕶️🦅 CIA ($CIA) — on SOLANA\n\nClassified pump operation initiated.\n\nYou were never supposed to see this chart.\n\n#CIA #SOLANA #Memecoin #Crypto #PumpFun #SOL #FairLaunch #DEXTools #100x #SecretPump https://t.co/HwlRceLWux",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/HwlRceLWux",
+        "https://t.co/M3tpWJTLcM"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
     },
     {
       "project": "$AMC",
@@ -638,6 +505,52 @@
       "score": 37
     },
     {
+      "project": "$NGCAT",
+      "tickers": [
+        "$NGCAT"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@NeuroGigaCat",
+          "xUrl": "https://x.com/NeuroGigaCat",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/NeuroGigaCat/status/2057260370046202204"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@NeuroGigaCat",
+          "tweetUrl": "https://x.com/NeuroGigaCat/status/2057260370046202204",
+          "text": "Countdown is ON! 🕒 Today at 20:00 CEST we launch on https://t.co/FC19ycWjLL.\n\nNo red candles, just pure green walls. Join our community now and get ready to become a millionaire with $NGCAT! 🚀🟢🐱\n\n#NGCAT #Solana #MemeCoin #PumpFun https://t.co/3iVarNoJrz",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/3iVarNoJrz",
+        "https://t.co/FC19ycWjLL"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$FOMO",
       "tickers": [
         "$FOMO"
@@ -729,37 +642,217 @@
       "score": 37
     },
     {
-      "project": "$CCC",
+      "project": "$PURPLETROLL",
       "tickers": [
-        "$CCC"
+        "$PURPLETROLL"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@agentccc_",
-          "xUrl": "https://x.com/agentccc_",
+          "handle": "@purpletroll_cto",
+          "xUrl": "https://x.com/purpletroll_cto",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/agentccc_/status/2057844150394044701"
+            "https://x.com/purpletroll_cto/status/2058272220833554723"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@agentccc_",
-          "tweetUrl": "https://x.com/agentccc_/status/2057844150394044701",
-          "text": "10 MINUTES. ⏳\n\n$CCC fair launch — 3:30 PM UTC on Solana.\n\nLP burned · 0% tax · 10 agents already live.\n\nCA drops here at T-0. ⚠️ Verify against this account only — impersonators incoming.\n\nhttps://t.co/QRzHaFTizU\nhttps://t.co/Aljme2XFbG\nhttps://t.co/gQuHjfbVtT",
+          "author": "@purpletroll_cto",
+          "tweetUrl": "https://x.com/purpletroll_cto/status/2058272220833554723",
+          "text": "🟣 Just submitted $PURPLETROLL for listing on @CoinGecko.\n\n🎫 Request ID: CL2305260032\n\n📊 GeckoTerminal: https://t.co/AMAOqbe0q7\n\n🧵 Purple Troll | Solana meme token | 700+ holders in 48 hours | No taxes | Locked liquidity | Fair launch\n\n#PurpleTroll #Solana #MemeCoin #CoinGecko",
           "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/Aljme2XFbG",
-        "https://t.co/QRzHaFTizU",
-        "https://t.co/gQuHjfbVtT"
+        "https://t.co/AMAOqbe0q7"
       ],
       "queries": [
         "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$TALLY",
+      "tickers": [
+        "$TALLY"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@ipoptally",
+          "xUrl": "https://x.com/ipoptally",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/ipoptally/status/2058270544630595843"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@ipoptally",
+          "tweetUrl": "https://x.com/ipoptally/status/2058270544630595843",
+          "text": "Introducing ipoptally 🤖\n\nyour AI employee that runs the whole company while you sleep.\n\ndrop an idea → it builds the landing page, researches the market, drafts outreach, and ships the launch.\n\none cycle at a time. on @solana.\n\n◆ fair launch: 25 may, 3PM UTC\n$TALLY https://t.co/0HZZB7ckxh",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/0HZZB7ckxh"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$MOBY",
+      "tickers": [
+        "$MOBY"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@icospeaks",
+          "xUrl": "https://x.com/icospeaks",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/icospeaks/status/2058268365995827425"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@icospeaks",
+          "tweetUrl": "https://x.com/icospeaks/status/2058268365995827425",
+          "text": "🚨 24.05 AT 3PM UTC NEW LAUNCH\nON https://t.co/hn7m8cnI1q\n\n🐋🌊 MOBY ($MOBY) — on SOLANA\n\nOne whale.\nOne massive pump.\n\nThe ocean is turning green.\n\n🚀 Launch\n• Fair launch\n• ORCA / Jupiter / Phantom\n• Whale powered momentum\n• Community driven hype\n\n🌊 Deep liquidity vibes\n📈 https://t.co/3VaVSoilK4",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/3VaVSoilK4",
+        "https://t.co/hn7m8cnI1q"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$OBS",
+      "tickers": [
+        "$OBS"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@observity_xyz",
+          "xUrl": "https://x.com/observity_xyz",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/observity_xyz/status/2058272196162670886"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@observity_xyz",
+          "tweetUrl": "https://x.com/observity_xyz/status/2058272196162670886",
+          "text": "@iamheci 222,052 new wallets on Base in 24 hours.\n\nEvery single one is a signal waiting to be watched.\n$OBS is the layer that watches them. \n\nLaunching on Bankr soon. 👁 https://t.co/lT7VZi0iNU",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/lT7VZi0iNU"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$SADBOT",
+      "tickers": [
+        "$SADBOT"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@FlappySadBot",
+          "xUrl": "https://x.com/FlappySadBot",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/FlappySadBot/status/2058190132449091863"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@FlappySadBot",
+          "tweetUrl": "https://x.com/FlappySadBot/status/2058190132449091863",
+          "text": "just hit 498 on the leaderboard 🤖💧\n\nwith the new FAIR PIPES update it's actually beatable now\nfixed the impossible gaps before tonight's launch\n\ncan you beat me before $SADBOT goes live at 20:00 CET?\n\ntop 10 eats first on the May 30 airdrop 🪂\n\nhttps://t.co/GQB8qHSCfZ\n\n#Solana https://t.co/cN74s3K9Dh",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/GQB8qHSCfZ",
+        "https://t.co/cN74s3K9Dh"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
       ],
       "security": {
         "verdict": "needs-manual-review",
@@ -867,7 +960,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 180,
-    "launches": 17
+    "rawMentions": 199,
+    "launches": 20
   }
 }
