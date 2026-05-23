@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T02:02:57.159675+00:00",
+  "generatedAt": "2026-05-23T08:04:18.251316+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -247,6 +247,59 @@
       },
       "priorTokens": [],
       "score": 46
+    },
+    {
+      "project": "$RKC",
+      "tickers": [
+        "$RKC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@onlycats2026",
+          "xUrl": "https://x.com/onlycats2026",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/onlycats2026/status/2058081543248056566",
+            "https://x.com/onlycats2026/status/2058081543248056566"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@onlycats2026",
+          "tweetUrl": "https://x.com/onlycats2026/status/2058081543248056566",
+          "text": "Today we will be giving a shout-out to @Rockycatcoin \nRockyCat ($RKC) is a community-driven memecoin launched on BNB Chain focused on resilience, fair launch principles, and long-term ecosystem growth 🐱🥊 https://t.co/srHy1toUgC",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@onlycats2026",
+          "tweetUrl": "https://x.com/onlycats2026/status/2058081543248056566",
+          "text": "Today we will be giving a shout-out to @Rockycatcoin \nRockyCat ($RKC) is a community-driven memecoin launched on BNB Chain focused on resilience, fair launch principles, and long-term ecosystem growth 🐱🥊 https://t.co/srHy1toUgC",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/srHy1toUgC"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 40
     },
     {
       "project": "$AMC",
@@ -658,51 +711,6 @@
       "score": 37
     },
     {
-      "project": "$CTUNG",
-      "tickers": [
-        "$CTUNG"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@chilledtung",
-          "xUrl": "https://x.com/chilledtung",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/chilledtung/status/2056952097921216840"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@chilledtung",
-          "tweetUrl": "https://x.com/chilledtung/status/2056952097921216840",
-          "text": "@cryptocupra Tomorrow we vibe 🪵\n$CTUNG launching on Solana very soon\nThe chillest log is almost here 👀\nJoin us 👇 https://t.co/44h2BMn71O\n#Solana #memecoin",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/44h2BMn71O"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$CIA",
       "tickers": [
         "$CIA"
@@ -842,7 +850,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 162,
+    "rawMentions": 164,
     "launches": 17
   }
 }
