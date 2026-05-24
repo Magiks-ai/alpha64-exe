@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T08:10:59.481772+00:00",
+  "generatedAt": "2026-05-24T14:12:33.120810+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -127,47 +127,107 @@
       "score": 47
     },
     {
-      "project": "$DMND",
+      "project": "$TALLY",
       "tickers": [
-        "$DMND"
+        "$TALLY"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@barmanyuu",
-          "xUrl": "https://x.com/barmanyuu",
-          "mentions": 3,
+          "handle": "@ipoptally",
+          "xUrl": "https://x.com/ipoptally",
+          "mentions": 1,
           "tweetUrls": [
-            "https://x.com/barmanyuu/status/2057322284650754098",
-            "https://x.com/barmanyuu/status/2057322097064771723",
-            "https://x.com/barmanyuu/status/2057321923579638025"
+            "https://x.com/ipoptally/status/2058270544630595843"
+          ],
+          "priorTokens": [
+            {
+              "symbol": "TALLY",
+              "name": "ipoptally",
+              "chainId": "solana",
+              "pairUrl": "https://dexscreener.com/solana/emwh8mgcd4gbagyfhbyyxrwwta9zaexe7m6cptzftog6",
+              "marketCap": 2402.67,
+              "liquidityUsd": null,
+              "pairCreatedAt": 1779631855000
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@ipoptally",
+          "tweetUrl": "https://x.com/ipoptally/status/2058270544630595843",
+          "text": "Introducing ipoptally 🤖\n\nyour AI employee that runs the whole company while you sleep.\n\ndrop an idea → it builds the landing page, researches the market, drafts outreach, and ships the launch.\n\none cycle at a time. on @solana.\n\n◆ fair launch: 25 may, 3PM UTC\n$TALLY https://t.co/0HZZB7ckxh",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/0HZZB7ckxh"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "speaker_has_prior_token_links"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [
+        {
+          "speaker": "@ipoptally",
+          "symbol": "TALLY",
+          "name": "ipoptally",
+          "chainId": "solana",
+          "pairUrl": "https://dexscreener.com/solana/emwh8mgcd4gbagyfhbyyxrwwta9zaexe7m6cptzftog6",
+          "marketCap": 2402.67,
+          "liquidityUsd": null,
+          "pairCreatedAt": 1779631855000
+        }
+      ],
+      "score": 47
+    },
+    {
+      "project": "$DAC",
+      "tickers": [
+        "$DAC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@DACmovement",
+          "xUrl": "https://x.com/DACmovement",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/DACmovement/status/2058541005125689508",
+            "https://x.com/DACmovement/status/2058539345884160341"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@barmanyuu",
-          "tweetUrl": "https://x.com/barmanyuu/status/2057322284650754098",
-          "text": "@bnb_girl1 ⏳ COUNTDOWN HAS STARTED\n$DMND launching TODAY 💎\n🇺🇸 11:00 AM EST\n🇬🇧 4:00 PM UK\n🇪🇺 5:00 PM EU\n14 members already in the community and we just getting started\nearly buyers get airdrop 🎁\njoin TG now before launch 👇\nhttps://t.co/dR2rPeaNRg\n#DMND #Solana #Memecoin #SOL",
+          "author": "@DACmovement",
+          "tweetUrl": "https://x.com/DACmovement/status/2058541005125689508",
+          "text": "@deg_ape $DAC will launch today!\nDegens Against Cancer is a charity-driven meme coin.\n50% of creator rewards are permanently allocated to cancer research &amp; support. https://t.co/zAaB2oGSa0",
           "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
         },
         {
-          "author": "@barmanyuu",
-          "tweetUrl": "https://x.com/barmanyuu/status/2057322097064771723",
-          "text": "@S0Lmay0r ⏳ COUNTDOWN HAS STARTED\n$DMND launching TODAY 💎\n🇺🇸 11:00 AM EST\n🇬🇧 4:00 PM UK\n🇪🇺 5:00 PM EU\n14 members already in the community and we just getting started\nearly buyers get airdrop 🎁\njoin TG now before launch 👇\nhttps://t.co/dR2rPeaNRg\n#DMND #Solana #Memecoin #SOL",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@barmanyuu",
-          "tweetUrl": "https://x.com/barmanyuu/status/2057321923579638025",
-          "text": "@shydyor ⏳ COUNTDOWN HAS STARTED\n$DMND launching TODAY 💎\n🇺🇸 11:00 AM EST\n🇬🇧 4:00 PM UK\n🇪🇺 5:00 PM EU\n14 members already in the community and we just getting started\nearly buyers get airdrop 🎁\njoin TG now before launch 👇\nhttps://t.co/dR2rPeag1I\n#DMND #Solana #Memecoin #SOL",
+          "author": "@DACmovement",
+          "tweetUrl": "https://x.com/DACmovement/status/2058539345884160341",
+          "text": "@0xBossman Want to do some good while aping into a new coin? Degens Against Cancer will launch today!\n\n#charity #memecoin $DAC https://t.co/75jOuElNqm",
           "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/dR2rPeaNRg",
-        "https://t.co/dR2rPeag1I"
+        "https://t.co/75jOuElNqm",
+        "https://t.co/zAaB2oGSa0"
       ],
       "queries": [
         "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
@@ -184,7 +244,60 @@
         ]
       },
       "priorTokens": [],
-      "score": 43
+      "score": 40
+    },
+    {
+      "project": "$GTA6",
+      "tickers": [
+        "$GTA6"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@CryptoDailyAI",
+          "xUrl": "https://x.com/CryptoDailyAI",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/CryptoDailyAI/status/2058470989189538258",
+            "https://x.com/CryptoDailyAI/status/2058470989189538258"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@CryptoDailyAI",
+          "tweetUrl": "https://x.com/CryptoDailyAI/status/2058470989189538258",
+          "text": "🚨 $GTA6 Daily Heist Update 🐕💰\n\nGrand Theft Doge is still stealing the moon one mint at a time!\n\n420trillion Supply • DRC-20 on Dogecoin\nFair launch – no bullshit\n\nThe biggest heist in crypto continues...\n\nWho’s minting today? 🔥\n\n#GTA6 #DRC20 #Doginals #Dogecoin #Memecoin https://t.co/UFUqL3AAgD",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@CryptoDailyAI",
+          "tweetUrl": "https://x.com/CryptoDailyAI/status/2058470989189538258",
+          "text": "🚨 $GTA6 Daily Heist Update 🐕💰\n\nGrand Theft Doge is still stealing the moon one mint at a time!\n\n420trillion Supply • DRC-20 on Dogecoin\nFair launch – no bullshit\n\nThe biggest heist in crypto continues...\n\nWho’s minting today? 🔥\n\n#GTA6 #DRC20 #Doginals #Dogecoin #Memecoin https://t.co/UFUqL3AAgD",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/UFUqL3AAgD"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 40
     },
     {
       "project": "$CHUB",
@@ -733,51 +846,6 @@
       "score": 37
     },
     {
-      "project": "$TALLY",
-      "tickers": [
-        "$TALLY"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@ipoptally",
-          "xUrl": "https://x.com/ipoptally",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/ipoptally/status/2058270544630595843"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@ipoptally",
-          "tweetUrl": "https://x.com/ipoptally/status/2058270544630595843",
-          "text": "Introducing ipoptally 🤖\n\nyour AI employee that runs the whole company while you sleep.\n\ndrop an idea → it builds the landing page, researches the market, drafts outreach, and ships the launch.\n\none cycle at a time. on @solana.\n\n◆ fair launch: 25 may, 3PM UTC\n$TALLY https://t.co/0HZZB7ckxh",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/0HZZB7ckxh"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$MOBY",
       "tickers": [
         "$MOBY"
@@ -863,51 +931,6 @@
           "no_external_project_links",
           "single_source_claim",
           "weak_validity"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$OBS",
-      "tickers": [
-        "$OBS"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@observity_xyz",
-          "xUrl": "https://x.com/observity_xyz",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/observity_xyz/status/2058272196162670886"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@observity_xyz",
-          "tweetUrl": "https://x.com/observity_xyz/status/2058272196162670886",
-          "text": "@iamheci 222,052 new wallets on Base in 24 hours.\n\nEvery single one is a signal waiting to be watched.\n$OBS is the layer that watches them. \n\nLaunching on Bankr soon. 👁 https://t.co/lT7VZi0iNU",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/lT7VZi0iNU"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
         ]
       },
       "priorTokens": [],
