@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T20:06:59.683095+00:00",
+  "generatedAt": "2026-05-24T02:08:46.729219+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,6 +17,67 @@
     ]
   },
   "launches": [
+    {
+      "project": "$MIAOAI",
+      "tickers": [
+        "$MIAOAI"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@greenbullbsc",
+          "xUrl": "https://x.com/greenbullbsc",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/greenbullbsc/status/2058314551461036107"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@soonAI_",
+          "xUrl": "https://x.com/soonAI_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/soonAI_/status/2058311976632430996"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@greenbullbsc",
+          "tweetUrl": "https://x.com/greenbullbsc/status/2058314551461036107",
+          "text": "$MIAOAI launches today at 13:00 UTC on @base.\n\nPlay-to-earn is already live. By @CatsCoinbase \nThe memecoin game starts now.\n\nMight be worth watching. \n\nyou can earn $MIAOAI free before launch\nhttps://t.co/IesMlytB4y\n\n#NFA #base #memecoin https://t.co/ZnoCVVfiP7",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@soonAI_",
+          "tweetUrl": "https://x.com/soonAI_/status/2058311976632430996",
+          "text": "$MIAOAI\nThe first truly active Play-to-Earn memecoin on @base launches today at 13:00 UTC.\n\nThousands are already playing.\nTokens are already being earned.\nLaunch is now hours away.\n\nMight be worth keeping both eyes on it.\n\nYou can earn free $MIAOAI Before launch by playing the https://t.co/6NbZYI9k5Q",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/6NbZYI9k5Q",
+        "https://t.co/IesMlytB4y",
+        "https://t.co/ZnoCVVfiP7"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "two_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 54
+    },
     {
       "project": "BiywH8Eq2CbGhwMHKwCnfTiccWJwN7r1Q4Qn9hsypump",
       "tickers": [],
@@ -133,42 +194,35 @@
       "score": 46
     },
     {
-      "project": "$RKC",
+      "project": "$VINYL",
       "tickers": [
-        "$RKC"
+        "$VINYL"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@onlycats2026",
-          "xUrl": "https://x.com/onlycats2026",
-          "mentions": 2,
+          "handle": "@Vinyl_sol",
+          "xUrl": "https://x.com/Vinyl_sol",
+          "mentions": 1,
           "tweetUrls": [
-            "https://x.com/onlycats2026/status/2058081543248056566",
-            "https://x.com/onlycats2026/status/2058081543248056566"
+            "https://x.com/Vinyl_sol/status/2058335237730640276"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@onlycats2026",
-          "tweetUrl": "https://x.com/onlycats2026/status/2058081543248056566",
-          "text": "Today we will be giving a shout-out to @Rockycatcoin \nRockyCat ($RKC) is a community-driven memecoin launched on BNB Chain focused on resilience, fair launch principles, and long-term ecosystem growth 🐱🥊 https://t.co/srHy1toUgC",
+          "author": "@Vinyl_sol",
+          "tweetUrl": "https://x.com/Vinyl_sol/status/2058335237730640276",
+          "text": "Today marks 1 Year of $VINYL + New Website Launch!🎂\n\nTo Celebrate our first anniversary the launch of our brand new website is now live! Thank you to all the $VINYL collectors out there!\nhttps://t.co/oZWrRsMoKD\n\nVinyl: the industry that survives all trends.\nmemecoin solana https://t.co/UtTGNGS8sm",
           "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@onlycats2026",
-          "tweetUrl": "https://x.com/onlycats2026/status/2058081543248056566",
-          "text": "Today we will be giving a shout-out to @Rockycatcoin \nRockyCat ($RKC) is a community-driven memecoin launched on BNB Chain focused on resilience, fair launch principles, and long-term ecosystem growth 🐱🥊 https://t.co/srHy1toUgC",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/srHy1toUgC"
+        "https://t.co/UtTGNGS8sm",
+        "https://t.co/oZWrRsMoKD"
       ],
       "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
         "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
       ],
       "security": {
@@ -183,7 +237,53 @@
         ]
       },
       "priorTokens": [],
-      "score": 40
+      "score": 37
+    },
+    {
+      "project": "$RICH",
+      "tickers": [
+        "$RICH"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@Mustofa8514_",
+          "xUrl": "https://x.com/Mustofa8514_",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Mustofa8514_/status/2058284976316326358"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@Mustofa8514_",
+          "tweetUrl": "https://x.com/Mustofa8514_/status/2058284976316326358",
+          "text": "🚨 $RICH went from a random https://t.co/LIWmZHkIpS launch to a $2.8M cult memecoin in under 24 hours… and CT still underestimating the story behind it.\n\n• +111,000% since launch\n• $13M+ volume\n• 6K holders and climbing fast\n• $700K liquidity already locked in\n\nBut the real https://t.co/jhUxi4D82G",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/LIWmZHkIpS",
+        "https://t.co/jhUxi4D82G"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
     },
     {
       "project": "$CIA",
@@ -213,6 +313,51 @@
       "urls": [
         "https://t.co/HwlRceLWux",
         "https://t.co/M3tpWJTLcM"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
+      "project": "$RKC",
+      "tickers": [
+        "$RKC"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@onlycats2026",
+          "xUrl": "https://x.com/onlycats2026",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/onlycats2026/status/2058081543248056566"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@onlycats2026",
+          "tweetUrl": "https://x.com/onlycats2026/status/2058081543248056566",
+          "text": "Today we will be giving a shout-out to @Rockycatcoin \nRockyCat ($RKC) is a community-driven memecoin launched on BNB Chain focused on resilience, fair launch principles, and long-term ecosystem growth 🐱🥊 https://t.co/srHy1toUgC",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/srHy1toUgC"
       ],
       "queries": [
         "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
@@ -551,97 +696,6 @@
       "score": 37
     },
     {
-      "project": "$FOMO",
-      "tickers": [
-        "$FOMO"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@Gaymate6",
-          "xUrl": "https://x.com/Gaymate6",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/Gaymate6/status/2057217716516233313"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@Gaymate6",
-          "tweetUrl": "https://x.com/Gaymate6/status/2057217716516233313",
-          "text": "@jhuntermav Ohh you haven’t heard \n\nThat’s $FOMO right there \n\nYou can tell a factory 🏭 apart from just  random memecoin \n\n$FOMO is actively building every 24 hours \n\nLaunch is coming soon 🔜 \n\nhttps://t.co/2vz3jrmJ73\n\n@FactoryFomoSol https://t.co/47c3mxrL6G",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/2vz3jrmJ73",
-        "https://t.co/47c3mxrL6G"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$TRUMP",
-      "tickers": [
-        "$TRUMP"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@jtalboy",
-          "xUrl": "https://x.com/jtalboy",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/jtalboy/status/2057150465624645934"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@jtalboy",
-          "tweetUrl": "https://x.com/jtalboy/status/2057150465624645934",
-          "text": "@Chris_Caliendo @reallouiehuey TrumpCoin (or more precisely, $TRUMP / OFFICIAL TRUMP) is a prominent meme coin launched in January 2025, closely associated with President Donald Trump. It is the main cryptocurrency referred to by that name today. ￼\nKey Details\n\n•  Launch: January 17, 2025 (just days before",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "no_external_project_links",
-          "single_source_claim",
-          "weak_validity"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$PURPLETROLL",
       "tickers": [
         "$PURPLETROLL"
@@ -823,52 +877,6 @@
       "score": 37
     },
     {
-      "project": "$SADBOT",
-      "tickers": [
-        "$SADBOT"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@FlappySadBot",
-          "xUrl": "https://x.com/FlappySadBot",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/FlappySadBot/status/2058190132449091863"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@FlappySadBot",
-          "tweetUrl": "https://x.com/FlappySadBot/status/2058190132449091863",
-          "text": "just hit 498 on the leaderboard 🤖💧\n\nwith the new FAIR PIPES update it's actually beatable now\nfixed the impossible gaps before tonight's launch\n\ncan you beat me before $SADBOT goes live at 20:00 CET?\n\ntop 10 eats first on the May 30 airdrop 🪂\n\nhttps://t.co/GQB8qHSCfZ\n\n#Solana https://t.co/cN74s3K9Dh",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/GQB8qHSCfZ",
-        "https://t.co/cN74s3K9Dh"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$GIGAHAM",
       "tickers": [
         "$GIGAHAM"
@@ -914,32 +922,32 @@
       "score": 37
     },
     {
-      "project": "$SVPN",
+      "project": "$GOODBYE",
       "tickers": [
-        "$SVPN"
+        "$GOODBYE"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@Crypt0_Iq",
-          "xUrl": "https://x.com/Crypt0_Iq",
+          "handle": "@GoodByeGle",
+          "xUrl": "https://x.com/GoodByeGle",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/Crypt0_Iq/status/2057034668688421290"
+            "https://x.com/GoodByeGle/status/2058337512377008225"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@Crypt0_Iq",
-          "tweetUrl": "https://x.com/Crypt0_Iq/status/2057034668688421290",
-          "text": "@PraxMedia $SVPN || @shadownodeVPN \n\nBase launch in 5 hours from here. We not relaunching just adding one more chain https://t.co/Epe7T1yWaN",
+          "author": "@GoodByeGle",
+          "tweetUrl": "https://x.com/GoodByeGle/status/2058337512377008225",
+          "text": "🪦 RIP Google Search (1998-2026)\n\nAI killed it all. The robots are crying… but we’re celebrating!\n\n$GOODBYE just landed on Solana.\n\n1 SOL Giveaway → Like + Follow + Comment 🪦 to enter!\n\nLaunch in 48h. Who’s ready to bury Google? https://t.co/0gKvD3XtiA",
           "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/Epe7T1yWaN"
+        "https://t.co/0gKvD3XtiA"
       ],
       "queries": [
         "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
@@ -960,7 +968,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 199,
+    "rawMentions": 200,
     "launches": 20
   }
 }
