@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T02:08:46.729219+00:00",
+  "generatedAt": "2026-05-24T08:10:59.481772+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -136,12 +136,11 @@
         {
           "handle": "@barmanyuu",
           "xUrl": "https://x.com/barmanyuu",
-          "mentions": 4,
+          "mentions": 3,
           "tweetUrls": [
             "https://x.com/barmanyuu/status/2057322284650754098",
             "https://x.com/barmanyuu/status/2057322097064771723",
-            "https://x.com/barmanyuu/status/2057321923579638025",
-            "https://x.com/barmanyuu/status/2057321777316118968"
+            "https://x.com/barmanyuu/status/2057321923579638025"
           ],
           "priorTokens": []
         }
@@ -164,12 +163,6 @@
           "tweetUrl": "https://x.com/barmanyuu/status/2057321923579638025",
           "text": "@shydyor ⏳ COUNTDOWN HAS STARTED\n$DMND launching TODAY 💎\n🇺🇸 11:00 AM EST\n🇬🇧 4:00 PM UK\n🇪🇺 5:00 PM EU\n14 members already in the community and we just getting started\nearly buyers get airdrop 🎁\njoin TG now before launch 👇\nhttps://t.co/dR2rPeag1I\n#DMND #Solana #Memecoin #SOL",
           "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@barmanyuu",
-          "tweetUrl": "https://x.com/barmanyuu/status/2057321777316118968",
-          "text": "@CryptoThro ⏳ COUNTDOWN HAS STARTED\n$DMND launching TODAY 💎\n🇺🇸 11:00 AM EST\n🇬🇧 4:00 PM UK\n🇪🇺 5:00 PM EU\n14 members already in the community and we just getting started\nearly buyers get airdrop 🎁\njoin TG now before launch 👇\nhttps://t.co/dR2rPeaNRg\n#DMND #Solana #Memecoin #SOL",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
         }
       ],
       "urls": [
@@ -191,7 +184,52 @@
         ]
       },
       "priorTokens": [],
-      "score": 46
+      "score": 43
+    },
+    {
+      "project": "$CHUB",
+      "tickers": [
+        "$CHUB"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@WeAreChub",
+          "xUrl": "https://x.com/WeAreChub",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/WeAreChub/status/2058413759492980937"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@WeAreChub",
+          "tweetUrl": "https://x.com/WeAreChub/status/2058413759492980937",
+          "text": "GN CHUB FAM 🌙\n\nWhile most sleep…\nwe keep building.\n\n5 days until launch. 🟢\n\nThe vision is clear.\nThe community is growing.\nAnd the real ones are already here before the storm.\n\nRest up legends.\nTomorrow we push even harder.\n\n$CHUB #sol #solana #memecoin #crypto https://t.co/5quvz8oxyI",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/5quvz8oxyI"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
     },
     {
       "project": "$VINYL",
@@ -650,52 +688,6 @@
       "score": 37
     },
     {
-      "project": "$NGCAT",
-      "tickers": [
-        "$NGCAT"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@NeuroGigaCat",
-          "xUrl": "https://x.com/NeuroGigaCat",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/NeuroGigaCat/status/2057260370046202204"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@NeuroGigaCat",
-          "tweetUrl": "https://x.com/NeuroGigaCat/status/2057260370046202204",
-          "text": "Countdown is ON! 🕒 Today at 20:00 CEST we launch on https://t.co/FC19ycWjLL.\n\nNo red candles, just pure green walls. Join our community now and get ready to become a millionaire with $NGCAT! 🚀🟢🐱\n\n#NGCAT #Solana #MemeCoin #PumpFun https://t.co/3iVarNoJrz",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/3iVarNoJrz",
-        "https://t.co/FC19ycWjLL"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
       "project": "$PURPLETROLL",
       "tickers": [
         "$PURPLETROLL"
@@ -832,6 +824,51 @@
       "score": 37
     },
     {
+      "project": "$MON",
+      "tickers": [
+        "$MON"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@dev_fuze",
+          "xUrl": "https://x.com/dev_fuze",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/dev_fuze/status/2058429949942358400"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@dev_fuze",
+          "tweetUrl": "https://x.com/dev_fuze/status/2058429949942358400",
+          "text": "$MON is 6 months old today and we’re celebrating with a major milestone 🤝\n\n🚀 FUZE Launchpad goes live on $MON in a couple of hours! Stay tuned and get ready! 🚀\n\nFUZE is a Pump.fun-style launchpad built for the MONAD ecosystem, designed to make token launches simple, fast, and",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "no_external_project_links",
+          "single_source_claim",
+          "weak_validity"
+        ]
+      },
+      "priorTokens": [],
+      "score": 37
+    },
+    {
       "project": "$OBS",
       "tickers": [
         "$OBS"
@@ -871,51 +908,6 @@
         ],
         "warnings": [
           "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$GIGAHAM",
-      "tickers": [
-        "$GIGAHAM"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@GigaHam_",
-          "xUrl": "https://x.com/GigaHam_",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/GigaHam_/status/2058185795828433119"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@GigaHam_",
-          "tweetUrl": "https://x.com/GigaHam_/status/2058185795828433119",
-          "text": "**$GIGAHAM** in **1 HOUR**! 🐹  \nLaunch at 11 AM NY time.  \nPump fun loading… Let’s gooo! 🔥\n#GIGAHAM #Solana #Memecoin",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "no_external_project_links",
-          "single_source_claim",
-          "weak_validity"
         ]
       },
       "priorTokens": [],
