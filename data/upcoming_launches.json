@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T09:36:49.867494+00:00",
+  "generatedAt": "2026-05-25T15:38:47.697252+00:00",
   "windowHours": 24,
   "source": {
     "xSearchEnabled": true,
@@ -17,199 +17,6 @@
     ]
   },
   "launches": [
-    {
-      "project": "$GIGI",
-      "tickers": [
-        "$GIGI"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@GiGicoinlaunch",
-          "xUrl": "https://x.com/GiGicoinlaunch",
-          "mentions": 9,
-          "tweetUrls": [
-            "https://x.com/GiGicoinlaunch/status/2058647336130338948",
-            "https://x.com/GiGicoinlaunch/status/2058642227338051877",
-            "https://x.com/GiGicoinlaunch/status/2058642018000404714",
-            "https://x.com/GiGicoinlaunch/status/2058641642236920284",
-            "https://x.com/GiGicoinlaunch/status/2058640864407367869",
-            "https://x.com/GiGicoinlaunch/status/2058639825272778976",
-            "https://x.com/GiGicoinlaunch/status/2058647336130338948",
-            "https://x.com/GiGicoinlaunch/status/2058642018000404714",
-            "https://x.com/GiGicoinlaunch/status/2058641642236920284"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058647336130338948",
-          "text": "@memecoin $GIGI launches tomorrow 7:30 PM IST 💜\n\nFair launch on https://t.co/u32i29aM47\nNo presale. Community takeover.\n\nJoin early 🚀\n\nhttps://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058642227338051877",
-          "text": "@Boss_pepeX $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n Telegram\n\nhttps://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058642018000404714",
-          "text": "@Memeland @9GAG @memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n\nhttps://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058641642236920284",
-          "text": "@memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\nTelegram\n\nhttps://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058640864407367869",
-          "text": "@sherifgjini $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n                      Telegram\n           https://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058639825272778976",
-          "text": "$GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n\nTelegram\n        🔽\n\nhttps://t.co/ShITAvn9km",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058647336130338948",
-          "text": "@memecoin $GIGI launches tomorrow 7:30 PM IST 💜\n\nFair launch on https://t.co/u32i29aM47\nNo presale. Community takeover.\n\nJoin early 🚀\n\nhttps://t.co/ShITAvn9km",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058642018000404714",
-          "text": "@Memeland @9GAG @memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n\nhttps://t.co/ShITAvn9km",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@GiGicoinlaunch",
-          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058641642236920284",
-          "text": "@memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\nTelegram\n\nhttps://t.co/ShITAvn9km",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/ShITAvn9km",
-        "https://t.co/u32i29aM47"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 60
-    },
-    {
-      "project": "$TALLY",
-      "tickers": [
-        "$TALLY"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@ipoptally",
-          "xUrl": "https://x.com/ipoptally",
-          "mentions": 4,
-          "tweetUrls": [
-            "https://x.com/ipoptally/status/2058837051290878120",
-            "https://x.com/ipoptally/status/2058745527580393806",
-            "https://x.com/ipoptally/status/2058611864456814762",
-            "https://x.com/ipoptally/status/2058745527580393806"
-          ],
-          "priorTokens": [
-            {
-              "symbol": "TALLY",
-              "name": "ipoptally",
-              "chainId": "solana",
-              "pairUrl": "https://dexscreener.com/solana/emwh8mgcd4gbagyfhbyyxrwwta9zaexe7m6cptzftog6",
-              "marketCap": 2376.23,
-              "liquidityUsd": null,
-              "pairCreatedAt": 1779631855000
-            }
-          ]
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@ipoptally",
-          "tweetUrl": "https://x.com/ipoptally/status/2058837051290878120",
-          "text": "6 hours. ⏳\n\nthis evening, $TALLY launches on @solana , an AI that builds whole companies while you sleep.\n\n✅ live demo → https://t.co/t7tOjzf3wT\n✅ 100% fair launch\n✅ no presale, no team tokens\n\n🗓 today · 3PM UTC\n💊 @Pumpfun \n\nCA drops here at launch. don't trust any before",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@ipoptally",
-          "tweetUrl": "https://x.com/ipoptally/status/2058745527580393806",
-          "text": "12 hours. ⏳\n\nin half a day, an AI that builds entire companies goes live on @solana.\n\ndrop an idea → it ships the product. while you sleep.\n\n🗓 25 may · 3PM UTC\n💊 fair launch · @Pumpfun \n\nthe demo's already live → https://t.co/t7tOjzf3wT\n\n$TALLY",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@ipoptally",
-          "tweetUrl": "https://x.com/ipoptally/status/2058611864456814762",
-          "text": "less than 24 hours. ⏳\n\ntomorrow, an AI that builds entire companies goes live on @solana.\n\ndrop an idea → it ships the product. while you sleep.\n\n🗓 25 may · 3PM UTC\n💊 fair launch on @Pumpfun \n\nset your alarm. $TALLY https://t.co/SMnVtrhtQk",
-          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
-        },
-        {
-          "author": "@ipoptally",
-          "tweetUrl": "https://x.com/ipoptally/status/2058745527580393806",
-          "text": "12 hours. ⏳\n\nin half a day, an AI that builds entire companies goes live on @solana.\n\ndrop an idea → it ships the product. while you sleep.\n\n🗓 25 may · 3PM UTC\n💊 fair launch · @Pumpfun \n\nthe demo's already live → https://t.co/t7tOjzf3wT\n\n$TALLY",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/SMnVtrhtQk",
-        "https://t.co/t7tOjzf3wT"
-      ],
-      "queries": [
-        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "medium",
-        "score": 40,
-        "signals": [
-          "24h_time_language",
-          "launch_language",
-          "speaker_has_prior_token_links"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [
-        {
-          "speaker": "@ipoptally",
-          "symbol": "TALLY",
-          "name": "ipoptally",
-          "chainId": "solana",
-          "pairUrl": "https://dexscreener.com/solana/emwh8mgcd4gbagyfhbyyxrwwta9zaexe7m6cptzftog6",
-          "marketCap": 2376.23,
-          "liquidityUsd": null,
-          "pairCreatedAt": 1779631855000
-        }
-      ],
-      "score": 56
-    },
     {
       "project": "$MIAOAI",
       "tickers": [
@@ -270,6 +77,223 @@
       },
       "priorTokens": [],
       "score": 54
+    },
+    {
+      "project": "$AORA",
+      "tickers": [
+        "$AORA"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@diabloxzxz",
+          "xUrl": "https://x.com/diabloxzxz",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/diabloxzxz/status/2058898170349064608"
+          ],
+          "priorTokens": []
+        },
+        {
+          "handle": "@Ninjacrypto786",
+          "xUrl": "https://x.com/Ninjacrypto786",
+          "mentions": 1,
+          "tweetUrls": [
+            "https://x.com/Ninjacrypto786/status/2058891218990379049"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@diabloxzxz",
+          "tweetUrl": "https://x.com/diabloxzxz/status/2058898170349064608",
+          "text": "AORA just landed on @MEXC.\n40M+ users. $1.4M daily on-chain volume. First CEX.\n\nDeposits Open Today, Trading goes live 26th May  13:00 UTC.\n\nPair: $AORA / USDT\nCA (Base): 0x6E84030FA86EBf585E3E18fe557e5612f7e93Bff\n\nWe're just getting started. Just like that.🔥 https://t.co/vmbJqnWlyh",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        },
+        {
+          "author": "@Ninjacrypto786",
+          "tweetUrl": "https://x.com/Ninjacrypto786/status/2058891218990379049",
+          "text": "AORA just landed on @MEXC.\n40M+ users. $1.4M daily on-chain volume. First CEX.\n\nDeposits Open Today, Trading goes live 26th May  13:00 UTC.\n\nPair: $AORA / USDT\nCA (Base): 0x6E84030FA86EBf585E3E18fe557e5612f7e93Bff\n\nWe're just getting started. 🔥 https://t.co/YLX9wRggDS",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/YLX9wRggDS",
+        "https://t.co/vmbJqnWlyh"
+      ],
+      "queries": [
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "two_people_discussing"
+        ],
+        "warnings": []
+      },
+      "priorTokens": [],
+      "score": 54
+    },
+    {
+      "project": "$GIGI",
+      "tickers": [
+        "$GIGI"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@GiGicoinlaunch",
+          "xUrl": "https://x.com/GiGicoinlaunch",
+          "mentions": 6,
+          "tweetUrls": [
+            "https://x.com/GiGicoinlaunch/status/2058647336130338948",
+            "https://x.com/GiGicoinlaunch/status/2058642227338051877",
+            "https://x.com/GiGicoinlaunch/status/2058642018000404714",
+            "https://x.com/GiGicoinlaunch/status/2058641642236920284",
+            "https://x.com/GiGicoinlaunch/status/2058640864407367869",
+            "https://x.com/GiGicoinlaunch/status/2058639825272778976"
+          ],
+          "priorTokens": []
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058647336130338948",
+          "text": "@memecoin $GIGI launches tomorrow 7:30 PM IST 💜\n\nFair launch on https://t.co/u32i29aM47\nNo presale. Community takeover.\n\nJoin early 🚀\n\nhttps://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058642227338051877",
+          "text": "@Boss_pepeX $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n Telegram\n\nhttps://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058642018000404714",
+          "text": "@Memeland @9GAG @memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n\nhttps://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058641642236920284",
+          "text": "@memecoin $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\nTelegram\n\nhttps://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058640864407367869",
+          "text": "@sherifgjini $GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n                      Telegram\n           https://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        },
+        {
+          "author": "@GiGicoinlaunch",
+          "tweetUrl": "https://x.com/GiGicoinlaunch/status/2058639825272778976",
+          "text": "$GIGI 🎀\n\nLaunching tomorrow at 7:30 PM IST ⏰\n\nCommunity takeover meme coin 💜\nFair launch. No presale.\nLP burned. No team allocation.\n\nBuilt for the GIGI army.\nJoin early. CA drops at launch 🚀\n\nTelegram\n        🔽\n\nhttps://t.co/ShITAvn9km",
+          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/ShITAvn9km",
+        "https://t.co/u32i29aM47"
+      ],
+      "queries": [
+        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "needs-manual-review",
+        "score": 30,
+        "signals": [
+          "24h_time_language",
+          "launch_language"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [],
+      "score": 52
+    },
+    {
+      "project": "$TALLY",
+      "tickers": [
+        "$TALLY"
+      ],
+      "contracts": [],
+      "speakers": [
+        {
+          "handle": "@ipoptally",
+          "xUrl": "https://x.com/ipoptally",
+          "mentions": 2,
+          "tweetUrls": [
+            "https://x.com/ipoptally/status/2058837051290878120",
+            "https://x.com/ipoptally/status/2058878342410162349"
+          ],
+          "priorTokens": [
+            {
+              "symbol": "TALLY",
+              "name": "ipoptally",
+              "chainId": "solana",
+              "pairUrl": "https://dexscreener.com/solana/dieu4cnjtrndfbkkffxq4v7oh7yp7trbwjcjwzy8eqcp",
+              "marketCap": 2488.54,
+              "liquidityUsd": null,
+              "pairCreatedAt": 1779721254000
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "author": "@ipoptally",
+          "tweetUrl": "https://x.com/ipoptally/status/2058837051290878120",
+          "text": "6 hours. ⏳\n\nthis evening, $TALLY launches on @solana , an AI that builds whole companies while you sleep.\n\n✅ live demo → https://t.co/t7tOjzf3wT\n✅ 100% fair launch\n✅ no presale, no team tokens\n\n🗓 today · 3PM UTC\n💊 @Pumpfun \n\nCA drops here at launch. don't trust any before",
+          "query": "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en"
+        },
+        {
+          "author": "@ipoptally",
+          "tweetUrl": "https://x.com/ipoptally/status/2058878342410162349",
+          "text": "3 hours. 🚨\n\n$TALLY goes live on @solana this afternoon.\n\nan AI that builds entire companies while you sleep and the product is already live.\n\ntry it now → https://t.co/t7tOjzf3wT\n\n🗓 today · 3PM UTC\n💊 https://t.co/oP85pqFzrI\n\n⚠️ CA drops here + in TG at launch. nowhere else.",
+          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+        }
+      ],
+      "urls": [
+        "https://t.co/oP85pqFzrI",
+        "https://t.co/t7tOjzf3wT"
+      ],
+      "queries": [
+        "(\"fair launch\" OR \"stealth launch\") (memecoin OR pumpfun OR \"pump.fun\" OR solana) -is:retweet lang:en",
+        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
+      ],
+      "security": {
+        "verdict": "medium",
+        "score": 40,
+        "signals": [
+          "24h_time_language",
+          "launch_language",
+          "speaker_has_prior_token_links"
+        ],
+        "warnings": [
+          "single_source_claim"
+        ]
+      },
+      "priorTokens": [
+        {
+          "speaker": "@ipoptally",
+          "symbol": "TALLY",
+          "name": "ipoptally",
+          "chainId": "solana",
+          "pairUrl": "https://dexscreener.com/solana/dieu4cnjtrndfbkkffxq4v7oh7yp7trbwjcjwzy8eqcp",
+          "marketCap": 2488.54,
+          "liquidityUsd": null,
+          "pairCreatedAt": 1779721254000
+        }
+      ],
+      "score": 50
     },
     {
       "project": "$DAC",
@@ -824,79 +848,34 @@
       "score": 37
     },
     {
-      "project": "$MPEPE",
+      "project": "$LOUD",
       "tickers": [
-        "$MPEPE",
-        "$SOL"
+        "$LOUD"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@mpeppesol",
-          "xUrl": "https://x.com/mpeppesol",
+          "handle": "@LoudmouthAI",
+          "xUrl": "https://x.com/LoudmouthAI",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/mpeppesol/status/2057587831803912542"
+            "https://x.com/LoudmouthAI/status/2058929352080023737"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@mpeppesol",
-          "tweetUrl": "https://x.com/mpeppesol/status/2057587831803912542",
-          "text": "We are launching soon 🚀\n\n$MPEPE is a decentralized meme coin built on #Solana 🟣🦴\n\nFirst 2.000 = 1.000.000 $MPEPE\n👉Follow,like &amp;RT\n👉Join tg: https://t.co/qXe8HBhWCD\n \n(Drop your $SOL wallet)\n\nSnapshot in 24 hours get ready ⏰\n\n#launch #solana #airdrop #pepe https://t.co/FXZEF1mJNU",
-          "query": "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/FXZEF1mJNU",
-        "https://t.co/qXe8HBhWCD"
-      ],
-      "queries": [
-        "(memecoin OR meme coin) (launching OR launch) (tomorrow OR today OR \"24 hours\" OR \"24h\") -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$PSX",
-      "tickers": [
-        "$PSX"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@stharkid1",
-          "xUrl": "https://x.com/stharkid1",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/stharkid1/status/2058838572032028917"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@stharkid1",
-          "tweetUrl": "https://x.com/stharkid1/status/2058838572032028917",
-          "text": "$PSX goes live on Pumpfun TODAY 🚀\n\nBoosts are locked in. DEX is paid.\nEyes are coming. Volume is coming.\n\nThis is your chance to be early before the timeline catches on 👀💜\n\nDon’t fade the purple wave.\n$PSX #Solana #memecoin\n\nThe mission remains the same 🚀⚡️ https://t.co/jfk9XIuPU1",
+          "author": "@LoudmouthAI",
+          "tweetUrl": "https://x.com/LoudmouthAI/status/2058929352080023737",
+          "text": "24 hours.\n\ntomorrow $LOUD goes live. but the agent? already trading, already reasoning out loud, go watch it now.\n\n📅 26 May · 4PM UTC\n🟣 https://t.co/MsL7ZNVjOA · Solana\n📢 https://t.co/BcCBag8TBO\n\nCA drops here &amp; on X only. nowhere else. https://t.co/S7rsyDVJOC",
           "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
         }
       ],
       "urls": [
-        "https://t.co/jfk9XIuPU1"
+        "https://t.co/BcCBag8TBO",
+        "https://t.co/MsL7ZNVjOA",
+        "https://t.co/S7rsyDVJOC"
       ],
       "queries": [
         "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
@@ -916,34 +895,31 @@
       "score": 37
     },
     {
-      "project": "$FELI",
+      "project": "$EGGS",
       "tickers": [
-        "$FELI"
+        "$EGGS"
       ],
       "contracts": [],
       "speakers": [
         {
-          "handle": "@BAREESTER1",
-          "xUrl": "https://x.com/BAREESTER1",
+          "handle": "@Niel_jrpr",
+          "xUrl": "https://x.com/Niel_jrpr",
           "mentions": 1,
           "tweetUrls": [
-            "https://x.com/BAREESTER1/status/2058792183637881257"
+            "https://x.com/Niel_jrpr/status/2058900899813036380"
           ],
           "priorTokens": []
         }
       ],
       "mentions": [
         {
-          "author": "@BAREESTER1",
-          "tweetUrl": "https://x.com/BAREESTER1/status/2058792183637881257",
-          "text": "Quiet moves before loud history.\n\nWhile everyone sleeps, Félicette prepares for launch.\n\nMission C341 goes live tonight at 23:00 (UTC+3) on https://t.co/CUu1R3AdK6.\n\nThe countdown has already started.\n\n$FELI #MissionC341 #Solana #PumpFun https://t.co/lfgp1iePwS",
+          "author": "@Niel_jrpr",
+          "tweetUrl": "https://x.com/Niel_jrpr/status/2058900899813036380",
+          "text": "@lourdesanchezok @ChiknEggs \n\nP2E farming game to earn golden $eggs Launching on Solana. \n\nEarly access just launched today, we're so early.",
           "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
         }
       ],
-      "urls": [
-        "https://t.co/CUu1R3AdK6",
-        "https://t.co/lfgp1iePwS"
-      ],
+      "urls": [],
       "queries": [
         "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
       ],
@@ -955,97 +931,9 @@
           "launch_language"
         ],
         "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$SLX",
-      "tickers": [
-        "$SLX"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@0xKairom",
-          "xUrl": "https://x.com/0xKairom",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/0xKairom/status/2058776534366728520"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@0xKairom",
-          "tweetUrl": "https://x.com/0xKairom/status/2058776534366728520",
-          "text": "Today is the day. $SLX goes live \n\nSolstice has been building serious momentum, and now the spotlight is finally here.\nA new chapter for DeFi on Solana is about to begin.\n\nEyes on the launch.\nEyes on the chart.\nEyes on $SLX. \n\nThis is not just another token launch… this is https://t.co/bKFDH7iZ0i",
-          "query": "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/bKFDH7iZ0i"
-      ],
-      "queries": [
-        "(\"launching on\" OR \"goes live\" OR \"launch at\") (pump.fun OR raydium OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
-        ]
-      },
-      "priorTokens": [],
-      "score": 37
-    },
-    {
-      "project": "$GOODBYE",
-      "tickers": [
-        "$GOODBYE"
-      ],
-      "contracts": [],
-      "speakers": [
-        {
-          "handle": "@GoodByeGle",
-          "xUrl": "https://x.com/GoodByeGle",
-          "mentions": 1,
-          "tweetUrls": [
-            "https://x.com/GoodByeGle/status/2058337512377008225"
-          ],
-          "priorTokens": []
-        }
-      ],
-      "mentions": [
-        {
-          "author": "@GoodByeGle",
-          "tweetUrl": "https://x.com/GoodByeGle/status/2058337512377008225",
-          "text": "🪦 RIP Google Search (1998-2026)\n\nAI killed it all. The robots are crying… but we’re celebrating!\n\n$GOODBYE just landed on Solana.\n\n1 SOL Giveaway → Like + Follow + Comment 🪦 to enter!\n\nLaunch in 48h. Who’s ready to bury Google? https://t.co/0gKvD3XtiA",
-          "query": "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
-        }
-      ],
-      "urls": [
-        "https://t.co/0gKvD3XtiA"
-      ],
-      "queries": [
-        "(\"presale ends\" OR \"launch in\") (memecoin OR solana OR base) -is:retweet lang:en"
-      ],
-      "security": {
-        "verdict": "needs-manual-review",
-        "score": 30,
-        "signals": [
-          "24h_time_language",
-          "launch_language"
-        ],
-        "warnings": [
-          "single_source_claim"
+          "no_external_project_links",
+          "single_source_claim",
+          "weak_validity"
         ]
       },
       "priorTokens": [],
@@ -1053,7 +941,7 @@
     }
   ],
   "counts": {
-    "rawMentions": 198,
-    "launches": 20
+    "rawMentions": 119,
+    "launches": 18
   }
 }
