@@ -1,7 +1,7 @@
 {
   "canonical": "https://www.alpha64.xyz/",
-  "generatedAt": "2026-05-30T07:56:38Z",
-  "git": "8ce97ad4d6a9",
+  "generatedAt": "2026-05-30T13:57:36Z",
+  "git": "178f77ff039c",
   "manifest": "data/manifest.json",
   "ok": true,
   "securityPolicyVersion": "A64-SECURITY-1",
