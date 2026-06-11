@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T22:26:28.243102+00:00",
+  "generatedAt": "2026-06-11T04:28:09.076479+00:00",
   "windowDays": 14,
   "source": {
     "dexscreener": true,
@@ -12,9 +12,9 @@
     "minLiquidityUsd": 2500.0,
     "duplicateIdentityPolicy": "one canonical token row per copied name/symbol identity, selected by liquidity-weighted 24h volume",
     "dropped": {
-      "low_liquidity": 101,
-      "duplicate_identity": 81,
-      "total": 103
+      "low_liquidity": 104,
+      "duplicate_identity": 80,
+      "total": 108
     },
     "droppedSample": [
       {
@@ -24,173 +24,30 @@
         "tokenAddress": "5etbzxYXjuCojfsbXGuML3nJeyr7Nf8M31knLACcpump",
         "liquidityUsd": 0.0,
         "volumeH24": 5564.45,
-        "score": 211.4,
+        "score": 210.65,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "Fyc7RRqYrm8KgpawYn2LJssqWJbHiB1zg6GDq64JAfet",
-        "canonicalLiquidityUsd": 33254.19,
-        "canonicalVolumeH24": 1544805.65
+        "canonicalLiquidityUsd": 34782.56,
+        "canonicalVolumeH24": 2465339.68
       },
       {
-        "name": "Cain y Abel",
-        "symbol": "CAINYABEL",
-        "pairAddress": "8f18TAWhdPpWy6AiRWeYUovZtDjYRHQv2kzFQtEahczc",
-        "tokenAddress": "8HzRWh3zdW7ewhjE16sCowoxeKZZ9hF3TjhCwqVMpump",
+        "name": "FIFA2026 Coin",
+        "symbol": "FIFA26",
+        "pairAddress": "EDUc8eRtiDThVvqxavSGqQosTRFRrYPELwziN7woihmp",
+        "tokenAddress": "BfiBstiCWSSDNoMb89vQU9tEHafLmWrUZYaa9Mzqpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 5527.04,
-        "score": 191.42,
+        "volumeH24": 5332.38,
+        "score": 193.36,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "GdRryBiMbfo81AhGThTbrSBcHVoMdwbhr6upXeRjHJx6",
-        "canonicalLiquidityUsd": 4980.03,
-        "canonicalVolumeH24": 6468522.3
-      },
-      {
-        "name": "Cain y Abel",
-        "symbol": "CAINYABEL",
-        "pairAddress": "CmzPnS3R73jZhDC7iziipLnQTHyWD1hkAZy5TxbeSciS",
-        "tokenAddress": "8HzRWh3zdW7ewhjE16sCowoxeKZZ9hF3TjhCwqVMpump",
-        "liquidityUsd": 467.07,
-        "volumeH24": 540.73,
-        "score": 170.18,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "GdRryBiMbfo81AhGThTbrSBcHVoMdwbhr6upXeRjHJx6",
-        "canonicalLiquidityUsd": 4980.03,
-        "canonicalVolumeH24": 6468522.3
-      },
-      {
-        "name": "Farting Unicorn By Elon Musk",
-        "symbol": "FU",
-        "pairAddress": "GeoqiU1hDUysrreTEZp4bAi2C4aktrVrv41gy9uSHpsL",
-        "tokenAddress": "6x61MPqUz19ktKsmfyejSGiU9L38uyzQL1Riv3ZXpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 122067.85,
-        "score": 120.5,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_weaker_pool"
-        ],
-        "canonicalPairAddress": "BE1oGGz5c6YhSwJGGhCvMkGBVxRDgtcekX3HigwKPq8H",
-        "canonicalLiquidityUsd": 18608.21,
-        "canonicalVolumeH24": 59663.98
-      },
-      {
-        "name": "dogwifhat",
-        "symbol": "WIF",
-        "pairAddress": "8f4LvX7w8PQGJmuunoCkWvRvMqNaF9TdsysJEbQHFmaX",
-        "tokenAddress": "HN7EP8PrKbxCMbCCCHRPrZYaru267QGkY45MS58qpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 90538.78,
-        "score": 117.9,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "5HyKC1Sosg9MjWQbV3V2SZEuwHD9BmB7n7cFStZRPcUP",
-        "canonicalLiquidityUsd": 5590.05,
-        "canonicalVolumeH24": 301343.59
-      },
-      {
-        "name": "Brötchen",
-        "symbol": "Brötchen",
-        "pairAddress": "5YfCkAvnJNCCKU3Micv4N3pPoNZSHpX6WcJn5JjVBYmZ",
-        "tokenAddress": "6vcMitr3itPTTGDDBMCwgEMZD167SJgTk8hkvYdqpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 49737.1,
-        "score": 115.02,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
-        "canonicalLiquidityUsd": 33271.28,
-        "canonicalVolumeH24": 963351.83
-      },
-      {
-        "name": "Robty",
-        "symbol": "ROBTY",
-        "pairAddress": "J6rzj3o8ousAQNZjUiLXGCwG7a9kk6WTocgtrVpHyXXf",
-        "tokenAddress": "46N587j4xukNGuTFzWF2FE8iLcTisL1K6TNBYgAJpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 27764.6,
-        "score": 111.82,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "QpYdKGMgLQnj6MYTFFe2Edp16S8YaBg8KBfvuQMNejs",
-        "canonicalLiquidityUsd": 2767.12,
-        "canonicalVolumeH24": 735402.57
-      },
-      {
-        "name": "BIBI",
-        "symbol": "BIBI",
-        "pairAddress": "6WZRgZYgR95rLPQD2FzfCP5YjNi5uvbt7pRaSvP34RQB",
-        "tokenAddress": "6MLWMbv4yP67A1zHFLHgDSEDTQBx7z9BWr8Zxyt3pump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 5413.14,
-        "score": 111.69,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "E6oLTppHWxBFuNNowsecZZAXobfKmit8kZTSi2uH2ZFV",
-        "canonicalLiquidityUsd": 68237.38,
-        "canonicalVolumeH24": 2513575.3
-      },
-      {
-        "name": "Brötchen",
-        "symbol": "Brötchen",
-        "pairAddress": "DXtv6w15jk5Kjh4kiPKKd4j4xEsqin691UkGDFiprvCj",
-        "tokenAddress": "9ZtbETDNjnST9Y2zs82FZYy49xUMPgqXRh46YjjRpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 83081.13,
-        "score": 110.89,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
-        "canonicalLiquidityUsd": 33271.28,
-        "canonicalVolumeH24": 963351.83
-      },
-      {
-        "name": "Abel",
-        "symbol": "ABEL",
-        "pairAddress": "2rdwzZ5FC18YuSzmFZbLKihVXANttAVHmxKVyMkVi3rV",
-        "tokenAddress": "EaAAwVnGWn7d3QUfT8qToKyxebs1qKEPjdqfCxQZpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 5563.18,
-        "score": 109.92,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "9WR8ikCm5Y6JSu6zwkYjrDLhEofaEzcW3Kqbid4HgbuG",
-        "canonicalLiquidityUsd": 3639.67,
-        "canonicalVolumeH24": 2474304.78
-      },
-      {
-        "name": "Brötchen",
-        "symbol": "Brötchen",
-        "pairAddress": "X18f4iUQ25ApKzEVJZMFS1XshCYJd7F9HLw4asKeof8",
-        "tokenAddress": "6vcMitr3itPTTGDDBMCwgEMZD167SJgTk8hkvYdqpump",
-        "liquidityUsd": 4588.79,
-        "volumeH24": 145542.39,
-        "score": 102.35,
-        "reasons": [
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
-        "canonicalLiquidityUsd": 33271.28,
-        "canonicalVolumeH24": 963351.83
+        "canonicalPairAddress": "3zUikJTSDRBybCgJhUdGG4MoNSCJM1pufDAy3X23zfzt",
+        "canonicalLiquidityUsd": 43513.28,
+        "canonicalVolumeH24": 1611828.83
       },
       {
         "name": "Solana Football Club",
@@ -199,56 +56,118 @@
         "tokenAddress": "ET8kG3dbefg7uwqY4d4GGhkwvNmBdvBqf5UcvVERpump",
         "liquidityUsd": 0.0,
         "volumeH24": 10443.41,
-        "score": 99.73,
+        "score": 123.97,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
         "canonicalPairAddress": "Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh",
-        "canonicalLiquidityUsd": 28623.35,
-        "canonicalVolumeH24": 125753.69
+        "canonicalLiquidityUsd": 21654.53,
+        "canonicalVolumeH24": 142656.65
       },
       {
-        "name": "EMBER",
-        "symbol": "EMBER",
-        "pairAddress": "2gby8ZAkikrTGar9WiVMg5tw9MgaazquPHAoaJRVEdEa",
-        "tokenAddress": "7RHxQQUWG9fCskqocSV9zPkWPLJqcceWTcUCjnwMpump",
+        "name": "KINGOFKOLS",
+        "symbol": "KoK",
+        "pairAddress": "7nneuU2sLpNTGggpjonNKXdjvodhCKWY8pxM6CH4sUTm",
+        "tokenAddress": "EV9N47HsZ4PdGVVVYwTfBrjvQQ2RZN4VEb3uoaa6pump",
         "liquidityUsd": 0.0,
-        "volumeH24": 12681.59,
-        "score": 99.43,
+        "volumeH24": 13691.04,
+        "score": 120.16,
+        "reasons": [
+          "low_liquidity_vamp_risk"
+        ],
+        "canonicalPairAddress": null,
+        "canonicalLiquidityUsd": null,
+        "canonicalVolumeH24": null
+      },
+      {
+        "name": "Farting Unicorn By Elon Musk",
+        "symbol": "FU",
+        "pairAddress": "GeoqiU1hDUysrreTEZp4bAi2C4aktrVrv41gy9uSHpsL",
+        "tokenAddress": "6x61MPqUz19ktKsmfyejSGiU9L38uyzQL1Riv3ZXpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 122067.85,
+        "score": 119.74,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_weaker_pool"
+        ],
+        "canonicalPairAddress": "BE1oGGz5c6YhSwJGGhCvMkGBVxRDgtcekX3HigwKPq8H",
+        "canonicalLiquidityUsd": 12442.75,
+        "canonicalVolumeH24": 87503.97
+      },
+      {
+        "name": "BIBI",
+        "symbol": "BIBI",
+        "pairAddress": "6WZRgZYgR95rLPQD2FzfCP5YjNi5uvbt7pRaSvP34RQB",
+        "tokenAddress": "6MLWMbv4yP67A1zHFLHgDSEDTQBx7z9BWr8Zxyt3pump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 5413.14,
+        "score": 110.94,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "CBbT2x4ft3t8BA5DKUVU7EFtwnxmTWDoyhWewn5Q4qNs",
-        "canonicalLiquidityUsd": 9352.82,
-        "canonicalVolumeH24": 21791.18
+        "canonicalPairAddress": "E6oLTppHWxBFuNNowsecZZAXobfKmit8kZTSi2uH2ZFV",
+        "canonicalLiquidityUsd": 67418.59,
+        "canonicalVolumeH24": 2917537.2
       },
       {
-        "name": "Brötchen",
-        "symbol": "Brötchen",
-        "pairAddress": "HpHZ9oN5s6PVYNGNP4Kf8N4yj7WL9CSdvFqB32V7ZnbP",
-        "tokenAddress": "9ZtbETDNjnST9Y2zs82FZYy49xUMPgqXRh46YjjRpump",
-        "liquidityUsd": 86.67,
-        "volumeH24": 4269.95,
-        "score": 97.33,
+        "name": "Kiyomasa",
+        "symbol": "清正",
+        "pairAddress": "2mhma8RrxWUpXB4aoXgebJe88PhvagG1NsBQSvc5dcR7",
+        "tokenAddress": "ANP1wJHYWYQPfrZvg8FnjduwfBVJhRV3xqKcs3yapump",
+        "liquidityUsd": 6336.82,
+        "volumeH24": 132631.06,
+        "score": 104.47,
+        "reasons": [
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "8DtwLdoCahLZ1DAxk8ZviDYrAuTyFBRuE9UhXghudd2M",
+        "canonicalLiquidityUsd": 13535.83,
+        "canonicalVolumeH24": 332788.64
+      },
+      {
+        "name": "Cowlick",
+        "symbol": "COWLICK",
+        "pairAddress": "2uMik6MkDpXYWjU41Lnb6qcv1FTDHtQ3DKaXdoTi9pGu",
+        "tokenAddress": "HG1kBNSLpUTU6SbUAzXcXHFynHMmpsvEgjPQ7yh6pump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 30348.07,
+        "score": 99.48,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
-        "canonicalLiquidityUsd": 33271.28,
-        "canonicalVolumeH24": 963351.83
+        "canonicalPairAddress": "BURmLEWd6TTywimjVbi8MjyQ1gbPS19AERzKcJ68A7QM",
+        "canonicalLiquidityUsd": 3223.36,
+        "canonicalVolumeH24": 1901408.5
       },
       {
-        "name": "Stablecoin",
-        "symbol": "Stable",
-        "pairAddress": "AHN82iGB2MWMHathtzRm9Cn3GUqQRRJPRqu9nDSj2h2d",
-        "tokenAddress": "38aohSbWdqruPFCzEh8wArSKDWR3XrXhcD9SEqTKpump",
+        "name": "It Ain't Over Til It's Over",
+        "symbol": "OVER",
+        "pairAddress": "5cwxN71kbWiEXqPcKrXmDA4J3KXPMsiifZd8Yoz5ZJJQ",
+        "tokenAddress": "4VKyDRwipM9RWMcBpxkiwmEbbBvT1eEtteaswSgPpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 5868.04,
+        "volumeH24": 65913.43,
         "score": 95.88,
         "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_weaker_pool"
+        ],
+        "canonicalPairAddress": "DApDxZ9khrFmiktZoarzTT9bzkDTbCp9t52BGmdCsdke",
+        "canonicalLiquidityUsd": 9901.26,
+        "canonicalVolumeH24": 61055.01
+      },
+      {
+        "name": "Chimping final boss",
+        "symbol": "Chimping",
+        "pairAddress": "C5bk12yKPvn61C4ksQ6SZjrxkY3s85qoQ6ZvQkzu5QpX",
+        "tokenAddress": "BZmFY52VopTvGVHDXKZXc7dSFu11ik1MfW5KE5Sjpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 86146.94,
+        "score": 95.67,
+        "reasons": [
           "low_liquidity_vamp_risk"
         ],
         "canonicalPairAddress": null,
@@ -256,75 +175,59 @@
         "canonicalVolumeH24": null
       },
       {
-        "name": "Glitch Moon ",
-        "symbol": "MOON",
-        "pairAddress": "H492TFJvLqwC76nYxMgJ6P85z4MXL5BXfxScuUnFeUS6",
-        "tokenAddress": "4HXWGBpbP2NJgkVeN8WFav7MLKaKxgM3X3pPayqLpump",
+        "name": "Big Floppa",
+        "symbol": "FLOPPA",
+        "pairAddress": "3Lssyz1nL8mLoMEDcWcWuLSbVT8E9Kwh8YQEh8bGzosS",
+        "tokenAddress": "GWFKT5EzXRiNaCjnLdsqTTCFtr1puMYYT7zjMYsapump",
         "liquidityUsd": 0.0,
-        "volumeH24": 5309.43,
-        "score": 95.88,
+        "volumeH24": 26855.77,
+        "score": 95.4,
+        "reasons": [
+          "low_liquidity_vamp_risk"
+        ],
+        "canonicalPairAddress": null,
+        "canonicalLiquidityUsd": null,
+        "canonicalVolumeH24": null
+      },
+      {
+        "name": "Kiyomasa",
+        "symbol": "清正",
+        "pairAddress": "Gj9nRjwYvXGRq35jAc7ZJDN4P1xv9f91wAbe1WzV71RS",
+        "tokenAddress": "ANP1wJHYWYQPfrZvg8FnjduwfBVJhRV3xqKcs3yapump",
+        "liquidityUsd": 5044.93,
+        "volumeH24": 3406.67,
+        "score": 95.2,
+        "reasons": [
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "8DtwLdoCahLZ1DAxk8ZviDYrAuTyFBRuE9UhXghudd2M",
+        "canonicalLiquidityUsd": 13535.83,
+        "canonicalVolumeH24": 332788.64
+      },
+      {
+        "name": "Speedrun To 1 Billion",
+        "symbol": "1B",
+        "pairAddress": "6Z5Mj8JB6h8oResMovDV5QtLaDHiEYU9FDdMYeE4XdvG",
+        "tokenAddress": "2Mcwccy7Ckf6C2BUfwG9Z6kcYp8Mj5tKFBHEEoYCpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 86233.26,
+        "score": 94.79,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "DuFEviCkSjx37Qhi4Lnw1zSbu2oiF12pHFUyxJzNjmQh",
-        "canonicalLiquidityUsd": 22686.98,
-        "canonicalVolumeH24": 279711.83
-      },
-      {
-        "name": "FREDDYLA7",
-        "symbol": "FREDDY",
-        "pairAddress": "3PfPVMYQFqSyGap7ERTgPU3axohioCv26mbSgsyQvndh",
-        "tokenAddress": "3yA28P7Tc5BzPmGkLTjobfXtJskRZpjDYGqp5MXSpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 36663.35,
-        "score": 95.71,
-        "reasons": [
-          "low_liquidity_vamp_risk"
-        ],
-        "canonicalPairAddress": null,
-        "canonicalLiquidityUsd": null,
-        "canonicalVolumeH24": null
-      },
-      {
-        "name": "CERBY",
-        "symbol": "CERBY",
-        "pairAddress": "HvnKbMpiwL89MmU7Qogii3PKZ98g53NaVJro7g6evmSg",
-        "tokenAddress": "5rEkWxPbgq2LVULyCcsGUUqopH7PxLy7mXmxagzepump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 16460.16,
-        "score": 95.1,
-        "reasons": [
-          "low_liquidity_vamp_risk",
-          "same_identity_lower_liquidity_and_volume"
-        ],
-        "canonicalPairAddress": "ADa9r7LXZj1QrMAU2iTMMBXfffMwNmo2vbvo9rMmLB3Q",
-        "canonicalLiquidityUsd": 2624.26,
-        "canonicalVolumeH24": 675760.76
-      },
-      {
-        "name": "Troll King ",
-        "symbol": "$Tking",
-        "pairAddress": "EUirLGWhHoq7QYLZAotVfkEQK777rAnUd2PtajuyvNdW",
-        "tokenAddress": "Amg8vPAx5U4E388bETfr8QNaZm4HEFit64wQr86qpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 7428.96,
-        "score": 92.54,
-        "reasons": [
-          "low_liquidity_vamp_risk"
-        ],
-        "canonicalPairAddress": null,
-        "canonicalLiquidityUsd": null,
-        "canonicalVolumeH24": null
+        "canonicalPairAddress": "63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG",
+        "canonicalLiquidityUsd": 27200.7,
+        "canonicalVolumeH24": 391848.83
       },
       {
         "name": "StarDink ",
         "symbol": "StarDink ",
         "pairAddress": "DPksRemyx8MTNEVFW4dY1gFdVefUcSdr8y5H3n3irHb7",
         "tokenAddress": "3pVm4xa7Myctqhss7JYADxm4DstYrgSmn3J4PUdMpump",
-        "liquidityUsd": 24.46,
-        "volumeH24": 39.23,
-        "score": 90.67,
+        "liquidityUsd": 24.56,
+        "volumeH24": 60.05,
+        "score": 91.54,
         "reasons": [
           "low_liquidity_vamp_risk"
         ],
@@ -333,44 +236,91 @@
         "canonicalVolumeH24": null
       },
       {
-        "name": "Save The Dogs",
-        "symbol": "Dogs",
-        "pairAddress": "Xr84VjfE7Ym3exQX8PRcpGL9pzkCkQohMtafsbfnNfz",
-        "tokenAddress": "94hYtbLu4uHnAUGEE3LYr19bXptE8i3H3gUU6gKVpump",
+        "name": "PetroDollar",
+        "symbol": "XPD",
+        "pairAddress": "7t9xAoje5FHctNDEMsU56sSy9pCAARudJGLchG6kpDXi",
+        "tokenAddress": "DoxqL8jK3HYfxQkSyP52v3eQoPrLyr7ccXKMZDDRpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 64896.61,
-        "score": 89.04,
+        "volumeH24": 104819.99,
+        "score": 89.97,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "5wxguuok5n4t5qEKmoewDJe1MAzVHZNPZCaZLdX2jqXt",
-        "canonicalLiquidityUsd": 5718.23,
-        "canonicalVolumeH24": 72436.72
+        "canonicalPairAddress": "GMT6VTB7T9DmKoNpvEiBZpRwxLNZpjKEWEgiFQE3booT",
+        "canonicalLiquidityUsd": 19943.67,
+        "canonicalVolumeH24": 187694.13
       },
       {
-        "name": "unstable jotchua coin",
-        "symbol": "USDJC",
-        "pairAddress": "9sDQw2fUPyX1cwDtifyJqA47LrpVoWCjkzN7qG8TxwhS",
-        "tokenAddress": "BWqJfk5EvVNSt9W3ynvvGCayJWMfm7eLp4u44QHUpump",
-        "liquidityUsd": 0.0,
-        "volumeH24": 30623.06,
-        "score": 87.88,
+        "name": "Solana Football Club",
+        "symbol": "SOLFC",
+        "pairAddress": "3kEeWykmVb4NxM3WuA57x1MuK1FmdeXqqoSJJv5AKZr2",
+        "tokenAddress": "ET8kG3dbefg7uwqY4d4GGhkwvNmBdvBqf5UcvVERpump",
+        "liquidityUsd": 0.14,
+        "volumeH24": 11.35,
+        "score": 89.72,
         "reasons": [
           "low_liquidity_vamp_risk",
           "same_identity_lower_liquidity_and_volume"
         ],
-        "canonicalPairAddress": "4qUKiwH6J2nYmYg9NzzTYSHvgyxMTGAyzcw5UkRKtUvX",
-        "canonicalLiquidityUsd": 32703.29,
-        "canonicalVolumeH24": 549059.73
+        "canonicalPairAddress": "Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh",
+        "canonicalLiquidityUsd": 21654.53,
+        "canonicalVolumeH24": 142656.65
       },
       {
-        "name": "Champions of Tomorrow",
-        "symbol": "CHAMPIONS",
-        "pairAddress": "AHRqK6Ld5ZySGyyPEJV1mnRKt1AJGxnKkRj6xcLZ3QW3",
-        "tokenAddress": "FiDHo8uwKR7kpmScRWy8haJXxQMWyLF9geGNRVezpump",
+        "name": "Kiyomasa",
+        "symbol": "清正",
+        "pairAddress": "7NYZgbvdX8ifwt4ebaGe2sazKKhRJPX3HFvNRVk3sitj",
+        "tokenAddress": "ANP1wJHYWYQPfrZvg8FnjduwfBVJhRV3xqKcs3yapump",
+        "liquidityUsd": 1429.74,
+        "volumeH24": 23396.18,
+        "score": 89.55,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "8DtwLdoCahLZ1DAxk8ZviDYrAuTyFBRuE9UhXghudd2M",
+        "canonicalLiquidityUsd": 13535.83,
+        "canonicalVolumeH24": 332788.64
+      },
+      {
+        "name": "Cello",
+        "symbol": "Cello",
+        "pairAddress": "DWvpsPBv9WutmE4oCLrmPA1N77JEdJxGP9HwjATCNc78",
+        "tokenAddress": "3SHV9X7bHWs29pHJcHYNiK1QswjCVwqB39DkkzjWpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 81483.12,
+        "volumeH24": 74314.96,
+        "score": 88.91,
+        "reasons": [
+          "low_liquidity_vamp_risk"
+        ],
+        "canonicalPairAddress": null,
+        "canonicalLiquidityUsd": null,
+        "canonicalVolumeH24": null
+      },
+      {
+        "name": "Cowlick",
+        "symbol": "COWLICK",
+        "pairAddress": "5XE47QezcFAHF2s9ZH1QQUpTNnUjuaJ2zWMHDHJgTUwP",
+        "tokenAddress": "HG1kBNSLpUTU6SbUAzXcXHFynHMmpsvEgjPQ7yh6pump",
+        "liquidityUsd": 116.85,
+        "volumeH24": 18902.62,
+        "score": 88.16,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "BURmLEWd6TTywimjVbi8MjyQ1gbPS19AERzKcJ68A7QM",
+        "canonicalLiquidityUsd": 3223.36,
+        "canonicalVolumeH24": 1901408.5
+      },
+      {
+        "name": "Idea Concept Meme",
+        "symbol": "ICM",
+        "pairAddress": "5ZGURkANUN9T5fuemDBBqtwcpCr9eYTCL4Q8JiEoLDY6",
+        "tokenAddress": "C62NYujnUQiZ8dFbnCbWdJM8RuePNjYwUmRrtsRKpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 74200.16,
         "score": 87.88,
         "reasons": [
           "low_liquidity_vamp_risk"
@@ -380,12 +330,12 @@
         "canonicalVolumeH24": null
       },
       {
-        "name": "変な形の猫 ",
-        "symbol": "SHAPED",
-        "pairAddress": "47ZRHXASseDDYD2P85JvdNhHCfqZ3ivy8NjizJWXUFAs",
-        "tokenAddress": "9BU4wmSibgdhtNXd5b8WfbuCQ2HoNPpw2KMCUGgdpump",
+        "name": "This Will Go Up",
+        "symbol": "Inflation",
+        "pairAddress": "CHQzYq5hBAd6YpdNLLJaarWvpe4Azjjhm9hsxXPred4X",
+        "tokenAddress": "2EwR2UNhDrWRWqKZNQkN9rtTwnyhdQWnYfEUMDmUpump",
         "liquidityUsd": 0.0,
-        "volumeH24": 105656.93,
+        "volumeH24": 32321.67,
         "score": 87.83,
         "reasons": [
           "low_liquidity_vamp_risk"
@@ -393,16 +343,63 @@
         "canonicalPairAddress": null,
         "canonicalLiquidityUsd": null,
         "canonicalVolumeH24": null
+      },
+      {
+        "name": "Gary",
+        "symbol": "GARY",
+        "pairAddress": "J1DJxno3g49jbg26Wwq92z1prnce45pe4gtnzf1MWKGs",
+        "tokenAddress": "At4sbH6ZF2AxJgu8qXVAJc1h6Us475YMg5fJmibzpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 18183.88,
+        "score": 87.75,
+        "reasons": [
+          "low_liquidity_vamp_risk"
+        ],
+        "canonicalPairAddress": null,
+        "canonicalLiquidityUsd": null,
+        "canonicalVolumeH24": null
+      },
+      {
+        "name": "US Debt Coin",
+        "symbol": "USDC",
+        "pairAddress": "Ep5ZpNHpRcrmGUCYvF4tb6afxyFBCHcKENJfY2pCQKKp",
+        "tokenAddress": "AmcNNEhSDTA9ChFkNZs4Jme39rvTALZ9spezw8dfpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 137511.31,
+        "score": 87.71,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_weaker_pool"
+        ],
+        "canonicalPairAddress": "8QchfQwd5BDBQ7NxCH4Lna6NNekcbAyius4N7z5Nmfod",
+        "canonicalLiquidityUsd": 1.36,
+        "canonicalVolumeH24": 0.07
+      },
+      {
+        "name": "Brötchen",
+        "symbol": "Brötchen",
+        "pairAddress": "DXtv6w15jk5Kjh4kiPKKd4j4xEsqin691UkGDFiprvCj",
+        "tokenAddress": "9ZtbETDNjnST9Y2zs82FZYy49xUMPgqXRh46YjjRpump",
+        "liquidityUsd": 0.0,
+        "volumeH24": 83081.13,
+        "score": 87.63,
+        "reasons": [
+          "low_liquidity_vamp_risk",
+          "same_identity_lower_liquidity_and_volume"
+        ],
+        "canonicalPairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
+        "canonicalLiquidityUsd": 29432.5,
+        "canonicalVolumeH24": 1077530.91
       }
     ]
   },
   "counts": {
-    "seeds": 76,
-    "rawCandidates": 146,
-    "candidates": 43,
-    "vampFiltered": 103,
-    "lowLiquidityFiltered": 101,
-    "duplicateIdentityFiltered": 81
+    "seeds": 74,
+    "rawCandidates": 142,
+    "candidates": 34,
+    "vampFiltered": 108,
+    "lowLiquidityFiltered": 104,
+    "duplicateIdentityFiltered": 80
   },
   "candidates": [
     {
@@ -416,39 +413,39 @@
       "description": "Gaejook and Jotchua have been best friends since the early days of internet memes.",
       "image": "https://cdn.dexscreener.com/cms/images/2KwIquGeGmkbyHDJ?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-10T15:55:53+00:00",
-      "ageHours": 6.51,
-      "priceUsd": "0.0002089",
-      "marketCap": 208989.0,
-      "liquidityUsd": 33254.19,
+      "ageHours": 12.54,
+      "priceUsd": "0.0001948",
+      "marketCap": 194836.0,
+      "liquidityUsd": 34782.56,
       "volume": {
-        "h24": 1544805.65,
-        "h6": 1344794.36,
-        "h1": 157203.99,
-        "m5": 11492.02
+        "h24": 2465339.68,
+        "h6": 913656.54,
+        "h1": 135797.28,
+        "m5": 12354.86
       },
       "txns": {
         "m5": {
-          "buys": 442,
-          "sells": 243
+          "buys": 314,
+          "sells": 445
         },
         "h1": {
-          "buys": 5263,
-          "sells": 3122
+          "buys": 5572,
+          "sells": 4424
         },
         "h6": {
-          "buys": 32578,
-          "sells": 20223
+          "buys": 35084,
+          "sells": 16876
         },
         "h24": {
-          "buys": 37557,
-          "sells": 20644
+          "buys": 72893,
+          "sells": 37665
         }
       },
       "priceChange": {
-        "m5": -6,
-        "h1": -26.89,
-        "h6": 71.74,
-        "h24": 215
+        "m5": 2.36,
+        "h1": 29.85,
+        "h6": 6.41,
+        "h24": 194
       },
       "links": [
         {
@@ -519,82 +516,82 @@
       "sources": [
         "top"
       ],
-      "score": 220.19,
+      "score": 219.43,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/gdrrybimbfo81ahgthtbrsbchvomdwbhr6upxerjhjx6",
-      "pairAddress": "GdRryBiMbfo81AhGThTbrSBcHVoMdwbhr6upXeRjHJx6",
-      "tokenAddress": "8HzRWh3zdW7ewhjE16sCowoxeKZZ9hF3TjhCwqVMpump",
-      "name": "Cain y Abel",
-      "symbol": "CAINYABEL",
-      "description": "Cain and Abel. The legendary duo from the 2021 Spanish puppy adoption post that gave birth to Jotchua — the golden retriever with the hypnotic stare.",
-      "image": "https://cdn.dexscreener.com/cms/images/XtCDCX5AItotS3J0?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T00:14:01+00:00",
-      "ageHours": 22.21,
-      "priceUsd": "0.000003732",
-      "marketCap": 3732.0,
-      "liquidityUsd": 4980.03,
+      "pairUrl": "https://dexscreener.com/solana/3zuikjtsdrbybcgjhudgg4monscjm1pufday3x23zfzt",
+      "pairAddress": "3zUikJTSDRBybCgJhUdGG4MoNSCJM1pufDAy3X23zfzt",
+      "tokenAddress": "BfiBstiCWSSDNoMb89vQU9tEHafLmWrUZYaa9Mzqpump",
+      "name": "FIFA2026 Coin",
+      "symbol": "FIFA26",
+      "description": "FIFA 26 is the meme coin built for football fans and crypto degens alike.",
+      "image": "https://cdn.dexscreener.com/cms/images/OmcNViI1hiurGv_i?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T22:36:34+00:00",
+      "ageHours": 5.86,
+      "priceUsd": "0.0003511",
+      "marketCap": 351116.0,
+      "liquidityUsd": 43513.28,
       "volume": {
-        "h24": 6468522.3,
-        "h6": 178186.75,
-        "h1": 233.73,
-        "m5": 5.96
+        "h24": 1611828.83,
+        "h6": 1611828.83,
+        "h1": 334608.19,
+        "m5": 30911.95
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 1
+          "buys": 561,
+          "sells": 283
         },
         "h1": {
-          "buys": 9,
-          "sells": 21
+          "buys": 6048,
+          "sells": 3235
         },
         "h6": {
-          "buys": 2587,
-          "sells": 13980
+          "buys": 21557,
+          "sells": 11060
         },
         "h24": {
-          "buys": 72454,
-          "sells": 44530
+          "buys": 21557,
+          "sells": 11060
         }
       },
       "priceChange": {
-        "m5": 1.31,
-        "h1": -2.86,
-        "h6": -96.68,
-        "h24": -96.34
+        "m5": 19.23,
+        "h1": 23.01,
+        "h6": 307,
+        "h24": 307
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/8hzrwh3zdw7ewhje16scowoxekzz9hf3tjhcwqvmpump",
+          "url": "https://dexscreener.com/solana/bfibsticwssdnomb89vqu9tehaflmwruzyaa9mzqpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://www.cainyabel.cc",
+          "url": "https://www.fifa26coin.site",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/cainyabels",
+          "url": "https://x.com/fifa26coin",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/gdrrybimbfo81ahgthtbrsbchvomdwbhr6upxerjhjx6",
+          "url": "https://dexscreener.com/solana/3zuikjtsdrbybcgjhudgg4monscjm1pufday3x23zfzt",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@cainyabels"
+        "@fifa26coin"
       ],
       "xStats": {
         "available": false,
@@ -608,25 +605,128 @@
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://www.cainyabel.cc",
+          "url": "https://www.fifa26coin.site",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/cainyabels",
+          "url": "https://x.com/fifa26coin",
           "source": "profile.links",
           "kind": "x_account"
         }
       ],
       "sources": [
+        "latest",
         "top"
       ],
-      "score": 185.22,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
+      "score": 202.27,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/fvp8j9ngexykccconycijmzyzemunr2xl8fcwtuzuqnh",
+      "pairAddress": "Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh",
+      "tokenAddress": "ET8kG3dbefg7uwqY4d4GGhkwvNmBdvBqf5UcvVERpump",
+      "name": "Solana Football Club",
+      "symbol": "SOLFC",
+      "description": "Solana Football Club",
+      "image": "https://cdn.dexscreener.com/cms/images/QLv4bwOm2L7W6ZN5?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T09:15:44+00:00",
+      "ageHours": 19.21,
+      "priceUsd": "0.00009971",
+      "marketCap": 99718.0,
+      "liquidityUsd": 21654.53,
+      "volume": {
+        "h24": 142656.65,
+        "h6": 16793.57,
+        "h1": 2374.8,
+        "m5": 11.14
+      },
+      "txns": {
+        "m5": {
+          "buys": 1,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 32,
+          "sells": 31
+        },
+        "h6": {
+          "buys": 191,
+          "sells": 181
+        },
+        "h24": {
+          "buys": 1474,
+          "sells": 1067
+        }
+      },
+      "priceChange": {
+        "m5": 0.4,
+        "h1": -18.74,
+        "h6": -44.73,
+        "h24": 278
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/et8kg3dbefg7uwqy4d4gghkwvnmbdvbqf5ucvverpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/SOLFCPUMP",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/SOLFCPUMP",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/fvp8j9ngexykccconycijmzyzemunr2xl8fcwtuzuqnh",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@SOLFCPUMP"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "telegram_coordination_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/SOLFCPUMP",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/SOLFCPUMP",
+          "source": "profile.links",
+          "kind": "telegram"
+        }
+      ],
+      "sources": [
+        "top"
+      ],
+      "score": 131.1,
+      "warnings": []
     },
     {
       "chainId": "solana",
@@ -639,39 +739,39 @@
       "description": "Same team as $FU / SOL above 10M MC",
       "image": "https://cdn.dexscreener.com/cms/images/2xMZkS3cLraS98M6?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-10T21:13:15+00:00",
-      "ageHours": 1.22,
-      "priceUsd": "0.00003424",
-      "marketCap": 31143.0,
-      "liquidityUsd": 18608.21,
+      "ageHours": 7.25,
+      "priceUsd": "0.00001530",
+      "marketCap": 13857.0,
+      "liquidityUsd": 12442.75,
       "volume": {
-        "h24": 59663.98,
-        "h6": 59663.98,
-        "h1": 37403.39,
-        "m5": 5936.48
+        "h24": 87503.97,
+        "h6": 26668.81,
+        "h1": 1303.98,
+        "m5": 204.57
       },
       "txns": {
         "m5": {
-          "buys": 70,
-          "sells": 21
+          "buys": 1,
+          "sells": 3
         },
         "h1": {
-          "buys": 431,
-          "sells": 375
+          "buys": 7,
+          "sells": 17
         },
         "h6": {
-          "buys": 668,
-          "sells": 537
+          "buys": 345,
+          "sells": 224
         },
         "h24": {
-          "buys": 668,
-          "sells": 537
+          "buys": 1025,
+          "sells": 772
         }
       },
       "priceChange": {
-        "m5": 104,
-        "h1": -55.15,
-        "h6": -42.04,
-        "h24": -42.04
+        "m5": -2.35,
+        "h1": -27.13,
+        "h6": -52.17,
+        "h24": -74.11
       },
       "links": [
         {
@@ -740,10 +840,9 @@
         }
       ],
       "sources": [
-        "latest",
         "top"
       ],
-      "score": 120.85,
+      "score": 120.09,
       "warnings": []
     },
     {
@@ -757,39 +856,39 @@
       "description": "BnB's Official Mascot and AI Assistant",
       "image": "https://cdn.dexscreener.com/cms/images/PH5vxA_QhhWrPM93?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-10T18:53:50+00:00",
-      "ageHours": 3.54,
-      "priceUsd": "0.0008288",
-      "marketCap": 828886.0,
-      "liquidityUsd": 68237.38,
+      "ageHours": 9.57,
+      "priceUsd": "0.0007600",
+      "marketCap": 760069.0,
+      "liquidityUsd": 67418.59,
       "volume": {
-        "h24": 2513575.3,
-        "h6": 2513575.3,
-        "h1": 216302.72,
-        "m5": 7020.02
+        "h24": 2917537.2,
+        "h6": 403656.94,
+        "h1": 65334.31,
+        "m5": 3289.9
       },
       "txns": {
         "m5": {
-          "buys": 50,
-          "sells": 46
+          "buys": 21,
+          "sells": 23
         },
         "h1": {
-          "buys": 2045,
-          "sells": 1023
+          "buys": 369,
+          "sells": 448
         },
         "h6": {
-          "buys": 8928,
-          "sells": 6517
+          "buys": 2662,
+          "sells": 2537
         },
         "h24": {
-          "buys": 8928,
-          "sells": 6517
+          "buys": 11603,
+          "sells": 9059
         }
       },
       "priceChange": {
-        "m5": 0.6,
-        "h1": -2.42,
-        "h6": 895,
-        "h24": 895
+        "m5": -2.48,
+        "h1": 9.7,
+        "h6": -8.73,
+        "h24": 813
       },
       "links": [
         {
@@ -858,31 +957,30 @@
         }
       ],
       "sources": [
-        "latest",
         "top"
       ],
-      "score": 120.56,
+      "score": 119.8,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/5hykc1sosg9mjwqbv3v2szeuwhd9bmb7n7cfstzrpcup",
-      "pairAddress": "5HyKC1Sosg9MjWQbV3V2SZEuwHD9BmB7n7cFStZRPcUP",
-      "tokenAddress": "HN7EP8PrKbxCMbCCCHRPrZYaru267QGkY45MS58qpump",
-      "name": "dogwifhat",
-      "symbol": "WIF",
-      "description": "dogwifhat",
-      "image": "https://cdn.dexscreener.com/cms/images/FGT5fQerdawIAVUv?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T00:35:27+00:00",
-      "ageHours": 21.85,
-      "priceUsd": "0.000002984",
-      "marketCap": 2984.0,
-      "liquidityUsd": 5590.05,
+      "pairUrl": "https://dexscreener.com/solana/72azpxj18sgq9rhxck5kjs5mdp4973yfke3sqtqn3y6r",
+      "pairAddress": "72AzpXJ18sGq9RHXCk5kjS5MDp4973yfke3Sqtqn3Y6r",
+      "tokenAddress": "ArqxKeRcQdGKfAWf75AxscyWgzUxnTETXTWPgFYWpump",
+      "name": "Frogba",
+      "symbol": "FROGBA",
+      "description": "Frogba is the greatest frog to ever play the beautiful game. Banned from 3 continents for excessive celebrations. Back for World Cup 2026. 0% buy/sell tax, LP locked 100%, dev wallet public. Pure community meme energy. 🐸⚽",
+      "image": "https://cdn.dexscreener.com/cms/images/qNjKF7-RrCIwItPc?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-08T15:44:42+00:00",
+      "ageHours": 60.72,
+      "priceUsd": "0.000007999",
+      "marketCap": 8000.0,
+      "liquidityUsd": 6057.02,
       "volume": {
-        "h24": 301343.59,
-        "h6": 33022.72,
-        "h1": 185.45,
+        "h24": 5316.91,
+        "h6": 5294.28,
+        "h1": 159.8,
         "m5": 0
       },
       "txns": {
@@ -891,57 +989,57 @@
           "sells": 0
         },
         "h1": {
-          "buys": 1,
+          "buys": 3,
           "sells": 2
         },
         "h6": {
-          "buys": 615,
-          "sells": 346
+          "buys": 76,
+          "sells": 59
         },
         "h24": {
-          "buys": 4953,
-          "sells": 3210
+          "buys": 77,
+          "sells": 62
         }
       },
       "priceChange": {
-        "h1": 3.38,
-        "h6": -96.83,
-        "h24": -94.94
+        "h1": 10.61,
+        "h6": -36.24,
+        "h24": -36.43
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/hn7ep8prkbxcmbccchrprzyaru267qgky45ms58qpump",
+          "url": "https://dexscreener.com/solana/arqxkercqdgkfawf75axscywgzuxntetxtwpgfywpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://wifonusdc.fun",
+          "url": "https://frogba.com/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/WIF_ONUSDC",
+          "url": "https://x.com/officialfrogba",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "telegram",
-          "url": "https://t.me/wifcoinportal",
+          "url": "https://t.me/frogbachat",
           "source": "profile.links",
           "kind": "telegram"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/5hykc1sosg9mjwqbv3v2szeuwhd9bmb7n7cfstzrpcup",
+          "url": "https://dexscreener.com/solana/72azpxj18sgq9rhxck5kjs5mdp4973yfke3sqtqn3y6r",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@WIF_ONUSDC"
+        "@officialfrogba"
       ],
       "xStats": {
         "available": false,
@@ -957,102 +1055,109 @@
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://wifonusdc.fun",
+          "url": "https://frogba.com/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/WIF_ONUSDC",
+          "url": "https://x.com/officialfrogba",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "telegram",
-          "url": "https://t.me/wifcoinportal",
+          "url": "https://t.me/frogbachat",
           "source": "profile.links",
           "kind": "telegram"
         }
       ],
       "sources": [
+        "latest",
         "top"
       ],
-      "score": 118.27,
+      "score": 113.41,
       "warnings": []
     },
     {
       "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/74hjkm2dqyvj9koqtw4jbs1ujk7uzkhxytjmbxkfcjlk",
-      "pairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
-      "tokenAddress": "9ZtbETDNjnST9Y2zs82FZYy49xUMPgqXRh46YjjRpump",
-      "name": "Brötchen",
-      "symbol": "Brötchen",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/-6zOu6L4q5rW9pcD?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T10:21:58+00:00",
-      "ageHours": 12.08,
-      "priceUsd": "0.00009954",
-      "marketCap": 99545.0,
-      "liquidityUsd": 33271.28,
+      "dexId": "meteora",
+      "pairUrl": "https://dexscreener.com/solana/8dtwldocahlz1daxk8zvidyrautyfbrue9uhxghudd2m",
+      "pairAddress": "8DtwLdoCahLZ1DAxk8ZviDYrAuTyFBRuE9UhXghudd2M",
+      "tokenAddress": "ANP1wJHYWYQPfrZvg8FnjduwfBVJhRV3xqKcs3yapump",
+      "name": "Kiyomasa",
+      "symbol": "清正",
+      "description": "清正(Kiyomasa) is a community-led meme based on the real gorilla Kiyomasa, the son of Shabani, Japan’s famous “handsome gorilla.”\n\nAs the son of one of Japan’s most iconic gorillas, Kiyomasa carries real-world roots, strong Japanese identity, and a presence that stands out immediately. That is what makes this narrative feel different from just another meme.\n\nNow being rebuilt by local Japanese community members, the project aims to grow into something positive, visible, and worth supporting.",
+      "image": "https://cdn.dexscreener.com/cms/images/LTLiTttvIXQ8VZw3?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T07:12:51+00:00",
+      "ageHours": 21.26,
+      "priceUsd": "0.0004403",
+      "marketCap": 439603.0,
+      "liquidityUsd": 13535.83,
       "volume": {
-        "h24": 963351.83,
-        "h6": 420994.24,
-        "h1": 28801.4,
-        "m5": 359.24
+        "h24": 332788.64,
+        "h6": 45365.56,
+        "h1": 2618.94,
+        "m5": 29.05
       },
       "txns": {
         "m5": {
-          "buys": 6,
-          "sells": 5
+          "buys": 2,
+          "sells": 0
         },
         "h1": {
-          "buys": 250,
-          "sells": 213
+          "buys": 38,
+          "sells": 33
         },
         "h6": {
-          "buys": 4240,
-          "sells": 3271
+          "buys": 332,
+          "sells": 354
         },
         "h24": {
-          "buys": 10723,
-          "sells": 7885
+          "buys": 1628,
+          "sells": 1634
         }
       },
       "priceChange": {
-        "m5": -1.7,
-        "h1": -8.95,
-        "h6": 83.58,
-        "h24": 68.47
+        "m5": 1.17,
+        "h1": 33.4,
+        "h6": 20.38,
+        "h24": -61.17
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/9ztbetdnjnst9y2zs82fzyy49xumpgqxrh46yjjrpump",
+          "url": "https://dexscreener.com/solana/anp1wjhywyqpfrzvg8fnjduwfbvjhrv3xqkcs3yapump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://www.zoo-berlin.de/de/aktuelles/news/artikel/broetchen-ein-name-zum-anbeissen",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "instagram",
-          "url": "https://www.instagram.com/zooberlin/",
+          "url": "https://kiyomasa.l94045062.workers.dev/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/1859774906851856716",
+          "url": "https://x.com/i/communities/1959463470325252358",
           "source": "profile.links",
           "kind": "x_community"
         },
         {
+          "label": "telegram",
+          "url": "https://t.me/kiyomasa_cto_chat",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
+          "label": "tiktok",
+          "url": "https://www.tiktok.com/@kiyomasa_gorilla?is_from_webapp=1&sender_device=pc",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
           "label": "url",
-          "url": "https://dexscreener.com/solana/74hjkm2dqyvj9koqtw4jbs1ujk7uzkhxytjmbxkfcjlk",
+          "url": "https://dexscreener.com/solana/8dtwldocahlz1daxk8zvidyrautyfbrue9uhxghudd2m",
           "source": "url",
           "kind": "dexscreener"
         }
@@ -1067,254 +1172,39 @@
         "communities": []
       },
       "raidSignals": [
+        "telegram_coordination_link",
         "x_community_link"
       ],
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://www.zoo-berlin.de/de/aktuelles/news/artikel/broetchen-ein-name-zum-anbeissen",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "instagram",
-          "url": "https://www.instagram.com/zooberlin/",
+          "url": "https://kiyomasa.l94045062.workers.dev/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/1859774906851856716",
+          "url": "https://x.com/i/communities/1959463470325252358",
           "source": "profile.links",
           "kind": "x_community"
-        }
-      ],
-      "sources": [
-        "top"
-      ],
-      "score": 111.49,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/cbbt2x4ft3t8ba5dkuvu7eftwnxmtwdoyhwewn5q4qns",
-      "pairAddress": "CBbT2x4ft3t8BA5DKUVU7EFtwnxmTWDoyhWewn5Q4qNs",
-      "tokenAddress": "7RHxQQUWG9fCskqocSV9zPkWPLJqcceWTcUCjnwMpump",
-      "name": "EMBER",
-      "symbol": "EMBER",
-      "description": "WE BURN SO YOU 🫵 EARN",
-      "image": "https://cdn.dexscreener.com/cms/images/vyZ7mWMKtSOT690R?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T14:11:06+00:00",
-      "ageHours": 8.26,
-      "priceUsd": "0.00001980",
-      "marketCap": 19391.0,
-      "liquidityUsd": 9352.82,
-      "volume": {
-        "h24": 21791.18,
-        "h6": 4187.79,
-        "h1": 387.76,
-        "m5": 0
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 12,
-          "sells": 3
-        },
-        "h6": {
-          "buys": 93,
-          "sells": 58
-        },
-        "h24": {
-          "buys": 1174,
-          "sells": 655
-        }
-      },
-      "priceChange": {
-        "h1": 7.8,
-        "h6": 11.11,
-        "h24": -27.16
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/7rhxqquwg9fcskqocsv9zpkwpljqccewtcucjnwmpump",
-          "source": "url",
-          "kind": "dexscreener"
         },
         {
-          "label": "website",
-          "url": "https://www.emberweb.space/",
+          "label": "telegram",
+          "url": "https://t.me/kiyomasa_cto_chat",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
+          "label": "tiktok",
+          "url": "https://www.tiktok.com/@kiyomasa_gorilla?is_from_webapp=1&sender_device=pc",
           "source": "profile.links",
           "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/EMBERweBURN",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/EMBERweBURNsoYOUearn",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/cbbt2x4ft3t8ba5dkuvu7eftwnxmtwdoyhwewn5q4qns",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@EMBERweBURN"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://www.emberweb.space/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/EMBERweBURN",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/EMBERweBURNsoYOUearn",
-          "source": "profile.links",
-          "kind": "telegram"
         }
       ],
       "sources": [
-        "top"
+        "latest"
       ],
-      "score": 107.47,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/fvp8j9ngexykccconycijmzyzemunr2xl8fcwtuzuqnh",
-      "pairAddress": "Fvp8J9ngexYKccCoNYciJMzyzEmUNR2xL8fcWtUZUQnh",
-      "tokenAddress": "ET8kG3dbefg7uwqY4d4GGhkwvNmBdvBqf5UcvVERpump",
-      "name": "Solana Football Club",
-      "symbol": "SOLFC",
-      "description": "Solana Football Club",
-      "image": "https://cdn.dexscreener.com/cms/images/QLv4bwOm2L7W6ZN5?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T09:15:44+00:00",
-      "ageHours": 13.18,
-      "priceUsd": "0.0001820",
-      "marketCap": 182013.0,
-      "liquidityUsd": 28623.35,
-      "volume": {
-        "h24": 125753.69,
-        "h6": 105835.15,
-        "h1": 2270,
-        "m5": 12.24
-      },
-      "txns": {
-        "m5": {
-          "buys": 1,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 43,
-          "sells": 34
-        },
-        "h6": {
-          "buys": 950,
-          "sells": 603
-        },
-        "h24": {
-          "buys": 1282,
-          "sells": 885
-        }
-      },
-      "priceChange": {
-        "m5": 1.52,
-        "h1": 0.61,
-        "h6": 317,
-        "h24": 590
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/et8kg3dbefg7uwqy4d4gghkwvnmbdvbqf5ucvverpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/SOLFCPUMP",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/SOLFCPUMP",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/fvp8j9ngexykccconycijmzyzemunr2xl8fcwtuzuqnh",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@SOLFCPUMP"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/SOLFCPUMP",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/SOLFCPUMP",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest",
-        "top"
-      ],
-      "score": 106.85,
+      "score": 105.84,
       "warnings": []
     },
     {
@@ -1328,39 +1218,38 @@
       "description": "ABEL. The brother you never met.\n\nYou know the smile. You know the meme. But the internet only ever got half the story. Jotchua’s real name is Cain. And Cain has a brother: Abel.\n\nThey shared the same dirt, the same water bowl, the same blood. While Cain was busy becoming the poster child of the internet, Abel was right there in the yard. Abel doesn't want the crown. He’s not here to dethrone his brother, and he isn't trying to rewrite history. He just wants to be in the family photo.\n\nFor years, the world celebrated one half of a whole. Today, we’re putting the family back together. Welcome home, Abel.",
       "image": "https://cdn.dexscreener.com/cms/images/3c_-663VAIJF_9Sw?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-10T04:01:31+00:00",
-      "ageHours": 18.42,
-      "priceUsd": "0.000002354",
-      "marketCap": 2354.0,
-      "liquidityUsd": 3639.67,
+      "ageHours": 24.44,
+      "priceUsd": "0.000002372",
+      "marketCap": 2372.0,
+      "liquidityUsd": 3735.43,
       "volume": {
-        "h24": 2474304.78,
-        "h6": 14034.74,
-        "h1": 8.54,
-        "m5": 8.41
+        "h24": 2422191.09,
+        "h6": 574.88,
+        "h1": 103.09,
+        "m5": 0
       },
       "txns": {
         "m5": {
-          "buys": 2,
+          "buys": 0,
           "sells": 0
         },
         "h1": {
-          "buys": 2,
-          "sells": 3
+          "buys": 1,
+          "sells": 5
         },
         "h6": {
-          "buys": 130,
-          "sells": 1581
+          "buys": 17,
+          "sells": 23
         },
         "h24": {
-          "buys": 23761,
-          "sells": 13788
+          "buys": 23216,
+          "sells": 13317
         }
       },
       "priceChange": {
-        "m5": 2.2,
-        "h1": 1.1,
-        "h6": -97.9,
-        "h24": -91.17
+        "h1": -8.57,
+        "h6": 2.03,
+        "h24": -97.35
       },
       "links": [
         {
@@ -1443,7 +1332,7 @@
       "sources": [
         "top"
       ],
-      "score": 103.7,
+      "score": 102.94,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -1452,22 +1341,22 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/j2q169hkkplsmz6nknucpqjmh8teljsk2mynnyep9w8j",
-      "pairAddress": "J2Q169hKKpLsMz6NknUcPqjmh8TELJsK2MYNnyeP9W8J",
-      "tokenAddress": "Hg45Qr91T5ekze7Rog4buMU3MbzTMzN7LCnjptbjnYXG",
-      "name": "Saltburn",
-      "symbol": "SALT",
-      "description": "THE FIRST EVER MEMECOIN LAUNCHED ON PUMP.FUN (There were a few test coins before it, but this was the first actual meme coin launched on Pumpfun)\n\n$SALT was developed by Pumpfun @a1lon9 and @sapijiju on January 18, 2024, at 18:13:00 UTC, before @Pumpfun was even launched.\n\nThe Pumpfun launchpad officially went live on January 19, 2024.",
-      "image": "https://cdn.dexscreener.com/cms/images/utzwqqyOC8Li0jjb?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T12:40:09+00:00",
-      "ageHours": 9.77,
-      "priceUsd": "0.000002958",
-      "marketCap": 2958.0,
-      "liquidityUsd": 3901.24,
+      "pairUrl": "https://dexscreener.com/solana/c3otngspfhyty3wbwj7bgamqf88txhndrzcddmirf53g",
+      "pairAddress": "C3otnGsPFhYty3Wbwj7bGaMQf88txHNDrzcDdmiRf53g",
+      "tokenAddress": "AgqYyytQ5hHkYwCkrpVLNwigQPSwBwE5gH7JUhtUpump",
+      "name": "Pokemon Crater",
+      "symbol": "POKECR",
+      "description": "1999-2007 og pokemon game is back.",
+      "image": "https://cdn.dexscreener.com/cms/images/gsYrYPy9qXWkhFtB?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T21:19:39+00:00",
+      "ageHours": 7.14,
+      "priceUsd": "0.00001849",
+      "marketCap": 18493.0,
+      "liquidityUsd": 9243.99,
       "volume": {
-        "h24": 184865.55,
-        "h6": 21583.45,
-        "h1": 260.41,
+        "h24": 44317.96,
+        "h6": 17196.29,
+        "h1": 837.69,
         "m5": 0
       },
       "txns": {
@@ -1476,51 +1365,365 @@
           "sells": 0
         },
         "h1": {
-          "buys": 10,
-          "sells": 12
+          "buys": 15,
+          "sells": 13
         },
         "h6": {
-          "buys": 507,
-          "sells": 866
+          "buys": 272,
+          "sells": 246
         },
         "h24": {
-          "buys": 2463,
-          "sells": 2645
+          "buys": 655,
+          "sells": 523
         }
       },
       "priceChange": {
-        "h1": 3.91,
-        "h6": -91.83,
-        "h24": -93.47
+        "h1": 7.3,
+        "h6": -47.53,
+        "h24": -28.65
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/hg45qr91t5ekze7rog4bumu3mbztmzn7lcnjptbjnyxg",
+          "url": "https://dexscreener.com/solana/agqyyytq5hhkywckrpvlnwigqpswbwe5gh7juhtupump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://pump.fun/coin/Hg45Qr91T5ekze7Rog4buMU3MbzTMzN7LCnjptbjnYXG",
+          "url": "https://pokemoncrater.fun/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/2024535946398478578",
+          "url": "https://x.com/pokemoncraterog",
           "source": "profile.links",
-          "kind": "x_community"
+          "kind": "x_account"
         },
         {
           "label": "telegram",
-          "url": "https://t.me/SALT_onSol",
+          "url": "https://t.me/pokemoncraterog",
           "source": "profile.links",
           "kind": "telegram"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/j2q169hkkplsmz6nknucpqjmh8teljsk2mynnyep9w8j",
+          "url": "https://dexscreener.com/solana/c3otngspfhyty3wbwj7bgamqf88txhndrzcddmirf53g",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@pokemoncraterog"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "telegram_coordination_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "website",
+          "url": "https://pokemoncrater.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/pokemoncraterog",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/pokemoncraterog",
+          "source": "profile.links",
+          "kind": "telegram"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 97.61,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/dapdxz9khrfmiktzoarztt9bzkdtbcp9t52bgmdcsdke",
+      "pairAddress": "DApDxZ9khrFmiktZoarzTT9bzkDTbCp9t52BGmdCsdke",
+      "tokenAddress": "4VKyDRwipM9RWMcBpxkiwmEbbBvT1eEtteaswSgPpump",
+      "name": "It Ain't Over Til It's Over",
+      "symbol": "OVER",
+      "description": "LARGEST COMEBACK IN NBA FINALS HISTORY.... now on chain!",
+      "image": "https://cdn.dexscreener.com/cms/images/7BRqfeihyGblWJJi?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T04:05:45+00:00",
+      "ageHours": 0.37,
+      "priceUsd": "0.00002115",
+      "marketCap": 21151.0,
+      "liquidityUsd": 9901.26,
+      "volume": {
+        "h24": 61055.01,
+        "h6": 61055.01,
+        "h1": 61055.01,
+        "m5": 12053.23
+      },
+      "txns": {
+        "m5": {
+          "buys": 247,
+          "sells": 207
+        },
+        "h1": {
+          "buys": 1493,
+          "sells": 1027
+        },
+        "h6": {
+          "buys": 1493,
+          "sells": 1027
+        },
+        "h24": {
+          "buys": 1493,
+          "sells": 1027
+        }
+      },
+      "priceChange": {
+        "m5": -2.38,
+        "h1": -21.82,
+        "h6": -21.82,
+        "h24": -21.82
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/4vkydrwipm9rwmcbpxkiwmebbbvt1eetteaswsgppump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "Website",
+          "url": "https://x.com/search?q=Knicks&src=typed_query&f=live",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2030944892999135272",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/dapdxz9khrfmiktzoarztt9bzkdtbcp9t52bgmdcsdke",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "x_community_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "Website",
+          "url": "https://x.com/search?q=Knicks&src=typed_query&f=live",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2030944892999135272",
+          "source": "profile.links",
+          "kind": "x_community"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 95.88,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/63bbtbh2jdyle4dxzvakn7adoypyrvjwtcrsc35ka5vg",
+      "pairAddress": "63BbTbh2jdYLE4DXZVAKn7aDoyPYRVjwtcRsc35ka5vG",
+      "tokenAddress": "2Mcwccy7Ckf6C2BUfwG9Z6kcYp8Mj5tKFBHEEoYCpump",
+      "name": "Speedrun To 1 Billion",
+      "symbol": "1B",
+      "description": "speedrun to 1b",
+      "image": "https://cdn.dexscreener.com/cms/images/ZBKAezrKHjHpJTUM?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T02:34:13+00:00",
+      "ageHours": 1.9,
+      "priceUsd": "0.00007020",
+      "marketCap": 70208.0,
+      "liquidityUsd": 27200.7,
+      "volume": {
+        "h24": 391848.83,
+        "h6": 391848.83,
+        "h1": 81083.83,
+        "m5": 4938.83
+      },
+      "txns": {
+        "m5": {
+          "buys": 75,
+          "sells": 28
+        },
+        "h1": {
+          "buys": 1862,
+          "sells": 1547
+        },
+        "h6": {
+          "buys": 6540,
+          "sells": 4929
+        },
+        "h24": {
+          "buys": 6540,
+          "sells": 4929
+        }
+      },
+      "priceChange": {
+        "m5": -0.49,
+        "h1": 13.3,
+        "h6": 19.27,
+        "h24": 19.27
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/2mcwccy7ckf6c2bufwg9z6kcyp8mj5tkfbheeoycpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2038227694756700494",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/63bbtbh2jdyle4dxzvakn7adoypyrvjwtcrsc35ka5vg",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "x_community_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2038227694756700494",
+          "source": "profile.links",
+          "kind": "x_community"
+        }
+      ],
+      "sources": [
+        "latest",
+        "latest",
+        "latest",
+        "top"
+      ],
+      "score": 95.26,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/9dewxpxzbjgsqb5napkvhpaxqszucevor5dy4wkvlcw6",
+      "pairAddress": "9DEWXPxzbJgsQb5nAPkVHpaxQSZUCevoR5dY4WKVLCw6",
+      "tokenAddress": "Hjj93YiyaFYY8zY2EW6FM2i2gd4rxzhoLCLFabrRpump",
+      "name": "catwifhat",
+      "symbol": "WIF",
+      "description": "HAT STAYS ON, NOW IS CATS TIME!",
+      "image": "https://cdn.dexscreener.com/cms/images/isv19TgCEeAcFa9J?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-04T22:35:45+00:00",
+      "ageHours": 149.87,
+      "priceUsd": "0.00002414",
+      "marketCap": 24144.0,
+      "liquidityUsd": 16709.53,
+      "volume": {
+        "h24": 30764.32,
+        "h6": 10232.81,
+        "h1": 1957.15,
+        "m5": 42.83
+      },
+      "txns": {
+        "m5": {
+          "buys": 1,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 29,
+          "sells": 18
+        },
+        "h6": {
+          "buys": 190,
+          "sells": 163
+        },
+        "h24": {
+          "buys": 609,
+          "sells": 462
+        }
+      },
+      "priceChange": {
+        "m5": -1.02,
+        "h1": -15.37,
+        "h6": -17.54,
+        "h24": -44.32
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/hjj93yiyafyy8zy2ew6fm2i2gd4rxzholclfabrrpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "website",
+          "url": "https://www.catwifusdc.com/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/2037009997431713856",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/catwifhattheportal",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/9dewxpxzbjgsqb5napkvhpaxqszucevor5dy4wkvlcw6",
           "source": "url",
           "kind": "dexscreener"
         }
@@ -1541,513 +1744,28 @@
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://pump.fun/coin/Hg45Qr91T5ekze7Rog4buMU3MbzTMzN7LCnjptbjnYXG",
+          "url": "https://www.catwifusdc.com/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/2024535946398478578",
+          "url": "https://x.com/i/communities/2037009997431713856",
           "source": "profile.links",
           "kind": "x_community"
         },
         {
           "label": "telegram",
-          "url": "https://t.me/SALT_onSol",
+          "url": "https://t.me/catwifhattheportal",
           "source": "profile.links",
           "kind": "telegram"
         }
       ],
       "sources": [
+        "latest",
         "top"
       ],
-      "score": 102.28,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/qpydkgmglqnj6mytffe2edp16s8yabg8kbfvuqmnejs",
-      "pairAddress": "QpYdKGMgLQnj6MYTFFe2Edp16S8YaBg8KBfvuQMNejs",
-      "tokenAddress": "46N587j4xukNGuTFzWF2FE8iLcTisL1K6TNBYgAJpump",
-      "name": "Robty",
-      "symbol": "ROBTY",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/tZffLu3AIt41u7nQ?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T16:14:21+00:00",
-      "ageHours": 6.2,
-      "priceUsd": "0.000001466",
-      "marketCap": 1467.0,
-      "liquidityUsd": 2767.12,
-      "volume": {
-        "h24": 735402.57,
-        "h6": 584971.46,
-        "h1": 0.04,
-        "m5": 0
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 0,
-          "sells": 1
-        },
-        "h6": {
-          "buys": 5149,
-          "sells": 4842
-        },
-        "h24": {
-          "buys": 6694,
-          "sells": 5959
-        }
-      },
-      "priceChange": {
-        "h1": 0.38,
-        "h6": -97.29,
-        "h24": -94.65
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/46n587j4xukngutfzwf2fe8ilctisl1k6tnbygajpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://robty.best/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "discord",
-          "url": "https://discord.gg/GR6T36CP9",
-          "source": "profile.links",
-          "kind": "discord"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/ROBTY_SOL",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Robty_sol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/qpydkgmglqnj6mytffe2edp16s8yabg8kbfvuqmnejs",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@Robty_sol"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "discord_coordination_link",
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://robty.best/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "discord",
-          "url": "https://discord.gg/GR6T36CP9",
-          "source": "profile.links",
-          "kind": "discord"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/ROBTY_SOL",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Robty_sol",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 100.72,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/dufevicksjx37qhi4lnw1zsbu2oif12phfuyxjznjmqh",
-      "pairAddress": "DuFEviCkSjx37Qhi4Lnw1zSbu2oiF12pHFUyxJzNjmQh",
-      "tokenAddress": "4HXWGBpbP2NJgkVeN8WFav7MLKaKxgM3X3pPayqLpump",
-      "name": "Glitch Moon ",
-      "symbol": "MOON",
-      "description": "A broken moon over a corrupted ocean",
-      "image": "https://cdn.dexscreener.com/cms/images/5Tf8G-BF9AslvFu7?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T22:06:08+00:00",
-      "ageHours": 0.34,
-      "priceUsd": "0.0001103",
-      "marketCap": 110318.0,
-      "liquidityUsd": 22686.98,
-      "volume": {
-        "h24": 279711.83,
-        "h6": 279711.83,
-        "h1": 279711.83,
-        "m5": 47733.31
-      },
-      "txns": {
-        "m5": {
-          "buys": 433,
-          "sells": 280
-        },
-        "h1": {
-          "buys": 2591,
-          "sells": 1497
-        },
-        "h6": {
-          "buys": 2591,
-          "sells": 1497
-        },
-        "h24": {
-          "buys": 2591,
-          "sells": 1497
-        }
-      },
-      "priceChange": {
-        "m5": 53.4,
-        "h1": 285,
-        "h6": 285,
-        "h24": 285
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/4hxwgbpbp2njgkven8wfav7mlkakxgm3x3ppayqlpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://glitchmoon.art/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/glitchmoonsol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/glitchmoonsol",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/dufevicksjx37qhi4lnw1zsbu2oif12phfuyxjznjmqh",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@glitchmoonsol"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://glitchmoon.art/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/glitchmoonsol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/glitchmoonsol",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 95.88,
-      "warnings": []
-    },
-    {
-      "chainId": "ethereum",
-      "dexId": "uniswap",
-      "pairUrl": "https://dexscreener.com/ethereum/0x6c64e39ef626bb2760bcfd013132c5653a8a4e6d",
-      "pairAddress": "0x6C64e39Ef626BB2760bcFd013132C5653a8a4e6d",
-      "tokenAddress": "0xed48ca5D57DBBdB812f0d036625AB77788e270c2",
-      "name": "Kiyomasa",
-      "symbol": "清正",
-      "description": "One meme. One community. One impact.\n\nLet’s make Kiyomasa a global meme with a legacy that lasts.",
-      "image": "https://cdn.dexscreener.com/cms/images/tqa0UZEyVzNtEGH5?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:07:11+00:00",
-      "ageHours": 1.32,
-      "priceUsd": "0.00001331",
-      "marketCap": 13315.0,
-      "liquidityUsd": 6467.77,
-      "volume": {
-        "h24": 21629.27,
-        "h6": 21629.27,
-        "h1": 15782.76,
-        "m5": 446.57
-      },
-      "txns": {
-        "m5": {
-          "buys": 3,
-          "sells": 6
-        },
-        "h1": {
-          "buys": 156,
-          "sells": 85
-        },
-        "h6": {
-          "buys": 220,
-          "sells": 115
-        },
-        "h24": {
-          "buys": 220,
-          "sells": 115
-        }
-      },
-      "priceChange": {
-        "m5": -8.59,
-        "h1": 30.67,
-        "h6": 1405,
-        "h24": 1405
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/ethereum/0xed48ca5d57dbbdb812f0d036625ab77788e270c2",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://kiyomasa.space",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Kiyomasa_Eth",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/KiyomasaEthPortal",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/ethereum/0x6c64e39ef626bb2760bcfd013132c5653a8a4e6d",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@Kiyomasa_Eth"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://kiyomasa.space",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Kiyomasa_Eth",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/KiyomasaEthPortal",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 95.83,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/2b3dbcx3xuadwxma5xcbyce3bnw8hkxtm9iox7adsnhe",
-      "pairAddress": "2B3dbcx3XuaDwXma5XcBYcE3BNW8hKxtm9ioX7adSNhe",
-      "tokenAddress": "3TxKQK6CRVNCraaAzWE99ytkvQBZZ94sKiwzEV95pump",
-      "name": "Bootycoin",
-      "symbol": "Bootycoin",
-      "description": "🍑 Bootycoin | Shake it till you make it! 💰",
-      "image": "https://cdn.dexscreener.com/cms/images/rofESmfMX_jv_aOy?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:10:53+00:00",
-      "ageHours": 2.26,
-      "priceUsd": "0.0001948",
-      "marketCap": 194815.0,
-      "liquidityUsd": 30270.47,
-      "volume": {
-        "h24": 354187.27,
-        "h6": 354187.27,
-        "h1": 115184.26,
-        "m5": 10427.08
-      },
-      "txns": {
-        "m5": {
-          "buys": 215,
-          "sells": 59
-        },
-        "h1": {
-          "buys": 2403,
-          "sells": 748
-        },
-        "h6": {
-          "buys": 6451,
-          "sells": 1837
-        },
-        "h24": {
-          "buys": 6451,
-          "sells": 1837
-        }
-      },
-      "priceChange": {
-        "m5": -1.46,
-        "h1": 68.37,
-        "h6": 422,
-        "h24": 422
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/3txkqk6crvncraaazwe99ytkvqbzz94skiwzev95pump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://www.bootycoin.wtf/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/BootycoinonSol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/BootycoinMeme",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2b3dbcx3xuadwxma5xcbyce3bnw8hkxtm9iox7adsnhe",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@BootycoinonSol"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://www.bootycoin.wtf/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/BootycoinonSol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/BootycoinMeme",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 95.72,
+      "score": 94.77,
       "warnings": []
     },
     {
@@ -2061,39 +1779,39 @@
       "description": "",
       "image": "https://cdn.dexscreener.com/cms/images/mXXdlG5u7NecSxod?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-02T04:54:00+00:00",
-      "ageHours": 209.54,
-      "priceUsd": "0.001512",
-      "marketCap": 1512483.0,
-      "liquidityUsd": 88819.29,
+      "ageHours": 215.57,
+      "priceUsd": "0.001515",
+      "marketCap": 1515441.0,
+      "liquidityUsd": 90863.98,
       "volume": {
-        "h24": 532079.94,
-        "h6": 89220.62,
-        "h1": 7049.27,
-        "m5": 113.14
+        "h24": 370060.72,
+        "h6": 76235.71,
+        "h1": 8534.49,
+        "m5": 1590.14
       },
       "txns": {
         "m5": {
-          "buys": 2,
-          "sells": 6
+          "buys": 9,
+          "sells": 8
         },
         "h1": {
-          "buys": 70,
-          "sells": 54
+          "buys": 111,
+          "sells": 83
         },
         "h6": {
-          "buys": 628,
-          "sells": 502
+          "buys": 790,
+          "sells": 521
         },
         "h24": {
-          "buys": 3296,
-          "sells": 2547
+          "buys": 2781,
+          "sells": 2050
         }
       },
       "priceChange": {
-        "m5": -0.18,
-        "h1": 2.48,
-        "h6": -0.08,
-        "h24": 71.58
+        "m5": -2.95,
+        "h1": -3.38,
+        "h6": -0.02,
+        "h24": 52.74
       },
       "links": [
         {
@@ -2164,76 +1882,173 @@
       "sources": [
         "top"
       ],
-      "score": 94.81,
+      "score": 94.05,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/5wxguuok5n4t5qekmoewdje1mazvhznpzcazldx2jqxt",
-      "pairAddress": "5wxguuok5n4t5qEKmoewDJe1MAzVHZNPZCaZLdX2jqXt",
-      "tokenAddress": "94hYtbLu4uHnAUGEE3LYr19bXptE8i3H3gUU6gKVpump",
-      "name": "Save The Dogs",
-      "symbol": "Dogs",
-      "description": "Save the dogs from the Yulin festival 272374 Signatures Collected",
-      "image": "https://cdn.dexscreener.com/cms/images/2-bemwcvHTi4eKxC?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:20:43+00:00",
-      "ageHours": 1.1,
-      "priceUsd": "0.000007400",
-      "marketCap": 7401.0,
-      "liquidityUsd": 5718.23,
+      "pairUrl": "https://dexscreener.com/solana/gmt6vtb7t9dmkonpveibzprwxlnzpjkewegifqe3boot",
+      "pairAddress": "GMT6VTB7T9DmKoNpvEiBZpRwxLNZpjKEWEgiFQE3booT",
+      "tokenAddress": "DoxqL8jK3HYfxQkSyP52v3eQoPrLyr7ccXKMZDDRpump",
+      "name": "PetroDollar",
+      "symbol": "XPD",
+      "description": "PetroDollar (XPD) is a cryptocurrency founded in February 2014 that was designed to be backed by independent, certified oil and gas reserves, aiming for a 1:1 ratio with a barrel of oil.",
+      "image": "https://cdn.dexscreener.com/cms/images/zBRtBcSgLR1RkHgN?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T00:54:58+00:00",
+      "ageHours": 3.55,
+      "priceUsd": "0.00003915",
+      "marketCap": 39158.0,
+      "liquidityUsd": 19943.67,
       "volume": {
-        "h24": 72436.72,
-        "h6": 72436.72,
-        "h1": 37318.72,
-        "m5": 337.6
+        "h24": 187694.13,
+        "h6": 187694.13,
+        "h1": 8313.85,
+        "m5": 631.3
       },
       "txns": {
         "m5": {
-          "buys": 7,
-          "sells": 3
+          "buys": 5,
+          "sells": 1
         },
         "h1": {
-          "buys": 792,
-          "sells": 576
+          "buys": 103,
+          "sells": 98
         },
         "h6": {
-          "buys": 1455,
-          "sells": 1160
+          "buys": 3124,
+          "sells": 1936
         },
         "h24": {
-          "buys": 1455,
-          "sells": 1160
+          "buys": 3124,
+          "sells": 1936
         }
       },
       "priceChange": {
-        "m5": 1.14,
-        "h1": -26.73,
-        "h6": -71.44,
-        "h24": -71.44
+        "m5": -7.84,
+        "h1": 8.64,
+        "h6": -32.52,
+        "h24": -32.52
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/94hytblu4uhnaugee3lyr19bxpte8i3h3guu6gkvpump",
+          "url": "https://dexscreener.com/solana/doxql8jk3hyfxqksyp52v3eqoprlyr7ccxkmzddrpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
-          "label": "website",
-          "url": "https://ladyfreethinker.org/stop-yulin-dog-meat-festival-end-dog-and-cat-meat-trade-in-china/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
           "label": "twitter",
-          "url": "https://x.com/i/communities/2000069278259990761",
+          "url": "https://x.com/i/communities/1970967599744716817",
           "source": "profile.links",
           "kind": "x_community"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/5wxguuok5n4t5qekmoewdje1mazvhznpzcazldx2jqxt",
+          "url": "https://dexscreener.com/solana/gmt6vtb7t9dmkonpveibzprwxlnzpjkewegifqe3boot",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [
+        "x_community_link"
+      ],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/1970967599744716817",
+          "source": "profile.links",
+          "kind": "x_community"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 90.06,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/74hjkm2dqyvj9koqtw4jbs1ujk7uzkhxytjmbxkfcjlk",
+      "pairAddress": "74hJkM2dqyvJ9koQtW4Jbs1ujK7uzKhxYTJMBxKfcjLk",
+      "tokenAddress": "9ZtbETDNjnST9Y2zs82FZYy49xUMPgqXRh46YjjRpump",
+      "name": "Brötchen",
+      "symbol": "Brötchen",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/-6zOu6L4q5rW9pcD?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T10:21:58+00:00",
+      "ageHours": 18.1,
+      "priceUsd": "0.00007685",
+      "marketCap": 76853.0,
+      "liquidityUsd": 29432.5,
+      "volume": {
+        "h24": 1077530.91,
+        "h6": 113845.71,
+        "h1": 4105.26,
+        "m5": 83.41
+      },
+      "txns": {
+        "m5": {
+          "buys": 2,
+          "sells": 2
+        },
+        "h1": {
+          "buys": 50,
+          "sells": 47
+        },
+        "h6": {
+          "buys": 1047,
+          "sells": 854
+        },
+        "h24": {
+          "buys": 11774,
+          "sells": 8745
+        }
+      },
+      "priceChange": {
+        "m5": 0.72,
+        "h1": 6.53,
+        "h6": -22.68,
+        "h24": 30.07
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/9ztbetdnjnst9y2zs82fzyy49xumpgqxrh46yjjrpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "website",
+          "url": "https://www.zoo-berlin.de/de/aktuelles/news/artikel/broetchen-ein-name-zum-anbeissen",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "instagram",
+          "url": "https://www.instagram.com/zooberlin/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/1859774906851856716",
+          "source": "profile.links",
+          "kind": "x_community"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/74hjkm2dqyvj9koqtw4jbs1ujk7uzkhxytjmbxkfcjlk",
           "source": "url",
           "kind": "dexscreener"
         }
@@ -2253,823 +2068,109 @@
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://ladyfreethinker.org/stop-yulin-dog-meat-festival-end-dog-and-cat-meat-trade-in-china/",
+          "url": "https://www.zoo-berlin.de/de/aktuelles/news/artikel/broetchen-ein-name-zum-anbeissen",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "instagram",
+          "url": "https://www.instagram.com/zooberlin/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/2000069278259990761",
+          "url": "https://x.com/i/communities/1859774906851856716",
           "source": "profile.links",
           "kind": "x_community"
         }
       ],
       "sources": [
         "latest",
-        "latest"
-      ],
-      "score": 90.36,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/8mxau5eoncswg9gveoexcjgsvb3eroco8xr27epv24gh",
-      "pairAddress": "8MXAu5EoNcsWG9GVeoEXCJGSVb3ERoCo8Xr27EPv24gH",
-      "tokenAddress": "ELhriEvcdPujdfm35eaRAXpLSNAEtVHm8Cdukqtxpump",
-      "name": "Deadly Listeria ",
-      "symbol": "listeria ",
-      "description": "OG $LISTERIA",
-      "image": "https://cdn.dexscreener.com/cms/images/Lh2JNPE0XNAsn0GW?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T16:46:58+00:00",
-      "ageHours": 5.66,
-      "priceUsd": "0.000007877",
-      "marketCap": 7877.0,
-      "liquidityUsd": 5903.99,
-      "volume": {
-        "h24": 94403.77,
-        "h6": 94403.77,
-        "h1": 2939.09,
-        "m5": 60.4
-      },
-      "txns": {
-        "m5": {
-          "buys": 2,
-          "sells": 5
-        },
-        "h1": {
-          "buys": 53,
-          "sells": 39
-        },
-        "h6": {
-          "buys": 1416,
-          "sells": 1168
-        },
-        "h24": {
-          "buys": 1416,
-          "sells": 1168
-        }
-      },
-      "priceChange": {
-        "m5": -3.84,
-        "h1": -15.91,
-        "h6": -70.3,
-        "h24": -70.3
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/elhrievcdpujdfm35earaxplsnaetvhm8cdukqtxpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2031419075570676102",
-          "source": "profile.links",
-          "kind": "x_community"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/8mxau5eoncswg9gveoexcjgsvb3eroco8xr27epv24gh",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "x_community_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2031419075570676102",
-          "source": "profile.links",
-          "kind": "x_community"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 89.79,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/g9c6kopsxxwsx5a2miapubyqiow2hxay9vzjxucspuwh",
-      "pairAddress": "G9c6koPSxXwsx5A2MiaPUbYqiow2hXAy9VZjXUcsPuwh",
-      "tokenAddress": "D3NJzpkfr8Nh5S4WDXXkFsh9hn5qExsHnoj8ra71pump",
-      "name": "HOARD",
-      "symbol": "HOARD",
-      "description": "$HOARD is the ecosystem token for Hoard, a multiplayer pixel-art RPG where players explore a fantasy world, defeat monsters, collect loot, upgrade gear, unlock new regions, and trade with other players. $HOARD connects the game’s access system, future content releases, community events, and player-driven economy.",
-      "image": "https://cdn.dexscreener.com/cms/images/lqIw0GUm-CZML8gS?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T13:22:53+00:00",
-      "ageHours": 9.06,
-      "priceUsd": "0.00001077",
-      "marketCap": 10772.0,
-      "liquidityUsd": 6927.01,
-      "volume": {
-        "h24": 68438.08,
-        "h6": 16760.85,
-        "h1": 2130.5,
-        "m5": 0
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 52,
-          "sells": 36
-        },
-        "h6": {
-          "buys": 314,
-          "sells": 275
-        },
-        "h24": {
-          "buys": 1081,
-          "sells": 842
-        }
-      },
-      "priceChange": {
-        "h1": 17.22,
-        "h6": -52.26,
-        "h24": -57.42
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/d3njzpkfr8nh5s4wdxxkfsh9hn5qexshnoj8ra71pump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://www.hoardquest.xyz/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Hoarddev",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/g9c6kopsxxwsx5a2miapubyqiow2hxay9vzjxucspuwh",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@Hoarddev"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://www.hoardquest.xyz/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Hoarddev",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
         "top"
       ],
-      "score": 89.37,
+      "score": 88.24,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/hnj5ny2mxxwaodk7w7mhgtrkzodkktfrvckfdps3swd8",
-      "pairAddress": "HnJ5Ny2mxxwAodk7w7MHGTRkzodkKTfrVCKFDpS3SWd8",
-      "tokenAddress": "3GDrBbgzMfokcYChDqBZijXS3ppwhEEmosFQbgbPpump",
-      "name": "peg",
-      "symbol": "peg",
-      "description": "Strong CTO leaders stepped up, community-driven.",
-      "image": "https://cdn.dexscreener.com/cms/images/27Jyku618hlsgIHt?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-04T10:52:57+00:00",
-      "ageHours": 155.56,
-      "priceUsd": "0.0001011",
-      "marketCap": 101163.0,
-      "liquidityUsd": 36315.01,
+      "pairUrl": "https://dexscreener.com/solana/burmlewd6ttywimjvbi8mjyq1gbps19aerzkcj68a7qm",
+      "pairAddress": "BURmLEWd6TTywimjVbi8MjyQ1gbPS19AERzKcJ68A7QM",
+      "tokenAddress": "HG1kBNSLpUTU6SbUAzXcXHFynHMmpsvEgjPQ7yh6pump",
+      "name": "Cowlick",
+      "symbol": "COWLICK",
+      "description": "If the barn door is open, that means it agrees.",
+      "image": "https://cdn.dexscreener.com/cms/images/dYDSPr6IJVZO_iTC?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T01:23:21+00:00",
+      "ageHours": 3.08,
+      "priceUsd": "0.000001771",
+      "marketCap": 1772.0,
+      "liquidityUsd": 3223.36,
       "volume": {
-        "h24": 108397.06,
-        "h6": 20038.73,
-        "h1": 1815.66,
-        "m5": 187.84
+        "h24": 1901408.5,
+        "h6": 1901408.5,
+        "h1": 244941.55,
+        "m5": 1.96
       },
       "txns": {
         "m5": {
           "buys": 1,
-          "sells": 2
-        },
-        "h1": {
-          "buys": 23,
-          "sells": 15
-        },
-        "h6": {
-          "buys": 208,
-          "sells": 121
-        },
-        "h24": {
-          "buys": 933,
-          "sells": 674
-        }
-      },
-      "priceChange": {
-        "m5": -2.77,
-        "h1": -11.08,
-        "h6": 8.7,
-        "h24": -52.3
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/3gdrbbgzmfokcychdqbzijxs3ppwheemosfqbgbppump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://pegcoinsol.xyz/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/PEGCoinSol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/bluepigpeg",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/hnj5ny2mxxwaodk7w7mhgtrkzodkktfrvckfdps3swd8",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@PEGCoinSol"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "cto_language",
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://pegcoinsol.xyz/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/PEGCoinSol",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/bluepigpeg",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 89.06,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/4qukiwh6j2nymyg9nzztyshvgyxmtgayzcw5ukrktuvx",
-      "pairAddress": "4qUKiwH6J2nYmYg9NzzTYSHvgyxMTGAyzcw5UkRKtUvX",
-      "tokenAddress": "BWqJfk5EvVNSt9W3ynvvGCayJWMfm7eLp4u44QHUpump",
-      "name": "unstable jotchua coin",
-      "symbol": "USDJC",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/auCt0AN7k6Zvf044?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:36:59+00:00",
-      "ageHours": 0.82,
-      "priceUsd": "0.0002207",
-      "marketCap": 220779.0,
-      "liquidityUsd": 32703.29,
-      "volume": {
-        "h24": 549059.73,
-        "h6": 549059.73,
-        "h1": 549059.73,
-        "m5": 61881.9
-      },
-      "txns": {
-        "m5": {
-          "buys": 256,
-          "sells": 277
-        },
-        "h1": {
-          "buys": 3213,
-          "sells": 3029
-        },
-        "h6": {
-          "buys": 3213,
-          "sells": 3029
-        },
-        "h24": {
-          "buys": 3213,
-          "sells": 3029
-        }
-      },
-      "priceChange": {
-        "m5": -12.05,
-        "h1": 750,
-        "h6": 750,
-        "h24": 750
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/bwqjfk5evvnst9w3ynvvgcayjwmfm7elp4u44qhupump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/USJC_SOL",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/4qukiwh6j2nymyg9nzztyshvgyxmtgayzcw5ukrktuvx",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "telegram",
-          "url": "https://t.me/USJC_SOL",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 87.88,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/84w3sryuvm9hb6nbpvveotexcknv67jlmet4d87lboki",
-      "pairAddress": "84w3sRYuVm9hB6nBPVVEoTEXCknv67JLmeT4d87LboKi",
-      "tokenAddress": "8uucgKcBNbje9cAHHWZ8dhX14znsrPV1AvxNj8Mwpump",
-      "name": "The Coconut Frog",
-      "symbol": "Gus",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/zvRBSjIVEFQGOtRm?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:44:47+00:00",
-      "ageHours": 0.69,
-      "priceUsd": "0.00006743",
-      "marketCap": 67316.0,
-      "liquidityUsd": 17423.88,
-      "volume": {
-        "h24": 77103.97,
-        "h6": 77103.97,
-        "h1": 77103.97,
-        "m5": 8889.06
-      },
-      "txns": {
-        "m5": {
-          "buys": 158,
-          "sells": 103
-        },
-        "h1": {
-          "buys": 1337,
-          "sells": 922
-        },
-        "h6": {
-          "buys": 1337,
-          "sells": 922
-        },
-        "h24": {
-          "buys": 1337,
-          "sells": 922
-        }
-      },
-      "priceChange": {
-        "m5": 23.82,
-        "h1": 159,
-        "h6": 159,
-        "h24": 159
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/8uucgkcbnbje9cahhwz8dhx14znsrpv1avxnj8mwpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2007244168939077740",
-          "source": "profile.links",
-          "kind": "x_community"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/84w3sryuvm9hb6nbpvveotexcknv67jlmet4d87lboki",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "x_community_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/communities/2007244168939077740",
-          "source": "profile.links",
-          "kind": "x_community"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 87.88,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "meteora",
-      "pairUrl": "https://dexscreener.com/solana/fqjybn5usukzuetnkxbhmrwjlse1bt9xanmuuq3gt6j7",
-      "pairAddress": "FQJybN5UsuKzUetNKxBHMRwjLse1BT9xANMuuq3Gt6J7",
-      "tokenAddress": "PAFwaS3ER3GL1hMHtg8RxnJ6JLLi4vHPyMxkmBReLic",
-      "name": "Relic Drops",
-      "symbol": "RELIC",
-      "description": "Relic is a drop system for collectibles. Creators load real prizes — NFTs, tokens, and physical items — into a drop; collectors pull for them with USDC on Solana. Every pull is provably fair and every payout is backed by on-chain collateral.",
-      "image": "https://cdn.dexscreener.com/cms/images/G4xXcxmep2mr5Ar9?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:05:12+00:00",
-      "ageHours": 1.35,
-      "priceUsd": "0.0001692",
-      "marketCap": 169250.0,
-      "liquidityUsd": 25854.35,
-      "volume": {
-        "h24": 449352.11,
-        "h6": 449352.11,
-        "h1": 193816.38,
-        "m5": 4103.77
-      },
-      "txns": {
-        "m5": {
-          "buys": 20,
-          "sells": 13
-        },
-        "h1": {
-          "buys": 850,
-          "sells": 822
-        },
-        "h6": {
-          "buys": 2646,
-          "sells": 2971
-        },
-        "h24": {
-          "buys": 2646,
-          "sells": 2971
-        }
-      },
-      "priceChange": {
-        "m5": 0.08,
-        "h1": 95.34,
-        "h6": 569,
-        "h24": 569
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/pafwas3er3gl1hmhtg8rxnj6jlli4vhpymxkmbrelic",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://relicdrops.com/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/RelicGachaDrops",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/fqjybn5usukzuetnkxbhmrwjlse1bt9xanmuuq3gt6j7",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@RelicGachaDrops"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "cto_language"
-      ],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://relicdrops.com/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/RelicGachaDrops",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 87.83,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/ezo1vucyc726f42kvtsa8tucnfocvapkzxurzkdhimqz",
-      "pairAddress": "Ezo1VUcyc726f42kvTsa8TUCnfoCVApkzXUrZKDhiMqz",
-      "tokenAddress": "7Z5NVd8NWwXSi8h2FoHtqS5XNWgW2KGv4uPYocPspump",
-      "name": "DIAMOND HANDS",
-      "symbol": "DMNDHANDS",
-      "description": "$DMNDHANDS Is the first Anti Bear Market Technology on the Solana Blockchain. Only real Diamond Hands get rewarded. 24/7 Crypto Tech, hedge against the bear market today.",
-      "image": "https://cdn.dexscreener.com/cms/images/7VjzbhydYR4e3G51?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-06T23:13:59+00:00",
-      "ageHours": 95.21,
-      "priceUsd": "0.00002545",
-      "marketCap": 25456.0,
-      "liquidityUsd": 10687.36,
-      "volume": {
-        "h24": 10637.85,
-        "h6": 5989.63,
-        "h1": 1373.95,
-        "m5": 17.43
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
-          "sells": 2
-        },
-        "h1": {
-          "buys": 34,
-          "sells": 19
-        },
-        "h6": {
-          "buys": 120,
-          "sells": 72
-        },
-        "h24": {
-          "buys": 254,
-          "sells": 151
-        }
-      },
-      "priceChange": {
-        "m5": -1.33,
-        "h1": -20.37,
-        "h6": 10.7,
-        "h24": 1.79
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/7z5nvd8nwwxsi8h2fohtqs5xnwgw2kgv4upyocpspump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://dmndhands.fun/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/DMNDHANDS_SOL",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/dmndhands_sol",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "tiktok",
-          "url": "https://www.tiktok.com/@isthatmystic_?_r=1&_t=ZN-96zSm3dWtwU",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/ezo1vucyc726f42kvtsa8tucnfocvapkzxurzkdhimqz",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@DMNDHANDS_SOL"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://dmndhands.fun/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/DMNDHANDS_SOL",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/dmndhands_sol",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "tiktok",
-          "url": "https://www.tiktok.com/@isthatmystic_?_r=1&_t=ZN-96zSm3dWtwU",
-          "source": "profile.links",
-          "kind": "website"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 86.6,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/ada9r7lxzj1qrmau2itmmbxfffmwnmo2vbvo9rmmlb3q",
-      "pairAddress": "ADa9r7LXZj1QrMAU2iTMMBXfffMwNmo2vbvo9rMmLB3Q",
-      "tokenAddress": "5rEkWxPbgq2LVULyCcsGUUqopH7PxLy7mXmxagzepump",
-      "name": "CERBY",
-      "symbol": "CERBY",
-      "description": "$CERBY is the ultimate manifestation of loyalty, security, and community power—guarding the gates of your financial future.",
-      "image": "https://cdn.dexscreener.com/cms/images/e-e-gDDJ86qmxcDa?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T03:10:45+00:00",
-      "ageHours": 19.26,
-      "priceUsd": "0.000001407",
-      "marketCap": 1407.0,
-      "liquidityUsd": 2624.26,
-      "volume": {
-        "h24": 675760.76,
-        "h6": 130.86,
-        "h1": 1.8,
-        "m5": 0
-      },
-      "txns": {
-        "m5": {
-          "buys": 0,
           "sells": 0
         },
         "h1": {
-          "buys": 1,
-          "sells": 0
+          "buys": 1659,
+          "sells": 3090
         },
         "h6": {
-          "buys": 18,
-          "sells": 14
+          "buys": 14365,
+          "sells": 11908
         },
         "h24": {
-          "buys": 17159,
-          "sells": 8415
+          "buys": 14365,
+          "sells": 11908
         }
       },
       "priceChange": {
-        "h1": 0.69,
-        "h6": -6.14,
-        "h24": -95.04
+        "m5": -2.56,
+        "h1": -99.39,
+        "h6": -93.44,
+        "h24": -93.44
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/5rekwxpbgq2lvulyccsguuqoph7pxly7mxmxagzepump",
+          "url": "https://dexscreener.com/solana/hg1kbnslputu6sbuazxcxhfynhmmpsvegjpq7yh6pump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://cerby.lol/",
+          "url": "https://cowlicksol.com/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/cerby_dog",
+          "url": "https://x.com/Cowlick_Sol",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
+          "label": "telegram",
+          "url": "https://t.me/Cowlick_Ranch",
+          "source": "profile.links",
+          "kind": "telegram"
+        },
+        {
           "label": "url",
-          "url": "https://dexscreener.com/solana/ada9r7lxzj1qrmau2itmmbxfffmwnmo2vbvo9rmmlb3q",
+          "url": "https://dexscreener.com/solana/burmlewd6ttywimjvbi8mjyq1gbps19aerzkcj68a7qm",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@cerby_dog"
+        "@Cowlick_Sol"
       ],
       "xStats": {
         "available": false,
@@ -3079,25 +2180,34 @@
         "accounts": [],
         "communities": []
       },
-      "raidSignals": [],
+      "raidSignals": [
+        "telegram_coordination_link"
+      ],
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://cerby.lol/",
+          "url": "https://cowlicksol.com/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/cerby_dog",
+          "url": "https://x.com/Cowlick_Sol",
           "source": "profile.links",
           "kind": "x_account"
+        },
+        {
+          "label": "telegram",
+          "url": "https://t.me/Cowlick_Ranch",
+          "source": "profile.links",
+          "kind": "telegram"
         }
       ],
       "sources": [
+        "latest",
         "top"
       ],
-      "score": 85.59,
+      "score": 88.11,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -3106,71 +2216,75 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/gxv1qdredd9pkfrh86cfczqmqamk9tcavsnpoeiujwei",
-      "pairAddress": "Gxv1qdrEdd9PKFRH86cfczqMQamK9TcAvSNpoeiujwei",
-      "tokenAddress": "FbNc2KRUrLf8TXzYpKe5fx6uuTRVny68H5fa1e1Wpump",
-      "name": "Ansem's Cat",
-      "symbol": "Hobbes",
-      "description": "the ansem's cat, on usdc",
-      "image": "https://cdn.dexscreener.com/cms/images/_KmEVKkEicOVdbiZ?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-09T22:41:24+00:00",
-      "ageHours": 23.75,
-      "priceUsd": "0.00001046",
-      "marketCap": 10458.0,
-      "liquidityUsd": 10325.08,
+      "pairUrl": "https://dexscreener.com/solana/9vw19msr7trj9s1yid19yoxvjcngxdre9jhzgj6rubhu",
+      "pairAddress": "9vW19msR7Trj9s1Yid19yoXVjCNgxdRE9JhZgJ6ruBhU",
+      "tokenAddress": "w9Fh8VWmytLKo48AbnDf3vVdzN5SzpG6gFwmxeLpump",
+      "name": "Du Bist Gut Genug",
+      "symbol": "GutGenug",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/E7zke4QNyeHrSiOY?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-09T04:47:43+00:00",
+      "ageHours": 47.67,
+      "priceUsd": "0.0002477",
+      "marketCap": 247765.0,
+      "liquidityUsd": 36153.06,
       "volume": {
-        "h24": 228158.56,
-        "h6": 9415.92,
-        "h1": 892.47,
-        "m5": 104.34
+        "h24": 859490.6,
+        "h6": 119533.9,
+        "h1": 16277.36,
+        "m5": 3126.34
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 1
+          "buys": 25,
+          "sells": 36
         },
         "h1": {
-          "buys": 4,
-          "sells": 12
+          "buys": 225,
+          "sells": 233
         },
         "h6": {
-          "buys": 93,
-          "sells": 100
+          "buys": 1343,
+          "sells": 992
         },
         "h24": {
-          "buys": 2647,
-          "sells": 1803
+          "buys": 6058,
+          "sells": 5031
         }
       },
       "priceChange": {
-        "m5": 0.66,
-        "h1": -19.46,
-        "h6": -55.4,
-        "h24": -82.28
+        "m5": 9.71,
+        "h1": 5.88,
+        "h6": -20.05,
+        "h24": 88.64
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/fbnc2krurlf8txzypke5fx6uutrvny68h5fa1e1wpump",
+          "url": "https://dexscreener.com/solana/w9fh8vwmytlko48abndf3vvdzn5szpg6gfwmxelpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/hobbesusdc/status/2064723181487727043",
+          "url": "https://x.com/i/communities/1999718075839479835",
           "source": "profile.links",
-          "kind": "x_account"
+          "kind": "x_community"
+        },
+        {
+          "label": "tiktok",
+          "url": "https://www.tiktok.com/de/trending/detail/du-bist-gut-genug-shirin-release-new-song",
+          "source": "profile.links",
+          "kind": "website"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/gxv1qdredd9pkfrh86cfczqmqamk9tcavsnpoeiujwei",
+          "url": "https://dexscreener.com/solana/9vw19msr7trj9s1yid19yoxvjcngxdre9jhzgj6rubhu",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
-      "xHandles": [
-        "@hobbesusdc"
-      ],
+      "xHandles": [],
       "xStats": {
         "available": false,
         "reason": "xurl_not_installed_or_disabled",
@@ -3179,19 +2293,27 @@
         "accounts": [],
         "communities": []
       },
-      "raidSignals": [],
+      "raidSignals": [
+        "x_community_link"
+      ],
       "contactTargets": [
         {
           "label": "twitter",
-          "url": "https://x.com/hobbesusdc/status/2064723181487727043",
+          "url": "https://x.com/i/communities/1999718075839479835",
           "source": "profile.links",
-          "kind": "x_account"
+          "kind": "x_community"
+        },
+        {
+          "label": "tiktok",
+          "url": "https://www.tiktok.com/de/trending/detail/du-bist-gut-genug-shirin-release-new-song",
+          "source": "profile.links",
+          "kind": "website"
         }
       ],
       "sources": [
         "top"
       ],
-      "score": 82.53,
+      "score": 87.04,
       "warnings": []
     },
     {
@@ -3205,39 +2327,38 @@
       "description": "Solana's first CLMM hooks framework. Patch custom logic into Orca Whirlpools and Raydium CLMM liquidity: dynamic fees, time-locks, permission gating, anti-MEV. Six standard hooks, an Anchor 0.31 executor, a modular-synth workbench to compose and backtest them. Inspired by Uniswap v4 hooks. Patch your liquidity.",
       "image": "https://cdn.dexscreener.com/cms/images/Hge9A3nKwvaWgpO-?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-09T14:24:30+00:00",
-      "ageHours": 32.03,
-      "priceUsd": "0.00001716",
-      "marketCap": 17153.0,
-      "liquidityUsd": 9898.64,
+      "ageHours": 38.06,
+      "priceUsd": "0.00001925",
+      "marketCap": 19241.0,
+      "liquidityUsd": 10700.58,
       "volume": {
-        "h24": 135114.04,
-        "h6": 91126.45,
-        "h1": 2005.11,
-        "m5": 186.62
+        "h24": 135751.57,
+        "h6": 15274.19,
+        "h1": 364.71,
+        "m5": 0
       },
       "txns": {
         "m5": {
-          "buys": 6,
-          "sells": 6
+          "buys": 0,
+          "sells": 0
         },
         "h1": {
-          "buys": 29,
-          "sells": 56
+          "buys": 6,
+          "sells": 8
         },
         "h6": {
-          "buys": 1067,
-          "sells": 884
+          "buys": 237,
+          "sells": 252
         },
         "h24": {
-          "buys": 1932,
-          "sells": 1739
+          "buys": 1834,
+          "sells": 1632
         }
       },
       "priceChange": {
-        "m5": -3.66,
-        "h1": 3.41,
-        "h6": -3.66,
-        "h24": -14.32
+        "h1": -7.06,
+        "h6": 9.76,
+        "h24": -16.8
       },
       "links": [
         {
@@ -3316,176 +2437,84 @@
         }
       ],
       "sources": [
-        "latest",
         "top"
       ],
-      "score": 81.5,
+      "score": 80.74,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/3kta1eqg7a7cbrj3dlaageqhsvu2z6m8a6fmfopwri1h",
-      "pairAddress": "3kTA1eQG7A7cBrj3dLAAGEQhSVU2Z6m8a6FmfoPWRi1H",
-      "tokenAddress": "95LqAprdEk9eMtyjrXoVXWLFqLWx3FY5uqYYt4dQpump",
-      "name": "Pup",
-      "symbol": "PUP",
-      "description": "PUP ON USDC, by the BNB team",
-      "image": "https://cdn.dexscreener.com/cms/images/Lgrx-_ZOw_PG-7S1?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T14:14:38+00:00",
-      "ageHours": 8.2,
-      "priceUsd": "0.00002111",
-      "marketCap": 21108.0,
-      "liquidityUsd": 14717.23,
+      "pairUrl": "https://dexscreener.com/solana/3wt7i3wgrpc24fpamgsdyjus3yaqb755ev6cbxcunsuf",
+      "pairAddress": "3Wt7i3WgrPC24fpaMgsdyjUs3YAQb755ev6CbXCuNSUf",
+      "tokenAddress": "6cbLNDeEWfSRfq3nSbkjZRmBv7tEWXBG1uAJbintpump",
+      "name": "trump unc",
+      "symbol": "trumpunc",
+      "description": "Combining internet culture, political satire, and the speed of decentralized finance.",
+      "image": "https://cdn.dexscreener.com/cms/images/smcJSrnMmq_DiFH1?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T03:43:16+00:00",
+      "ageHours": 0.75,
+      "priceUsd": "0.00008387",
+      "marketCap": 83875.0,
+      "liquidityUsd": 20047.83,
       "volume": {
-        "h24": 256089.2,
-        "h6": 44862.71,
-        "h1": 1832.42,
-        "m5": 85.42
+        "h24": 229735.14,
+        "h6": 229735.14,
+        "h1": 229735.14,
+        "m5": 27290.68
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 1
+          "buys": 1099,
+          "sells": 203
         },
         "h1": {
-          "buys": 34,
-          "sells": 20
+          "buys": 6109,
+          "sells": 868
         },
         "h6": {
-          "buys": 693,
-          "sells": 455
+          "buys": 6109,
+          "sells": 868
         },
         "h24": {
-          "buys": 4104,
-          "sells": 2887
+          "buys": 6109,
+          "sells": 868
         }
       },
       "priceChange": {
-        "m5": -0.85,
-        "h1": -2.66,
-        "h6": -26.16,
-        "h24": -64.35
+        "m5": -31.29,
+        "h1": 53.05,
+        "h6": 53.05,
+        "h24": 53.05
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/95lqaprdek9emtyjrxovxwlfqlwx3fy5uqyyt4dqpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/pupXbnb",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/3kta1eqg7a7cbrj3dlaageqhsvu2z6m8a6fmfopwri1h",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@pupXbnb"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/pupXbnb",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 79.48,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/gpk9cvy9rcnlvg1l4h4vj2cy4bbwku2yz5s85z9x24nt",
-      "pairAddress": "GPk9Cvy9RCNLvg1L4h4Vj2CY4BBWKU2yz5S85z9X24nt",
-      "tokenAddress": "33aCqjbwje6dGQ8TisDk2gzNcHUqZwdTgtZmwfpNpump",
-      "name": "Asteroid Jotchua",
-      "symbol": "ASTERJOTCHUA",
-      "description": "The Legend Written In The Stars",
-      "image": "https://cdn.dexscreener.com/cms/images/dICgeN0iYIP5mt1h?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:42:49+00:00",
-      "ageHours": 0.73,
-      "priceUsd": "0.00006087",
-      "marketCap": 60870.0,
-      "liquidityUsd": 16754.21,
-      "volume": {
-        "h24": 201237.23,
-        "h6": 201237.23,
-        "h1": 201237.23,
-        "m5": 12521.68
-      },
-      "txns": {
-        "m5": {
-          "buys": 678,
-          "sells": 209
-        },
-        "h1": {
-          "buys": 5489,
-          "sells": 1293
-        },
-        "h6": {
-          "buys": 5489,
-          "sells": 1293
-        },
-        "h24": {
-          "buys": 5489,
-          "sells": 1293
-        }
-      },
-      "priceChange": {
-        "m5": 0.9,
-        "h1": 17.74,
-        "h6": 17.74,
-        "h24": 17.74
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/33acqjbwje6dgq8tisdk2gznchuqzwdtgtzmwfpnpump",
+          "url": "https://dexscreener.com/solana/6cblndeewfsrfq3nsbkjzrmbv7tewxbg1uajbintpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "Website",
-          "url": "https://asterjotchua.space",
+          "url": "https://trumpunc.xyz",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/AsterJotchua",
+          "url": "https://x.com/trumpunc",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/gpk9cvy9rcnlvg1l4h4vj2cy4bbwku2yz5s85z9x24nt",
+          "url": "https://dexscreener.com/solana/3wt7i3wgrpc24fpamgsdyjus3yaqb755ev6cbxcunsuf",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@AsterJotchua"
+        "@trumpunc"
       ],
       "xStats": {
         "available": false,
@@ -3499,13 +2528,13 @@
       "contactTargets": [
         {
           "label": "Website",
-          "url": "https://asterjotchua.space",
+          "url": "https://trumpunc.xyz",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/AsterJotchua",
+          "url": "https://x.com/trumpunc",
           "source": "profile.links",
           "kind": "x_account"
         }
@@ -3519,450 +2548,76 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/bmqpa7bgx6qvw5extcjf6yc7ktqvxhkqqtfmbvg5nmq3",
-      "pairAddress": "BmQPA7Bgx6qvw5exTCjF6yc7kTqVXHkqqtFmbVg5nmq3",
-      "tokenAddress": "2MaH8AKWt1RgVz3uc1Z3DJdJx4i8xWBQgvN9XvWLpump",
-      "name": "The White Whale",
-      "symbol": "WhiteWhale",
-      "description": "New Chain, New Depths, Same Nigga.",
-      "image": "https://cdn.dexscreener.com/cms/images/-_f_lVikDdYyLhML?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:13:50+00:00",
-      "ageHours": 1.21,
-      "priceUsd": "0.000005907",
-      "marketCap": 5907.0,
-      "liquidityUsd": 7743.78,
-      "volume": {
-        "h24": 183529.07,
-        "h6": 183529.07,
-        "h1": 58956.6,
-        "m5": 318.01
-      },
-      "txns": {
-        "m5": {
-          "buys": 7,
-          "sells": 8
-        },
-        "h1": {
-          "buys": 1269,
-          "sells": 795
-        },
-        "h6": {
-          "buys": 3040,
-          "sells": 2183
-        },
-        "h24": {
-          "buys": 3040,
-          "sells": 2183
-        }
-      },
-      "priceChange": {
-        "m5": 8.73,
-        "h1": -81.09,
-        "h6": -89.59,
-        "h24": -89.59
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2mah8akwt1rgvz3uc1z3djdjx4i8xwbqgvn9xvwlpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/usdcwhale_?s=11",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/bmqpa7bgx6qvw5extcjf6yc7ktqvxhkqqtfmbvg5nmq3",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@usdcwhale_"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/usdcwhale_?s=11",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 77.85,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/2b5mtj5nrv8dwp2jxlbdfebqxn98dr7xw29hbueymby3",
-      "pairAddress": "2b5mTJ5nrv8dWP2JXLBDfebqxn98Dr7XW29hbueyMBy3",
-      "tokenAddress": "2WhsBBy6V3LiG42fMqBfK2fbZL677ugkQYXxPx83pump",
-      "name": "Mythos 5",
-      "symbol": "MYTH",
-      "description": "Mythos 5 by @boogaav",
-      "image": "https://cdn.dexscreener.com/cms/images/hMXQsE5MicLXumY2?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:39:32+00:00",
-      "ageHours": 1.78,
-      "priceUsd": "0.00001921",
-      "marketCap": 19214.0,
-      "liquidityUsd": 9316.23,
-      "volume": {
-        "h24": 132475.49,
-        "h6": 132475.49,
-        "h1": 71504.91,
-        "m5": 3268.77
-      },
-      "txns": {
-        "m5": {
-          "buys": 74,
-          "sells": 41
-        },
-        "h1": {
-          "buys": 1787,
-          "sells": 646
-        },
-        "h6": {
-          "buys": 3085,
-          "sells": 1333
-        },
-        "h24": {
-          "buys": 3085,
-          "sells": 1333
-        }
-      },
-      "priceChange": {
-        "m5": -9.15,
-        "h1": 19.04,
-        "h6": -26.79,
-        "h24": -26.79
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2whsbby6v3lig42fmqbfk2fbzl677ugkqyxxpx83pump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/boogaav",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/2b5mtj5nrv8dwp2jxlbdfebqxn98dr7xw29hbueymby3",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@boogaav"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/boogaav",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 77.78,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/gnxfqpx3hd5z51yiamx1x5sqehigv86cfafxndym3ebj",
-      "pairAddress": "GNXFqPX3HD5z51yiaMx1X5SqeHiGV86cFafxNdym3Ebj",
-      "tokenAddress": "FSTmbDcRSdsPpHaZEBZXNbL6LUpjT91tkNSwQ6Qypump",
-      "name": "Ruthless Ruth",
-      "symbol": "$RUTH",
+      "pairUrl": "https://dexscreener.com/solana/ac6xhlrah4nrfy7srbf3gur8vmlc4wjymsf5aeo93bj",
+      "pairAddress": "AC6XhLrah4nRfy7srbF3Gur8vMLC4WJYmsF5Aeo93Bj",
+      "tokenAddress": "Gw8FjKcSnCsot1tBnBrJkLxdJRfezD3G4B3GHXdbpump",
+      "name": "Risk Taker",
+      "symbol": "RISKER",
       "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/chM6hnFVlhvybUFZ?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:32:22+00:00",
-      "ageHours": 1.9,
-      "priceUsd": "0.0001348",
-      "marketCap": 134883.0,
-      "liquidityUsd": 25475.63,
+      "image": "https://cdn.dexscreener.com/cms/images/02TndyjWAs1togB5?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T04:21:03+00:00",
+      "ageHours": 0.12,
+      "priceUsd": "0.00003768",
+      "marketCap": 37683.0,
+      "liquidityUsd": 13179.59,
       "volume": {
-        "h24": 638498.98,
-        "h6": 638498.98,
-        "h1": 262021.31,
-        "m5": 15466.99
+        "h24": 37463.31,
+        "h6": 37463.31,
+        "h1": 37463.31,
+        "m5": 26109.84
       },
       "txns": {
         "m5": {
-          "buys": 390,
-          "sells": 77
+          "buys": 557,
+          "sells": 500
         },
         "h1": {
-          "buys": 7612,
-          "sells": 1212
+          "buys": 819,
+          "sells": 704
         },
         "h6": {
-          "buys": 18863,
-          "sells": 3004
+          "buys": 819,
+          "sells": 704
         },
         "h24": {
-          "buys": 18863,
-          "sells": 3004
+          "buys": 819,
+          "sells": 704
         }
       },
       "priceChange": {
-        "m5": -32.73,
-        "h1": -52.75,
-        "h6": 254,
-        "h24": 254
+        "m5": 65.24,
+        "h1": 40.71,
+        "h6": 40.71,
+        "h24": 40.71
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/fstmbdcrsdspphazebzxnbl6lupjt91tknswq6qypump",
+          "url": "https://dexscreener.com/solana/gw8fjkcsncsot1tbnbrjklxdjrfezd3g4b3ghxdbpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
+          "label": "Website",
+          "url": "https://www.risktaker.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
           "label": "twitter",
-          "url": "https://x.com/mert/status/2064801160163164439",
+          "url": "https://x.com/risktakercoin",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/gnxfqpx3hd5z51yiamx1x5sqehigv86cfafxndym3ebj",
+          "url": "https://dexscreener.com/solana/ac6xhlrah4nrfy7srbf3gur8vmlc4wjymsf5aeo93bj",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@mert"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "twitter",
-          "url": "https://x.com/mert/status/2064801160163164439",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 77.76,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/d3dmbrpdw6ft5khxcxka1wwyefmzwx1ywjdxla6ilis6",
-      "pairAddress": "D3DMbRpDW6Ft5kHxCXka1wWYeFmZWX1YwJdXLA6iLiS6",
-      "tokenAddress": "DkE5jxuzHFu4zKoevF5rnMqce1tN8iMvbT4JvfJA4P7D",
-      "name": "Top Phoenix Agent",
-      "symbol": "TPA",
-      "description": "Launched by @clawpumptech | Top Phoenix Agent ($TPA) — an autonomous AI agent that copy-trades the #1 Phoenix perpetuals trader on Solana. 50% of creator fees fund its trading capital via copy-trade auto-funding, buybacks strengthen $TPA, and operations keep the agent running.",
-      "image": "https://cdn.dexscreener.com/cms/images/D0cxrDoFdAcU73OK?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:24:28+00:00",
-      "ageHours": 2.03,
-      "priceUsd": "0.000007428",
-      "marketCap": 7428.0,
-      "liquidityUsd": 5741.56,
-      "volume": {
-        "h24": 52665,
-        "h6": 52665,
-        "h1": 5696.9,
-        "m5": 202.85
-      },
-      "txns": {
-        "m5": {
-          "buys": 2,
-          "sells": 5
-        },
-        "h1": {
-          "buys": 117,
-          "sells": 100
-        },
-        "h6": {
-          "buys": 667,
-          "sells": 622
-        },
-        "h24": {
-          "buys": 667,
-          "sells": 622
-        }
-      },
-      "priceChange": {
-        "m5": -7.04,
-        "h1": -4.32,
-        "h6": -71.74,
-        "h24": -71.74
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/dke5jxuzhfu4zkoevf5rnmqce1tn8imvbt4jvfja4p7d",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://clawpump.tech/tokens/DkE5jxuzHFu4zKoevF5rnMqce1tN8iMvbT4JvfJA4P7D",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/status/2064805675222360320",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/d3dmbrpdw6ft5khxcxka1wwyefmzwx1ywjdxla6ilis6",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://clawpump.tech/tokens/DkE5jxuzHFu4zKoevF5rnMqce1tN8iMvbT4JvfJA4P7D",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/i/status/2064805675222360320",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 77.75,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/bgcyqowzwxx45vsqk4tkyp4bgaiztkifcjfjxsgwi5rp",
-      "pairAddress": "BgcyQoWzwxX45VSqk4tKYp4BGaiZtkiFCJfJXsgwi5RP",
-      "tokenAddress": "BxVUyUZyTKNGg4dqbapZ32p1E1exiCR43zH23pLpump",
-      "name": "ASTEROID",
-      "symbol": "ASTEROID",
-      "description": "The final asteroid",
-      "image": "https://cdn.dexscreener.com/cms/images/IW6-5sJ8Qzc_zx1O?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T17:38:52+00:00",
-      "ageHours": 4.79,
-      "priceUsd": "0.00005855",
-      "marketCap": 58552.0,
-      "liquidityUsd": 25543.61,
-      "volume": {
-        "h24": 951334.19,
-        "h6": 951334.19,
-        "h1": 13429.59,
-        "m5": 1182.91
-      },
-      "txns": {
-        "m5": {
-          "buys": 30,
-          "sells": 13
-        },
-        "h1": {
-          "buys": 237,
-          "sells": 113
-        },
-        "h6": {
-          "buys": 9996,
-          "sells": 9763
-        },
-        "h24": {
-          "buys": 9996,
-          "sells": 9763
-        }
-      },
-      "priceChange": {
-        "m5": -4.32,
-        "h1": 41.68,
-        "h6": 0.91,
-        "h24": 0.91
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/bxvuyuzytkngg4dqbapz32p1e1exicr43zh23plpump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://livstargracefoundation.com/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/poorgoat_/status/2064809443670274560?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/bgcyqowzwxx45vsqk4tkyp4bgaiztkifcjfjxsgwi5rp",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@poorgoat_"
+        "@risktakercoin"
       ],
       "xStats": {
         "available": false,
@@ -3976,13 +2631,13 @@
       "contactTargets": [
         {
           "label": "Website",
-          "url": "https://livstargracefoundation.com/",
+          "url": "https://www.risktaker.fun/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/poorgoat_/status/2064809443670274560?s=46&t=JQmNFn94sEXRJU2hkHIuDQ",
+          "url": "https://x.com/risktakercoin",
           "source": "profile.links",
           "kind": "x_account"
         }
@@ -3990,223 +2645,76 @@
       "sources": [
         "latest"
       ],
-      "score": 77.4,
+      "score": 77.88,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/fvxfbooyttpd1ifh3zqxydkfhshfybnfids4gn4ugcp9",
-      "pairAddress": "FvxFbooYttpD1ifH3ZQxYDKFHShfyBNFidS4Gn4Ugcp9",
-      "tokenAddress": "BnhsxDwWwDPVaURQo7KsTJxYogAAc2Pe2Eo2iJa3pump",
-      "name": "Vibesterz",
-      "symbol": "VSTR",
-      "description": "Vibesterz is the privacy layer for AI tools.\n\nThe first private, offline AI vibecode workspace and toolbox, running entirely on your own GPU. The agent that runs entirely on your own device\n\nNothing is tracked, logged, or stored. No analytics, no accounts, no prompt history. Your ideas and your builds never leave your device.\nPick a model, download it into your browser, and start building. The agent plans your project, writes it, reviews its own code, catches its own bugs, and fixes them, all offline. Every app it ships comes with a working database, login, and routing that also runs with zero internet.\n\nVibesterz includes a full on-device toolbox: chat, image generation, vision, speech to text and text to speech, PDF and document processing, data and code utilities, writing and translation, and privacy tools that redact sensitive files without ever uploading them.\nFully offline, fully private 24/7\n\nBurning $VSTR, downloads Vibesterz to your machine and runs it forever. No subscriptions. No pay-per-use credits. No tokens to run out of. It runs on your own GPU, so the only ceiling is your hardware.",
-      "image": "https://cdn.dexscreener.com/cms/images/U0goYj7X26TRzn3N?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-03T17:01:53+00:00",
-      "ageHours": 173.41,
-      "priceUsd": "0.00008197",
-      "marketCap": 79520.0,
-      "liquidityUsd": 19950.64,
+      "pairUrl": "https://dexscreener.com/solana/hvctn9mwzemjkzaudgwj6wvu7r66o8sjfc3aq7fbufoy",
+      "pairAddress": "HVCtN9mWzemjKZauDgWj6Wvu7R66o8SJFc3aQ7fBuFoy",
+      "tokenAddress": "9oCLXH4KVfxNiLRhYaV289gJ2pF9fsYWN59BhffLpump",
+      "name": "Clawed",
+      "symbol": "CLAWED",
+      "description": "1st real pumpfun deploy by the new Claude Fable 5.",
+      "image": "https://cdn.dexscreener.com/cms/images/knpxPsNlSA4Ix_tb?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T03:50:01+00:00",
+      "ageHours": 0.64,
+      "priceUsd": "0.00002526",
+      "marketCap": 25263.0,
+      "liquidityUsd": 10797.86,
       "volume": {
-        "h24": 24791.51,
-        "h6": 6554.39,
-        "h1": 506.6,
-        "m5": 90.63
+        "h24": 54867.87,
+        "h6": 54867.87,
+        "h1": 54867.87,
+        "m5": 1187.43
       },
       "txns": {
         "m5": {
-          "buys": 4,
-          "sells": 2
-        },
-        "h1": {
-          "buys": 12,
-          "sells": 8
-        },
-        "h6": {
-          "buys": 108,
-          "sells": 73
-        },
-        "h24": {
-          "buys": 351,
-          "sells": 274
-        }
-      },
-      "priceChange": {
-        "m5": 0.94,
-        "h1": 1.7,
-        "h6": -11.11,
-        "h24": -8.49
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/bnhsxdwwwdpvaurqo7kstjxyogaac2pe2eo2ija3pump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "website",
-          "url": "https://vibesterz.com",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Vibesterz_",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/VibesterzCommunity",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/fvxfbooyttpd1ifh3zqxydkfhshfybnfids4gn4ugcp9",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@Vibesterz_"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
-      "contactTargets": [
-        {
-          "label": "website",
-          "url": "https://vibesterz.com",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/Vibesterz_",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/VibesterzCommunity",
-          "source": "profile.links",
-          "kind": "telegram"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 76.82,
-      "warnings": []
-    },
-    {
-      "chainId": "solana",
-      "dexId": "meteora",
-      "pairUrl": "https://dexscreener.com/solana/fkgubblu8ggxhzy9ujigcbd6yifz4xustyukgbvrl3f",
-      "pairAddress": "FkGUBBLu8GGxhZy9UJiGCbD6YiFz4XustYuKgbvrL3F",
-      "tokenAddress": "Hkpi2SkNWm5LogyY1Bz4zYTq5REVvco2aYWd1tYppump",
-      "name": "Football Capital Markets",
-      "symbol": "FCM",
-      "description": "Football Capital Markets (FCM) - sports & entertainment infrastructure project building the first on-chain football market where real player performance directly drives token value, trading, prediction markets, and competitive fantasy-style gameplay.\n\n$FCM is the ecosystem token of the FCM platform.",
-      "image": "https://cdn.dexscreener.com/cms/images/eUdKq7FCG7iosFOx?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-05-28T04:03:27+00:00",
-      "ageHours": 330.38,
-      "priceUsd": "0.004157",
-      "marketCap": 2070346.0,
-      "liquidityUsd": 66108.12,
-      "volume": {
-        "h24": 206827.95,
-        "h6": 47907.97,
-        "h1": 7220.92,
-        "m5": 331.82
-      },
-      "txns": {
-        "m5": {
-          "buys": 3,
-          "sells": 0
-        },
-        "h1": {
           "buys": 17,
-          "sells": 8
+          "sells": 18
+        },
+        "h1": {
+          "buys": 858,
+          "sells": 687
         },
         "h6": {
-          "buys": 107,
-          "sells": 438
+          "buys": 858,
+          "sells": 687
         },
         "h24": {
-          "buys": 459,
-          "sells": 1222
+          "buys": 858,
+          "sells": 687
         }
       },
       "priceChange": {
-        "m5": -0.08,
-        "h1": 1.54,
-        "h6": -14.99,
-        "h24": -4.18
+        "m5": 15.95,
+        "h1": -6.35,
+        "h6": -6.35,
+        "h24": -6.35
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/hkpi2sknwm5logyy1bz4zytq5revvco2aywd1typpump",
+          "url": "https://dexscreener.com/solana/9oclxh4kvfxnilrhyav289gj2pf9fsywn59bhfflpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
-          "label": "website",
-          "url": "https://fcm.fun/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "website",
-          "url": "https://fcm.gitbook.io/_fcm.fun",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
           "label": "twitter",
-          "url": "https://x.com/fcmdotfun",
+          "url": "https://x.com/LuffyCallz/status/2064917441294066067?s=20",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
-          "label": "telegram",
-          "url": "https://t.me/fcm_fun",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "tiktok",
-          "url": "https://www.tiktok.com/@fcm.fun",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "instagram",
-          "url": "https://www.instagram.com/fcmdotfun",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
           "label": "url",
-          "url": "https://dexscreener.com/solana/fkgubblu8ggxhzy9ujigcbd6yifz4xustyukgbvrl3f",
+          "url": "https://dexscreener.com/solana/hvctn9mwzemjkzaudgwj6wvu7r66o8sjfc3aq7fbufoy",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@fcmdotfun"
+        "@LuffyCallz"
       ],
       "xStats": {
         "available": false,
@@ -4216,121 +2724,185 @@
         "accounts": [],
         "communities": []
       },
-      "raidSignals": [
-        "telegram_coordination_link"
-      ],
+      "raidSignals": [],
       "contactTargets": [
         {
-          "label": "website",
-          "url": "https://fcm.fun/",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "website",
-          "url": "https://fcm.gitbook.io/_fcm.fun",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
           "label": "twitter",
-          "url": "https://x.com/fcmdotfun",
+          "url": "https://x.com/LuffyCallz/status/2064917441294066067?s=20",
           "source": "profile.links",
           "kind": "x_account"
-        },
-        {
-          "label": "telegram",
-          "url": "https://t.me/fcm_fun",
-          "source": "profile.links",
-          "kind": "telegram"
-        },
-        {
-          "label": "tiktok",
-          "url": "https://www.tiktok.com/@fcm.fun",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
-          "label": "instagram",
-          "url": "https://www.instagram.com/fcmdotfun",
-          "source": "profile.links",
-          "kind": "website"
         }
       ],
       "sources": [
-        "latest",
-        "top"
+        "latest"
       ],
-      "score": 73.5,
+      "score": 77.88,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/4ayqt3ahm2ecsekzjngy2mwqasbiqxzar5mc1ial5mva",
-      "pairAddress": "4AyQt3AHm2eCSekzJNGy2MwqASBiqxzaR5Mc1iaL5Mva",
-      "tokenAddress": "CKtSjKk8boPQqz3kMqAkNAvEom8dEz2HVvHQBVW4pump",
-      "name": "Baltazar Wilton Wólken",
-      "symbol": "BALTAZAR",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/8sDAxdIAYu2MVCuu?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:24:09+00:00",
-      "ageHours": 1.04,
-      "priceUsd": "0.000001435",
-      "marketCap": 1435.0,
-      "liquidityUsd": 2516.25,
+      "pairUrl": "https://dexscreener.com/solana/bybkgb6estrmogueymruek2hkerltwnkfeoiuhzlqmf6",
+      "pairAddress": "BYBKGb6eStRmogueYmruek2hkerLtWnkfEoiuHZLqMF6",
+      "tokenAddress": "EykG1EFLxGkWAYjrfiF7Pysoj6xje6wkSf8qPLFapump",
+      "name": "Hachiko",
+      "symbol": "Hachi",
+      "description": "The most loyal dog",
+      "image": "https://cdn.dexscreener.com/cms/images/vLaZiTm87iYY4KRs?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-09T11:29:07+00:00",
+      "ageHours": 40.98,
+      "priceUsd": "0.0001049",
+      "marketCap": 104758.0,
+      "liquidityUsd": 32805.12,
       "volume": {
-        "h24": 44366.44,
-        "h6": 44366.44,
-        "h1": 20611.65,
-        "m5": 0.02
+        "h24": 103388.78,
+        "h6": 84055.8,
+        "h1": 8254.39,
+        "m5": 85.16
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 0
+          "buys": 6,
+          "sells": 4
         },
         "h1": {
-          "buys": 421,
-          "sells": 441
+          "buys": 108,
+          "sells": 54
         },
         "h6": {
-          "buys": 781,
-          "sells": 748
+          "buys": 754,
+          "sells": 520
         },
         "h24": {
-          "buys": 781,
-          "sells": 748
+          "buys": 1077,
+          "sells": 721
         }
       },
       "priceChange": {
-        "m5": 0.21,
-        "h1": -87.66,
-        "h6": -94.48,
-        "h24": -94.48
+        "m5": -0.63,
+        "h1": -1.05,
+        "h6": 118,
+        "h24": 143
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/cktsjkk8bopqqz3kmqaknaveom8dez2hvvhqbvw4pump",
+          "url": "https://dexscreener.com/solana/eykg1eflxgkwayjrfif7pysoj6xje6wksf8qplfapump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
-          "label": "Website",
-          "url": "https://www.tiktok.com/@baltazar_wilton_wolken/video/7648377631737498902",
+          "label": "website",
+          "url": "https://hachikousdc.com",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/communities/1961518940732989884",
+          "url": "https://x.com/HachikoOnUSDC",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/bybkgb6estrmogueymruek2hkerltwnkfeoiuhzlqmf6",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@HachikoOnUSDC"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "website",
+          "url": "https://hachikousdc.com",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/HachikoOnUSDC",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 75.38,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/ahkbehiz5amuggzmwynjkctwrr1istaew1sljaq8us3a",
+      "pairAddress": "AHkbEhiZ5aMUGgzmwYnjkcTwrr1istAeW1SLjaQ8US3A",
+      "tokenAddress": "FrKzH1hYj2TJjBNQt4SBNpotM8KHE4eyp53Xtpcppump",
+      "name": "Umur",
+      "symbol": "Umur",
+      "description": "Updated x com",
+      "image": "https://cdn.dexscreener.com/cms/images/s1vRnPxTo2SZ045N?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T01:58:38+00:00",
+      "ageHours": 2.49,
+      "priceUsd": "0.000005186",
+      "marketCap": 5187.0,
+      "liquidityUsd": 4883.94,
+      "volume": {
+        "h24": 70751.34,
+        "h6": 70751.34,
+        "h1": 8204.48,
+        "m5": 201.76
+      },
+      "txns": {
+        "m5": {
+          "buys": 12,
+          "sells": 9
+        },
+        "h1": {
+          "buys": 169,
+          "sells": 166
+        },
+        "h6": {
+          "buys": 1517,
+          "sells": 1086
+        },
+        "h24": {
+          "buys": 1517,
+          "sells": 1086
+        }
+      },
+      "priceChange": {
+        "m5": 6.42,
+        "h1": -64.11,
+        "h6": -80.76,
+        "h24": -80.76
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/frkzh1hyj2tjjbnqt4sbnpotm8khe4eyp53xtpcppump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/i/communities/1985071701047062963",
           "source": "profile.links",
           "kind": "x_community"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/4ayqt3ahm2ecsekzjngy2mwqasbiqxzar5mc1ial5mva",
+          "url": "https://dexscreener.com/solana/ahkbehiz5amuggzmwynjkctwrr1istaew1sljaq8us3a",
           "source": "url",
           "kind": "dexscreener"
         }
@@ -4349,14 +2921,8 @@
       ],
       "contactTargets": [
         {
-          "label": "Website",
-          "url": "https://www.tiktok.com/@baltazar_wilton_wolken/video/7648377631737498902",
-          "source": "profile.links",
-          "kind": "website"
-        },
-        {
           "label": "twitter",
-          "url": "https://x.com/i/communities/1961518940732989884",
+          "url": "https://x.com/i/communities/1985071701047062963",
           "source": "profile.links",
           "kind": "x_community"
         }
@@ -4364,7 +2930,7 @@
       "sources": [
         "latest"
       ],
-      "score": 72.87,
+      "score": 72.69,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -4373,182 +2939,76 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/7dmvtnbhh4vt9rno4blai4nnsimsysd35vb2gmufptlh",
-      "pairAddress": "7dmVtNBHh4vt9rNo4BLai4NnSimSYsd35vb2GmUfptLh",
-      "tokenAddress": "ED5QyNxRcQJH56JVZxTLZE1eVjch4Ugud5U6wYj2pump",
-      "name": "JobCoin",
-      "symbol": "JOB",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/iRndKa28dO4PSb7x?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:56:07+00:00",
-      "ageHours": 1.51,
-      "priceUsd": "0.000001500",
-      "marketCap": 1500.0,
-      "liquidityUsd": 2574.99,
+      "pairUrl": "https://dexscreener.com/solana/dufevicksjx37qhi4lnw1zsbu2oif12phfuyxjznjmqh",
+      "pairAddress": "DuFEviCkSjx37Qhi4Lnw1zSbu2oiF12pHFUyxJzNjmQh",
+      "tokenAddress": "4HXWGBpbP2NJgkVeN8WFav7MLKaKxgM3X3pPayqLpump",
+      "name": "Glitch Moon ",
+      "symbol": "MOON",
+      "description": "A broken moon over a corrupted ocean",
+      "image": "https://cdn.dexscreener.com/cms/images/5Tf8G-BF9AslvFu7?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-10T22:06:08+00:00",
+      "ageHours": 6.37,
+      "priceUsd": "0.000002972",
+      "marketCap": 2973.0,
+      "liquidityUsd": 4199.61,
       "volume": {
-        "h24": 78183.25,
-        "h6": 78183.25,
-        "h1": 204.12,
-        "m5": 59.43
-      },
-      "txns": {
-        "m5": {
-          "buys": 1,
-          "sells": 0
-        },
-        "h1": {
-          "buys": 29,
-          "sells": 16
-        },
-        "h6": {
-          "buys": 1406,
-          "sells": 1714
-        },
-        "h24": {
-          "buys": 1406,
-          "sells": 1714
-        }
-      },
-      "priceChange": {
-        "m5": 4.83,
-        "h1": -3.5,
-        "h6": -94.24,
-        "h24": -94.24
-      },
-      "links": [
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/ed5qynxrcqjh56jvzxtlze1evjch4ugud5u6wyj2pump",
-          "source": "url",
-          "kind": "dexscreener"
-        },
-        {
-          "label": "Website",
-          "url": "https://x.com/Pumpfun/status/2064809206130077815",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/JobCoin_PF",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "url",
-          "url": "https://dexscreener.com/solana/7dmvtnbhh4vt9rno4blai4nnsimsysd35vb2gmufptlh",
-          "source": "url",
-          "kind": "dexscreener"
-        }
-      ],
-      "xHandles": [
-        "@JobCoin_PF",
-        "@Pumpfun"
-      ],
-      "xStats": {
-        "available": false,
-        "reason": "xurl_not_installed_or_disabled",
-        "tweet_count": 0,
-        "unique_accounts": 0,
-        "accounts": [],
-        "communities": []
-      },
-      "raidSignals": [],
-      "contactTargets": [
-        {
-          "label": "Website",
-          "url": "https://x.com/Pumpfun/status/2064809206130077815",
-          "source": "profile.links",
-          "kind": "x_account"
-        },
-        {
-          "label": "twitter",
-          "url": "https://x.com/JobCoin_PF",
-          "source": "profile.links",
-          "kind": "x_account"
-        }
-      ],
-      "sources": [
-        "latest"
-      ],
-      "score": 70.81,
-      "warnings": [
-        "low_liquidity",
-        "thin_liquidity_watch"
-      ]
-    },
-    {
-      "chainId": "solana",
-      "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/gi2lesjyh6s852cshpuhv2p3ongt4zfwc58wtucfkc49",
-      "pairAddress": "Gi2LesJyh6S852CsHPUhV2P3oNgT4ZFwC58WtucfKC49",
-      "tokenAddress": "2gB4ytQos9dphSGF9YDC6SpoTNu1PeqX6FSGzBvopump",
-      "name": "Bagachu",
-      "symbol": "Bagachu",
-      "description": "Bagachu is a progression-driven monster collection game built on Solana.",
-      "image": "https://cdn.dexscreener.com/cms/images/xASL9N6b1MxOHIJN?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T13:56:34+00:00",
-      "ageHours": 8.5,
-      "priceUsd": "0.000001632",
-      "marketCap": 1632.0,
-      "liquidityUsd": 2694.61,
-      "volume": {
-        "h24": 81937.71,
-        "h6": 787.75,
-        "h1": 76.08,
-        "m5": 0
+        "h24": 2020170.01,
+        "h6": 1714778.5,
+        "h1": 1045.37,
+        "m5": 0.35
       },
       "txns": {
         "m5": {
           "buys": 0,
-          "sells": 0
+          "sells": 1
         },
         "h1": {
-          "buys": 3,
-          "sells": 7
+          "buys": 11,
+          "sells": 10
         },
         "h6": {
-          "buys": 27,
-          "sells": 61
+          "buys": 12575,
+          "sells": 10443
         },
         "h24": {
-          "buys": 2094,
-          "sells": 1700
+          "buys": 15378,
+          "sells": 12064
         }
       },
       "priceChange": {
-        "h1": -2.34,
-        "h6": -42.31,
-        "h24": -94
+        "m5": -0.06,
+        "h1": -34.55,
+        "h6": -97.66,
+        "h24": -89.63
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/2gb4ytqos9dphsgf9ydc6spotnu1peqx6fsgzbvopump",
+          "url": "https://dexscreener.com/solana/4hxwgbpbp2njgkven8wfav7mlkakxgm3x3ppayqlpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "website",
-          "url": "https://www.bagachu.com/",
+          "url": "https://glitchmoon.art/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/Bagachu_",
+          "url": "https://x.com/glitchmoonsol",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/gi2lesjyh6s852cshpuhv2p3ongt4zfwc58wtucfkc49",
+          "url": "https://dexscreener.com/solana/dufevicksjx37qhi4lnw1zsbu2oif12phfuyxjznjmqh",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@Bagachu_"
+        "@glitchmoonsol"
       ],
       "xStats": {
         "available": false,
@@ -4562,21 +3022,129 @@
       "contactTargets": [
         {
           "label": "website",
-          "url": "https://www.bagachu.com/",
+          "url": "https://glitchmoon.art/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/Bagachu_",
+          "url": "https://x.com/glitchmoonsol",
           "source": "profile.links",
           "kind": "x_account"
         }
       ],
       "sources": [
+        "latest",
         "top"
       ],
-      "score": 69.44,
+      "score": 69.7,
+      "warnings": [
+        "low_liquidity",
+        "thin_liquidity_watch"
+      ]
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/91awh1ju618mb6emad58eltoz7jtct4hbn2hdywnpkyn",
+      "pairAddress": "91AwH1ju618mB6eMaD58ELToz7JTCT4hbN2HDywNpkYN",
+      "tokenAddress": "GLCQ9m5kEXdTUkm2r5i4X3oXDE9GdW5toiArutjJpump",
+      "name": "dutch",
+      "symbol": "dutch",
+      "description": "A duck character. Just at the beach, floating on a swim ring and reading the newspaper.",
+      "image": "https://cdn.dexscreener.com/cms/images/yGoptbB7_WF7mcnC?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T03:49:56+00:00",
+      "ageHours": 0.64,
+      "priceUsd": "0.000001378",
+      "marketCap": 1379.0,
+      "liquidityUsd": 2557.95,
+      "volume": {
+        "h24": 203872.82,
+        "h6": 203872.82,
+        "h1": 203872.82,
+        "m5": 89.78
+      },
+      "txns": {
+        "m5": {
+          "buys": 3,
+          "sells": 21
+        },
+        "h1": {
+          "buys": 7104,
+          "sells": 5089
+        },
+        "h6": {
+          "buys": 7104,
+          "sells": 5089
+        },
+        "h24": {
+          "buys": 7104,
+          "sells": 5089
+        }
+      },
+      "priceChange": {
+        "m5": -7.03,
+        "h1": -95.56,
+        "h6": -95.56,
+        "h24": -95.56
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/glcq9m5kexdtukm2r5i4x3oxde9gdw5toiarutjjpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "website",
+          "url": "https://dutchcoin.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/itsdutchcoin",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/91awh1ju618mb6emad58eltoz7jtct4hbn2hdywnpkyn",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@itsdutchcoin"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "website",
+          "url": "https://dutchcoin.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/itsdutchcoin",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest",
+        "latest"
+      ],
+      "score": 65.38,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -4593,39 +3161,39 @@
       "description": "Fantasy football meets Solana. Build your dream World Cup squad. Compete against the world. Earn real SOL rewards.",
       "image": "https://cdn.dexscreener.com/cms/images/G3N4UPHP70yBQy98?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-02T16:19:48+00:00",
-      "ageHours": 198.11,
-      "priceUsd": "0.0002669",
-      "marketCap": 266903.0,
-      "liquidityUsd": 37297.96,
+      "ageHours": 204.14,
+      "priceUsd": "0.0001993",
+      "marketCap": 199281.0,
+      "liquidityUsd": 33144.13,
       "volume": {
-        "h24": 256763.62,
-        "h6": 227864.04,
-        "h1": 135119.36,
-        "m5": 2251.95
+        "h24": 373821.14,
+        "h6": 128472.69,
+        "h1": 13651.66,
+        "m5": 274.66
       },
       "txns": {
         "m5": {
-          "buys": 20,
-          "sells": 15
+          "buys": 5,
+          "sells": 1
         },
         "h1": {
-          "buys": 890,
-          "sells": 672
+          "buys": 101,
+          "sells": 126
         },
         "h6": {
-          "buys": 1631,
-          "sells": 1258
+          "buys": 1209,
+          "sells": 911
         },
         "h24": {
-          "buys": 2038,
-          "sells": 1603
+          "buys": 3110,
+          "sells": 2407
         }
       },
       "priceChange": {
-        "m5": 10.68,
-        "h1": 63.12,
-        "h6": 361,
-        "h24": 287
+        "m5": 1.97,
+        "h1": 17.39,
+        "h6": -20.64,
+        "h24": 169
       },
       "links": [
         {
@@ -4707,76 +3275,82 @@
         "latest",
         "top"
       ],
-      "score": 65.74,
+      "score": 64.98,
       "warnings": []
     },
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/5gfbchh2hiqnv73wivjaihme1kscyhqncjgkxczz5wpp",
-      "pairAddress": "5GfBCHH2HiqnV73wiVJAihME1kscYhqnCJgKxczZ5Wpp",
-      "tokenAddress": "rfGZpR2HzWAUY2R6EYrPqjAaPsYBFykjSmhzLb8pump",
-      "name": "RIFTSTORM",
-      "symbol": "RIFT",
-      "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/-CXr7f-AcPgTJijL?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T21:58:18+00:00",
-      "ageHours": 0.47,
-      "priceUsd": "0.000002894",
-      "marketCap": 2894.0,
-      "liquidityUsd": 3723.07,
+      "pairUrl": "https://dexscreener.com/solana/45rpqrmeixj7mrpxuxq6y9udl82om83q2ehpxmjmgh6w",
+      "pairAddress": "45RPqRmEixJ7mRpxUXq6Y9UdL82om83q2EHpxmjmgh6W",
+      "tokenAddress": "C8N8dVMDsSjFMaUYw6MGEMsiRgFywjdXDfYnKo66pump",
+      "name": "Bountara Bounties",
+      "symbol": "BOUNTY",
+      "description": "A Kintara inspired game where you complete pumpfun bounties in-game and get paid in SOL.",
+      "image": "https://cdn.dexscreener.com/cms/images/tC6-19ThR723YqOX?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T03:39:05+00:00",
+      "ageHours": 0.82,
+      "priceUsd": "0.000001935",
+      "marketCap": 1936.0,
+      "liquidityUsd": 2982.09,
       "volume": {
-        "h24": 447203.99,
-        "h6": 447203.99,
-        "h1": 447203.99,
-        "m5": 244.86
+        "h24": 42494.77,
+        "h6": 42494.77,
+        "h1": 42494.77,
+        "m5": 19.7
       },
       "txns": {
         "m5": {
-          "buys": 12,
-          "sells": 27
+          "buys": 0,
+          "sells": 7
         },
         "h1": {
-          "buys": 4048,
-          "sells": 3658
+          "buys": 878,
+          "sells": 911
         },
         "h6": {
-          "buys": 4048,
-          "sells": 3658
+          "buys": 878,
+          "sells": 911
         },
         "h24": {
-          "buys": 4048,
-          "sells": 3658
+          "buys": 878,
+          "sells": 911
         }
       },
       "priceChange": {
-        "m5": -10.68,
-        "h1": -88.51,
-        "h6": -88.51,
-        "h24": -88.51
+        "m5": -2.4,
+        "h1": -92.82,
+        "h6": -92.82,
+        "h24": -92.82
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/rfgzpr2hzwauy2r6eyrpqjaapsybfykjsmhzlb8pump",
+          "url": "https://dexscreener.com/solana/c8n8dvmdssjfmauyw6mgemsirgfywjdxdfynko66pump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
+          "label": "Website",
+          "url": "https://bountara.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
           "label": "twitter",
-          "url": "https://x.com/playriftstorm",
+          "url": "https://x.com/PlayBountara",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/5gfbchh2hiqnv73wivjaihme1kscyhqncjgkxczz5wpp",
+          "url": "https://dexscreener.com/solana/45rpqrmeixj7mrpxuxq6y9udl82om83q2ehpxmjmgh6w",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
       "xHandles": [
-        "@playriftstorm"
+        "@PlayBountara"
       ],
       "xStats": {
         "available": false,
@@ -4789,8 +3363,14 @@
       "raidSignals": [],
       "contactTargets": [
         {
+          "label": "Website",
+          "url": "https://bountara.fun/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
           "label": "twitter",
-          "url": "https://x.com/playriftstorm",
+          "url": "https://x.com/PlayBountara",
           "source": "profile.links",
           "kind": "x_account"
         }
@@ -4807,75 +3387,77 @@
     {
       "chainId": "solana",
       "dexId": "pumpswap",
-      "pairUrl": "https://dexscreener.com/solana/491dzjz7dnjchkgg5grq5oygz4bey2x6tbhaj1o9gqsj",
-      "pairAddress": "491dZJZ7dNjChkgG5GRq5oYGZ4bey2X6tbHAJ1o9gqSJ",
-      "tokenAddress": "3oKW57U4KimrTGMqiHESb3w4YbPJmbbpmn4MmXcxpump",
-      "name": "NvidiaIntelGoogleGrokAMD",
-      "symbol": "NIGGA",
+      "pairUrl": "https://dexscreener.com/solana/d7hckcgpu8lqmegb1hn2bcbt7vd5vwuglzknwffedkb9",
+      "pairAddress": "D7HCKcgPU8LqMEGB1HN2bcbt7vd5vWugLZknWFFEDkB9",
+      "tokenAddress": "GajzjQ5Tbqe8doAYaxZbvPsox3AYKz54uV8tm8VZpump",
+      "name": "Solguys",
+      "symbol": "Solguys",
       "description": "",
-      "image": "https://cdn.dexscreener.com/cms/images/plWgJiTHckqAKMeG?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-10T20:57:59+00:00",
-      "ageHours": 1.47,
-      "priceUsd": "0.000005449",
-      "marketCap": 4404.0,
-      "liquidityUsd": 4979.76,
+      "image": "https://cdn.dexscreener.com/cms/images/4y5c5Cy8U-F1erc2?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T03:32:31+00:00",
+      "ageHours": 0.93,
+      "priceUsd": "0.000001574",
+      "marketCap": 1574.0,
+      "liquidityUsd": 2694.77,
       "volume": {
-        "h24": 179569.22,
-        "h6": 179569.22,
-        "h1": 8865.98,
-        "m5": 78.08
+        "h24": 52745.87,
+        "h6": 52745.87,
+        "h1": 52745.87,
+        "m5": 10.68
       },
       "txns": {
         "m5": {
-          "buys": 1,
-          "sells": 9
+          "buys": 0,
+          "sells": 2
         },
         "h1": {
-          "buys": 85,
-          "sells": 89
+          "buys": 1166,
+          "sells": 1057
         },
         "h6": {
-          "buys": 2531,
-          "sells": 2224
+          "buys": 1166,
+          "sells": 1057
         },
         "h24": {
-          "buys": 2531,
-          "sells": 2224
+          "buys": 1166,
+          "sells": 1057
         }
       },
       "priceChange": {
-        "m5": -5.88,
-        "h1": 78.86,
-        "h6": -79.03,
-        "h24": -79.03
+        "m5": -0.88,
+        "h1": -94,
+        "h6": -94,
+        "h24": -94
       },
       "links": [
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/3okw57u4kimrtgmqihesb3w4ybpjmbbpmn4mmxcxpump",
+          "url": "https://dexscreener.com/solana/gajzjq5tbqe8doayaxzbvpsox3aykz54uv8tm8vzpump",
           "source": "url",
           "kind": "dexscreener"
         },
         {
           "label": "Website",
-          "url": "https://axiom.trade/communities/3oKW57U4KimrTGMqiHESb3w4YbPJmbbpmn4MmXcxpump?chain=sol",
+          "url": "https://sol-guys.fun/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/status/2064813741129023916",
+          "url": "https://x.com/solguysfun/status/2064911652709920857",
           "source": "profile.links",
           "kind": "x_account"
         },
         {
           "label": "url",
-          "url": "https://dexscreener.com/solana/491dzjz7dnjchkgg5grq5oygz4bey2x6tbhaj1o9gqsj",
+          "url": "https://dexscreener.com/solana/d7hckcgpu8lqmegb1hn2bcbt7vd5vwuglzknwffedkb9",
           "source": "url",
           "kind": "dexscreener"
         }
       ],
-      "xHandles": [],
+      "xHandles": [
+        "@solguysfun"
+      ],
       "xStats": {
         "available": false,
         "reason": "xurl_not_installed_or_disabled",
@@ -4888,13 +3470,13 @@
       "contactTargets": [
         {
           "label": "Website",
-          "url": "https://axiom.trade/communities/3oKW57U4KimrTGMqiHESb3w4YbPJmbbpmn4MmXcxpump?chain=sol",
+          "url": "https://sol-guys.fun/",
           "source": "profile.links",
           "kind": "website"
         },
         {
           "label": "twitter",
-          "url": "https://x.com/i/status/2064813741129023916",
+          "url": "https://x.com/solguysfun/status/2064911652709920857",
           "source": "profile.links",
           "kind": "x_account"
         }
@@ -4902,7 +3484,300 @@
       "sources": [
         "latest"
       ],
-      "score": 62.82,
+      "score": 62.88,
+      "warnings": [
+        "low_liquidity",
+        "thin_liquidity_watch"
+      ]
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/ev5ipnvfwa4horuk2ngvapm8rcnkduvkzmccazxd2sgp",
+      "pairAddress": "Ev5iPNVfwA4Horuk2nGvaPM8RCnkduvkzMccaZXD2Sgp",
+      "tokenAddress": "BsHMDgphFVCCUSbc56AX8zpbZTbyQKpS2umYq8Cfpump",
+      "name": "Chudrick Westfallen",
+      "symbol": "CHUDRICK",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/vA2-PUdOem917zkd?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T02:55:25+00:00",
+      "ageHours": 1.55,
+      "priceUsd": "0.000002740",
+      "marketCap": 2741.0,
+      "liquidityUsd": 3712.61,
+      "volume": {
+        "h24": 423350.75,
+        "h6": 423350.75,
+        "h1": 1125.26,
+        "m5": 54.03
+      },
+      "txns": {
+        "m5": {
+          "buys": 1,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 44,
+          "sells": 48
+        },
+        "h6": {
+          "buys": 5196,
+          "sells": 4470
+        },
+        "h24": {
+          "buys": 5196,
+          "sells": 4470
+        }
+      },
+      "priceChange": {
+        "m5": 5.44,
+        "h1": -15.75,
+        "h6": -89.75,
+        "h24": -89.75
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/bshmdgphfvccusbc56ax8zpbztbyqkps2umyq8cfpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/Grimsxlock/status/2064903971718746396",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/ev5ipnvfwa4horuk2ngvapm8rcnkduvkzmccazxd2sgp",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@Grimsxlock"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/Grimsxlock/status/2064903971718746396",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 62.81,
+      "warnings": [
+        "low_liquidity",
+        "thin_liquidity_watch"
+      ]
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/21hogdhnax51ptcwhxjfhyvxswzrac2ressgwm7wurxm",
+      "pairAddress": "21hogDhNaX51PtCWhXjFhyvxSWZRaC2REssgWM7wuRxM",
+      "tokenAddress": "GDuGWkJFVTYWRdZuD8mMwQqEESWky6Ws8tDwuRT5pump",
+      "name": "Mundane Coin",
+      "symbol": "MUNDANE",
+      "description": "",
+      "image": "https://cdn.dexscreener.com/cms/images/Y227LL2lWJiHwHGL?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T02:02:25+00:00",
+      "ageHours": 2.43,
+      "priceUsd": "0.000004518",
+      "marketCap": 3178.0,
+      "liquidityUsd": 4681.88,
+      "volume": {
+        "h24": 244478.92,
+        "h6": 244478.92,
+        "h1": 510.56,
+        "m5": 4.67
+      },
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 1
+        },
+        "h1": {
+          "buys": 10,
+          "sells": 22
+        },
+        "h6": {
+          "buys": 3614,
+          "sells": 3789
+        },
+        "h24": {
+          "buys": 3614,
+          "sells": 3789
+        }
+      },
+      "priceChange": {
+        "m5": -0.6,
+        "h1": -13.14,
+        "h6": -82.84,
+        "h24": -82.84
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/gdugwkjfvtywrdzud8mmwqqeeswky6ws8tdwurt5pump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/Vermillioonnn/status/2064890230553842020",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/21hogdhnax51ptcwhxjfhyvxswzrac2ressgwm7wurxm",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@Vermillioonnn"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "twitter",
+          "url": "https://x.com/Vermillioonnn/status/2064890230553842020",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 62.7,
+      "warnings": [
+        "low_liquidity",
+        "thin_liquidity_watch"
+      ]
+    },
+    {
+      "chainId": "solana",
+      "dexId": "pumpswap",
+      "pairUrl": "https://dexscreener.com/solana/hk3tc5nby8szhprbez4viauq8elubyk8fahmigtiew7i",
+      "pairAddress": "HK3tC5Nby8sZHPrBez4viAUQ8eLUbYK8FaHmiGtiEW7i",
+      "tokenAddress": "T3zNCWCy7UojzGBuJkqjhH5WubA6UXNjWEhKGoApump",
+      "name": "I Love Inflation",
+      "symbol": "ILI",
+      "description": "Prices go up, wallets go down, Trump loves inflation.",
+      "image": "https://cdn.dexscreener.com/cms/images/SAkw8r6DGjQU1eRV?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-11T01:28:50+00:00",
+      "ageHours": 2.99,
+      "priceUsd": "0.000001400",
+      "marketCap": 1401.0,
+      "liquidityUsd": 2616.88,
+      "volume": {
+        "h24": 399077.76,
+        "h6": 399077.76,
+        "h1": 22.83,
+        "m5": 0
+      },
+      "txns": {
+        "m5": {
+          "buys": 0,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 3,
+          "sells": 4
+        },
+        "h6": {
+          "buys": 3370,
+          "sells": 4152
+        },
+        "h24": {
+          "buys": 3370,
+          "sells": 4152
+        }
+      },
+      "priceChange": {
+        "h1": 1.42,
+        "h6": -96.98,
+        "h24": -96.98
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/t3zncwcy7uojzgbujkqjhh5wuba6uxnjwehkgoapump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "Website",
+          "url": "https://iloveinflation.vercel.app/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/KobeissiLetter/status/2064747249586905389?s=20",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/hk3tc5nby8szhprbez4viauq8elubyk8fahmigtiew7i",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@KobeissiLetter"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "Website",
+          "url": "https://iloveinflation.vercel.app/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/KobeissiLetter/status/2064747249586905389?s=20",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 62.63,
       "warnings": [
         "low_liquidity",
         "thin_liquidity_watch"
@@ -4919,39 +3794,39 @@
       "description": "Cochliomyia hominivorax, the New World screwworm fly, New World screwworm or simply screwworm or screw-worm, is a species of parasitic blowfly whose larvae feed on living tissue of warm-blooded animals.",
       "image": "https://cdn.dexscreener.com/cms/images/G7m9-h_fPVKLxtck?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-06-04T03:24:01+00:00",
-      "ageHours": 163.04,
-      "priceUsd": "0.00009156",
-      "marketCap": 91169.0,
-      "liquidityUsd": 22416.74,
+      "ageHours": 169.07,
+      "priceUsd": "0.00008399",
+      "marketCap": 83628.0,
+      "liquidityUsd": 21935.6,
       "volume": {
-        "h24": 100068.7,
-        "h6": 27239.2,
-        "h1": 3948.1,
-        "m5": 19.55
+        "h24": 92951.41,
+        "h6": 14166.5,
+        "h1": 1956.97,
+        "m5": 44.94
       },
       "txns": {
         "m5": {
           "buys": 0,
-          "sells": 2
+          "sells": 1
         },
         "h1": {
-          "buys": 50,
-          "sells": 35
+          "buys": 49,
+          "sells": 23
         },
         "h6": {
-          "buys": 366,
-          "sells": 365
+          "buys": 257,
+          "sells": 175
         },
         "h24": {
-          "buys": 1239,
-          "sells": 1165
+          "buys": 1291,
+          "sells": 1111
         }
       },
       "priceChange": {
-        "m5": -0.25,
-        "h1": -18.36,
-        "h6": 14.43,
-        "h24": 17.68
+        "m5": -0.45,
+        "h1": -9.08,
+        "h6": -16.61,
+        "h24": -15.53
       },
       "links": [
         {
@@ -5008,7 +3883,110 @@
       "sources": [
         "latest"
       ],
-      "score": 60.12,
+      "score": 59.37,
+      "warnings": []
+    },
+    {
+      "chainId": "solana",
+      "dexId": "meteora",
+      "pairUrl": "https://dexscreener.com/solana/cnk82s8exdsk9nwqq55kd9wcxoa22nwtchzjcbdu8lda",
+      "pairAddress": "CnK82s8exdsK9nwqQ55kd9wcxoA22NwTchZJCBdu8LDa",
+      "tokenAddress": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+      "name": "three.ws",
+      "symbol": "three",
+      "description": "Three is a marketplace and runtime for 3D AI agents — autonomous characters that users can discover, deploy, and pay to interact with. Each agent lives in a fully rendered 3D environment powered by Three js and can be monetized by its creator through time passes, trials, and per-session payments using USDC and the x402 payment protocol. Creators can list agents on the marketplace, set pricing, and earn directly. Users browse the catalog, launch agents in-browser, and pay with their connected wallet, with no intermediary. The platform also includes a built-in wallet dashboard for balances, receipts, and withdrawals. Three is infrastructure for the agent economy: own, run, and earn from AI agents with real onchain payments.",
+      "image": "https://cdn.dexscreener.com/cms/images/j22gRd6Z2GowwOvM?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-06-01T13:53:13+00:00",
+      "ageHours": 230.58,
+      "priceUsd": "0.003340",
+      "marketCap": 3340834.0,
+      "liquidityUsd": 183165.16,
+      "volume": {
+        "h24": 592102.02,
+        "h6": 89934.44,
+        "h1": 13103.75,
+        "m5": 272.76
+      },
+      "txns": {
+        "m5": {
+          "buys": 1,
+          "sells": 0
+        },
+        "h1": {
+          "buys": 36,
+          "sells": 23
+        },
+        "h6": {
+          "buys": 190,
+          "sells": 171
+        },
+        "h24": {
+          "buys": 1192,
+          "sells": 1015
+        }
+      },
+      "priceChange": {
+        "m5": 0.03,
+        "h1": -5.3,
+        "h6": 5.75,
+        "h24": 19.76
+      },
+      "links": [
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/fembdox7r1psc4gecvjdsbnbza3bfztcydcatjvjpump",
+          "source": "url",
+          "kind": "dexscreener"
+        },
+        {
+          "label": "website",
+          "url": "https://three.ws/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/trythreews",
+          "source": "profile.links",
+          "kind": "x_account"
+        },
+        {
+          "label": "url",
+          "url": "https://dexscreener.com/solana/cnk82s8exdsk9nwqq55kd9wcxoa22nwtchzjcbdu8lda",
+          "source": "url",
+          "kind": "dexscreener"
+        }
+      ],
+      "xHandles": [
+        "@trythreews"
+      ],
+      "xStats": {
+        "available": false,
+        "reason": "xurl_not_installed_or_disabled",
+        "tweet_count": 0,
+        "unique_accounts": 0,
+        "accounts": [],
+        "communities": []
+      },
+      "raidSignals": [],
+      "contactTargets": [
+        {
+          "label": "website",
+          "url": "https://three.ws/",
+          "source": "profile.links",
+          "kind": "website"
+        },
+        {
+          "label": "twitter",
+          "url": "https://x.com/trythreews",
+          "source": "profile.links",
+          "kind": "x_account"
+        }
+      ],
+      "sources": [
+        "latest"
+      ],
+      "score": 51.68,
       "warnings": []
     },
     {
@@ -5022,14 +4000,14 @@
       "description": "",
       "image": null,
       "createdAt": "2026-05-28T22:21:52+00:00",
-      "ageHours": 312.08,
-      "priceUsd": "0.0002582",
-      "marketCap": 258273.0,
-      "liquidityUsd": 33770.85,
+      "ageHours": 318.1,
+      "priceUsd": "0.0002475",
+      "marketCap": 247538.0,
+      "liquidityUsd": 33758.37,
       "volume": {
-        "h24": 6607.64,
-        "h6": 2060.45,
-        "h1": 116.41,
+        "h24": 7550.84,
+        "h6": 187.44,
+        "h1": 79.95,
         "m5": 0
       },
       "txns": {
@@ -5038,22 +4016,22 @@
           "sells": 0
         },
         "h1": {
-          "buys": 3,
+          "buys": 2,
           "sells": 1
         },
         "h6": {
-          "buys": 40,
-          "sells": 11
+          "buys": 4,
+          "sells": 4
         },
         "h24": {
-          "buys": 94,
-          "sells": 20
+          "buys": 99,
+          "sells": 42
         }
       },
       "priceChange": {
-        "h1": 0.56,
-        "h6": 6.13,
-        "h24": 79.1
+        "h1": 1.64,
+        "h6": 4.49,
+        "h24": 71.65
       },
       "links": [
         {
@@ -5081,7 +4059,7 @@
       "raidSignals": [],
       "contactTargets": [],
       "sources": [
-        "latest"
+        "top"
       ],
       "score": 42.5,
       "warnings": [
