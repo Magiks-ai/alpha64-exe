@@ -22,35 +22,35 @@
       "sha256": "a7a7e30c2113be279308d1fd038355e306bf05d235c9d6a7893e2455827689d2"
     },
     "assets/app.css": {
-      "bytes": 180702,
-      "sha256": "2d554d3442743717cf5767a5a29edc89ca64fda6784efa384d47d85a8b754cd6"
+      "bytes": 167117,
+      "sha256": "d741c647dfc25043112980f31c811e78847d5c8a90ad1acfb4a7110599103b5b"
     },
     "assets/app.js": {
-      "bytes": 53632,
-      "sha256": "44e5509d128b46a6425873988d9f2c564889bc538153dd14ef002a68692dd470"
+      "bytes": 50001,
+      "sha256": "e59662c2cda9b17ed9625b267287b452ff33e6c1e8454646d1a9aebade4b60b9"
     },
     "data/latest.js": {
-      "bytes": 101575,
-      "sha256": "f19a92f521a3a84a955e60f423f0be795e1640e48b85836051258c671919d96c"
+      "bytes": 88691,
+      "sha256": "25255b8cad91517f08cda274a1d19ce85a1a546ca553f299ab2fb23cba0cb0dd"
     },
     "data/latest.json": {
-      "bytes": 143280,
-      "sha256": "e6d7fded8d5b49eea8b3db1803de602ec572ebf14248204fad5c96b0aed85c5c"
+      "bytes": 125146,
+      "sha256": "2d1328efaf61dd3da66ad1d6f781e36ecb5c046dfc3b77b7dc4e5e3b49846887"
     },
     "data/upcoming_launches.js": {
       "bytes": 2055,
-      "sha256": "31d1b3e3d9e1f29177b044dc3809c4fccdf2fa70a37173bfd34141148b437cec"
+      "sha256": "599be03d6dd32cf0ae82b1f2314a5faff917c43693de33addaa13b0147123803"
     },
     "data/upcoming_launches.json": {
       "bytes": 2283,
-      "sha256": "d99181c384652bbfd45e7bfa9e1e2bc4ebe98a696d60db35c4b3ecdb57de9e5f"
+      "sha256": "b9a12671015534103cc11685bfcd74dd602a66b484c01cab0526b563c7f0fa51"
     },
     "index.html": {
-      "bytes": 7763,
-      "sha256": "d9d2b0b864cb39ea876a8be76bee88bb35aec443da6a5421a339fd28ff34065f"
+      "bytes": 7764,
+      "sha256": "14ec54f6bb29884422b014c1781d2118f90ee9c31059e244d916a832555361a8"
     }
   },
-  "generatedAt": "2026-07-04T01:02:05Z",
-  "git": "0254e2a25fc6",
+  "generatedAt": "2026-07-04T07:04:57Z",
+  "git": "b0776bba54cb",
   "securityPolicyVersion": "A64-SECURITY-1"
 }
